@@ -1,0 +1,30 @@
+{
+  "model": "MEDVLTHINKER_ZEROSHOT",
+  "dataset": "VQARAD",
+  "condition": "C4_OCC_75",
+  "accuracy_c0": 0.4124168514412417,
+  "accuracy_other": 0.2328159645232816,
+  "ldv": 0.17960088691796008,
+  "paired": true,
+  "ci_c0": [
+    0.36807095343680707,
+    0.458980044345898
+  ],
+  "ci_other": [
+    0.1951219512195122,
+    0.2727272727272727
+  ],
+  "n_paired": 451,
+  "mcnemar": {
+    "statistic": 46.715328467153284,
+    "p_value": 8.20844297573345e-12,
+    "method": "chi2_corrected",
+    "b": 109,
+    "c": 28,
+    "cohens_g": 0.2956204379562044
+  },
+  "ldv_ci_paired": [
+    0.13082039911308205,
+    0.22838137472283815
+  ]
+}

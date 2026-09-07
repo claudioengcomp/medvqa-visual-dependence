@@ -1,0 +1,30 @@
+{
+  "model": "M3AE_SCRATCH",
+  "dataset": "SLAKE",
+  "condition": "C4_NOISE_25",
+  "accuracy_c0": 0.827521206409048,
+  "accuracy_other": 0.7747408105560791,
+  "ldv": 0.0527803958529689,
+  "paired": true,
+  "ci_c0": [
+    0.8049010367577757,
+    0.8491988689915174
+  ],
+  "ci_other": [
+    0.7483506126295947,
+    0.7992459943449576
+  ],
+  "n_paired": 1061,
+  "mcnemar": {
+    "statistic": 30.25,
+    "p_value": 3.7979124931775396e-08,
+    "method": "chi2_corrected",
+    "b": 78,
+    "c": 22,
+    "cohens_g": 0.28
+  },
+  "ldv_ci_paired": [
+    0.03487276154571162,
+    0.07068803016022629
+  ]
+}

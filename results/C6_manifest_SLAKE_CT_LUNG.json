@@ -1,0 +1,32 @@
+[
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab102/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab105/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab105/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab90/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab82/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab102/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab85/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab82/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab90/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab85/source.jpg",
+    "donor_label": null
+  }
+]

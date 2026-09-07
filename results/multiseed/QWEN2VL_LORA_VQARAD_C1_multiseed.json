@@ -1,0 +1,24 @@
+{
+  "n_seeds": 3,
+  "accuracy_c0_mean": 0.49223946784922396,
+  "accuracy_c0_std": 0.004434589800443478,
+  "vdd_mean": 0.09756097560975611,
+  "vdd_std": 0.005866410889278486,
+  "cohens_g_mean": 0.1879319441653373,
+  "cohens_g_std": 0.01762690732538557,
+  "cohens_g_n": 3,
+  "mcnemar_significant_count": 3,
+  "mcnemar_total_seeds": 3,
+  "model_base": "QWEN2VL_LORA_VQARAD",
+  "condition": "C1",
+  "seeds_used": [
+    0,
+    1,
+    2
+  ],
+  "source_files": [
+    "results/QWEN2VL_LORA_VQARAD_C1_vs_C0.json",
+    "results/QWEN2VL_LORA_VQARAD_seed1_C1_vs_C0.json",
+    "results/QWEN2VL_LORA_VQARAD_seed2_C1_vs_C0.json"
+  ]
+}

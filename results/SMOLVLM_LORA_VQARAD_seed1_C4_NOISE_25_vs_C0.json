@@ -1,0 +1,30 @@
+{
+  "model": "SMOLVLM_LORA",
+  "dataset": "VQA-RAD",
+  "condition": "C4_NOISE_25",
+  "accuracy_c0": 0.4878048780487805,
+  "accuracy_other": 0.48558758314855877,
+  "ldv": 0.0022172949002217113,
+  "paired": true,
+  "ci_c0": [
+    0.44124168514412415,
+    0.5343680709534369
+  ],
+  "ci_other": [
+    0.43902439024390244,
+    0.532150776053215
+  ],
+  "n_paired": 451,
+  "mcnemar": {
+    "statistic": 0.0,
+    "p_value": 1.0,
+    "method": "chi2_corrected",
+    "b": 40,
+    "c": 39,
+    "cohens_g": 0.006329113924050667
+  },
+  "ldv_ci_paired": [
+    -0.03547671840354771,
+    0.039911308203991136
+  ]
+}

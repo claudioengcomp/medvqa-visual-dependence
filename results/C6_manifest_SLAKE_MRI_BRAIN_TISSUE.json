@@ -1,0 +1,104 @@
+[
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab436/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab529/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab447/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab525/source.jpg",
+    "donor_label": "brain edema, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab469/source.jpg",
+    "original_label": "brain edema",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab513/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab473/source.jpg",
+    "original_label": "brain edema, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab447/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab483/source.jpg",
+    "original_label": "brain edema, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab508/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab495/source.jpg",
+    "original_label": "brain edema, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab469/source.jpg",
+    "donor_label": "brain edema"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab498/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab483/source.jpg",
+    "donor_label": "brain edema, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab506/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab532/source.jpg",
+    "donor_label": "brain edema"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab508/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab473/source.jpg",
+    "donor_label": "brain edema, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab513/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab498/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab525/source.jpg",
+    "original_label": "brain edema, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab506/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab529/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab495/source.jpg",
+    "donor_label": "brain edema, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab532/source.jpg",
+    "original_label": "brain edema",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab436/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab442/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab468/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab468/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab474/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab471/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab442/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab474/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab471/source.jpg",
+    "donor_label": null
+  }
+]

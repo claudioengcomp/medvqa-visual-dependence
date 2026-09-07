@@ -1,0 +1,24 @@
+{
+  "n_seeds": 3,
+  "accuracy_c0_mean": 0.5025868440502587,
+  "accuracy_c0_std": 0.01299216247690094,
+  "vdd_mean": 0.011086474501108667,
+  "vdd_std": 0.013487278337690055,
+  "cohens_g_mean": 0.03602597385173708,
+  "cohens_g_std": 0.04535706936450523,
+  "cohens_g_n": 3,
+  "mcnemar_significant_count": 0,
+  "mcnemar_total_seeds": 3,
+  "model_base": "SMOLVLM_LORA_VQARAD",
+  "condition": "C4_NOISE_25",
+  "seeds_used": [
+    0,
+    1,
+    2
+  ],
+  "source_files": [
+    "results/SMOLVLM_LORA_VQARAD_C4_NOISE_25_vs_C0.json",
+    "results/SMOLVLM_LORA_VQARAD_seed1_C4_NOISE_25_vs_C0.json",
+    "results/SMOLVLM_LORA_VQARAD_seed2_C4_NOISE_25_vs_C0.json"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "n_seeds": 3,
+  "accuracy_c0_mean": 0.7065661325793277,
+  "accuracy_c0_std": 0.008125992558201425,
+  "vdd_mean": 0.15205780710021996,
+  "vdd_std": 0.011244442455653977,
+  "cohens_g_mean": 0.3312618876133096,
+  "cohens_g_std": 0.014226178792485418,
+  "cohens_g_n": 3,
+  "mcnemar_significant_count": 3,
+  "mcnemar_total_seeds": 3,
+  "model_base": "QWEN2VL_DORA_SLAKE",
+  "condition": "C4_OCC_25",
+  "seeds_used": [
+    0,
+    1,
+    2
+  ],
+  "source_files": [
+    "results/QWEN2VL_DORA_SLAKE_C4_OCC_25_vs_C0.json",
+    "results/QWEN2VL_DORA_SLAKE_seed1_C4_OCC_25_vs_C0.json",
+    "results/QWEN2VL_DORA_SLAKE_seed2_C4_OCC_25_vs_C0.json"
+  ]
+}

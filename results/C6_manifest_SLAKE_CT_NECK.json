@@ -1,0 +1,20 @@
+[
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab427/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab429/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab428/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab427/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab429/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab428/source.jpg",
+    "donor_label": null
+  }
+]

@@ -1,0 +1,20 @@
+# Core: statistics, data handling and the intervention pipeline.
+# Everything in this file is enough to run the test suite and to recompute
+# every number in the paper from the shipped predictions in results/.
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+pyarrow>=12.0
+Pillow>=10.0
+scikit-learn>=1.3      # the M0 question-only baseline (TF-IDF + logistic regression)
+matplotlib>=3.7        # figure regeneration
+pytest>=7.0
+
+# Only needed to re-download the datasets (leakage check, split reconstruction).
+datasets>=2.14
+
+# Only needed to re-run inference on a GPU. Not required to verify any number
+# in the paper from the shipped predictions.
+# torch>=2.0
+# transformers>=4.40
+# peft>=0.10

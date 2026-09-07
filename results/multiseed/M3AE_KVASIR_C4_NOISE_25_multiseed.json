@@ -1,0 +1,24 @@
+{
+  "n_seeds": 3,
+  "accuracy_c0_mean": 0.8709527785508859,
+  "accuracy_c0_std": 0.001789340525279316,
+  "vdd_mean": 0.06936326808300086,
+  "vdd_std": 0.014729105254257642,
+  "cohens_g_mean": 0.3480365079560453,
+  "cohens_g_std": 0.026179590839014527,
+  "cohens_g_n": 3,
+  "mcnemar_significant_count": 3,
+  "mcnemar_total_seeds": 3,
+  "model_base": "M3AE_KVASIR",
+  "condition": "C4_NOISE_25",
+  "seeds_used": [
+    0,
+    1,
+    2
+  ],
+  "source_files": [
+    "results/M3AE_KVASIR_seed0_C4_NOISE_25_vs_C0.json",
+    "results/M3AE_KVASIR_seed1_C4_NOISE_25_vs_C0.json",
+    "results/M3AE_KVASIR_seed2_C4_NOISE_25_vs_C0.json"
+  ]
+}

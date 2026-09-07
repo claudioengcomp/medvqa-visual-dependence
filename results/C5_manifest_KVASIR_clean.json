@@ -1,0 +1,3668 @@
+[
+  {
+    "qid_image": "kvasir/clb0kvxv7906w074y679nfpeg",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rq1gjb0832431tbo5r",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvl90wk074yevu50hef",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q31eff08320kg50b9m",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvc90gc074yd6aq25qk",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rm1ge708329c926y3m",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvn90yo074yatjl43ll",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzndpd4086u78j89vms",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwf924k074y775tdmxw",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rs1gmj0832ho3k49gm",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvh90qc074ydmobc11a",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s61gvj0832a90324qb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw091g0074y3qhmfi9e",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ql1f0308326odv1v14",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvr914s074y8hoqbrny",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q41ehj0832d31f9acd",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvi90r0074y3dip401r",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzndpdo086u4gbpf1ez",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv8908c074y4axv51cb",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzadoy0086udnrb45ab",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxur8zno074y200b0bfa",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rl1gbr08324xw49hdq",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvb90f8074y90dw7q5g",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r41fjr083231ze2t2g",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwj92ao074y7bztd6er",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qf1etb0832g3dpeeyx",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw791r8074yf9x5a9d8",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rl1gcn083212c79f73",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvz91ek074ycxuq03rg",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q31efn08327zz3hzqc",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv49020074y7aa578j1",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rm1gd308323591fmx1",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvd90ig074yb6in8d04",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qs1f6r0832f6pa42lz",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvo911c074y33a11sxf",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q01ec708323dlie4yp",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwh9264074y4rf46wx5",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rr1gkv0832bcxl4zot",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw591n8074y5nwz4e1a",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rf1g2z08320092gqr4",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvb90fg074ydzpdbwmn",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qh1evj08327fi0fe1r",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxux8ztw074y467g3ap6",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ro1gh30832dg2v42zs",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvq9138074yc8b220oa",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pw1e5v083266q9ffow",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvq912w074y22af1sjs",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qs1f7b08323rvo6gmh",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvp9128074y5n8u9mz5",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qa1ekv08327hblemmg",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuo8zm8074ycugdbvq1",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzadoxw086uf703fgwy",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw691p0074yhi2q8l6h",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qb1em70832fvve5w18",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwf9244074y11t01gjs",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rs1gn70832g75k4fpo",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxva90cw074y3iofcmwm",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q41eh3083264l5ejih",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvp9124074y31136vls",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qu1f9v083253fq38kf",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwg925o074y3qmhh504",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r81fqj08324i3z2eua",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvg90o8074y9jii7q81",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pn1dx708328o6h7alj",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvz91es074yggpw06m9",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r31fjf08327ecm0xie",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxux8zto074y1qjm4o9w",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qe1err0832hp5137b1",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv59038074y0hol2h45",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s41gtr08328nj66ft3",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv990b0074y53ha350u",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qt1f8j08321rqn55c8",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvh90pg074yglg00ct4",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qz1fi3083208qp23mb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv59044074y99as44qx",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qk1eyb0832btf8863x",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwk92b0074yb5rsfzze",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q21eez08326g2d1scs",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvv919g074y347787wd",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r41fkj08326h8dhpr8",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvp9120074y92tbhasg",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pv1e5b083222q89vg0",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwp92kk074ygwqnhq4u",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz4doro086ua6fxbql5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwb91y4074ycw53h6mq",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ri1g7f083253xaeqpw",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvu918s074yflg52x8r",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r71for0832hnt730m3",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuu8zqo074y61oi4qf9",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qx1ff708322qf95dpe",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw991tw074y21rb2x20",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rm1gd7083271p20shk",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw091gk074y2eda89jg",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzudplw086u4uo411n7",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvj90sw074y65neasey",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rc1fy708323s0b9fz5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwb91yo074y425w97zl",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rh1g530832bv6ddmnn",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvx91cg074ydroca3tw",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rb1fw30832b9yqeszy",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw391l8074ybfca9fug",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz3dopw086u1hctar0h",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw891ss074y7oetfpnl",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz3doqs086u0kqy5ut2",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwc9200074y5f6netux",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qf1esj0832cmfldqj0",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvb90e4074y3ro53u7x",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r81frb0832dftw9m1z",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwd920w074y4kaah05o",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pz1ean083282b5as79",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwe923c074y20ip5n0t",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rk1ga708329g28ay99",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw891t0074y1vtz6d0r",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qa1eln083230laf3p8",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvb90ew074y2i8j8at5",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r71foj08320sbx3zqj",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwa91v8074yhgoaaeej",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qk1ezn0832fzc5hr77",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvw91b4074yevpk430g",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r51fln0832hlfl7xxo",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw391lc074yce527724",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzodpeg086u6trvbspz",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvo90zw074y7gk7byiz",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1px1e7v0832316abodr",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw491m0074y3698f6pn",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qs1f6v08325d88g61r",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwl92cs074y19oz3vr0",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz3doq8086udsxzgnde",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw891sk074y9c0r2tec",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s11gpj0832hhpl6wru",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvo9100074yfqt61zy9",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1py1e8n08329e9y1aoy",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv8909w074ydp6g3ktm",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qp1f270832ae0546r5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvx91c8074yf6iac1vt",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzqdphc086ufe4negd3",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw891rw074y77ah3n45",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qy1fgr083284eb58j4",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwr92mk074y2fr1bfrc",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qd1eq7083273ek8l01",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv4902g074y9ugv9pi0",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rb1fwb0832c9asfzkq",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw791q0074y3p0bha7k",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qr1f570832hyj7h0oa",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxve90k8074yhcd65p2a",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s21gqj08320iqi6pe0",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwo92ho074y3eh3h9xq",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1px1e770832dlnb3mpn",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv8908k074y6z8zc2oy",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r31fjj0832a4u6ce64",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvh90pk074ybg7y8ohv",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qs1f6708324m51fgi8",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwa91vo074y664ha667",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s11gp308322fqsfoxb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwd920o074yb2r9d0kk",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r81fqf0832bpisg94f",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv990bc074ybba3aows",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1re1g1f0832gt2qe5pa",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwl92d0074y2lll93pi",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qr1f5v0832443d3ywg",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvk90v0074yb8zoee7n",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbx1ndqqg086udbvx8x9x",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvd90j4074ybrht5v5a",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qs1f7f083203lg2dsi",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwj92ak074y0n94ahj0",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q11ecz0832aiabe6s4",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw291jc074ybr3a8eds",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qb1em30832htfmeuwi",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvq913s074yddz272dj",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q11ecr08329zda1wqw",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxut8zpo074ye1qnfi8m",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rg1g4n083280f87jgw",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwq92mc074ybql22sqk",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q21edz08324ekn60rh",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuq8zmw074ya45k4874",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pv1e4f083272uw5omo",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvp912o074y4cwp1kiu",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pu1e430832btgn5x3n",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwh9268074y5teb0hym",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rl1gcb0832attrfc8r",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvg90oc074y0qcoeo02",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qp1f1j083208d6ar5i",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw991uc074ygi4tbu54",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbx1odqqk086uf0fnfpjb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvq9130074yfsf2bl7p",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1st1gyf08329a7b6r37",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvq912s074yewom2e6b",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rk1gaz08321cy426p6",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvd90i4074y978yddaw",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ra1fun08327y67hqks",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv18zyw074yczp6gxp2",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rm1geb0832g6x6c4bp",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwc91zo074yhmm3ah91",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pv1e4b08329veufzqc",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvb90do074y3cc64vqt",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzqdphg086u4lxie3xb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxve90k4074yeawvbbt7",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qx1fdz08323yfd3rzb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv6905w074y2k5pbv73",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r91frv0832ac9y58c5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv39018074y9x5ae6gp",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz3doqk086uapeed55t",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv28zzo074yd55s2okj",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ro1gg3083255y03sir",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwk92as074y918n8yx5",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qe1eqr0832ec9eaikw",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwj929g074yhca23pss",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ro1ggr083243ex3ksv",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvd90hs074y5lz2hy80",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q11edn0832arm43l15",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwb91x8074y739s7pkg",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qz1fif0832ffm1960i",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw591nc074ycgw2fmz8",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1py1e9f0832huuagy4t",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvr914k074yadv9fnj6",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q01ecf0832eqal9442",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwh927c074y1i493en7",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ro1ggb0832hxrw4iqb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvo910g074y9da4amr7",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q91ek70832eg0e908v",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv5903k074y22v4as0s",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz5dosw086ugyyadawg",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv28zzw074y62u9gdv9",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rq1gjv083244ylb5bx",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvc90fs074ydx6x5gf2",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qk1ez308325vmz4em3",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw791ps074ydpns0ido",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r51flv08322onma5qs",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwj92a4074yfj2deq0u",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1px1e7j08325gb95stn",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw891sw074y7zk9etes",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qz1fh308323bw9eiir",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw691p8074y9ot05ae9",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1py1e9r08323mc42jhg",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwg9260074yex77d8z9",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qj1exj08326vlp9nev",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvs9164074y6rvy04zw",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pw1e6708323y1papdi",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvl90x8074y29undetw",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q31egb0832avcx7vzs",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuz8zw8074y1egf4l72",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s61gvv0832gn9t4azo",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwe922g074y9nle6mc0",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pu1e3n08320i6j9v05",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxut8zq8074y0qrw786f",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ri1g830832e6x32623",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvc90gg074ybumufky2",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qo1f0j08325r4d2lfp",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwe922k074y692f95ip",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rd1fzz08327uzf033k",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwc920c074y5irb76if",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1st1gyn0832b9uk9uf8",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxur8znw074y43k48d9y",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rn1gej08320xzk78yo",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvs915s074ygw8u1akp",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s11gpb08328gvcgqx2",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwl92d4074ycv1e51d4",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz9dows086uam4ga6hm",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvw91a0074y0qkme0e6",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q51ejj083293wbaf9v",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwl92ds074y42121siv",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qp1f1b0832e5og40wl",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv6905s074yfyywhtuu",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rh1g6b08328cxf9cz6",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvw91bc074yhkkq9kjn",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rp1gir0832fmcn4rtf",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvt916g074ygh3q368i",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rc1fx30832amc695py",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwa91x0074ygen2frlc",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pt1e230832e7xl2t9h",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwk92c0074ygtktalp3",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qu1fab0832d4ht9yee",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw991tc074yditv7d53",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rg1g3r0832amqhbi5j",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvj90tk074y2njo1q8n",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q11edb08321lvz4fee",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw891s8074yhr7x1wns",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1po1dxn08328vz50fyd",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwc91zc074y0q7i61jf",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1pn1dxb0832dcxd14tf",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvw91ag074yfzk96lcq",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qc1eo308322qx60nfq",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw691ok074y4dqk6b7j",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r41fjn0832gqxj6ltw",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv18zyg074yg38eg76m",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzqdph8086u0xcbg904",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw991uw074ydryz7t72",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rs1gmn0832cwqb4w10",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw291jg074ydbdrhdtv",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ql1ezv0832g0tb4wo5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvc90h0074y7tyt02wf",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzhdp6s086ucu1cgwx5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwa91wc074yfxqkb2jo",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qb1emv08322aufgf0q",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwj92a8074yg5y1hxf4",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qr1f5f0832e3dp3j1n",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwa91vc074y96vrhd4x",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ra1ftz0832fbdp7p3s",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw991v0074yf71jbdeo",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qe1erj08324s8i042l",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuy8zv4074y4ko73ya3",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qv1fbr08329d4afgs9",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuu8zr4074y8e5m9m80",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qv1fbn0832bkewh53g",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuy8zus074ycfgp22fs",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rh1g4z0832ho0q1xxb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvy91e0074ya1rrfq1b",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qp1f1f0832g91z6tmp",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvj90tc074y7awod6ya",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q01ecb08326p3166dn",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwp92jk074y3a577n4o",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1q31efz08328g8s2dq9",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwb91yg074y0do5cjzr",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzbdoz4086ucmxa563i",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwg925c074y86wefqdj",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzxdppw086u2gz7f4f6",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvb90e0074y9eoq4729",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s41gtf0832fx0fe4jl",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw391kw074ycl08cjf2",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz5dosc086u3ghm0lux",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvs9154074y56ri0885",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzcdp0w086ueee52jok",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvq913c074ydhcq65x2",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rd1fyn08320lz31fk2",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw491mg074yhrcv9tvx",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzhdp6c086u7q7gdibw",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwc91zg074yh18u1rkb",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzgdp50086ugqk40oxz",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv18zyc074yb18q8sj7",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rj1g9f08326mzh5pva",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwa91wo074yfxzk9k3o",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r81fqv0832enxkap9o",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxv990bg074y533g3dou",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1st1gz7083234gnazd9",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvu917g074y7h00661i",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rf1g1v083253m7df35",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvf90m0074y2jgrem7x",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qc1eof08328fkx645x",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvc90g0074y2xvf9cmq",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rc1fxf0832739le3t8",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvi90s4074y4hwf4o6t",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzgdp5c086u7gfg55wl",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw991to074y8x8xb4kw",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ss1gy30832hxgle204",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvf90lk074y71pk02pe",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qw1fdj08321tzt169d",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw591o4074ycdn23de7",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz7dou4086u84r68cyi",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw891s0074y52u3c3i9",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzfdp3s086ucyed43tb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxur8zns074y1yimhhvd",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qw1fcz0832hehic7b5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwo92i0074yhfsa01hg",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1py1e9b0832a87laday",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw291jo074y2gyo8adu",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1qe1erf08322me4a5yv",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvm90xk074ygct18hj3",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ri1g6v0832fg4pcsne",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwf924g074yes2fbldm",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1rk1gaf08325nurd9xz",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxw291jw074yhz7mh2f0",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwz8dow8086ua4i70hxi",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxvg90no074yhcyb0sj6",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1ry1gof0832brgmhcz9",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuz8zw0074y99tt59jn",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1r31fj70832dpks1mmi",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxuu8zr8074y7ha63pmn",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/clb0lbwzbdoys086udm576u3f",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/clb0kvxwf923w074y8kxhd4yh",
+    "original_label": "oesophagitis",
+    "donor_image": "kvasir/cl8k2u1s41gsv0832gp096j7w",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1py1e9b0832a87laday",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl3s3rv071u464g37xw",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ra1ftb08327dm9ccl5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxw791q0074y3p0bha7k",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz8dovs086u7yeq9o4m",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxw891s0074y52u3c3i9",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rb1fwb0832c9asfzkq",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmgs5q7071udblle3jw",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qd1eq7083273ek8l01",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gles4az071u42vp9mmx",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rs1gmn0832cwqb4w10",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmms60j071uewclak33",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qk1ezn0832fzc5hr77",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn8s6p7071u0a2bcv1n",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1px1e770832dlnb3mpn",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glhs4gf071ua2c3a0gs",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q01ec708323dlie4yp",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmss68j071u8cp9bv0v",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q11ecz0832aiabe6s4",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmws6d3071u7f54d5go",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ro1gh30832dg2v42zs",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm2s57j071uewq2hozf",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qe1eqv08321jx17e0i",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmqs65r071uc9zodhx6",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qf1etb0832g3dpeeyx",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmds5lf071u4j065jwy",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ql1ezv0832g0tb4wo5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn9s6pv071u36npapxb",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r51flv08322onma5qs",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl4s3un071uck4cg79b",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qp1f270832ae0546r5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmts69n071ua58s7x39",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qc1eo308322qx60nfq",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmbs5jf071u67p08abp",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1px1e7j08325gb95stn",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glls4mb071uflw5cath",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rm1geb0832g6x6c4bp",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmps64v071ufqru1pyy",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qe1err0832hp5137b1",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm3s597071ugbnr1100",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1po1dxn08328vz50fyd",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gles4av071uchcyb17x",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q21edz08324ekn60rh",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glws513071uc5v00me8",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qb1em70832fvve5w18",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn7s6o7071ucxfnd1dy",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qz1fhr0832ehhk25dr",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxuu8zr4074y8e5m9m80",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ri1g830832e6x32623",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl5s3vj071u7opg6tc0",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzudplw086u4uo411n7",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glzs557071u2ycaar7i",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qs1f7b08323rvo6gmh",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glts4x3071ufc7p0x89",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pv1e5b083222q89vg0",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glcs48v071u663z6ysx",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q91ek70832eg0e908v",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl2s3qr071u67g3c2fe",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qk1ez308325vmz4em3",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn7s6nn071u689g17m8",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rn1gej08320xzk78yo",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl6s3xz071ubrzzdd9a",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzhdp6s086ucu1cgwx5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmhs5qz071u160h8g7c",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qo1f0j08325r4d2lfp",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl3s3sb071uhkrfhgt7",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ri1g7f083253xaeqpw",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gles4bv071u0g5iddis",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1st1gyn0832b9uk9uf8",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm9s5g7071uay192fb7",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzqdphc086ufe4negd3",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glvs4zv071u65ys033y",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s21gqj08320iqi6pe0",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmgs5p3071uczbse9k3",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ro1ggr083243ex3ksv",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmks5wr071u4vun8yst",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qg1eur08327ump1pdv",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxwk92as074y918n8yx5",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rm1ge708329c926y3m",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glis4jj071ub5c57d9g",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qz1fif0832ffm1960i",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmhs5qj071u3snmf7ak",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pu1e430832btgn5x3n",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glas453071udczfcv8r",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pv1e4b08329veufzqc",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmss67f071ue4myftrq",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rl1gbr08324xw49hdq",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmxs6e7071u6sysf7po",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rd1fzz08327uzf033k",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmms60b071uh0x1b2mr",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ro1gg3083255y03sir",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm5s5bf071u6yppfvdo",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qe1erf08322me4a5yv",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glos4rr071u0ozt8mdm",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pt1e230832e7xl2t9h",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm1s57f071ubbs03fi2",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rp1gir0832fmcn4rtf",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm1s56j071uevs5f59z",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1re1g1f0832gt2qe5pa",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glcs48f071uaeot7zw6",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qr1f5v0832443d3ywg",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmss68b071u8m268bbr",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r71fpf0832b9of8q9y",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn6s6mf071uftqbgg3l",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r41fl70832b54regb7",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxv8908k074y6z8zc2oy",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r51flz0832hhctdxge",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvb90fg074ydzpdbwmn",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qr1f5f0832e3dp3j1n",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmus6b3071u5w72dabp",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rr1gkv0832bcxl4zot",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmis5sb071u1rhdgg2r",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q11edn0832arm43l15",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmhs5rr071u3ba0f0er",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pw1e5v083266q9ffow",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn9s6qj071u0dyq6axe",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwybdnz8086u24pid7l7",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmfs5of071udcpz4q0o",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pz1ean083282b5as79",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn8s6oj071u2rjydjgb",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r81frb0832dftw9m1z",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmws6dj071uey0p2c5e",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qu1fa70832665tgrdw",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl1s3or071udurk9106",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ql1f0308326odv1v14",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmjs5uj071uan8m7p41",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q41eh3083264l5ejih",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl9s43j071ub5zrd4iy",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz4doro086ua6fxbql5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmos633071u2s5l5lpm",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzndpd4086u78j89vms",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm4s59z071uc73c9xe5",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qw1fdj08321tzt169d",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl0s3of071u96ilg9hm",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rn1gfb0832c3k4bt07",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxw691p8074y9ot05ae9",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qv1fbn0832bkewh53g",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmzs6gz071ud05s3twl",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rf1g2r08325xkid8mu",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvl90wk074yevu50hef",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzbdoz4086ucmxa563i",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmxs6e3071u2ioi80b5",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz5dosc086u3ghm0lux",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmbs5jj071uhbn0b19h",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qz1fh308323bw9eiir",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl4s3v7071u0fac2ztj",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r81fqj08324i3z2eua",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmfs5nz071ucpw9dejr",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rf1g1v083253m7df35",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm5s5bn071u010n5jb7",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q01ecb08326p3166dn",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gles4c7071u9poffsgn",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz9dows086uam4ga6hm",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmos63b071ucfr74ie6",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qz1fi3083208qp23mb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glms4oj071uf2agdqy3",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzgdp50086ugqk40oxz",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn9s6qf071u7p31bq1g",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s61gvj0832a90324qb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glss4w7071u3x1d69h6",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q31efn08327zz3hzqc",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmds5lj071ueefe8bki",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ps1e0r08324assa60v",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvb90ew074y2i8j8at5",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rm1gd308323591fmx1",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmgs5p7071u49yd2qp7",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbx1odqqk086uf0fnfpjb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmus6aj071ued5vd2yg",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzqdphg086u4lxie3xb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm9s5gr071u949bgib3",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r81fqf0832bpisg94f",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm7s5dn071u46i6bvar",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qh1evj08327fi0fe1r",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmms5zf071udvkw936t",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qa1ekv08327hblemmg",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl8s413071u63tn9z7t",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rk1ga708329g28ay99",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmls5yn071uc9dfd6zr",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r61fnn08326g3e5rkl",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxv59044074y99as44qx",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzadoy0086udnrb45ab",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmws6cv071uextx3dk4",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rg1g3r0832amqhbi5j",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glds49f071uelg59ub0",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q31eff08320kg50b9m",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm4s5av071uaaahh9j3",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzgdp5c086u7gfg55wl",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glos4rn071uevt9c8rh",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qc1eof08328fkx645x",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm4s5a3071u38qc4lxj",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s31gr70832bg6f1pbx",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glps4sn071u8jz47vj9",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qi1ex7083237wq3fnk",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxwc9200074y5f6netux",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qp1f1b0832e5og40wl",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glrs4v7071ufojf8iiu",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rh1g530832bv6ddmnn",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glts4y3071u46ye8u85",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s11gpb08328gvcgqx2",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmts68v071u6o2xebr1",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qx1fef0832b8vzh7wv",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvq9130074yfsf2bl7p",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q11ecr08329zda1wqw",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl3s3t3071udcwfd8g1",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qa1eln083230laf3p8",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glls4nb071u3qtv0ops",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r71foj08320sbx3zqj",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl8s423071u90jodevy",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s41gtf0832fx0fe4jl",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmds5m7071uciyxc0uh",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qb1emv08322aufgf0q",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl6s3xr071ufbe6hwzb",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz7dou4086u84r68cyi",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmas5hf071u8wl4hv2g",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qy1fgr083284eb58j4",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm3s59b071uezzp36cf",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s11gpj0832hhpl6wru",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl4s3uv071u4pdi22dx",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rb1fw30832b9yqeszy",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glys52r071u1n0wcat3",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pw1e6708323y1papdi",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmxs6ev071u983n8k9e",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q01ecf0832eqal9442",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glws517071u73qm5d88",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qy1fgf0832e2f84l66",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl3s3sv071u3qhw492a",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q11edb08321lvz4fee",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glps4t7071u9hr68bum",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1py1e8n08329e9y1aoy",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glos4qz071u3xorao72",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzpdpgo086ucmqx7nyu",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxwl92ds074y42121siv",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzqdph8086u0xcbg904",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl1s3ov071u2b7h3r59",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r61fnv0832346mdgw3",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm3s59f071ucoov917k",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ra1fun08327y67hqks",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmws6cz071ugn88edv9",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzndpdo086u4gbpf1ez",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glbs473071u1468er6g",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qs1f6v08325d88g61r",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glcs48b071ueoc59q55",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ro1ggb0832hxrw4iqb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmas5hz071u3wcp2jiq",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r91frv0832ac9y58c5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl2s3rn071u23tn2cc2",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qf1esj0832cmfldqj0",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn2s6hn071ughyqhcy2",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qt1f8j08321rqn55c8",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glgs4fv071uf4ux93ks",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz8dow4086u3y152m1j",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxwe922g074y9nle6mc0",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qs1f7f083203lg2dsi",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glus4yz071ugct55hvr",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r41fl308320op47ip3",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvs9154074y56ri0885",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pu1e2z0832adw0h64p",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxwf923w074y8kxhd4yh",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qe1eqr0832ec9eaikw",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glas44j071u71kvfzd9",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pw1e630832gpep1vjw",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxwf924g074yes2fbldm",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rq1gjb0832431tbo5r",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glbs46b071u209906at",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qu1f9v083253fq38kf",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn8s6pb071ubvughf2p",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r41fjr083231ze2t2g",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glfs4dn071ugbvrazqs",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rc1fx30832amc695py",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm1s577071u0wnkg8sk",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r41fjn0832gqxj6ltw",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glhs4gj071ubt4b5sfv",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pn1dx708328o6h7alj",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmjs5uz071uajgi1xsj",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qs1f6708324m51fgi8",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn7s6o3071u48ukegv2",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1po1dy70832egig31sq",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxw991v0074yf71jbdeo",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rd1fyn08320lz31fk2",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmns61n071u81lr2utd",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1st1gz7083234gnazd9",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmqs65z071uaj197630",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qj1exj08326vlp9nev",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmys6gj071u6j7760jv",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r71for0832hnt730m3",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmps64f071uanz7g9ta",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qe1erj08324s8i042l",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glus4yn071uhk5o6ktu",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r31fiv083297zwgujo",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxwj929g074yhca23pss",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz3doqk086uapeed55t",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glps4sj071ug75952ul",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s41gsv0832gp096j7w",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glss4wf071u3tu616sq",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzfdp3s086ucyed43tb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glus4yj071udps24xeu",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz3doqs086u0kqy5ut2",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm1s573071uboxn339w",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qv1fbr08329d4afgs9",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm3s59n071u5g9p1bll",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ri1g6r08324a8v8zyh",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvp912o074y4cwp1kiu",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r61fob083282xpdnf5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmzs6gn071ua9ul7wji",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz5dosw086ugyyadawg",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glns4pb071u9oqm4npr",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s61gvv0832gn9t4azo",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm5s5b3071uc8r7gnts",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q41ehj0832d31f9acd",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl0s3nv071u4fgd7xgq",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1px1e7v0832316abodr",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glhs4hr071uhjwycgv7",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rh1g6b08328cxf9cz6",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glds4a3071uh8e7cjrw",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q31efz08328g8s2dq9",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmls5xr071uhyv8887o",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzhdp6c086u7q7gdibw",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glys53j071u5tsm31dz",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1po1dxz0832h21a6yz1",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmks5w7071u5fdseyx2",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ri1g6v0832fg4pcsne",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn3s6ib071ufzld88d1",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qb1em30832htfmeuwi",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmos623071uafmvhxiw",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ss1gy30832hxgle204",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glhs4gz071u8nte4r4w",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1px1e8708320vdq1kuv",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxwg925c074y86wefqdj",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbx1ndqqg086udbvx8x9x",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn2s6hf071ufso11lvs",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qp1f1f0832g91z6tmp",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmys6ff071u838uem5s",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qw1fcz0832hehic7b5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm8s5ff071u0ga37r2p",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rq1gjv083244ylb5bx",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn5s6kf071u3m1g4b7i",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rj1g9f08326mzh5pva",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glws50n071uc0iu30z0",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r81fqv0832enxkap9o",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl4s3tr071u12w3g0nk",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz3dopw086u1hctar0h",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn5s6lf071ufahb4qov",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rn1gez0832ag6sf9jc",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmts693071u5i4j8mqk",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q21eez08326g2d1scs",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl6s3yn071u1z4u1dh6",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz4dork086uaoi03vs2",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvw91a0074y0qkme0e6",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rf1g2z08320092gqr4",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmys6gb071u28r049um",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s41gtr08328nj66ft3",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl1s3on071u1e7gbeh0",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qs1f6r0832f6pa42lz",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmbs5j3071u80u3fjlb",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qx1ff708322qf95dpe",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm4s5ar071u8dv39r4f",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rg1g4n083280f87jgw",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl8s41j071u1d8t428t",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qt1f7r08323i9bfggi",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn6s6mv071uewiqd3xo",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rc1fy708323s0b9fz5",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gljs4l3071u9i3o4zmr",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzadoxw086uf703fgwy",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glms4oz071uccx36y52",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1py1e9r08323mc42jhg",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmas5ij071uftgg5dws",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qu1fa308321htyc330",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvz91ek074ycxuq03rg",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r31fjf08327ecm0xie",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glts4xb071uaie56hx1",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rk1ga308320xeactu0",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glhs4h7071ufsvccrv7",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzhdp6w086uaj6z71yu",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxw591nc074ycgw2fmz8",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qx1fdz08323yfd3rzb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm0s56b071ucja7f2bl",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rh1g4z0832ho0q1xxb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glis4iz071u0w216ekw",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rl1gcb0832attrfc8r",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glbs46z071ue1ct0nh8",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r31fj70832dpks1mmi",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmfs5or071u3sdpg32k",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rm1gd7083271p20shk",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glzs54r071udfzp9q0y",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pv1e4f083272uw5omo",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmis5t3071u646u1onx",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qk1eyb0832btf8863x",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmms60f071ug0ffbpq6",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rk1gaz08321cy426p6",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glks4m3071ubdpv709c",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz8dow8086ua4i70hxi",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glqs4tf071uebf256qf",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pn1dxb0832dcxd14tf",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl3s3tb071ue9wz6a16",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzxdppw086u2gz7f4f6",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmts69r071u43ysgnkv",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qz1fhv083272533pvb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxux8ztw074y467g3ap6",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qp1f1j083208d6ar5i",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glgs4eb071u31fa4soe",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rl1gcn083212c79f73",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glss4wj071udhz7hr32",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1pu1e3n08320i6j9v05",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl1s3pz071u4zyd0ilb",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rc1fxf0832739le3t8",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm9s5h7071ud7kg0v0m",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwz3doq8086udsxzgnde",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmps64j071u9z0mb1eb",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1s11gp308322fqsfoxb",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl5s3vr071u7iil4yr1",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rs1gmj0832ho3k49gm",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glis4iv071u1m100ttj",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qh1evr08325op6gs1q",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmos62n071u7rw4fydn",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1py1e9f0832huuagy4t",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmvs6c3071ugjeig683",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ra1ftz0832fbdp7p3s",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glas443071u6ga4fbrw",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1st1gyf08329a7b6r37",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glxs51v071uhmfh7mkc",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r51fln0832hlfl7xxo",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn7s6n3071udc5324za",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qr1f570832hyj7h0oa",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glbs46j071u3vje36lt",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzcdp0w086ueee52jok",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmss677071u0i2h5sav",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q31egb0832avcx7vzs",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gm6s5c7071u8qxfg8mk",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q41ehb0832et2v2p9t",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxvm90xk074ygct18hj3",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rb1fvn08323t0w4toj",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl2s3r7071u4iwl78ry",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzodpeg086u6trvbspz",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glfs4cn071u0m2x8rre",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rk1gaf08325nurd9xz",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmrs667071uab1of9e2",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1ry1gof0832brgmhcz9",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glqs4tz071udmfo1d5m",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r41fkj08326h8dhpr8",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gn5s6kr071ue6jighxj",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q51ejj083293wbaf9v",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl3s3sz071u3u7aelb1",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rn1gff08326wqk8amg",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxuq8zmw074ya45k4874",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1qu1fab0832d4ht9yee",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl2s3rj071u5pabhsg1",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/clb0lbwzbdoys086udm576u3f",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gl8s40j071u4rhhc5an",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1q91ejz0832654jgqwx",
+    "original_label": "polyp",
+    "donor_image": "kvasir/clb0kvxv6905w074y2k5pbv73",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1rs1gn70832g75k4fpo",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820glcs48z071ue55u7r1k",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cl8k2u1r31fjj0832a4u6ce64",
+    "original_label": "polyp",
+    "donor_image": "kvasir/cla820gmss67n071u8izzakyk",
+    "donor_label": "ulcerative colitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmks5wr071u4vun8yst",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qz1fhr0832ehhk25dr",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gl1s3on071u1e7gbeh0",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvk90v0074yb8zoee7n",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmbs5j3071u80u3fjlb",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw991tw074y21rb2x20",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmos623071uafmvhxiw",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw991uc074ygi4tbu54",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glis4jj071ub5c57d9g",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw391kw074ycl08cjf2",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmis5sb071u1rhdgg2r",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw391lc074yce527724",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glts4x3071ufc7p0x89",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxuo8zm8074ycugdbvq1",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn7s6nn071u689g17m8",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvv919g074y347787wd",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl4s3v7071u0fac2ztj",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw291jo074y2gyo8adu",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glds4a3071uh8e7cjrw",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv18zyc074yb18q8sj7",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn8s6pb071ubvughf2p",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv8909w074ydp6g3ktm",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmts68v071u6o2xebr1",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvc90gg074ybumufky2",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmks5w7071u5fdseyx2",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1s31gr70832bg6f1pbx",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gn7s6o7071ucxfnd1dy",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxuy8zv4074y4ko73ya3",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gles4bv071u0g5iddis",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw591n8074y5nwz4e1a",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl3s3sz071u3u7aelb1",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1q41ehb0832et2v2p9t",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmhs5qz071u160h8g7c",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw291jw074yhz7mh2f0",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmts69n071ua58s7x39",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwk92c0074ygtktalp3",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glas44j071u71kvfzd9",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1pw1e630832gpep1vjw",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gn5s6kf071u3m1g4b7i",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwb91yg074y0do5cjzr",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm4s5ar071u8dv39r4f",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw891sk074y9c0r2tec",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmss677071u0i2h5sav",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1ps1e0r08324assa60v",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmms5zf071udvkw936t",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1pu1e2z0832adw0h64p",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glns4pb071u9oqm4npr",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvr914s074y8hoqbrny",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmss67f071ue4myftrq",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxuz8zw8074y1egf4l72",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl3s3t3071udcwfd8g1",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwl92d0074y2lll93pi",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmys6gj071u6j7760jv",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw891rw074y77ah3n45",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmds5m7071uciyxc0uh",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw691p0074yhi2q8l6h",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glqs4tz071udmfo1d5m",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw391l8074ybfca9fug",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmjs5uj071uan8m7p41",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvc90h0074y7tyt02wf",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm3s59n071u5g9p1bll",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxut8zpo074ye1qnfi8m",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl6s3xr071ufbe6hwzb",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwe922k074y692f95ip",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmns61n071u81lr2utd",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxve90k8074yhcd65p2a",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmzs6gz071ud05s3twl",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0lbwzpdpgo086ucmqx7nyu",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gles4c7071u9poffsgn",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxuu8zr8074y7ha63pmn",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl9s43j071ub5zrd4iy",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxuy8zus074ycfgp22fs",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glps4sj071ug75952ul",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvz91es074yggpw06m9",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm3s59b071uezzp36cf",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvp9128074y5n8u9mz5",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmys6ff071u838uem5s",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwa91x0074ygen2frlc",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn9s6pv071u36npapxb",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw891s8074yhr7x1wns",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm0s56b071ucja7f2bl",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwg9260074yex77d8z9",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glgs4eb071u31fa4soe",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw991tc074yditv7d53",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmws6dj071uey0p2c5e",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwb91x8074y739s7pkg",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm3s597071ugbnr1100",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwo92ho074y3eh3h9xq",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glds49f071uelg59ub0",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwp92kk074ygwqnhq4u",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmws6cz071ugn88edv9",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvj90sw074y65neasey",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glws517071u73qm5d88",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwd920w074y4kaah05o",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm4s5av071uaaahh9j3",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0lbwz8dovs086u7yeq9o4m",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gm1s56j071uevs5f59z",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvs9164074y6rvy04zw",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm8s5ff071u0ga37r2p",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwr92mk074y2fr1bfrc",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glss4w7071u3x1d69h6",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvb90e4074y3ro53u7x",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmfs5of071udcpz4q0o",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1r61fnv0832346mdgw3",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gm1s577071u0wnkg8sk",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvc90gc074yd6aq25qk",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmjs5uz071uajgi1xsj",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvx91c8074yf6iac1vt",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmzs6gn071ua9ul7wji",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qh1evr08325op6gs1q",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glos4qz071u3xorao72",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwo92i0074yhfsa01hg",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glgs4fv071uf4ux93ks",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw891ss074y7oetfpnl",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glxs51v071uhmfh7mkc",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qu1fa308321htyc330",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glls4mb071uflw5cath",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxut8zq8074y0qrw786f",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmos633071u2s5l5lpm",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwj92ao074y7bztd6er",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm9s5g7071uay192fb7",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvh90qc074ydmobc11a",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glbs46j071u3vje36lt",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1r51flz0832hhctdxge",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmqs65r071uc9zodhx6",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qg1eur08327ump1pdv",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glbs46b071u209906at",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvw91bc074yhkkq9kjn",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmfs5or071u3sdpg32k",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw491m0074y3698f6pn",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm1s573071uboxn339w",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvd90ig074yb6in8d04",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl3s3sb071uhkrfhgt7",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxuz8zw0074y99tt59jn",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glms4oz071uccx36y52",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv18zyg074yg38eg76m",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn3s6ib071ufzld88d1",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1r41fl308320op47ip3",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmds5lf071u4j065jwy",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvg90o8074y9jii7q81",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmws6cv071uextx3dk4",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwg925o074y3qmhh504",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glfs4cn071u0m2x8rre",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxur8znw074y43k48d9y",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmgs5q7071udblle3jw",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwc91zc074y0q7i61jf",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gles4av071uchcyb17x",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvu918s074yflg52x8r",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glhs4gj071ubt4b5sfv",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvp9120074y92tbhasg",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm2s57j071uewq2hozf",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1ri1g6r08324a8v8zyh",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmhs5rr071u3ba0f0er",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwj92a8074yg5y1hxf4",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn9s6qj071u0dyq6axe",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwl92d4074ycv1e51d4",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn9s6qf071u7p31bq1g",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvb90do074y3cc64vqt",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl0s3nv071u4fgd7xgq",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv59038074y0hol2h45",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm7s5dn071u46i6bvar",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwq92mc074ybql22sqk",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmxs6e7071u6sysf7po",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvf90m0074y2jgrem7x",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glzs54r071udfzp9q0y",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxur8zns074y1yimhhvd",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glys52r071u1n0wcat3",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw991to074y8x8xb4kw",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm9s5h7071ud7kg0v0m",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvy91e0074ya1rrfq1b",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn8s6p7071u0a2bcv1n",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvg90no074yhcyb0sj6",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl8s40j071u4rhhc5an",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwd920o074yb2r9d0kk",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glos4rn071uevt9c8rh",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwh9264074y4rf46wx5",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glus4yj071udps24xeu",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1px1e8708320vdq1kuv",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmds5lj071ueefe8bki",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0lbwzhdp6w086uaj6z71yu",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gm5s5b3071uc8r7gnts",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwk92b0074yb5rsfzze",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmrs667071uab1of9e2",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qx1fef0832b8vzh7wv",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gl8s423071u90jodevy",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qz1fhv083272533pvb",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gn8s6oj071u2rjydjgb",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwl92cs074y19oz3vr0",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmbs5jf071u67p08abp",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvd90i4074y978yddaw",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glrs4v7071ufojf8iiu",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1po1dy70832egig31sq",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gl8s413071u63tn9z7t",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv49020074y7aa578j1",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glos4rr071u0ozt8mdm",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvb90e0074y9eoq4729",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmts693071u5i4j8mqk",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1r61fob083282xpdnf5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gm1s57f071ubbs03fi2",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvq913c074ydhcq65x2",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmgs5p3071uczbse9k3",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvo911c074y33a11sxf",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn7s6o3071u48ukegv2",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw791ps074ydpns0ido",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl4s3uv071u4pdi22dx",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv18zyw074yczp6gxp2",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmfs5nz071ucpw9dejr",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwa91wc074yfxqkb2jo",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glus4yz071ugct55hvr",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvj90tk074y2njo1q8n",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn6s6mv071uewiqd3xo",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qy1fgf0832e2f84l66",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gm4s5a3071u38qc4lxj",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv28zzo074yd55s2okj",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmbs5jj071uhbn0b19h",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwa91vo074y664ha667",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glls4nb071u3qtv0ops",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwj92ak074y0n94ahj0",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmxs6e3071u2ioi80b5",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwb91y4074ycw53h6mq",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl2s3qr071u67g3c2fe",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvd90hs074y5lz2hy80",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glts4xb071uaie56hx1",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwf924k074y775tdmxw",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glks4m3071ubdpv709c",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwf9244074y11t01gjs",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glps4sn071u8jz47vj9",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1rb1fvn08323t0w4toj",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gl6s3xz071ubrzzdd9a",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv8908c074y4axv51cb",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl4s3tr071u12w3g0nk",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw891t0074y1vtz6d0r",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmvs6c3071ugjeig683",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1ra1ftb08327dm9ccl5",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gn2s6hn071ughyqhcy2",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1rf1g2r08325xkid8mu",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmms60b071uh0x1b2mr",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwa91wo074yfxzk9k3o",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn6s6mf071uftqbgg3l",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qe1eqv08321jx17e0i",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glcs48f071uaeot7zw6",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw891sw074y7zk9etes",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl2s3rn071u23tn2cc2",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1r31fiv083297zwgujo",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glas443071u6ga4fbrw",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv28zzw074y62u9gdv9",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl2s3r7071u4iwl78ry",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qt1f7r08323i9bfggi",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gl2s3rj071u5pabhsg1",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvl90x8074y29undetw",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glus4yn071uhk5o6ktu",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qi1ex7083237wq3fnk",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glss4wf071u3tu616sq",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0lbwz8dow4086u3y152m1j",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gn2s6hf071ufso11lvs",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvx91cg074ydroca3tw",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmis5t3071u646u1onx",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1rn1gfb0832c3k4bt07",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gl6s3yn071u1z4u1dh6",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvo910g074y9da4amr7",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmqs65z071uaj197630",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwc920c074y5irb76if",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gljs4l3071u9i3o4zmr",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvj90tc074y7awod6ya",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glqs4tf071uebf256qf",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvb90f8074y90dw7q5g",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl3s3tb071ue9wz6a16",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv7906w074y679nfpeg",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glzs557071u2ycaar7i",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvt916g074ygh3q368i",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm9s5gr071u949bgib3",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxve90k4074yeawvbbt7",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl1s3pz071u4zyd0ilb",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1r41fl70832b54regb7",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glbs473071u1468er6g",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwh9268074y5teb0hym",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glvs4zv071u65ys033y",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvo9100074yfqt61zy9",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmss67n071u8izzakyk",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1rn1gff08326wqk8amg",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glps4t7071u9hr68bum",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvq912w074y22af1sjs",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmxs6ev071u983n8k9e",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxur8zno074y200b0bfa",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glys53j071u5tsm31dz",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw291jc074ybr3a8eds",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm3s59f071ucoov917k",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1po1dxz0832h21a6yz1",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glhs4h7071ufsvccrv7",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1r71fpf0832b9of8q9y",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmhs5qj071u3snmf7ak",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvs915s074ygw8u1akp",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl1s3or071udurk9106",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1rk1ga308320xeactu0",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gn7s6n3071udc5324za",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw791r8074yf9x5a9d8",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmus6b3071u5w72dabp",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvg90oc074y0qcoeo02",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmas5hz071u3wcp2jiq",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvq9138074yc8b220oa",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmps64v071ufqru1pyy",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv4902g074y9ugv9pi0",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl3s3rv071u464g37xw",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvp9124074y31136vls",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmas5hf071u8wl4hv2g",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw091gk074y2eda89jg",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glas453071udczfcv8r",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwb91yo074y425w97zl",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glhs4gf071ua2c3a0gs",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvo90zw074y7gk7byiz",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl5s3vr071u7iil4yr1",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwc91zo074yhmm3ah91",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmps64j071u9z0mb1eb",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvc90g0074y2xvf9cmq",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl3s3sv071u3qhw492a",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1qu1fa70832665tgrdw",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glfs4dn071ugbvrazqs",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwj92a4074yfj2deq0u",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gn5s6kr071ue6jighxj",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvq913s074yddz272dj",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmys6gb071u28r049um",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1rn1gez0832ag6sf9jc",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gn5s6lf071ufahb4qov",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvr914k074yadv9fnj6",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmus6aj071ued5vd2yg",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv5903k074y22v4as0s",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmps64f071uanz7g9ta",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxux8zto074y1qjm4o9w",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmss68b071u8m268bbr",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvd90j4074ybrht5v5a",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glis4iz071u0w216ekw",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxuu8zqo074y61oi4qf9",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmgs5p7071u49yd2qp7",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwa91vc074y96vrhd4x",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmos62n071u7rw4fydn",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0lbwybdnz8086u24pid7l7",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmos63b071ucfr74ie6",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvh90pg074yglg00ct4",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glbs46z071ue1ct0nh8",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvu917g074y7h00661i",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glss4wj071udhz7hr32",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvi90r0074y3dip401r",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm5s5bn071u010n5jb7",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw491mg074yhrcv9tvx",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl0s3of071u96ilg9hm",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvw91ag074yfzk96lcq",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl1s3ov071u2b7h3r59",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw691ok074y4dqk6b7j",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmms60f071ug0ffbpq6",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0lbwz4dork086uaoi03vs2",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gles4az071u42vp9mmx",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwc91zg074yh18u1rkb",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glms4oj071uf2agdqy3",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv990bc074ybba3aows",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glcs48b071ueoc59q55",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw291jg074ydbdrhdtv",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmss68j071u8cp9bv0v",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv6905s074yfyywhtuu",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmms60j071uewclak33",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv39018074y9x5ae6gp",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmts69r071u43ysgnkv",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1r61fnn08326g3e5rkl",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820glws513071uc5v00me8",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvc90fs074ydx6x5gf2",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmas5ij071uftgg5dws",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/cl8k2u1q91ejz0832654jgqwx",
+    "donor_label": "polyp"
+  },
+  {
+    "qid_image": "kvasir/cla820gmls5yn071uc9dfd6zr",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvh90pk074ybg7y8ohv",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl5s3vj071u7opg6tc0",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwh927c074y1i493en7",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm6s5c7071u8qxfg8mk",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwe923c074y20ip5n0t",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmls5xr071uhyv8887o",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw591o4074ycdn23de7",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm5s5bf071u6yppfvdo",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw991uw074ydryz7t72",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gm4s59z071uc73c9xe5",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv990bg074y533g3dou",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glws50n071uc0iu30z0",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvw91b4074yevpk430g",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glcs48z071ue55u7r1k",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxw091g0074y3qhmfi9e",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glhs4gz071u8nte4r4w",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvn90yo074yatjl43ll",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glcs48v071u663z6ysx",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxva90cw074y3iofcmwm",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glhs4hr071uhjwycgv7",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvf90lk074y71pk02pe",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glts4y3071u46ye8u85",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwa91v8074yhgoaaeej",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl8s41j071u1d8t428t",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxwp92jk074y3a577n4o",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gmws6d3071u7f54d5go",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxv990b0074y53ha350u",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820glis4iv071u1m100ttj",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvq912s074yewom2e6b",
+    "donor_label": "oesophagitis"
+  },
+  {
+    "qid_image": "kvasir/cla820gl4s3un071uck4cg79b",
+    "original_label": "ulcerative colitis",
+    "donor_image": "kvasir/clb0kvxvi90s4074y4hwf4o6t",
+    "donor_label": "oesophagitis"
+  }
+]

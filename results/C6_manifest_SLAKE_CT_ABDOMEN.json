@@ -1,0 +1,134 @@
+[
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab103/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab235/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab208/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab543/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab219/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab253/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab224/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab208/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab234/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab554/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab235/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab103/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab250/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab580/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab252/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab274/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab253/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab224/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab264/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab234/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab269/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab561/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab274/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab538/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab538/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab573/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab543/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab557/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab548/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab219/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab554/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab264/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab557/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab93/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab561/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab252/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab573/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab269/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab578/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab548/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab580/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab578/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab93/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab250/source.jpg",
+    "donor_label": null
+  }
+]

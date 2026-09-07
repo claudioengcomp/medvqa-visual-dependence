@@ -1,0 +1,30 @@
+{
+  "model": "M3AE_SCRATCH",
+  "dataset": "VQA-RAD",
+  "condition": "C4_NOISE_25",
+  "accuracy_c0": 0.7472283813747228,
+  "accuracy_other": 0.614190687361419,
+  "ldv": 0.1330376940133038,
+  "paired": true,
+  "ci_c0": [
+    0.7073170731707317,
+    0.7871396895787139
+  ],
+  "ci_other": [
+    0.5676274944567627,
+    0.6585365853658537
+  ],
+  "n_paired": 451,
+  "mcnemar": {
+    "statistic": 43.5125,
+    "p_value": 4.21259896446265e-11,
+    "method": "chi2_corrected",
+    "b": 70,
+    "c": 10,
+    "cohens_g": 0.375
+  },
+  "ldv_ci_paired": [
+    0.09756097560975607,
+    0.1707317073170731
+  ]
+}

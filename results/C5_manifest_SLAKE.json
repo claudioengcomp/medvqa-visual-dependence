@@ -1,0 +1,152 @@
+[
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab124/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab311/source.jpg",
+    "donor_label": "mass"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab130/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab320/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab135/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab159/source.jpg",
+    "donor_label": "nodule"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab142/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab130/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab147/source.jpg",
+    "original_label": "atelectasis, mass",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab124/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab148/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab375/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab152/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab338/source.jpg",
+    "donor_label": "nodule"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab159/source.jpg",
+    "original_label": "nodule",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab173/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab160/source.jpg",
+    "original_label": "nodule",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab386/source.jpg",
+    "donor_label": "pleural effusion"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab169/source.jpg",
+    "original_label": "atelectasis",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab135/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab173/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab299/source.jpg",
+    "donor_label": "pneumothorax"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab185/source.jpg",
+    "original_label": "pneumothorax",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab169/source.jpg",
+    "donor_label": "atelectasis"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab299/source.jpg",
+    "original_label": "pneumothorax",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab378/source.jpg",
+    "donor_label": "pulmonary infiltration"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab304/source.jpg",
+    "original_label": "atelectasis",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab147/source.jpg",
+    "donor_label": "atelectasis, mass"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab311/source.jpg",
+    "original_label": "mass",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab160/source.jpg",
+    "donor_label": "nodule"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab314/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab185/source.jpg",
+    "donor_label": "pneumothorax"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab320/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab361/source.jpg",
+    "donor_label": "nodule"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab329/source.jpg",
+    "original_label": "pulmonary infiltration",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab148/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab338/source.jpg",
+    "original_label": "nodule",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab142/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab350/source.jpg",
+    "original_label": "pneumothorax",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab329/source.jpg",
+    "donor_label": "pulmonary infiltration"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab361/source.jpg",
+    "original_label": "nodule",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab314/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab367/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab350/source.jpg",
+    "donor_label": "pneumothorax"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab375/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab152/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab378/source.jpg",
+    "original_label": "pulmonary infiltration",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab304/source.jpg",
+    "donor_label": "atelectasis"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab386/source.jpg",
+    "original_label": "pleural effusion",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab367/source.jpg",
+    "donor_label": "pneumonia"
+  }
+]

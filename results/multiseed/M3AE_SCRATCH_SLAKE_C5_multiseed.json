@@ -1,0 +1,24 @@
+{
+  "n_seeds": 3,
+  "accuracy_c0_mean": 0.8253505840687745,
+  "accuracy_c0_std": 0.006367269611039223,
+  "vdd_mean": 0.030272272496589186,
+  "vdd_std": 0.022277321833501403,
+  "cohens_g_mean": 0.2977011494252874,
+  "cohens_g_std": 0.03357030314140283,
+  "cohens_g_n": 3,
+  "mcnemar_significant_count": 3,
+  "mcnemar_total_seeds": 3,
+  "model_base": "M3AE_SCRATCH_SLAKE",
+  "condition": "C5",
+  "seeds_used": [
+    0,
+    1,
+    2
+  ],
+  "source_files": [
+    "results/M3AE_SCRATCH_SLAKE_C5_vs_C0.json",
+    "results/M3AE_SCRATCH_SLAKE_seed1_C5_vs_C0.json",
+    "results/M3AE_SCRATCH_SLAKE_seed2_C5_vs_C0.json"
+  ]
+}

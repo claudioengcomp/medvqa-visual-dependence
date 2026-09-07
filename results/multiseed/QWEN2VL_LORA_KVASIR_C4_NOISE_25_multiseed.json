@@ -1,0 +1,24 @@
+{
+  "n_seeds": 3,
+  "accuracy_c0_mean": 0.8647060642607539,
+  "accuracy_c0_std": 0.0021404907666972717,
+  "vdd_mean": 0.029285338776015097,
+  "vdd_std": 0.002948858060857,
+  "cohens_g_mean": 0.19733647011151909,
+  "cohens_g_std": 0.021524447243687374,
+  "cohens_g_n": 3,
+  "mcnemar_significant_count": 3,
+  "mcnemar_total_seeds": 3,
+  "model_base": "QWEN2VL_LORA_KVASIR",
+  "condition": "C4_NOISE_25",
+  "seeds_used": [
+    0,
+    1,
+    2
+  ],
+  "source_files": [
+    "results/QWEN2VL_LORA_KVASIR_seed0_C4_NOISE_25_vs_C0.json",
+    "results/QWEN2VL_LORA_KVASIR_seed1_C4_NOISE_25_vs_C0.json",
+    "results/QWEN2VL_LORA_KVASIR_seed2_C4_NOISE_25_vs_C0.json"
+  ]
+}

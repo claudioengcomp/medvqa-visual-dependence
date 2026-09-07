@@ -1,0 +1,14 @@
+[
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab405/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab407/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab407/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab405/source.jpg",
+    "donor_label": null
+  }
+]

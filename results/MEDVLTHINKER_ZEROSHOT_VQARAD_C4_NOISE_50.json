@@ -1,0 +1,2716 @@
+{
+  "model": "MEDVLTHINKER_ZEROSHOT",
+  "dataset": "VQARAD",
+  "condition": "C4_NOISE_50",
+  "accuracy": 0.3325942350332594,
+  "n": 451,
+  "n_correct": 150,
+  "predictions": [
+    {
+      "qid": 11,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 24,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 13,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 20,
+      "predicted": "ap",
+      "gold": "posterior anterior",
+      "correct": false
+    },
+    {
+      "qid": 14,
+      "predicted": "axial",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 22,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 32,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 34,
+      "predicted": "adequate",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 178,
+      "predicted": "narrowing",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 180,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 36,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 38,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 40,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 42,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2735,
+      "predicted": "right",
+      "gold": "right side",
+      "correct": false
+    },
+    {
+      "qid": 46,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 47,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2420,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 49,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 186,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 188,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 275,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 277,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 86,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 87,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 239,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 241,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 121,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 123,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 158,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 160,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 162,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 164,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2586,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 198,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 200,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 222,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 224,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 269,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 271,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 298,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 300,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2349,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 302,
+      "predicted": "normal",
+      "gold": "pulmonary nodules",
+      "correct": false
+    },
+    {
+      "qid": 304,
+      "predicted": "consolidation",
+      "gold": "pulmonary nodules",
+      "correct": false
+    },
+    {
+      "qid": 306,
+      "predicted": "liver",
+      "gold": "free air",
+      "correct": false
+    },
+    {
+      "qid": 308,
+      "predicted": "free air",
+      "gold": "free air",
+      "correct": true
+    },
+    {
+      "qid": 493,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 495,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 310,
+      "predicted": "pa",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 415,
+      "predicted": "calcification",
+      "gold": "nodular opacities",
+      "correct": false
+    },
+    {
+      "qid": 417,
+      "predicted": "calcification",
+      "gold": "nodular opacities",
+      "correct": false
+    },
+    {
+      "qid": 503,
+      "predicted": "chest xray",
+      "gold": "x ray",
+      "correct": false
+    },
+    {
+      "qid": 319,
+      "predicted": "hypodense",
+      "gold": "hypodense lesion",
+      "correct": false
+    },
+    {
+      "qid": 321,
+      "predicted": "enlarged",
+      "gold": "hypodense lesion",
+      "correct": false
+    },
+    {
+      "qid": 401,
+      "predicted": "1",
+      "gold": "1",
+      "correct": true
+    },
+    {
+      "qid": 402,
+      "predicted": "1",
+      "gold": "1",
+      "correct": true
+    },
+    {
+      "qid": 335,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 485,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 487,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2596,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 393,
+      "predicted": "ap",
+      "gold": "pa",
+      "correct": false
+    },
+    {
+      "qid": 423,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 425,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 470,
+      "predicted": "right",
+      "gold": "right lung",
+      "correct": false
+    },
+    {
+      "qid": 472,
+      "predicted": "right",
+      "gold": "right lung",
+      "correct": false
+    },
+    {
+      "qid": 413,
+      "predicted": "enlarged",
+      "gold": "enlarged",
+      "correct": true
+    },
+    {
+      "qid": 414,
+      "predicted": "hypodense",
+      "gold": "enlarged",
+      "correct": false
+    },
+    {
+      "qid": 522,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 524,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 427,
+      "predicted": "edema",
+      "gold": "ring enhancing lesions",
+      "correct": false
+    },
+    {
+      "qid": 429,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 431,
+      "predicted": "frontal",
+      "gold": "right temporal lobe",
+      "correct": false
+    },
+    {
+      "qid": 433,
+      "predicted": "right hemisphere",
+      "gold": "right temporal lobe",
+      "correct": false
+    },
+    {
+      "qid": 458,
+      "predicted": "aortopulmonary window",
+      "gold": "middle mogul",
+      "correct": false
+    },
+    {
+      "qid": 460,
+      "predicted": "mass",
+      "gold": "middle mogul",
+      "correct": false
+    },
+    {
+      "qid": 462,
+      "predicted": "hemidiaphragm shift",
+      "gold": "middle mogul",
+      "correct": false
+    },
+    {
+      "qid": 475,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 513,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2406,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2408,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 531,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 532,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 557,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 571,
+      "predicted": "1",
+      "gold": "1",
+      "correct": true
+    },
+    {
+      "qid": 573,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 595,
+      "predicted": "left",
+      "gold": "left",
+      "correct": true
+    },
+    {
+      "qid": 596,
+      "predicted": "right",
+      "gold": "left",
+      "correct": false
+    },
+    {
+      "qid": 709,
+      "predicted": "subclavicular",
+      "gold": "on right shoulder",
+      "correct": false
+    },
+    {
+      "qid": 711,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 598,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 600,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 606,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 608,
+      "predicted": "normal",
+      "gold": "it is less than half width of thorax",
+      "correct": false
+    },
+    {
+      "qid": 610,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 612,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 629,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 630,
+      "predicted": "hematoma",
+      "gold": "blood vessel",
+      "correct": false
+    },
+    {
+      "qid": 726,
+      "predicted": "kidney",
+      "gold": "not seen here",
+      "correct": false
+    },
+    {
+      "qid": 728,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 631,
+      "predicted": "none",
+      "gold": "above clavicles bilaterally",
+      "correct": false
+    },
+    {
+      "qid": 633,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2452,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 648,
+      "predicted": "right",
+      "gold": "posterior to appendix",
+      "correct": false
+    },
+    {
+      "qid": 650,
+      "predicted": "colon",
+      "gold": "psoas muscle",
+      "correct": false
+    },
+    {
+      "qid": 663,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 735,
+      "predicted": "smaller",
+      "gold": "smaller",
+      "correct": true
+    },
+    {
+      "qid": 713,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 718,
+      "predicted": "mass",
+      "gold": "bullous lesion",
+      "correct": false
+    },
+    {
+      "qid": 720,
+      "predicted": "pneumothorax",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 722,
+      "predicted": "right lung",
+      "gold": "anterior mediastinum",
+      "correct": false
+    },
+    {
+      "qid": 724,
+      "predicted": "right",
+      "gold": "right",
+      "correct": true
+    },
+    {
+      "qid": 733,
+      "predicted": "right",
+      "gold": "left",
+      "correct": false
+    },
+    {
+      "qid": 734,
+      "predicted": "colon",
+      "gold": "left",
+      "correct": false
+    },
+    {
+      "qid": 750,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 751,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 754,
+      "predicted": "kidney",
+      "gold": "skull cartilage and medulla",
+      "correct": false
+    },
+    {
+      "qid": 756,
+      "predicted": "consolidation",
+      "gold": "right bronchus",
+      "correct": false
+    },
+    {
+      "qid": 759,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 763,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 773,
+      "predicted": "xray",
+      "gold": "plain film x ray",
+      "correct": false
+    },
+    {
+      "qid": 797,
+      "predicted": "ap",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 780,
+      "predicted": "stones",
+      "gold": "small intestines",
+      "correct": false
+    },
+    {
+      "qid": 813,
+      "predicted": "ct",
+      "gold": "ct with contrast",
+      "correct": false
+    },
+    {
+      "qid": 787,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 790,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 809,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 795,
+      "predicted": "muscle",
+      "gold": "diaphragm",
+      "correct": false
+    },
+    {
+      "qid": 811,
+      "predicted": "mri",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 814,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 821,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 830,
+      "predicted": "cerebral hemispheres",
+      "gold": "lateral ventricles",
+      "correct": false
+    },
+    {
+      "qid": 832,
+      "predicted": "cerebral ventricles",
+      "gold": "lateral ventricles",
+      "correct": false
+    },
+    {
+      "qid": 840,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 842,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2652,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 844,
+      "predicted": "supratentorial",
+      "gold": "supratentorial",
+      "correct": true
+    },
+    {
+      "qid": 900,
+      "predicted": "mri",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 874,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2660,
+      "predicted": "nil",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 906,
+      "predicted": "indeterminate",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 908,
+      "predicted": "indeterminate",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 910,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 912,
+      "predicted": "nil",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2600,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 918,
+      "predicted": "fat",
+      "gold": "fat",
+      "correct": true
+    },
+    {
+      "qid": 920,
+      "predicted": "muscle",
+      "gold": "fat",
+      "correct": false
+    },
+    {
+      "qid": 2642,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 925,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 926,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2545,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 946,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 948,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 950,
+      "predicted": "mediastinum",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 951,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 977,
+      "predicted": "right lung",
+      "gold": "mid left subclavian vein",
+      "correct": false
+    },
+    {
+      "qid": 978,
+      "predicted": "heart",
+      "gold": "mid left subclavian vein",
+      "correct": false
+    },
+    {
+      "qid": 979,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 981,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 983,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 985,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1078,
+      "predicted": "lung",
+      "gold": "pulmonary lymphatic",
+      "correct": false
+    },
+    {
+      "qid": 2741,
+      "predicted": "right lung",
+      "gold": "right of midline superior to right hilum",
+      "correct": false
+    },
+    {
+      "qid": 989,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 991,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 1050,
+      "predicted": "enlarged heart",
+      "gold": "cardiomegaly with pulmonary edema",
+      "correct": false
+    },
+    {
+      "qid": 1052,
+      "predicted": "pleural effusion",
+      "gold": "cardiomegaly with pulmonary edema",
+      "correct": false
+    },
+    {
+      "qid": 1007,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1009,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1011,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1013,
+      "predicted": "na",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1035,
+      "predicted": "ct",
+      "gold": "t2 mri",
+      "correct": false
+    },
+    {
+      "qid": 1046,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1048,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1080,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1082,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 1108,
+      "predicted": "right upper lobe",
+      "gold": "right upper lobe",
+      "correct": true
+    },
+    {
+      "qid": 1110,
+      "predicted": "right lung",
+      "gold": "right upper lobe",
+      "correct": false
+    },
+    {
+      "qid": 1116,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1118,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1132,
+      "predicted": "ap",
+      "gold": "coronal",
+      "correct": false
+    },
+    {
+      "qid": 1175,
+      "predicted": "abdomen",
+      "gold": "head of pancreas",
+      "correct": false
+    },
+    {
+      "qid": 1177,
+      "predicted": "abdomen",
+      "gold": "head of pancreas",
+      "correct": false
+    },
+    {
+      "qid": 1185,
+      "predicted": "head",
+      "gold": "pancreatic head",
+      "correct": false
+    },
+    {
+      "qid": 1187,
+      "predicted": "flair",
+      "gold": "t2 weighted mri",
+      "correct": false
+    },
+    {
+      "qid": 1259,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1192,
+      "predicted": "liver",
+      "gold": "base of cecum",
+      "correct": false
+    },
+    {
+      "qid": 1205,
+      "predicted": "frontal",
+      "gold": "right frontal lobe",
+      "correct": false
+    },
+    {
+      "qid": 1267,
+      "predicted": "hemorrhage",
+      "gold": "regression of left frontal mass",
+      "correct": false
+    },
+    {
+      "qid": 1209,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1236,
+      "predicted": "axial",
+      "gold": "axial plane",
+      "correct": false
+    },
+    {
+      "qid": 1210,
+      "predicted": "pneumothorax",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1238,
+      "predicted": "mri",
+      "gold": "mri",
+      "correct": true
+    },
+    {
+      "qid": 1264,
+      "predicted": "none",
+      "gold": "3rd ventricle and lateral ventricles",
+      "correct": false
+    },
+    {
+      "qid": 1265,
+      "predicted": "abdomen",
+      "gold": "abdomen",
+      "correct": true
+    },
+    {
+      "qid": 1266,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1268,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1273,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1379,
+      "predicted": "ct",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1419,
+      "predicted": "kidney length",
+      "gold": "coronal plane",
+      "correct": false
+    },
+    {
+      "qid": 1280,
+      "predicted": "right",
+      "gold": "right",
+      "correct": true
+    },
+    {
+      "qid": 1282,
+      "predicted": "right",
+      "gold": "right",
+      "correct": true
+    },
+    {
+      "qid": 1284,
+      "predicted": "ivc",
+      "gold": "ivc",
+      "correct": true
+    },
+    {
+      "qid": 1286,
+      "predicted": "inferior vena cava",
+      "gold": "ivc",
+      "correct": false
+    },
+    {
+      "qid": 1307,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1309,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1311,
+      "predicted": "right",
+      "gold": "left",
+      "correct": false
+    },
+    {
+      "qid": 1312,
+      "predicted": "right",
+      "gold": "left",
+      "correct": false
+    },
+    {
+      "qid": 1375,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1377,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1330,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 1348,
+      "predicted": "right side",
+      "gold": "right side",
+      "correct": true
+    },
+    {
+      "qid": 1350,
+      "predicted": "right side",
+      "gold": "right side",
+      "correct": true
+    },
+    {
+      "qid": 1393,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 1395,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 1384,
+      "predicted": "right mca",
+      "gold": "r frontal lobe",
+      "correct": false
+    },
+    {
+      "qid": 1386,
+      "predicted": "brain",
+      "gold": "r frontal lobe",
+      "correct": false
+    },
+    {
+      "qid": 1409,
+      "predicted": "axial",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1456,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1652,
+      "predicted": "right orbit",
+      "gold": "right posteroinferior cerebellum",
+      "correct": false
+    },
+    {
+      "qid": 1654,
+      "predicted": "mass",
+      "gold": "bleeding in right posteroinferior cerebellum",
+      "correct": false
+    },
+    {
+      "qid": 1461,
+      "predicted": "mri",
+      "gold": "mri t2 weighted",
+      "correct": false
+    },
+    {
+      "qid": 1529,
+      "predicted": "mca",
+      "gold": "basilar artery",
+      "correct": false
+    },
+    {
+      "qid": 1531,
+      "predicted": "mca",
+      "gold": "basilar artery",
+      "correct": false
+    },
+    {
+      "qid": 1614,
+      "predicted": "csf",
+      "gold": "csf",
+      "correct": true
+    },
+    {
+      "qid": 1615,
+      "predicted": "csf",
+      "gold": "csf",
+      "correct": true
+    },
+    {
+      "qid": 1626,
+      "predicted": "brain",
+      "gold": "brain",
+      "correct": true
+    },
+    {
+      "qid": 1466,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 1467,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 1476,
+      "predicted": "right lung",
+      "gold": "right lower lateral lung field",
+      "correct": false
+    },
+    {
+      "qid": 1478,
+      "predicted": "right lung",
+      "gold": "right lower lateral lung field",
+      "correct": false
+    },
+    {
+      "qid": 2607,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1480,
+      "predicted": "na",
+      "gold": "3.4 cm",
+      "correct": false
+    },
+    {
+      "qid": 1482,
+      "predicted": "na",
+      "gold": "3.4 cm",
+      "correct": false
+    },
+    {
+      "qid": 1616,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1618,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1630,
+      "predicted": "right upper lobe",
+      "gold": "right upper lobe",
+      "correct": true
+    },
+    {
+      "qid": 1632,
+      "predicted": "mediastinum",
+      "gold": "right upper lobe",
+      "correct": false
+    },
+    {
+      "qid": 1651,
+      "predicted": "xray",
+      "gold": "xray",
+      "correct": true
+    },
+    {
+      "qid": 1492,
+      "predicted": "male",
+      "gold": "female",
+      "correct": false
+    },
+    {
+      "qid": 1493,
+      "predicted": "male",
+      "gold": "female",
+      "correct": false
+    },
+    {
+      "qid": 1500,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1502,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1506,
+      "predicted": "chest",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1507,
+      "predicted": "nervous system",
+      "gold": "brain",
+      "correct": false
+    },
+    {
+      "qid": 1622,
+      "predicted": "hydrocephalus",
+      "gold": "hydrocephalus",
+      "correct": true
+    },
+    {
+      "qid": 1624,
+      "predicted": "hydrocephalus",
+      "gold": "hydrocephalus",
+      "correct": true
+    },
+    {
+      "qid": 1512,
+      "predicted": "brainstem",
+      "gold": "left thalamus and basal ganglia",
+      "correct": false
+    },
+    {
+      "qid": 1514,
+      "predicted": "brain",
+      "gold": "left thalamus and basal ganglia",
+      "correct": false
+    },
+    {
+      "qid": 1548,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2650,
+      "predicted": "chronic",
+      "gold": "early hemorrhage",
+      "correct": false
+    },
+    {
+      "qid": 1540,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1542,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1549,
+      "predicted": "cerebellum",
+      "gold": "right hemisphere",
+      "correct": false
+    },
+    {
+      "qid": 1551,
+      "predicted": "left",
+      "gold": "right hemisphere",
+      "correct": false
+    },
+    {
+      "qid": 1578,
+      "predicted": "temporal lobe",
+      "gold": "right cerebellopontine angle",
+      "correct": false
+    },
+    {
+      "qid": 1580,
+      "predicted": "right parietal lobe",
+      "gold": "right cerebellopontine angle",
+      "correct": false
+    },
+    {
+      "qid": 1602,
+      "predicted": "fat",
+      "gold": "adipose tissue",
+      "correct": false
+    },
+    {
+      "qid": 1603,
+      "predicted": "fat",
+      "gold": "adipose tissue",
+      "correct": false
+    },
+    {
+      "qid": 2425,
+      "predicted": "kidney",
+      "gold": "ascending colon",
+      "correct": false
+    },
+    {
+      "qid": 1627,
+      "predicted": "ct",
+      "gold": "ct",
+      "correct": true
+    },
+    {
+      "qid": 1628,
+      "predicted": "ct",
+      "gold": "ct",
+      "correct": true
+    },
+    {
+      "qid": 1678,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1680,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1701,
+      "predicted": "hematoma",
+      "gold": "gallbladder",
+      "correct": false
+    },
+    {
+      "qid": 1703,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1686,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1688,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2377,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1690,
+      "predicted": "supine",
+      "gold": "supine see air fluid level",
+      "correct": false
+    },
+    {
+      "qid": 1781,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1783,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1850,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1721,
+      "predicted": "male",
+      "gold": "female",
+      "correct": false
+    },
+    {
+      "qid": 1722,
+      "predicted": "male",
+      "gold": "female",
+      "correct": false
+    },
+    {
+      "qid": 1736,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1738,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1930,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1932,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1753,
+      "predicted": "pneumothorax",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1755,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1758,
+      "predicted": "liver",
+      "gold": "liver",
+      "correct": true
+    },
+    {
+      "qid": 1768,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1814,
+      "predicted": "supine",
+      "gold": "lying supine with their feet towards screen",
+      "correct": false
+    },
+    {
+      "qid": 1810,
+      "predicted": "sinus",
+      "gold": "maxillary sinuses",
+      "correct": false
+    },
+    {
+      "qid": 1812,
+      "predicted": "csf",
+      "gold": "maxillary sinuses",
+      "correct": false
+    },
+    {
+      "qid": 1851,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1853,
+      "predicted": "knee",
+      "gold": "sacroiliac joint",
+      "correct": false
+    },
+    {
+      "qid": 2568,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1867,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2413,
+      "predicted": "left",
+      "gold": "upper left",
+      "correct": false
+    },
+    {
+      "qid": 1872,
+      "predicted": "right",
+      "gold": "right",
+      "correct": true
+    },
+    {
+      "qid": 1874,
+      "predicted": "right",
+      "gold": "right",
+      "correct": true
+    },
+    {
+      "qid": 1884,
+      "predicted": "liver",
+      "gold": "ribs",
+      "correct": false
+    },
+    {
+      "qid": 1886,
+      "predicted": "lung",
+      "gold": "ribs",
+      "correct": false
+    },
+    {
+      "qid": 2714,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1888,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1890,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2627,
+      "predicted": "infarct",
+      "gold": "basal ganglia cerebellum cerebral cortex",
+      "correct": false
+    },
+    {
+      "qid": 1892,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1894,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1908,
+      "predicted": "mediastinum",
+      "gold": "right vs left sided pathology",
+      "correct": false
+    },
+    {
+      "qid": 1910,
+      "predicted": "pneumothorax",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1912,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1943,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1945,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 1982,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 2710,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 1951,
+      "predicted": "xray",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1968,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2005,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2007,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2520,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 1996,
+      "predicted": "spine",
+      "gold": "intestines",
+      "correct": false
+    },
+    {
+      "qid": 2001,
+      "predicted": "enlarged",
+      "gold": "lateral and third ventricular hydrocephalus",
+      "correct": false
+    },
+    {
+      "qid": 2003,
+      "predicted": "dilated",
+      "gold": "lateral and third ventricular hydrocephalus",
+      "correct": false
+    },
+    {
+      "qid": 2035,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2037,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2458,
+      "predicted": "right",
+      "gold": "right",
+      "correct": true
+    },
+    {
+      "qid": 2043,
+      "predicted": "pulmonary",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2045,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2563,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2082,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2084,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2094,
+      "predicted": "bowel obstruction",
+      "gold": "diverticulitis",
+      "correct": false
+    },
+    {
+      "qid": 2096,
+      "predicted": "bowel obstruction",
+      "gold": "diverticulitis",
+      "correct": false
+    },
+    {
+      "qid": 2448,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2121,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 2135,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2137,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2143,
+      "predicted": "calcification",
+      "gold": "gallstones",
+      "correct": false
+    },
+    {
+      "qid": 2144,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2158,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2160,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2166,
+      "predicted": "ventricles",
+      "gold": "left aca and mca",
+      "correct": false
+    },
+    {
+      "qid": 2168,
+      "predicted": "ventricles",
+      "gold": "left aca and mca",
+      "correct": false
+    },
+    {
+      "qid": 2185,
+      "predicted": "brain",
+      "gold": "brain",
+      "correct": true
+    },
+    {
+      "qid": 2187,
+      "predicted": "brain",
+      "gold": "caudate putamen left parietal",
+      "correct": false
+    },
+    {
+      "qid": 2475,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2203,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2205,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2603,
+      "predicted": "xray",
+      "gold": "plain film",
+      "correct": false
+    },
+    {
+      "qid": 2223,
+      "predicted": "brain",
+      "gold": "brain",
+      "correct": true
+    },
+    {
+      "qid": 2224,
+      "predicted": "brain",
+      "gold": "brain",
+      "correct": true
+    },
+    {
+      "qid": 2226,
+      "predicted": "hernia",
+      "gold": "kidney cyst",
+      "correct": false
+    },
+    {
+      "qid": 2228,
+      "predicted": "lipoma",
+      "gold": "kidney cyst",
+      "correct": false
+    },
+    {
+      "qid": 2254,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2256,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2257,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2259,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2261,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2263,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2268,
+      "predicted": "mri",
+      "gold": "axial",
+      "correct": false
+    },
+    {
+      "qid": 2269,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 2479,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2310,
+      "predicted": "diaphragm",
+      "gold": "diaphragm",
+      "correct": true
+    },
+    {
+      "qid": 2552,
+      "predicted": "right lung",
+      "gold": "anterior mediastinum",
+      "correct": false
+    },
+    {
+      "qid": 2311,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2313,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2515,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2318,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2320,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2465,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2328,
+      "predicted": "chest",
+      "gold": "chest",
+      "correct": true
+    },
+    {
+      "qid": 2333,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2335,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2352,
+      "predicted": "fourth ventricle",
+      "gold": "4th ventricle",
+      "correct": false
+    },
+    {
+      "qid": 2369,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2371,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2372,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2381,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2383,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2391,
+      "predicted": "xray",
+      "gold": "xr",
+      "correct": false
+    },
+    {
+      "qid": 3136,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 3138,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2417,
+      "predicted": "mural",
+      "gold": "mucosal hyperemia",
+      "correct": false
+    },
+    {
+      "qid": 2428,
+      "predicted": "bronchus",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2430,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2481,
+      "predicted": "ribs",
+      "gold": "mediport",
+      "correct": false
+    },
+    {
+      "qid": 2509,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2524,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2538,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2546,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2554,
+      "predicted": "solid",
+      "gold": "cystic",
+      "correct": false
+    },
+    {
+      "qid": 2581,
+      "predicted": "5cm",
+      "gold": "5mm",
+      "correct": false
+    },
+    {
+      "qid": 2592,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2594,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2598,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2957,
+      "predicted": "normal",
+      "gold": "abnormal",
+      "correct": false
+    },
+    {
+      "qid": 2958,
+      "predicted": "normal",
+      "gold": "abnormal",
+      "correct": false
+    },
+    {
+      "qid": 3084,
+      "predicted": "smallbowel",
+      "gold": "proximal aspect of appendix",
+      "correct": false
+    },
+    {
+      "qid": 3086,
+      "predicted": "smallbowel",
+      "gold": "proximal aspect of appendix",
+      "correct": false
+    },
+    {
+      "qid": 2611,
+      "predicted": "abnormal",
+      "gold": "abnormal",
+      "correct": true
+    },
+    {
+      "qid": 2617,
+      "predicted": "mri",
+      "gold": "mri",
+      "correct": true
+    },
+    {
+      "qid": 2623,
+      "predicted": "right hemisphere",
+      "gold": "frontal and occipital",
+      "correct": false
+    },
+    {
+      "qid": 2632,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2651,
+      "predicted": "no",
+      "gold": "on patient's left",
+      "correct": false
+    },
+    {
+      "qid": 2662,
+      "predicted": "right",
+      "gold": "bilateral lungs",
+      "correct": false
+    },
+    {
+      "qid": 2682,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2691,
+      "predicted": "mri",
+      "gold": "dwi diffusion weighted",
+      "correct": false
+    },
+    {
+      "qid": 2702,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2716,
+      "predicted": "ct",
+      "gold": "ct",
+      "correct": true
+    },
+    {
+      "qid": 2721,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2949,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2951,
+      "predicted": "hyperinflation",
+      "gold": "hyperinflation",
+      "correct": true
+    },
+    {
+      "qid": 2724,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 3059,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 3061,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2726,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 2788,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2790,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2731,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2745,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2752,
+      "predicted": "5x6cm",
+      "gold": "2.5cm x 1.7cm x 1.6cm",
+      "correct": false
+    },
+    {
+      "qid": 2770,
+      "predicted": "right",
+      "gold": "both",
+      "correct": false
+    },
+    {
+      "qid": 2771,
+      "predicted": "bilat",
+      "gold": "bilateral",
+      "correct": false
+    },
+    {
+      "qid": 2952,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2954,
+      "predicted": "no",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2817,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2818,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2845,
+      "predicted": "negative",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2940,
+      "predicted": "calcification",
+      "gold": "calcified atherosclerosis",
+      "correct": false
+    },
+    {
+      "qid": 2942,
+      "predicted": "fat",
+      "gold": "calcified atherosclerosis",
+      "correct": false
+    },
+    {
+      "qid": 2821,
+      "predicted": "mediastinum",
+      "gold": "stomach",
+      "correct": false
+    },
+    {
+      "qid": 2823,
+      "predicted": "stomach",
+      "gold": "stomach",
+      "correct": true
+    },
+    {
+      "qid": 2834,
+      "predicted": "axial",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2837,
+      "predicted": "negative",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2839,
+      "predicted": "hypodensity",
+      "gold": "yes",
+      "correct": false
+    },
+    {
+      "qid": 2878,
+      "predicted": "susceptibility",
+      "gold": "motion",
+      "correct": false
+    },
+    {
+      "qid": 2880,
+      "predicted": "susceptibility artifact",
+      "gold": "motion",
+      "correct": false
+    },
+    {
+      "qid": 2902,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 2903,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 2904,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2905,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 2938,
+      "predicted": "t2",
+      "gold": "flair",
+      "correct": false
+    },
+    {
+      "qid": 2939,
+      "predicted": "mri",
+      "gold": "mr flair",
+      "correct": false
+    },
+    {
+      "qid": 2970,
+      "predicted": "t2",
+      "gold": "t2 weighted",
+      "correct": false
+    },
+    {
+      "qid": 3055,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 3057,
+      "predicted": "yes",
+      "gold": "no",
+      "correct": false
+    },
+    {
+      "qid": 2987,
+      "predicted": "cystic lesion",
+      "gold": "soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy",
+      "correct": false
+    },
+    {
+      "qid": 2989,
+      "predicted": "airfluid level",
+      "gold": "soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy",
+      "correct": false
+    },
+    {
+      "qid": 3132,
+      "predicted": "yes",
+      "gold": "yes",
+      "correct": true
+    },
+    {
+      "qid": 3001,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 3003,
+      "predicted": "no",
+      "gold": "no",
+      "correct": true
+    },
+    {
+      "qid": 3015,
+      "predicted": "incidental finding",
+      "gold": "cavum vergae",
+      "correct": false
+    },
+    {
+      "qid": 3017,
+      "predicted": "lesion",
+      "gold": "cavum vergae",
+      "correct": false
+    },
+    {
+      "qid": 3026,
+      "predicted": "ct",
+      "gold": "mri",
+      "correct": false
+    },
+    {
+      "qid": 3027,
+      "predicted": "ct",
+      "gold": "mri",
+      "correct": false
+    },
+    {
+      "qid": 3030,
+      "predicted": "axial",
+      "gold": "axial",
+      "correct": true
+    },
+    {
+      "qid": 3063,
+      "predicted": "abdominal pain",
+      "gold": "appendicitis",
+      "correct": false
+    },
+    {
+      "qid": 3064,
+      "predicted": "pneumothorax",
+      "gold": "appendicitis",
+      "correct": false
+    }
+  ]
+}

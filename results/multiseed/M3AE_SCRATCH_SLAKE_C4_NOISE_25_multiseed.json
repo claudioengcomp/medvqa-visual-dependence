@@ -1,0 +1,24 @@
+{
+  "n_seeds": 3,
+  "accuracy_c0_mean": 0.8284637134778511,
+  "accuracy_c0_std": 0.001632470129659644,
+  "vdd_mean": 0.05623625510524662,
+  "vdd_std": 0.005985723808752006,
+  "cohens_g_mean": 0.27359062143375873,
+  "cohens_g_std": 0.01243434557328161,
+  "cohens_g_n": 3,
+  "mcnemar_significant_count": 3,
+  "mcnemar_total_seeds": 3,
+  "model_base": "M3AE_SCRATCH_SLAKE",
+  "condition": "C4_NOISE_25",
+  "seeds_used": [
+    0,
+    1,
+    2
+  ],
+  "source_files": [
+    "results/M3AE_SCRATCH_SLAKE_C4_NOISE_25_vs_C0.json",
+    "results/M3AE_SCRATCH_SLAKE_seed1_C4_NOISE_25_vs_C0.json",
+    "results/M3AE_SCRATCH_SLAKE_seed2_C4_NOISE_25_vs_C0.json"
+  ]
+}

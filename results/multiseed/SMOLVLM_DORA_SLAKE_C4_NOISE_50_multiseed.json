@@ -1,0 +1,24 @@
+{
+  "n_seeds": 3,
+  "accuracy_c0_mean": 0.7637448947533774,
+  "accuracy_c0_std": 0.008757373461995836,
+  "vdd_mean": 0.13257932767829095,
+  "vdd_std": 0.0021766268395461814,
+  "cohens_g_mean": 0.32840297873168706,
+  "cohens_g_std": 0.021851575845930716,
+  "cohens_g_n": 3,
+  "mcnemar_significant_count": 3,
+  "mcnemar_total_seeds": 3,
+  "model_base": "SMOLVLM_DORA_SLAKE",
+  "condition": "C4_NOISE_50",
+  "seeds_used": [
+    0,
+    1,
+    2
+  ],
+  "source_files": [
+    "results/SMOLVLM_DORA_SLAKE_C4_NOISE_50_vs_C0.json",
+    "results/SMOLVLM_DORA_SLAKE_seed1_C4_NOISE_50_vs_C0.json",
+    "results/SMOLVLM_DORA_SLAKE_seed2_C4_NOISE_50_vs_C0.json"
+  ]
+}

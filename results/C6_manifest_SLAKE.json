@@ -1,0 +1,560 @@
+[
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab124/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab311/source.jpg",
+    "donor_label": "mass"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab130/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab320/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab135/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab159/source.jpg",
+    "donor_label": "nodule"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab142/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab130/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab147/source.jpg",
+    "original_label": "atelectasis, mass",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab124/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab148/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab375/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab152/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab338/source.jpg",
+    "donor_label": "nodule"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab159/source.jpg",
+    "original_label": "nodule",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab173/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab160/source.jpg",
+    "original_label": "nodule",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab386/source.jpg",
+    "donor_label": "pleural effusion"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab169/source.jpg",
+    "original_label": "atelectasis",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab135/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab173/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab299/source.jpg",
+    "donor_label": "pneumothorax"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab185/source.jpg",
+    "original_label": "pneumothorax",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab169/source.jpg",
+    "donor_label": "atelectasis"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab299/source.jpg",
+    "original_label": "pneumothorax",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab378/source.jpg",
+    "donor_label": "pulmonary infiltration"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab304/source.jpg",
+    "original_label": "atelectasis",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab147/source.jpg",
+    "donor_label": "atelectasis, mass"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab311/source.jpg",
+    "original_label": "mass",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab160/source.jpg",
+    "donor_label": "nodule"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab314/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab185/source.jpg",
+    "donor_label": "pneumothorax"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab320/source.jpg",
+    "original_label": "cardiomegaly",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab361/source.jpg",
+    "donor_label": "nodule"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab329/source.jpg",
+    "original_label": "pulmonary infiltration",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab148/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab338/source.jpg",
+    "original_label": "nodule",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab142/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab350/source.jpg",
+    "original_label": "pneumothorax",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab329/source.jpg",
+    "donor_label": "pulmonary infiltration"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab361/source.jpg",
+    "original_label": "nodule",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab314/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab367/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab350/source.jpg",
+    "donor_label": "pneumothorax"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab375/source.jpg",
+    "original_label": "pneumonia",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab152/source.jpg",
+    "donor_label": "cardiomegaly"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab378/source.jpg",
+    "original_label": "pulmonary infiltration",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab304/source.jpg",
+    "donor_label": "atelectasis"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab386/source.jpg",
+    "original_label": "pleural effusion",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab367/source.jpg",
+    "donor_label": "pneumonia"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab312/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab344/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab344/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab385/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab357/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab312/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab374/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab357/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab385/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab374/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab436/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab529/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab447/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab525/source.jpg",
+    "donor_label": "brain edema, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab469/source.jpg",
+    "original_label": "brain edema",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab513/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab473/source.jpg",
+    "original_label": "brain edema, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab447/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab483/source.jpg",
+    "original_label": "brain edema, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab508/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab495/source.jpg",
+    "original_label": "brain edema, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab469/source.jpg",
+    "donor_label": "brain edema"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab498/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab483/source.jpg",
+    "donor_label": "brain edema, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab506/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab532/source.jpg",
+    "donor_label": "brain edema"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab508/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab473/source.jpg",
+    "donor_label": "brain edema, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab513/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab498/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab525/source.jpg",
+    "original_label": "brain edema, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab506/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab529/source.jpg",
+    "original_label": "brain edema, brain enhancing tumor, brain non-enhancing tumor",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab495/source.jpg",
+    "donor_label": "brain edema, brain non-enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab532/source.jpg",
+    "original_label": "brain edema",
+    "donor_image": "data/finetune_data/slack//imgs/xmlab436/source.jpg",
+    "donor_label": "brain edema, brain enhancing tumor"
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab442/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab468/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab468/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab474/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab471/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab442/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab474/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab471/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab103/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab235/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab208/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab543/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab219/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab253/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab224/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab208/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab234/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab554/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab235/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab103/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab250/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab580/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab252/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab274/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab253/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab224/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab264/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab234/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab269/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab561/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab274/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab538/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab538/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab573/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab543/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab557/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab548/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab219/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab554/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab264/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab557/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab93/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab561/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab252/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab573/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab269/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab578/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab548/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab580/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab578/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab93/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab250/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab604/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab605/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab605/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab604/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab622/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab634/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab628/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab622/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab629/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab628/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab634/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab629/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab102/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab105/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab105/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab90/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab82/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab102/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab85/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab82/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab90/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab85/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab49/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab53/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab53/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab77/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab58/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab49/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab71/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab58/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab77/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab71/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab13/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab24/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab18/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab13/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab24/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab18/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab427/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab429/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab428/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab427/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab429/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab428/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab405/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab407/source.jpg",
+    "donor_label": null
+  },
+  {
+    "qid_image": "data/finetune_data/slack//imgs/xmlab407/source.jpg",
+    "original_label": null,
+    "donor_image": "data/finetune_data/slack//imgs/xmlab405/source.jpg",
+    "donor_label": null
+  }
+]
