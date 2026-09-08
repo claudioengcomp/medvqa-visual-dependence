@@ -46,6 +46,44 @@ Nothing above needs a GPU or a dataset download.
 
 ---
 
+## Condition labels: paper vs. code
+
+**Read this before matching any number to the paper.** The paper's ladder has
+seven rungs; the code uses six condition prefixes, because the two parametric
+corruptions share one generator and one naming scheme.
+
+| Paper | Code label | What it does |
+|---|---|---|
+| C0 | `C0` | intact — the original image |
+| C1 | `C1` | image replaced by a constant mid-gray frame |
+| C2 | `C2` | free swap — fixed-seed derangement over the whole test set |
+| **C3** | **`C4_OCC_25`, `C4_OCC_50`, `C4_OCC_75`** | occlusion — centered black square covering 25/50/75% of the image **area** |
+| **C4** | **`C4_NOISE_25`, `C4_NOISE_50`, `C4_NOISE_75`** | noise — zero-mean Gaussian, σ = 25/50/75% of the 8-bit dynamic range |
+| C5 | `C5` | restricted swap — donor of the same imaging domain, **different** finding |
+| C6 | `C6` | restricted swap — donor of the same imaging domain, finding **free** |
+
+The two rows in bold are the only place where the labels diverge. The paper
+separates occlusion (C3) from noise (C4) as distinct rungs; the code generates
+both from a single script (`src/interventions/make_c4_severity.py --kind
+occlusion|noise`) and labels both under the `C4_` prefix, distinguished by
+`_OCC_` and `_NOISE_`.
+
+**The code labels are frozen on purpose.** They appear in the names of 612
+result files, inside the `"condition"` field of 306 of them, in the keys of
+`data/swapmap.json`, and in the whitelist that validates every result record.
+Renaming them would break the correspondence with the data already generated,
+so this table — not a rename — is the mapping of record.
+
+Consequently, **every filename and every `"condition"` field in `results/`
+follows the code labels above**, never the paper's C3/C4 numbering. A file
+named `SMOLVLM_LORA_KVASIR_seed0_C4_OCC_50.json` holds the paper's **C3 at
+50% severity**.
+
+Everywhere else the two agree: C0, C1, C2, C5 and C6 are the same string in
+both.
+
+---
+
 ## Reproducing the numbers
 
 Three levels, in increasing cost.

@@ -38,7 +38,8 @@ BASES = {
     "KVASIR": "vqa_kvasir_test.arrow",
 }
 # Only the conditions that substitute one image for another. C1 (blank frame)
-# and C4 (occlusion/noise) alter the original image instead of replacing it,
+# and the parametric corruptions C4_OCC_* / C4_NOISE_* (the paper's C3 and C4)
+# alter the original image instead of replacing it,
 # so they have no donor and no CCR.
 CONDITIONS = ["c2", "c5", "c6"]
 

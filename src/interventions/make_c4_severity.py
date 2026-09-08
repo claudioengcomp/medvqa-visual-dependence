@@ -1,14 +1,22 @@
-"""C4: generate copies of the test .arrow file with a controlled severity of
-image damage, in two independent families of intervention:
+"""Parametric corruption: generate copies of the test .arrow file with a
+controlled severity of image damage, in two independent families:
 
 - occlusion: black square patch at the center covering X% of the image AREA
-  (side = image_size × sqrt(X), centered).
+  (side = image_size × sqrt(X), centered).  ->  labelled C4_OCC_<X>
 - noise: additive Gaussian noise with standard deviation = X% of the 8-bit
-  dynamic range (0-255), pixels clipped back to [0, 255].
+  dynamic range (0-255), pixels clipped back to [0, 255].  ->  labelled C4_NOISE_<X>
 
-Unlike C1 (a single point, a fully neutral image), C4 yields a degradation
-curve over X ∈ {0.25, 0.50, 0.75}, so visual dependency can be measured as a
-dose-response relationship rather than a single on/off contrast.
+LABEL MAPPING -- the paper treats these as two separate rungs of the ladder,
+C3 (occlusion) and C4 (noise), while this script emits both under the shared
+`C4_` prefix. The code labels are frozen because they are embedded in the
+names and in the "condition" field of the result files already generated; see
+the correspondence table in README.md. In short: C4_OCC_* is the paper's C3,
+C4_NOISE_* is the paper's C4.
+
+Unlike C1 (a single point, a fully neutral image), these conditions yield a
+degradation curve over X ∈ {0.25, 0.50, 0.75}, so visual dependency can be
+measured as a dose-response relationship rather than a single on/off
+contrast.
 
 Usage:
     python -m src.interventions.make_c4_severity \

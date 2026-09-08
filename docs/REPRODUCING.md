@@ -35,7 +35,8 @@ numbers unchanged. That in itself is a check.
 
 ### Restricted swaps: conditional vs. unconditional VDD
 
-For C1, C2 and C4 the intervention touches every test item, so the plain
+For C1, C2 and the parametric corruptions (C4_OCC_*, C4_NOISE_* -- the
+paper's C3 and C4) the intervention touches every test item, so the plain
 accuracy difference *is* the VDD, and `results/multiseed/` already holds the
 values reported in Table 1.
 
@@ -126,7 +127,9 @@ python -m src.interventions.make_c1_blank_images \
 python -m src.interventions.make_c2_shuffled_pairs \
     --input $ARROWS/vqa_kvasir_test_clean.arrow --output $ARROWS/vqa_kvasir_test_c2.arrow
 
-# C4 - parametric corruption, two families x three severities
+# Parametric corruption, two families x three severities.
+# C4_OCC_* is the paper's C3 (occlusion); C4_NOISE_* is the paper's C4 (noise).
+# See the correspondence table in ../README.md.
 for s in 0.25 0.50 0.75; do
   python -m src.interventions.make_c4_severity --kind occlusion --severity $s \
       --input $ARROWS/vqa_kvasir_test_clean.arrow --output $ARROWS/vqa_kvasir_test_c4_occ_${s/0./}.arrow

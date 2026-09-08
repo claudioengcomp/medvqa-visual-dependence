@@ -6,7 +6,8 @@ NOT the same as the plain accuracy difference over the whole test set.
     VDD(T) = Acc_{S_T}(C0) - Acc_{S_T}(T)
 
 where S_T is the subset of questions whose image the intervention actually
-replaced. C1, C2 and C4 act on every test item, so S_T = D and the restriction
+replaced. C1, C2 and the parametric corruptions (C4_OCC_*, C4_NOISE_* -- the
+paper's C3 and C4) act on every test item, so S_T = D and the restriction
 is a no-op. C5 and C6 are partial by construction: images without an eligible
 finding label keep their original image, and a question whose image did not
 change produces the same prediction under C0 and under T.

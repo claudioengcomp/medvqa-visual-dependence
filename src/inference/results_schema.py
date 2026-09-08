@@ -12,6 +12,13 @@ A "results record" describes the performance of ONE model under ONE condition
 from __future__ import annotations
 
 REQUIRED_KEYS = ("model", "dataset", "condition", "accuracy")
+# Condition labels as they appear in every result record and filename.
+# NOTE ON LABELS: the paper splits parametric corruption into two rungs,
+# C3 (occlusion) and C4 (noise); this code emits both under the shared
+# `C4_` prefix -- C4_OCC_* is the paper's C3, C4_NOISE_* is the paper's C4.
+# The labels are frozen because they are embedded in the filenames and in
+# the "condition" field of the results already generated. See the
+# correspondence table in README.md. C0/C1/C2/C5/C6 are identical in both.
 VALID_CONDITIONS = (
     "C0", "C1", "C2", "C5", "C6",
     "C4_OCC_25", "C4_OCC_50", "C4_OCC_75",

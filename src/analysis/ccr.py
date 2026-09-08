@@ -42,7 +42,8 @@ import json
 import os
 import re
 
-# Conditions that substitute one image for another. C1 (blank frame) and C4
+# Conditions that substitute one image for another. C1 (blank frame) and the
+# parametric corruptions C4_OCC_* / C4_NOISE_* (the paper's C3 and C4)
 # (occlusion/noise) alter the original image rather than replacing it, so
 # there is no donor and CCR is undefined for them.
 SWAP_CONDITIONS = ("C2", "C5", "C6")
