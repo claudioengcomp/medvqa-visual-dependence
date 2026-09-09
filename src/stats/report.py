@@ -3,7 +3,7 @@ src/stats/compute_vdd.py (per-seed) or from the final multi-seed matrix
 consolidated by src/analysis/build_multiseed_summary_matrix.py.
 
 Usage (per-seed, C0 vs C1 only):
-    python -m src.stats.report --summaries results/*_LDV.json --output results/report.md
+    python -m src.stats.report --summaries results/*_vs_C0.json --output results/report.md
 
 Usage (consolidated multi-seed, all conditions):
     python -m src.stats.report --multiseed-matrix results/summary_matrix_multiseed.json \

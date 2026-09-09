@@ -2,8 +2,8 @@
 the statistical protocol of this study.
 
 Note on naming: the JSON schema key for the VDD value is historically named
-"ldv". The key name is kept as-is for backward compatibility with the 500+
-already-generated result files; everywhere in prose the metric is called VDD.
+"ldv". The key name is kept as-is for backward compatibility with the 493
+already-generated result files that carry it; everywhere in prose the metric is called VDD.
 
 Two modes are supported, depending on what the result records make available:
 

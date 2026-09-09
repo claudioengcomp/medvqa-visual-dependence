@@ -46,7 +46,7 @@ Nothing above needs a GPU or a dataset download.
 | §4.2 | Training hyperparameters of every fine-tuned configuration | `configs/` |
 | §5, Table 1 | All numbers | `results/` (see below) |
 | Figures 2–5 | Plots | `src/analysis/make_figs.py` + `data/fig_data.json` |
-| Figure 4 | The data behind it, rebuilt from the predictions | `src/analysis/build_ccr_fig_data.py` |
+| Figure 5 | The data behind it, rebuilt from the predictions | `src/analysis/build_ccr_fig_data.py` |
 | §5.6 | Noise floor of the protocol | `docs/NOISE_FLOOR.md` |
 
 ---

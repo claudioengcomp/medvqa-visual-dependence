@@ -66,9 +66,14 @@ python -m src.analysis.ccr --model M3AE_KVASIR_seed0 --dataset KVASIR --conditio
 python -m src.analysis.ccr --model SMOLVLM_LORA_KVASIR_seed0 --dataset KVASIR --condition C5
 ```
 
-Expected: 5,218 informative questions per seed on Kvasir-VQA-x1 under C5; CCR
-around 79% for the classifier and 66% for the generative models, matching
-Table 1.
+Expected: 5,218 informative questions per seed on Kvasir-VQA-x1 under C5, and a
+CCR of 79.3% to 80.7% across the five fine-tuned configurations, matching
+Table 1. For the slices and subsets of Section 5.4:
+
+```bash
+python -m src.analysis.ccr_slices   --dataset KVASIR --condition C5
+python -m src.analysis.ccr_sameproc --subset same
+```
 
 This uses `data/swapmap.json`, which ships precomputed, so no intervention
 data has to be regenerated.

@@ -2,7 +2,7 @@
 evaluation arrow -- analogous to SLAKE's `location`, except that Kvasir
 does not ship that field in the raw data. The question "What type of
 procedure is the image taken from?" answers colonoscopy/gastroscopy for
-1,756 of the 4,058 test-split images (43%) -- cross-validated against the
+776 of the 1,291 images of the leakage-free test split (60%; 1,756 of 4,058, 43%, in the original split) -- cross-validated against the
 existing pathology_label (polyp/ulcerative colitis should be colonoscopy;
 oesophagitis/barretts should be gastroscopy): of the 682 images carrying
 both signals, only 2 were inconsistent (99.7% agreement).

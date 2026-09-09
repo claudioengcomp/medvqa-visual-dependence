@@ -3,7 +3,8 @@ during a long run of the C0-C6 battery and allows resuming where it stopped,
 without re-running what is already done.
 
 Motivation: a Kvasir battery once died after 13.5h with nothing persisted,
-losing the whole run. Kvasir has 15,955 examples in the test split, and
+losing the whole run. Kvasir has 10,779 questions in the leakage-free test split (15,955 in the
+original split this replaced), and
 running the 11 conditions (C0, C1, C2, C4_OCC_25/50/75, C4_NOISE_25/50/75,
 C5, C6) with real text generation takes on the order of hours per condition.
 Without checkpointing, any connection drop or OOM midway costs the entire
