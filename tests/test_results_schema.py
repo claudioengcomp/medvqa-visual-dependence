@@ -4,12 +4,12 @@ from src.inference.results_schema import ResultsSchemaError, has_paired_data, va
 
 
 def test_valid_aggregate_only_record_passes():
-    validate_results_dict({"model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.84})
+    validate_results_dict({"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.84})
 
 
 def test_valid_full_record_with_n_passes():
     validate_results_dict({
-        "model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.84,
+        "model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.84,
         "n": 100, "n_correct": 84,
     })
 
@@ -25,22 +25,22 @@ def test_valid_paired_record_passes():
 
 def test_missing_required_key_raises():
     with pytest.raises(ResultsSchemaError):
-        validate_results_dict({"model": "LaPA", "dataset": "SLAKE", "accuracy": 0.5})
+        validate_results_dict({"model": "M3AE", "dataset": "SLAKE", "accuracy": 0.5})
 
 
 def test_invalid_condition_raises():
     with pytest.raises(ResultsSchemaError):
-        validate_results_dict({"model": "LaPA", "dataset": "SLAKE", "condition": "C9", "accuracy": 0.5})
+        validate_results_dict({"model": "M3AE", "dataset": "SLAKE", "condition": "C9", "accuracy": 0.5})
 
 
 def test_accuracy_out_of_range_raises():
     with pytest.raises(ResultsSchemaError):
-        validate_results_dict({"model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 1.5})
+        validate_results_dict({"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 1.5})
 
 
 def test_n_without_n_correct_raises():
     with pytest.raises(ResultsSchemaError):
-        validate_results_dict({"model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.5, "n": 10})
+        validate_results_dict({"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.5, "n": 10})
 
 
 def test_predictions_missing_field_raises():
@@ -52,7 +52,7 @@ def test_predictions_missing_field_raises():
 
 
 def test_has_paired_data_false_when_absent():
-    assert has_paired_data({"model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.5}) is False
+    assert has_paired_data({"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.5}) is False
 
 
 def test_c4_conditions_are_valid():

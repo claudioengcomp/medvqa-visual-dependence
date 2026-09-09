@@ -4,7 +4,7 @@ from src.stats.report import render_multiseed_report, render_report
 def test_render_report_includes_all_rows_and_values():
     summaries = [
         {
-            "model": "LaPA", "dataset": "SLAKE", "accuracy_c0": 0.8473, "accuracy_c1": 0.61,
+            "model": "M3AE", "dataset": "SLAKE", "accuracy_c0": 0.8473, "accuracy_c1": 0.61,
             "ldv": 0.2373, "ldv_ci_paired": (0.15, 0.32), "mcnemar": {"p_value": 0.0001},
         },
         {
@@ -14,7 +14,7 @@ def test_render_report_includes_all_rows_and_values():
     ]
     report = render_report(summaries)
 
-    assert "LaPA" in report
+    assert "M3AE" in report
     assert "0.8473" in report
     assert "0.2373" in report
     assert "[0.150, 0.320]" in report
@@ -25,7 +25,7 @@ def test_render_report_includes_all_rows_and_values():
 
 def test_render_report_falls_back_to_aggregate_ci_when_no_paired_ci():
     summaries = [{
-        "model": "LaPA", "dataset": "SLAKE", "accuracy_c0": 0.84, "accuracy_c1": 0.60,
+        "model": "M3AE", "dataset": "SLAKE", "accuracy_c0": 0.84, "accuracy_c1": 0.60,
         "ldv": 0.24, "ci_c0": (0.80, 0.88), "ci_c1": (0.55, 0.65),
     }]
     report = render_report(summaries)

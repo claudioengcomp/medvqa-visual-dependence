@@ -1,5 +1,5 @@
 """Shared utilities to read/write .arrow files in the same format used by
-prepro/make_arrow.py::make_arrow_vqa in the LaPA/M3AE repository.
+prepro/make_arrow.py::make_arrow_vqa in the upstream M3AE/LaPA codebase, whose data format this repository reuses.
 
 Schema (column order, confirmed by reading the make_arrow_vqa source):
     image          bytes      - binary contents of the image file (jpg)

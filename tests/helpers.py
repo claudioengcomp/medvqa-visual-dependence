@@ -1,5 +1,5 @@
 """Helpers shared across the test suite — builds synthetic .arrow files using
-the same schema that LaPA/M3AE's make_arrow_vqa produces."""
+the same schema that M3AE's make_arrow_vqa produces."""
 import io
 
 import pandas as pd

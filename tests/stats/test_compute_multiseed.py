@@ -120,7 +120,7 @@ def test_aggregate_cohens_g_all_none_returns_none_not_error():
 def test_aggregate_raises_when_model_mismatched_across_seeds():
     s1 = _summary(0.70, 0.10, 0.001, 0.3)
     s2 = _summary(0.72, 0.12, 0.002, 0.32)
-    s1["model"] = "LaPA"
+    s1["model"] = "M3AE"
     s2["model"] = "LLaVA-Med"
 
     with pytest.raises(ValueError, match="model"):
@@ -140,7 +140,7 @@ def test_aggregate_raises_when_dataset_mismatched_across_seeds():
 def test_aggregate_allows_same_combo_across_seeds():
     s1 = _summary(0.70, 0.10, 0.001, 0.3)
     s2 = _summary(0.72, 0.12, 0.002, 0.32)
-    s1["model"] = s2["model"] = "LaPA"
+    s1["model"] = s2["model"] = "M3AE"
     s1["dataset"] = s2["dataset"] = "Kvasir-VQA"
     s1["condition"] = s2["condition"] = "C1"
 
@@ -155,7 +155,7 @@ def test_aggregate_raises_when_first_summary_lacks_key_but_later_ones_mismatch()
     s1 = _summary(0.70, 0.10, 0.001, 0.3)  # no 'model'
     s2 = _summary(0.72, 0.12, 0.002, 0.32)
     s3 = _summary(0.68, 0.08, 0.03, 0.28)
-    s2["model"] = "LaPA"
+    s2["model"] = "M3AE"
     s3["model"] = "LLaVA-Med"
 
     with pytest.raises(ValueError, match="model"):

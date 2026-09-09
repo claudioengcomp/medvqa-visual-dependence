@@ -95,6 +95,7 @@ corruptions share one generator and one naming scheme.
 | C1 | `C1` | image replaced by a constant mid-gray frame |
 | C2 | `C2` | free swap — fixed-seed derangement over the whole test set |
 | **C3** | **`C4_OCC_25`, `C4_OCC_50`, `C4_OCC_75`** | occlusion — centered black square covering 25/50/75% of the image **area** |
+| — | `"ldv"` (JSON key in `results/*_vs_C0.json`, and the label printed by `src/stats/compute_vdd.py`) | **the Visual Dependency Drop (VDD)** under its earlier working name. Same quantity, same values; the key was left unchanged so that the shipped result files stay byte-identical to the ones the runs produced. |
 | **C4** | **`C4_NOISE_25`, `C4_NOISE_50`, `C4_NOISE_75`** | noise — zero-mean Gaussian, σ = 25/50/75% of the 8-bit dynamic range |
 | C5 | `C5` | restricted swap — donor of the same imaging domain, **different** finding |
 | C6 | `C6` | restricted swap — donor of the same imaging domain, finding **free** |

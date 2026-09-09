@@ -66,8 +66,8 @@ def test_bootstrap_paired_diff_ci_reproducible():
 
 
 def test_compute_summary_aggregate_mode():
-    c0 = {"model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.85, "n": 100, "n_correct": 85}
-    c1 = {"model": "LaPA", "dataset": "SLAKE", "condition": "C1", "accuracy": 0.60, "n": 100, "n_correct": 60}
+    c0 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.85, "n": 100, "n_correct": 85}
+    c1 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C1", "accuracy": 0.60, "n": 100, "n_correct": 60}
     summary = compute_summary(c0, c1, n_boot=500, seed=1)
     assert summary["ldv"] == pytest.approx(0.25)
     assert summary["paired"] is False
@@ -77,8 +77,8 @@ def test_compute_summary_aggregate_mode():
 def test_compute_summary_paired_mode():
     c0_preds = [{"qid": i, "predicted": "x", "gold": "x", "correct": i < 8} for i in range(10)]
     c1_preds = [{"qid": i, "predicted": "x", "gold": "x", "correct": i < 5} for i in range(10)]
-    c0 = {"model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.8, "predictions": c0_preds}
-    c1 = {"model": "LaPA", "dataset": "SLAKE", "condition": "C1", "accuracy": 0.5, "predictions": c1_preds}
+    c0 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.8, "predictions": c0_preds}
+    c1 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C1", "accuracy": 0.5, "predictions": c1_preds}
     summary = compute_summary(c0, c1, n_boot=500, seed=1)
     assert summary["paired"] is True
     assert summary["n_paired"] == 10
@@ -87,15 +87,15 @@ def test_compute_summary_paired_mode():
 
 
 def test_compute_summary_rejects_mismatched_model():
-    c0 = {"model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.8}
-    c1 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C1", "accuracy": 0.5}
+    c0 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.8}
+    c1 = {"model": "SMOLVLM_LORA", "dataset": "SLAKE", "condition": "C1", "accuracy": 0.5}
     with pytest.raises(ValueError):
         compute_summary(c0, c1)
 
 
 def test_compute_summary_rejects_swapped_conditions():
-    c0 = {"model": "LaPA", "dataset": "SLAKE", "condition": "C1", "accuracy": 0.6}
-    c1 = {"model": "LaPA", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.8}
+    c0 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C1", "accuracy": 0.6}
+    c1 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.8}
     with pytest.raises(ValueError):
         compute_summary(c0, c1)
 
@@ -131,7 +131,7 @@ def test_compute_summary_vs_baseline_rejects_c0_as_other():
 
 def test_compute_summary_vs_baseline_rejects_mismatched_model():
     c0 = {"model": "M3AE", "dataset": "SLAKE", "condition": "C0", "accuracy": 0.8}
-    other = {"model": "LaPA", "dataset": "SLAKE", "condition": "C4_OCC_25", "accuracy": 0.5}
+    other = {"model": "SMOLVLM_LORA", "dataset": "SLAKE", "condition": "C4_OCC_25", "accuracy": 0.5}
     with pytest.raises(ValueError):
         compute_summary_vs_baseline(c0, other)
 

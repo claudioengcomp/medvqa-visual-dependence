@@ -1,5 +1,5 @@
 """Swap which .arrow file acts as the test arrow (e.g.
-'vqa_slack_test.arrow', 'vqa_vqa_rad_test.arrow') inside an M3AE/LaPA
+'vqa_slack_test.arrow', 'vqa_vqa_rad_test.arrow') inside an M3AE/LaPA (upstream codebase)
 finetune_arrows directory, with automatic backup/restore. Extracted from
 logic that used to be hardcoded in src/run_condition_m3ae.sh (the C0/C1/C2
 cases) into a helper reusable by ANY condition (including the six C4
