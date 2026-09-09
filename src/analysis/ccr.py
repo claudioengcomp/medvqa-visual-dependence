@@ -25,16 +25,12 @@ the `correct` field behind accuracy and VDD (see inference/process_text.py).
 Reference answers may be lists, so the comparison is set-based: a question is
 uninformative when the two reference sets match at all.
 
-An earlier version of this module compared answers with a stricter rule of
-its own, which kept punctuation, while accuracy and VDD used `answer_matches`.
-Two rulers in the same table. The audit that found it also verified that
-unifying them cannot inflate the CCR by merging references: across every
-question template of the three datasets, no two reference answers separated
-by the strict rule are joined by `answer_matches` (0 of 260 reference strings
-in Kvasir-VQA-x1, 0 of 130 in SLAKE, 0 of 120 in VQA-RAD), and the informative
-sets are identical under both rules (5,218 = 3,936 + 1,282 in Kvasir under C5;
-92 in SLAKE under C6; 1 in VQA-RAD). The difference the correction makes comes
-entirely from predictions that accuracy already accepted.
+That comparison never merges distinct reference answers of the same question:
+within a question template, no two reference answers of the three benchmarks
+compare as equal (0 of 260 reference strings in Kvasir-VQA-x1, 0 of 130 in
+SLAKE, 0 of 120 in VQA-RAD), so no prediction can match both the original
+reference and the donor's. The informative sets are 5,218 = 3,936 + 1,282 in
+Kvasir under C5, 92 in SLAKE under C6, and 1 in VQA-RAD.
 
 The donor mapping and the per-question references come from the swap map
 (see build_swapmap.py); a precomputed one ships as data/swapmap.json.

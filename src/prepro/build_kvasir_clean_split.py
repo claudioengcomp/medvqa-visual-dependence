@@ -3,14 +3,13 @@ an image-disjoint split (src.prepro.kvasir_split), reusing the atomic
 decomposition and the image download already exercised in
 src/prepro/prepare_kvasir_arrow.py.
 
-This fixes the two root causes found in the original setup:
-(A) generative training used the composite, verbose answer -- it now uses
-the same terse atomic facts as evaluation; (B) the official HuggingFace
-split leaked images between train and test (3,821 of its 4,058 test
-images, 94%, also appear in training, verified by image identifier,
-because the dataset assigns each image-question PAIR to a partition
-rather than each image) -- it is now a fresh, disjoint split, guarded by
-an automated zero-overlap test (tests/prepro/test_kvasir_split.py).
+Two properties define it. Generative training and evaluation use the same
+terse atomic facts, not the composite verbose answer. And the split is
+image-disjoint, which the official HuggingFace split is not: 3,821 of its
+4,058 test images (94%) also appear in training, verified by image
+identifier, because the dataset assigns each image-question PAIR to a
+partition rather than each image. An automated zero-overlap test guards the
+property (tests/prepro/test_kvasir_split.py).
 
 The official partitions are merged into the 6,449 images that carry at
 least one question, composite natural-language answers are decomposed

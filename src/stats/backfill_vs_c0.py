@@ -1,6 +1,5 @@
 """Batch backfill of VDD/McNemar/Cohen's g/bootstrap 95% CI (stored under the
-JSON key 'ldv' -- a historical key name that holds the VDD value, see
-src/stats/compute_vdd.py) for every model x condition combination in
+JSON key 'ldv', which holds the VDD value, see src/stats/compute_vdd.py) for every model x condition combination in
 results/ that already has both C0 and the condition executed but does not yet
 have its _vs_C0.json computed.
 

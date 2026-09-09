@@ -1,11 +1,9 @@
 """Builds Table 1 from the per-item predictions -- every cell, in one pass.
 
 Table 1 carries, for each model and dataset: the intact accuracy, the VDD under
-C1, C2, C5 and C6, the relative drop under C2, and the CCR. Each quantity had a
-generator of its own; the table itself did not, which meant its cells could be
-checked one at a time but not regenerated as a table.
+C1, C2, C5 and C6, the relative drop under C2, and the CCR.
 
-Every cell here comes from a module that already existed:
+Every cell comes from the module that owns the quantity:
 
     accuracy, VDD, McNemar   src/stats/conditional_vdd.py
     CCR                      src/analysis/ccr_slices.py

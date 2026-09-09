@@ -26,7 +26,7 @@ def compute_vda(acc_c0: float, ldv_c1: float) -> float | None:
     occlusion/noise levels where accuracy can drift slightly upward by
     chance), even though never for C1.
 
-    The argument is named ldv_c1 because "ldv" is the historical JSON key
+    The argument is named ldv_c1 because "ldv" is the JSON key
     that holds the VDD value; it is VDD(C1) = Acc(C0) - Acc(C1)."""
     denom = acc_c0 + ldv_c1
     if denom <= 0:

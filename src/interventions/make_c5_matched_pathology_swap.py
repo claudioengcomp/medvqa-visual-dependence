@@ -27,9 +27,7 @@ with the swapped images) may live in `data/finetune_arrows/` (gitignored)
 because it can be regenerated at any time from `--manifest` plus the same
 seed. BUT `--manifest` and `--examples-dir` are the ONLY evidence of which
 swaps actually happened — save them under `results/` (not gitignored),
-never under `data/`. This is the same class of risk that already lost the
-LoRA/DoRA checkpoints of an earlier run: artifacts that existed only on an
-ephemeral VM, with nobody copying them somewhere durable.
+never under `data/`, so that they outlive the machine that produced them.
 
 Usage (Kvasir) — 3 categories, not 2: measured on the REAL Kvasir-VQA-x1
 test split (not a sample), Polyp=523 and Ulcerative Colitis=450 on their

@@ -1,8 +1,7 @@
 """Extract per-item predictions from M3AE for ONE condition (C0/C1/C2/C4_*)
 of ANY dataset supported by M3AE (--dataset-key), computing
-accuracy/n/n_correct directly from the forward pass -- it does not depend on
-parsing the PyTorch Lightning log, as an earlier result-collection script
-did. Writes a complete results record (src/inference/results_schema.py,
+accuracy/n/n_correct directly from the forward pass, without parsing the
+PyTorch Lightning log. Writes a complete results record (src/inference/results_schema.py,
 including 'predictions') ready for paired McNemar/bootstrap analysis via
 src.stats.compute_vdd.compute_summary_vs_baseline.
 

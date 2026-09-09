@@ -54,35 +54,29 @@ Nothing above needs a GPU or a dataset download.
 
 ## One ruler for accuracy, VDD and the CCR
 
-An audit of this code found that the CCR was scored with a normalization of its
-own, which keeps punctuation, while accuracy and VDD used `answer_matches` from
-`src/inference/process_text.py`. Two rulers in the same table. The CCR is now
-scored with `answer_matches` everywhere — for the informative test and for all
-three answer buckets — and the numbers below are the ones this repository
-produces. Accuracy, VDD, Cohen's *g*, McNemar and the bootstrap intervals are
-untouched: the correction is not on the path that produces the `correct` field,
-and the 25 cells of Table 1 are reproduced digit for digit before and after it.
+Every quantity in the paper is scored with the same rule: `answer_matches` from
+`src/inference/process_text.py`, which compares answers after lowercasing and
+normalizing whitespace and punctuation. It decides the `correct` field behind
+accuracy and VDD, and it decides all three answer buckets of the CCR, including
+the test of whether a swapped question is informative.
 
 | Quantity, Kvasir-VQA-x1 under C5 | Value |
 |---|---|
-| CCR over all 5,218 informative questions per seed | **79.3 – 80.7%** |
-| … on the 3,936 with single-valued answers | **89.7 – 90.9%** |
-| … on the 1,282 whose answer is a list | **46.6 – 49.6%** |
-| answers keeping the original reference | **2.6 – 4.4%** |
-| same-procedure subset (2,026 questions per seed) | **82.4 – 84.2%** |
+| CCR over all 5,218 informative questions per seed | **79.3 - 80.7%** |
+| ... on the 3,936 with single-valued answers | **89.7 - 90.9%** |
+| ... on the 1,282 whose answer is a list | **46.6 - 49.6%** |
+| answers keeping the original reference | **2.6 - 4.4%** |
+| same-procedure subset (2,026 questions per seed) | **82.4 - 84.2%** |
 | standard deviation across seeds | up to **1.0 pp** |
-| SLAKE under C6 (92 informative questions per seed) | 56.9 – 69.6%, unchanged by the correction |
+| SLAKE under C6 (92 informative questions per seed) | 56.9 - 69.6% |
 | VQA-RAD | fewer than four informative questions; not reportable |
 
-Two checks bound what the correction can do. It cannot merge the original
-reference with the donor's and turn "followed the donor" into a false positive:
-0 of 3,936 single-valued and 0 of 1,282 list questions change status. And it
-cannot merge two distinct reference answers of the same question: no such pair
-exists in any question template of the three datasets (0 of 260 reference
-strings in Kvasir-VQA-x1, 0 of 130 in SLAKE, 0 of 120 in VQA-RAD). The
-informative sets are therefore identical under both rules, which is what makes
-the before/after comparison one of like with like. `tests/analysis/` pins those
-denominators.
+The rule never merges distinct reference answers of the same question: within a
+question template, no two reference answers of the three benchmarks compare as
+equal (0 of 260 reference strings in Kvasir-VQA-x1, 0 of 130 in SLAKE, 0 of 120
+in VQA-RAD), so no prediction can match both the original reference and the
+donor's, and the informative sets are exactly the denominators the tables
+report. `tests/analysis/` pins those denominators.
 
 ---
 
@@ -126,11 +120,10 @@ both.
 
 | Paper | Code label | What it is |
 |---|---|---|
-| VDD | `"ldv"` — a JSON key in `results/*_vs_C0.json`, and the label printed by `src/stats/compute_vdd.py` | The **Visual Dependency Drop**, under the earlier working name it carried while the runs were executed. Same quantity, same values. |
+| VDD | `"ldv"` — a JSON key in `results/*_vs_C0.json`, and the label printed by `src/stats/compute_vdd.py` | The **Visual Dependency Drop**. Same quantity, same values, under the key name the generated files carry. |
 
-The key was left unchanged so that the shipped result files stay byte-identical
-to what the runs produced; as with the condition labels, the mapping is this
-table, not a rename.
+As with the condition labels, the correspondence is this table rather than a
+rename, so the shipped result files are exactly what the runs produced.
 
 ---
 

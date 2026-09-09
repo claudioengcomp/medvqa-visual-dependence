@@ -1,8 +1,8 @@
 """Aggregates the _vs_C0.json files of N seeds of the SAME model_base x
 condition combination into a single multi-seed statistic (mean +/- std of
 accuracy/VDD via src.stats.compute_multiseed.aggregate_multiseed_summary;
-VDD is the metric name used in the paper for the JSON schema key 'ldv' --
-a historical key name, see src/stats/compute_vdd.py).
+VDD is the metric name used in the paper for the JSON schema key 'ldv',
+see src/stats/compute_vdd.py).
 
 Only groups with at least N_SEEDS_EXPECTED available summaries are
 aggregated -- combinations with fewer completed seeds are left out of the
@@ -43,7 +43,7 @@ def _split_prefix(prefix: str) -> tuple[str, int | None]:
     """Returns (model_base, seed). A prefix with an explicit _seedN suffix ->
     seed = N. A prefix WITHOUT a suffix -> candidate seed = 0, following the
     naming convention of the SLAKE/VQA-RAD runs: the first (seed 0) run is
-    the historical baseline and was saved with no suffix, while the seed 1
+    the baseline seed and is saved with no suffix, while the seed 1
     and seed 2 runs added later use an explicit suffix. Such a candidate only
     becomes a real seed 0 in discover_multiseed_groups(), after confirming
     that the same model_base actually has a _seed1/_seed2 sibling --
@@ -63,7 +63,7 @@ def discover_multiseed_groups(results_dir: str) -> dict[tuple[str, str], list[tu
     A prefix without a _seedN suffix only enters as seed 0 when the same
     model_base has at least one genuine _seed1 or _seed2 somewhere (which
     confirms it belongs to a multi-seed family, as in the SLAKE/VQA-RAD runs
-    whose historical seed 0 carries no suffix). Genuinely zero-shot/M0
+    whose seed 0 carries no suffix). Genuinely zero-shot/M0
     combinations (with NO _seedN suffix at all, in any condition) are left
     out -- they have no training seed, hence no multi-seed by design."""
     raw: list[tuple[str, int | None, str, str]] = []  # (model_base, seed, cond, path)

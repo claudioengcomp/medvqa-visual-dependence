@@ -25,8 +25,8 @@ answers across the whole test.json) — translated by hand below
 (`_ZH_TO_EN`), in the same spirit as the pre-existing `_TYPO_FIXES` on the
 English side. Measured effect: X-Ray/Lung goes from 20 to 47 eligible
 images (2.35x) when restricted to test; MRI/Brain_Tissue becomes a viable
-second bucket (9 -> 22). `q_lang` is no longer used as a filter — the
-exclusion of trivial/non-pathological answers now covers both languages.
+second bucket (9 -> 22). The exclusion of trivial/non-pathological answers
+covers both languages, so `q_lang` is not used as a filter.
 
 image_id in the arrow follows the pattern
 "data/finetune_data/slack//imgs/<img_name>" (note the double slash — it is
@@ -39,9 +39,7 @@ of `prepro_vqa_slack()` in the `zhjohnchan/M3AE` repository (pinned commit
 (this is where the double slash comes from — data_root already ends in
 "/"), and `img_path = os.path.join(image_root, sample["img_name"])`. Since
 that literal is fixed in M3AE's own code, it is stable across runs and
-does not need to be reconfirmed. An earlier version of this module used
-just "imgs/<img_name>" (a guess documented as unverified) — corrected
-after hitting the resulting error at run time.
+does not need to be reconfirmed.
 
 Usage:
     python -m src.prepro.build_slake_pathology_labels \
@@ -195,7 +193,7 @@ def canonical_label_per_image(records: list[dict]) -> dict[str, str]:
 def build_slake_labels(records: list[dict], modality: str, location: str) -> dict[str, str]:
     filtered = []
     for r in records:
-        # q_lang is no longer used as a filter -- SLAKE is not EN/ZH
+        # q_lang is not used as a filter -- SLAKE is not EN/ZH
         # parallel for content_type=='Abnormality' (see the module
         # docstring); normalize_answer() already knows how to exclude or
         # translate Chinese answers.

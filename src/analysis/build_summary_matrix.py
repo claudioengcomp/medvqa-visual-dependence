@@ -1,8 +1,6 @@
 """Consolidates all results/*.json + *_vs_C0.json files into a single
 'summary matrix' (results/summary_matrix.json) -- a single source of truth
-for the visual artefact and for the paper's tables, replacing the manual
-copying of numbers on every update (which carried a real risk of
-transcription errors).
+for the visual artefact and for the paper's tables.
 
 For each model (identified by the file name results/<MODEL>_C0.json, minus
 the _C0.json suffix) it computes, in addition to what already comes from

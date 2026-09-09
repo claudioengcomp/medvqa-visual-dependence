@@ -1,13 +1,12 @@
-"""Rebuild the `ccr` block of data/fig_data.json -- the input of Figure 4.
+"""Rebuild the `ccr` block of data/fig_data.json -- the input of Figure 5.
 
-Figure 4 shows, for every swapped question whose original and donor references
+Figure 5 shows, for every swapped question whose original and donor references
 differ, the fraction of answers that match the donor's reference (the CCR), keep
 the original one, or are neither. Those three fractions are recomputed here with
 `answers_match` from ccr.py, so the figure and the table cannot drift apart.
 
-Only the `ccr` block is touched. The other blocks of fig_data.json hold accuracy
-and VDD quantities, which the scoring correction does not reach, and rewriting
-them would risk changing figures that are already correct.
+Only the `ccr` block is touched; src/analysis/build_fig_data.py rebuilds the
+whole file, including this block.
 
 Counts are pooled over seeds, which is how the figure's own data has always been
 laid out (its subtitle divides by the seed count to display n per seed). Pooling

@@ -1,9 +1,8 @@
 """Rebuilds data/fig_data.json in full -- the input of every figure.
 
-`make_figs.py` draws Figures 2 to 5 from an aggregate that, until now, had no
-generator: the figures shipped re-plottable but not recomputable. This closes
-that, so a reader can go from the per-item predictions to the figures without
-trusting an intermediate file.
+`make_figs.py` draws Figures 2 to 5 from an aggregate. This module builds that
+aggregate from the per-item predictions, so a reader can go from the predictions
+to the figures without trusting an intermediate file.
 
 Four blocks, each delegated to the module that owns the quantity:
 

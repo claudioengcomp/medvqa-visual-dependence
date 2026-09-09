@@ -15,9 +15,8 @@ instruction-tuned for medical VQA and is not fine-tuned in this study.
 
 `--progress-checkpoint` is optional: when supplied, every prediction is
 persisted incrementally to JSONL (src/inference/inference_checkpoint.py) and
-the run resumes from there if the process dies midway. This exists because a
-full Kvasir battery once died after 13.5h with nothing persisted, losing the
-entire run. Do not confuse it with `--adapter-dir`, which points at MODEL
+the run resumes from there if the process dies midway -- worth supplying on
+any battery that runs for hours. Do not confuse it with `--adapter-dir`, which points at MODEL
 weights -- this one tracks INFERENCE progress. extract_predictions_m3ae.py
 already uses `--checkpoint` for model weights (a Sacred .ckpt), which is why
 the flag here is named `--progress-checkpoint`: no collision between the two.

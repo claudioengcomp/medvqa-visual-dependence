@@ -11,10 +11,9 @@ Do NOT use it to reproduce the question-type split of Section 5.2. The
 official label is available: it travels in data/swapmap.json as the `t` field
 of each question and reproduces the counts the paper reports (416 closed and
 645 open on SLAKE, 272 and 179 on VQA-RAD). src/analysis/question_type.py
-reads it. It is absent only from results/*.json, which stores just
-qid/predicted/gold/correct (see src/inference/results_schema.py) -- an earlier
-version of this note read that absence as the label being unrecoverable, which
-was true of the results files alone and false of the repository."""
+reads it. It is absent from results/*.json, which stores just qid/predicted/gold/correct
+(see src/inference/results_schema.py), but present in the swap map that ships
+with this repository."""
 from __future__ import annotations
 
 _YES_NO = {"yes", "no"}
