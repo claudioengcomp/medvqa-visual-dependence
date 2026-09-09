@@ -20,10 +20,21 @@ three buckets:
                        domain prior prevailed over the image
     neither         -- some other string
 
-Answers are compared after the same normalization used for accuracy
-(lowercase, collapsed whitespace). Reference answers may be lists, so the
-comparison is set-based: a question is uninformative when the two reference
-sets intersect at all.
+Answers are compared with `answer_matches`, the same function that decides
+the `correct` field behind accuracy and VDD (see inference/process_text.py).
+Reference answers may be lists, so the comparison is set-based: a question is
+uninformative when the two reference sets match at all.
+
+An earlier version of this module compared answers with a stricter rule of
+its own, which kept punctuation, while accuracy and VDD used `answer_matches`.
+Two rulers in the same table. The audit that found it also verified that
+unifying them cannot inflate the CCR by merging references: across every
+question template of the three datasets, no two reference answers separated
+by the strict rule are joined by `answer_matches` (0 of 260 reference strings
+in Kvasir-VQA-x1, 0 of 130 in SLAKE, 0 of 120 in VQA-RAD), and the informative
+sets are identical under both rules (5,218 = 3,936 + 1,282 in Kvasir under C5;
+92 in SLAKE under C6; 1 in VQA-RAD). The difference the correction makes comes
+entirely from predictions that accuracy already accepted.
 
 The donor mapping and the per-question references come from the swap map
 (see build_swapmap.py); a precomputed one ships as data/swapmap.json.
@@ -42,6 +53,8 @@ import json
 import os
 import re
 
+from src.inference.process_text import answer_matches, normalize_text
+
 # Conditions that substitute one image for another. C1 (blank frame) and the
 # parametric corruptions C4_OCC_* / C4_NOISE_* (the paper's C3 and C4)
 # (occlusion/noise) alter the original image rather than replacing it, so
@@ -49,9 +62,28 @@ import re
 SWAP_CONDITIONS = ("C2", "C5", "C6")
 
 
-def normalize(s) -> str:
-    """Same normalization used when scoring accuracy."""
-    return re.sub(r"\s+", " ", str(s).strip().lower())
+def question_key(q) -> str:
+    """Index key for a question's text -- NOT an answer comparison.
+
+    Used to ask "what is the reference for this same question on the donor
+    image?", so it must stay a stable dictionary key. Deliberately does not go
+    through normalize_text(): stripping punctuation would change these keys and
+    could merge or split templates, which would change the size of the
+    informative set. That size is a published quantity (5,218 in Kvasir under
+    C5) and must not move as a side effect of the answer-scoring rule.
+    """
+    return re.sub(r"\s+", " ", str(q).strip().lower())
+
+
+def answers_match(a, refs) -> bool:
+    """True when answer `a` matches any reference in `refs`.
+
+    The single ruler of this module, and the same one behind accuracy and VDD.
+    `answer_matches` is an equivalence relation on normalized strings (its
+    whitespace-squashed fallback subsumes plain equality), so the set-based
+    comparisons below are well defined regardless of argument order.
+    """
+    return answer_matches(normalize_text(str(a)), [normalize_text(str(r)) for r in refs])
 
 
 def load_swapmap(path: str) -> dict:
@@ -84,7 +116,7 @@ def compute_ccr(
     # "what is the answer to this same question on the donor image?"
     by_image = collections.defaultdict(dict)
     for qid, meta in qid_meta.items():
-        by_image[meta["img"]][normalize(meta["q"])] = meta["a"]
+        by_image[meta["img"]][question_key(meta["q"])] = meta["a"]
 
     counts = collections.Counter()
     eligible = [q for q in c0_predictions if q in qid_meta and qid_meta[q]["img"] in donor_map]
@@ -92,22 +124,25 @@ def compute_ccr(
     for qid in eligible:
         meta = qid_meta[qid]
         donor = donor_map[meta["img"]]
-        donor_reference = by_image[donor].get(normalize(meta["q"]))
+        donor_reference = by_image[donor].get(question_key(meta["q"]))
         if donor_reference is None:
             # The donor image does not carry this question: not verifiable.
             continue
 
-        original_set = {normalize(x) for x in meta["a"]}
-        donor_set = {normalize(x) for x in donor_reference}
-        if original_set & donor_set:
+        original_reference = meta["a"]
+        if any(answers_match(x, donor_reference) for x in original_reference):
             # Same reference on both images: the swap reveals nothing.
             continue
 
         counts["informative"] += 1
-        predicted = normalize(swapped_predictions[qid]["predicted"])
-        if predicted in original_set:
+        predicted = swapped_predictions[qid]["predicted"]
+        kept = answers_match(predicted, original_reference)
+        followed = answers_match(predicted, donor_reference)
+        # The two references do not match each other on an informative
+        # question, so at most one of these can be true.
+        if kept:
             counts["kept_original"] += 1
-        elif predicted in donor_set:
+        elif followed:
             counts["followed_donor"] += 1
         else:
             counts["neither"] += 1
@@ -116,9 +151,9 @@ def compute_ccr(
         # which isolates grounding from questions it never answered well.
         if c0_predictions[qid]["correct"]:
             counts["inf_correct_c0"] += 1
-            if predicted in donor_set:
+            if followed:
                 counts["c0correct_followed"] += 1
-            elif predicted in original_set:
+            elif kept:
                 counts["c0correct_kept"] += 1
             else:
                 counts["c0correct_neither"] += 1
