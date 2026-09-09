@@ -109,7 +109,7 @@ _ZH_TO_EN = {
     # "enhancing brain tumor") was chosen to match SLAKE's own native
     # English phrasing for the same bucket (MRI/Brain_Tissue) -- confirmed
     # by inspecting the dataset's real EN answers. The order of terms in
-    # composite answers no longer matters here -- see the sort-based
+    # composite answers does not matter here -- see the sort-based
     # canonicalization in normalize_answer() below, which covers both
     # languages (SLAKE's English side itself contains the same answer in
     # more than one order, e.g. "Brain Edema, Brain Enhancing Tumor" and
