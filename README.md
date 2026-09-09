@@ -38,11 +38,48 @@ Nothing above needs a GPU or a dataset download.
 | §3.3 | VDD **restricted to the questions an intervention touches** (this is what Table 1 reports for C5/C6) | `src/stats/conditional_vdd.py` |
 | §3.4 | McNemar, Cohen's *g*, paired bootstrap CI | `src/stats/compute_vdd.py` |
 | §3.5 | Counterfactual Consistency Rate | `src/analysis/ccr.py` |
+| §5.4 | CCR by answer slice — aggregate, single-valued, list | `src/analysis/ccr_slices.py` |
+| §5.3, §5.4 | The same-procedure and cross-procedure C5 subsets | `src/analysis/ccr_sameproc.py` |
 | §3.6 | Multi-seed aggregation (mean ± sd; *k*/3 significance) | `src/stats/compute_multiseed.py` |
 | §4.2 | Training hyperparameters of every fine-tuned configuration | `configs/` |
 | §5, Table 1 | All numbers | `results/` (see below) |
 | Figures 2–5 | Plots | `src/analysis/make_figs.py` + `data/fig_data.json` |
+| Figure 4 | The data behind it, rebuilt from the predictions | `src/analysis/build_ccr_fig_data.py` |
 | §5.6 | Noise floor of the protocol | `docs/NOISE_FLOOR.md` |
+
+---
+
+## One ruler for accuracy, VDD and the CCR
+
+An audit of this code found that the CCR was scored with a normalization of its
+own, which keeps punctuation, while accuracy and VDD used `answer_matches` from
+`src/inference/process_text.py`. Two rulers in the same table. The CCR is now
+scored with `answer_matches` everywhere — for the informative test and for all
+three answer buckets — and the numbers below are the ones this repository
+produces. Accuracy, VDD, Cohen's *g*, McNemar and the bootstrap intervals are
+untouched: the correction is not on the path that produces the `correct` field,
+and the 25 cells of Table 1 are reproduced digit for digit before and after it.
+
+| Quantity, Kvasir-VQA-x1 under C5 | Value |
+|---|---|
+| CCR over all 5,218 informative questions per seed | **79.3 – 80.7%** |
+| … on the 3,936 with single-valued answers | **89.7 – 90.9%** |
+| … on the 1,282 whose answer is a list | **46.6 – 49.6%** |
+| answers keeping the original reference | **2.6 – 4.4%** |
+| same-procedure subset (2,026 questions per seed) | **82.4 – 84.2%** |
+| standard deviation across seeds | up to **1.0 pp** |
+| SLAKE under C6 (92 informative questions per seed) | 56.9 – 69.6%, unchanged by the correction |
+| VQA-RAD | fewer than four informative questions; not reportable |
+
+Two checks bound what the correction can do. It cannot merge the original
+reference with the donor's and turn "followed the donor" into a false positive:
+0 of 3,936 single-valued and 0 of 1,282 list questions change status. And it
+cannot merge two distinct reference answers of the same question: no such pair
+exists in any question template of the three datasets (0 of 260 reference
+strings in Kvasir-VQA-x1, 0 of 130 in SLAKE, 0 of 120 in VQA-RAD). The
+informative sets are therefore identical under both rules, which is what makes
+the before/after comparison one of like with like. `tests/analysis/` pins those
+denominators.
 
 ---
 
@@ -127,6 +164,14 @@ Counterfactual Consistency Rate for one configuration:
 
 ```bash
 python -m src.analysis.ccr --model SMOLVLM_LORA_KVASIR_seed0 --dataset KVASIR --condition C5
+```
+
+The slices and subsets of Section 5.4, over every configuration and seed:
+
+```bash
+python -m src.analysis.ccr_slices   --dataset KVASIR --condition C5
+python -m src.analysis.ccr_slices   --dataset SLAKE  --condition C6
+python -m src.analysis.ccr_sameproc --subset same
 ```
 
 `data/swapmap.json` ships precomputed, so CCR is verifiable without
