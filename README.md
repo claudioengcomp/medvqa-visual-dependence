@@ -40,6 +40,8 @@ Nothing above needs a GPU or a dataset download.
 | §3.5 | Counterfactual Consistency Rate | `src/analysis/ccr.py` |
 | §5.4 | CCR by answer slice — aggregate, single-valued, list | `src/analysis/ccr_slices.py` |
 | §5.3, §5.4 | The same-procedure and cross-procedure C5 subsets | `src/analysis/ccr_sameproc.py` |
+| §5, Table 1 | The whole table, rebuilt from the predictions | `src/analysis/build_table1.py` |
+| §5.2 | Accuracy and VDD split by question type (official open/closed label) | `src/analysis/question_type.py` |
 | §3.6 | Multi-seed aggregation (mean ± sd; *k*/3 significance) | `src/stats/compute_multiseed.py` |
 | §4.2 | Training hyperparameters of every fine-tuned configuration | `configs/` |
 | §5, Table 1 | All numbers | `results/` (see below) |
@@ -95,7 +97,6 @@ corruptions share one generator and one naming scheme.
 | C1 | `C1` | image replaced by a constant mid-gray frame |
 | C2 | `C2` | free swap — fixed-seed derangement over the whole test set |
 | **C3** | **`C4_OCC_25`, `C4_OCC_50`, `C4_OCC_75`** | occlusion — centered black square covering 25/50/75% of the image **area** |
-| — | `"ldv"` (JSON key in `results/*_vs_C0.json`, and the label printed by `src/stats/compute_vdd.py`) | **the Visual Dependency Drop (VDD)** under its earlier working name. Same quantity, same values; the key was left unchanged so that the shipped result files stay byte-identical to the ones the runs produced. |
 | **C4** | **`C4_NOISE_25`, `C4_NOISE_50`, `C4_NOISE_75`** | noise — zero-mean Gaussian, σ = 25/50/75% of the 8-bit dynamic range |
 | C5 | `C5` | restricted swap — donor of the same imaging domain, **different** finding |
 | C6 | `C6` | restricted swap — donor of the same imaging domain, finding **free** |
@@ -119,6 +120,16 @@ named `SMOLVLM_LORA_KVASIR_seed0_C4_OCC_50.json` holds the paper's **C3 at
 
 Everywhere else the two agree: C0, C1, C2, C5 and C6 are the same string in
 both.
+
+### One quantity is named differently too
+
+| Paper | Code label | What it is |
+|---|---|---|
+| VDD | `"ldv"` — a JSON key in `results/*_vs_C0.json`, and the label printed by `src/stats/compute_vdd.py` | The **Visual Dependency Drop**, under the earlier working name it carried while the runs were executed. Same quantity, same values. |
+
+The key was left unchanged so that the shipped result files stay byte-identical
+to what the runs produced; as with the condition labels, the mapping is this
+table, not a rename.
 
 ---
 

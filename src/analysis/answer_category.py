@@ -1,14 +1,20 @@
 """Classifies each prediction item into an answer category derived from the
 gold answer, and computes per-category accuracy plus balanced accuracy.
 
-This is a proxy, not the official "open/closed" question-type label of
-SLAKE/VQA-RAD: the official question-type label was not preserved in
-results/*.json, which only stores qid/predicted/gold/correct (see
-src/inference/results_schema.py). Recovering the official label would require the
-original preprocessed dataset shards, which are no longer available in the
-execution environment used for the runs. 'yes_no' covers the two most common
-gold answers of closed-form Med-VQA; any other gold answer is classified as
-'open'. The proxy was validated against the real data before being adopted."""
+This is a proxy, and a different quantity from the official "open/closed"
+question-type label of SLAKE/VQA-RAD. It buckets by the shape of the gold
+answer: 'yes_no' covers the two most common gold answers of closed-form
+Med-VQA, and any other gold answer is classified as 'open'. The proxy was
+validated against the real data before being adopted.
+
+Do NOT use it to reproduce the question-type split of Section 5.2. The
+official label is available: it travels in data/swapmap.json as the `t` field
+of each question and reproduces the counts the paper reports (416 closed and
+645 open on SLAKE, 272 and 179 on VQA-RAD). src/analysis/question_type.py
+reads it. It is absent only from results/*.json, which stores just
+qid/predicted/gold/correct (see src/inference/results_schema.py) -- an earlier
+version of this note read that absence as the label being unrecoverable, which
+was true of the results files alone and false of the repository."""
 from __future__ import annotations
 
 _YES_NO = {"yes", "no"}
