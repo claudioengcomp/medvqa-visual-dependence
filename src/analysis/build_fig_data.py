@@ -158,7 +158,6 @@ def table1_block(results_dir: str, swapmap_path: str) -> dict:
 
 def build(results_dir: str, swapmap_path: str, existing: dict) -> dict:
     return {"combos": combos_block(results_dir, swapmap_path),
-            "floor": existing.get("floor", {}),
             "fvsvdd": fvsvdd_block(results_dir, swapmap_path),
             "ccr": build_ccr_fig_data.build(list(existing.get("ccr", {})),
                                             results_dir, swapmap_path),
