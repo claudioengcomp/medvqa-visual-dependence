@@ -1,4 +1,5 @@
-# Correct Answers to the Wrong Image: On What Image-Substitution Measures Count as Error in Medical VQA
+# Correct Answers to the Wrong Image
+### On What Image-Substitution Measures Count as Error in Medical VQA
 
 Companion repository for the paper of the same name — code, the leakage-free
 split and the per-item predictions.
