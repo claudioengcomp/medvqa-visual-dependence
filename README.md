@@ -1,7 +1,7 @@
-# Correct Answers to the Wrong Image — code, clean split and predictions
+# Correct Answers to the Wrong Image: On What Image-Substitution Measures Count as Error in Medical VQA
 
-Companion repository for the paper *"Correct Answers to the Wrong Image: On
-What Image-Substitution Measures Count as Error in Medical VQA"*.
+Companion repository for the paper of the same name — code, the leakage-free
+split and the per-item predictions.
 
 It contains everything needed to verify the paper's claims: the leakage-free
 split of Kvasir-VQA-x1, the intervention code that defines the C1-C6 ladder,
