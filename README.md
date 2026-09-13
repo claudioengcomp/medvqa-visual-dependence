@@ -1,14 +1,15 @@
-# How Much Do They Really See? — code, clean split and predictions
+# Correct Answers to the Wrong Image — code, clean split and predictions
 
-Companion repository for the paper *"How Much Do They Really See? Quantifying
-Visual Dependence in Med-VQA with Paired Image Interventions"*.
+Companion repository for the paper *"Correct Answers to the Wrong Image: On
+What Image-Substitution Measures Count as Error in Medical VQA"*.
 
 It contains everything needed to verify the paper's claims: the leakage-free
-split of Kvasir-VQA-x1, the intervention code that defines the C1–C6 ladder,
+split of Kvasir-VQA-x1, the intervention code that defines the C1-C6 ladder,
 the statistics (VDD, McNemar, Cohen's *g*, bootstrap, multi-seed aggregation),
-the Counterfactual Consistency Rate, and **the per-item predictions of every
-model, seed and condition** — 549 prediction files, 492 paired comparisons
-against the intact condition, and 145 multi-seed aggregates.
+the Counterfactual Consistency Rate, the coverage analysis that computes phi
+without running any model, and **the per-item predictions of every model, seed
+and condition** — 560 prediction files, 492 paired comparisons against the
+intact condition, and 145 multi-seed aggregates.
 
 No dataset images are redistributed. Only identifiers, model predictions and
 code.
@@ -30,25 +31,37 @@ Nothing above needs a GPU or a dataset download.
 
 | Paper | Claim | Where |
 |---|---|---|
-| Abstract, §1, §4.1 | 94% of the official Kvasir-VQA-x1 test images appear in its training set | `docs/LEAKAGE.md` |
+| Abstract, §1, §4.1 | 3,821 of 4,058 official Kvasir-VQA-x1 test images appear in its training set | `docs/LEAKAGE.md` |
 | Abstract, §1, §4.1 | Release of a stratified, leakage-free split | `data/kvasir_clean_split/` |
 | §4.1 | *"a test asserts that no image appears in two partitions"* | `tests/prepro/test_build_kvasir_clean_split.py` |
-| §3.2 | The intervention ladder C1, C2, C4, C5, C6 | `src/interventions/` |
-| §3.3 | VDD — accuracy drop over the whole test set | `src/stats/compute_vdd.py` |
-| §3.3 | VDD **restricted to the questions an intervention touches** (this is what Table 1 reports for C5/C6) | `src/stats/conditional_vdd.py` |
-| §3.4 | McNemar, Cohen's *g*, paired bootstrap CI | `src/stats/compute_vdd.py` |
-| §3.5 | Counterfactual Consistency Rate | `src/analysis/ccr.py` |
-| §5.4 | CCR by answer slice — aggregate, single-valued, list | `src/analysis/ccr_slices.py` |
-| §5.3, §5.4 | The same-procedure and cross-procedure C5 subsets | `src/analysis/ccr_sameproc.py` |
-| §5, Table 1 | The whole table, rebuilt from the predictions | `src/analysis/build_table1.py` |
-| §5.2 | Accuracy and VDD split by question type (official open/closed label) | `src/analysis/question_type.py` |
-| §3.6 | Multi-seed aggregation (mean ± sd; *k*/3 significance) | `src/stats/compute_multiseed.py` |
+| §3.2 | The intervention ladder C1-C6 (Figure 2) | `src/interventions/` |
+| §3.3 | VDD over the whole test set | `src/stats/compute_vdd.py` |
+| §3.3 | VDD **restricted to the questions an intervention touches** (what Table 3 reports for C5/C6) | `src/stats/conditional_vdd.py` |
+| §3.7 | McNemar, Cohen's *g*, paired bootstrap CI | `src/stats/compute_vdd.py` |
+| §3.4 | Counterfactual Consistency Rate and the fraction phi | `src/analysis/ccr.py` |
+| §3.4, §5.1 | **The identity**: the CCR is the accuracy under C0 on the donor items, verified cell by cell | `src/analysis/identity.py` |
+| §3.5, §5.2 | The swap cost as a function of phi and accuracy | `src/analysis/ccr_slices.py`, `src/analysis/ccr_sameproc.py` |
+| §3.6, §5.5 | Complementary-pair accuracy and the departure from independence | `src/analysis/complementary_pairs.py` |
+| **§5.3, Figure 4** | **Coverage analysis on six benchmarks: where phi is estimable and at what scale, computed without any model** | `src/analysis/coverage.py`, `docs/COVERAGE.md` |
+| §5.3 | Downloading the external benchmarks of the coverage analysis | `src/analysis/fetch_coverage_data.py` |
+| §5.4 | Permutation test and Welch's ANOVA on the spread among configurations | `src/stats/spread_tests.py` |
+| §5.4 | Monotonicity of VDD with severity under occlusion and noise | `src/analysis/severity.py` |
+| §5.4 | The question-only floor (M0) | `src/baselines/question_only.py` |
+| §5.6 | The noise floor: same environment against across environments | `src/analysis/noise_floor.py` |
+| §5.1 | CCR by answer slice — aggregate, single-valued, list | `src/analysis/ccr_slices.py` |
+| §5.2 | The same-procedure and cross-procedure C5 subsets | `src/analysis/ccr_sameproc.py`, `src/analysis/subset_vdd.py` |
+| §4.1 | Accuracy and VDD split by question type (official open/closed label) | `src/analysis/question_type.py` |
+| §3.8 | Multi-seed aggregation (mean ± sd; *k*/3 significance) | `src/stats/compute_multiseed.py` |
 | §4.2 | Training hyperparameters of every fine-tuned configuration | `configs/` |
-| §5, Table 1 | All numbers | `results/` (see below) |
-| Figures 2–5 | Plots | `src/analysis/make_figs.py` + `data/fig_data.json` |
-| Figures 2–5 | The data behind them, rebuilt from the predictions | `src/analysis/build_fig_data.py` |
-| §5.3 | VDD on the C5 subsets (same/cross procedure, C6-only) | `src/analysis/subset_vdd.py` |
-| §5.6 | Noise floor of the protocol | `src/analysis/noise_floor.py` + `docs/NOISE_FLOOR.md` |
+| **Table 3** | The whole table, rebuilt from the predictions | `src/analysis/build_table1.py` |
+| Table 3 | All numbers | `results/` (see below) |
+| Figures 2-4 | Plots | `src/analysis/make_figs.py` + `data/fig_data.json` |
+| Figures 2-4 | The data behind them, rebuilt from the predictions | `src/analysis/build_fig_data.py` |
+
+The module is called `build_table1.py` because the main results table was
+Table 1 in an earlier draft; it is Table 3 in the paper. The name is kept
+because it appears in the provenance of generated files, and renaming it would
+break the link between them and the code that produced them.
 
 ---
 

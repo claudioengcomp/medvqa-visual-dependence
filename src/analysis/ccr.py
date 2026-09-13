@@ -29,7 +29,14 @@ That comparison never merges distinct reference answers of the same question:
 within a question template, no two reference answers of the three benchmarks
 compare as equal (0 of 260 reference strings in Kvasir-VQA-x1, 0 of 130 in
 SLAKE, 0 of 120 in VQA-RAD), so no prediction can match both the original
-reference and the donor's. The informative sets are 5,218 = 3,936 + 1,282 in
+reference and the donor's.
+
+Section 5.3 of the paper reports the same zero numerator over a LARGER
+denominator -- 0 of 353, 0 of 268 and 0 of 13 -- because it counts over the
+whole test set, the set phi is defined on, while the counts above cover only
+the templates that enter this module's informative computation. Both are
+correct for what they measure; src/analysis/coverage.py computes the second and
+docs/COVERAGE.md records the difference. The informative sets are 5,218 = 3,936 + 1,282 in
 Kvasir under C5, 92 in SLAKE under C6, and 1 in VQA-RAD.
 
 The donor mapping and the per-question references come from the swap map
