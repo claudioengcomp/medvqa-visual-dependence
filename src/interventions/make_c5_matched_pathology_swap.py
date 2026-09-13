@@ -40,7 +40,7 @@ verified:
         --input data/finetune_arrows/vqa_kvasir_test.arrow \
         --pathology-labels data/finetune_arrows/vqa_kvasir_test_pathology_labels.json \
         --output data/finetune_arrows/vqa_kvasir_test_c5.arrow \
-        --manifest results/C5_manifest_KVASIR.json \
+        --manifest results/C5_manifest_KVASIR_clean.json \
         --examples-dir results/c5_examples_kvasir --n-examples 10 \
         --allowed-categories polyp "ulcerative colitis" oesophagitis \
         --seed 42

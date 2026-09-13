@@ -24,7 +24,7 @@ Usage (inside the M3AE environment, cwd = repository root):
         --model M3AE --dataset SLAKE --condition C1 \
         --dataset-key vqa_slack \
         --checkpoint downloaded/finetuned/vqa/slack/m3ae_finetuned_vqa_slack_84.3.ckpt \
-        --output results/M3AE_SLAKE_C1.json
+        --output results/M3AE_SCRATCH_SLAKE_C1.json
 
 Kvasir (clean split, vqa_label_size=500 -- see the build_m3ae_config docstring):
     python -m src.inference.extract_predictions_m3ae \

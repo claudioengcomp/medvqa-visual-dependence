@@ -16,7 +16,7 @@ Two modes are supported, depending on what the result records make available:
 Usage:
     python -m src.stats.compute_vdd \
         --c0 results/M3AE_SCRATCH_SLAKE_C0.json --c1 results/M3AE_SCRATCH_SLAKE_C1.json \
-        --output results/M3AE_SLAKE_vs_C0.json
+        --output results/M3AE_SCRATCH_SLAKE_C1_vs_C0.json
 """
 from __future__ import annotations
 

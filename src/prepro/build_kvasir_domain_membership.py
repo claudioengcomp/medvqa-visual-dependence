@@ -14,8 +14,8 @@ build_slake_pathology_labels.build_slake_bucket_membership plays for SLAKE.
 Usage:
     python -m src.prepro.build_kvasir_domain_membership \
         --input data/finetune_arrows/vqa_kvasir_test.arrow \
-        --output-colonoscopy results/kvasir_bucket_colonoscopy.json \
-        --output-gastroscopy results/kvasir_bucket_gastroscopy.json
+        --output-colonoscopy results/kvasir_clean_bucket_colonoscopy.json \
+        --output-gastroscopy results/kvasir_clean_bucket_gastroscopy.json
 """
 from __future__ import annotations
 

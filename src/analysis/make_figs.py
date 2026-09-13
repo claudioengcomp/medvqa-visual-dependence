@@ -30,7 +30,7 @@ def combos(ds):
     out=[]
     for o in ORDER:
         for b in C:
-            if b.startswith(o) and b.endswith(ds) and b!='M3AE_SLAKE': out.append(b)
+            if b.startswith(o) and b.endswith(ds): out.append(b)
     return out
 # ---------- Fig 1: Acc x VDD, C1 and C2
 fig,axes=plt.subplots(2,3,figsize=(6.9,2.25),sharex=True,sharey=True)

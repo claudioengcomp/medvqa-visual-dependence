@@ -1376,26 +1376,6 @@
     "n": 3
    }
   },
-  "M3AE_SLAKE": {
-   "C2": {
-    "followed_donor": 0.8571428571428571,
-    "kept_original": 0.02857142857142857,
-    "neither": 0.11428571428571428,
-    "n": 70
-   },
-   "C5": {
-    "followed_donor": 0.2777777777777778,
-    "kept_original": 0.2222222222222222,
-    "neither": 0.5,
-    "n": 18
-   },
-   "C6": {
-    "followed_donor": 0.7065217391304348,
-    "kept_original": 0.09782608695652174,
-    "neither": 0.1956521739130435,
-    "n": 92
-   }
-  },
   "MEDVLTHINKER_ZEROSHOT_KVASIR": {
    "C5_same": [
     0.13228035538005922,
