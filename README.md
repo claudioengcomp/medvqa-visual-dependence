@@ -9,8 +9,10 @@ split of Kvasir-VQA-x1, the intervention code that defines the C1-C6 ladder,
 the statistics (VDD, McNemar, Cohen's *g*, bootstrap, multi-seed aggregation),
 the Counterfactual Consistency Rate, the coverage analysis that computes phi
 without running any model, and **the per-item predictions of every model, seed
-and condition** — 560 prediction files, 492 paired comparisons against the
-intact condition, and 145 multi-seed aggregates.
+and condition** — 560 prediction files, 463 paired comparisons against the
+intact condition (482 comparison files on disk, 19 of them the question-only
+baseline, whose predictions do not change and which has b = c = 0 in every
+condition), and 145 multi-seed aggregates.
 
 No dataset images are redistributed. Only identifiers, model predictions and
 code.
