@@ -1,0 +1,30 @@
+{
+  "model": "M0_question_only",
+  "dataset": "KVASIR",
+  "condition": "C5",
+  "accuracy_c0": 0.6573893682159755,
+  "accuracy_other": 0.6573893682159755,
+  "ldv": 0.0,
+  "paired": true,
+  "ci_c0": [
+    0.6482976157342982,
+    0.6660172557751183
+  ],
+  "ci_other": [
+    0.648390388718805,
+    0.666295574728639
+  ],
+  "n_paired": 10779,
+  "mcnemar": {
+    "statistic": 0.0,
+    "p_value": 1.0,
+    "method": "exact",
+    "b": 0,
+    "c": 0,
+    "cohens_g": null
+  },
+  "ldv_ci_paired": [
+    0.0,
+    0.0
+  ]
+}
