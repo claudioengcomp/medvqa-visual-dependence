@@ -49,7 +49,8 @@ Nothing above needs a GPU or a dataset download.
 | §5.3 | Downloading the external benchmarks of the coverage analysis | `src/analysis/fetch_coverage_data.py` |
 | §5.4 | Permutation test and Welch's ANOVA on the spread among configurations | `src/stats/spread_tests.py` |
 | §5.4 | Monotonicity of VDD with severity under occlusion and noise | `src/analysis/severity.py` |
-| §5.4 | The question-only floor (M0) | `src/baselines/question_only.py` |
+| §5.4 | The question-only floor (M0) on SLAKE and VQA-RAD, closed questions only | `src/baselines/question_only.py` |
+| §5.4 | The question-only floor (M0) on Kvasir-VQA-x1 — 65.74% (7,086/10,779), every question | `src/baselines/question_only_kvasir.py` |
 | §5.6 | The noise floor: same environment against across environments | `src/analysis/noise_floor.py` |
 | §5.1 | CCR by answer slice — aggregate, single-valued, list | `src/analysis/ccr_slices.py` |
 | §5.2 | The same-procedure and cross-procedure C5 subsets | `src/analysis/ccr_sameproc.py`, `src/analysis/subset_vdd.py` |
