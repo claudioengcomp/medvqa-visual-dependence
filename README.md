@@ -80,9 +80,9 @@ the test of whether a swapped question is informative.
 
 | Quantity, Kvasir-VQA-x1 under C5 | Value |
 |---|---|
-| CCR over all 5,218 informative questions per seed | **79.3 - 80.7%** |
-| ... on the 3,936 with single-valued answers | **89.7 - 90.9%** |
-| ... on the 1,282 whose answer is a list | **46.6 - 49.6%** |
+| CCR over all 5,216 informative questions per seed | **79.3 - 80.8%** |
+| ... on the 3,935 with single-valued answers | **89.6 - 90.9%** |
+| ... on the 1,281 whose answer is a list | **46.5 - 49.6%** |
 | answers keeping the original reference | **2.6 - 4.4%** |
 | same-procedure subset (2,026 questions per seed) | **82.4 - 84.2%** |
 | standard deviation across seeds | up to **1.0 pp** |
@@ -216,6 +216,26 @@ python -m src.analysis.ccr_sameproc --subset same
 `data/swapmap.json` ships precomputed, so CCR is verifiable without
 regenerating any intervention data.
 
+**Corrected donor map (Kvasir-VQA-x1, C5 and C6).** The Kvasir block of
+`data/swapmap.json` carries the corrected donor assignments of
+`results/C5_manifest_KVASIR_clean.json` (611 donors) and
+`results/C6_manifest_KVASIR_clean.json` (777 donors), the manifests the paper
+counts on: |S_T| = 8,934, |I| = 5,216, |U| = 2,886, |N| = 832 under C5 and
+10,265 questions under C6. The earlier map, recovered from the intervened
+arrows by matching image bytes, listed six phantom rows (six images with one
+question each that received no donor in the manifests) and one image whose
+donor differs; it is kept unchanged as `data/swapmap_v3.json` for the record.
+The six removed rows change the informative set by two items (qids 2000405 and
+2000414) and the CCR range by at most 0.1 pp.
+Quantities the submitted paper computed on the earlier map move by at most
+0.1 pp under the corrected one, and four of them change at one decimal:
+VDD(C5) of Qwen2-VL DoRA 46.9 -> 47.0 and VDD(C6) of Qwen2-VL LoRA
+42.3 -> 42.4 (Table 3), the C6 spread among configurations 1.66 -> 1.67 pp
+(Section 5.4) and the largest joint pair accuracy 0.668 -> 0.669
+(Section 5.5); the same-procedure partition of Section 5.2 has 240 same and
+369 cross pairs with 2, not 8, pairs lacking the procedure label. The tests in
+`tests/analysis/` pin the corrected values.
+
 ### 3. Regenerate everything from the datasets (needs downloads and a GPU)
 
 See `docs/REPRODUCING.md`.
@@ -227,7 +247,8 @@ See `docs/REPRODUCING.md`.
 ```
 data/
   kvasir_clean_split/   split_map.csv, qid_map.csv — the leakage-free split
-  swapmap.json       donor of every swapped image + reference answers (for CCR)
+  swapmap.json          donor of every swapped image + reference answers (for CCR); corrected Kvasir C5/C6 map
+  swapmap_v3.json       the earlier map recovered from the arrows (six phantom rows; kept for the record)
   fig_data.json         aggregated data behind Figures 2–5
 src/
   prepro/               construction of the clean split and of the domain/finding labels

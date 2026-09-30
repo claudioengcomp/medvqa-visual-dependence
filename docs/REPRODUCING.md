@@ -45,7 +45,7 @@ label keep their original image, and a question whose image did not change
 produces the same prediction under C0 and under the intervention. Table 1
 therefore reports VDD restricted to the subset the intervention actually
 touches (Section 3.3); the coverage is printed in each group header of the
-table (on Kvasir-VQA-x1: 8,940 questions for C5, 10,271 for C6, out of 10,779).
+table (on Kvasir-VQA-x1: 8,934 questions for C5, 10,265 for C6, out of 10,779).
 
 The aggregates in `results/multiseed/` are **unconditional** — computed over
 all 10,779 questions. They are smaller than Table 1 by exactly the coverage
@@ -56,7 +56,7 @@ python -m src.stats.conditional_vdd --model M3AE_KVASIR          --dataset KVASI
 python -m src.stats.conditional_vdd --model SMOLVLM_LORA_KVASIR  --dataset KVASIR --condition C5
 ```
 
-Expected for the first: 8,940 questions in S_T, VDD 46.4 +/- 0.3, McNemar
+Expected for the first: 8,934 questions in S_T, VDD 46.4 +/- 0.3, McNemar
 significant in 3/3 seeds — the M3AE row of Table 1.
 
 ### Counterfactual Consistency Rate
@@ -66,8 +66,8 @@ python -m src.analysis.ccr --model M3AE_KVASIR_seed0 --dataset KVASIR --conditio
 python -m src.analysis.ccr --model SMOLVLM_LORA_KVASIR_seed0 --dataset KVASIR --condition C5
 ```
 
-Expected: 5,218 informative questions per seed on Kvasir-VQA-x1 under C5, and a
-CCR of 79.3% to 80.7% across the five fine-tuned configurations, matching
+Expected: 5,216 informative questions per seed on Kvasir-VQA-x1 under C5, and a
+CCR of 79.3% to 80.8% across the five fine-tuned configurations, matching
 Table 1. For the slices and subsets of Section 5.4:
 
 ```bash

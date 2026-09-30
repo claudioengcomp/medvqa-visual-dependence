@@ -36,17 +36,17 @@ def test_strata_partition_every_touched_question_exactly_once():
 
 
 @pytest.mark.parametrize("dataset,condition,informative", [
-    ("KVASIR", "C5", 5218), ("SLAKE", "C6", 92)])
+    ("KVASIR", "C5", 5216), ("SLAKE", "C6", 92)])
 def test_informative_set_sizes_match_the_paper(dataset, condition, informative):
     r = run(dataset, condition, RESULTS, SWAPMAP)
     assert r["informative"] == informative
 
 
 def test_kvasir_c5_strata_sizes_match_section_5_2(records):
-    """|I| = 5,218, |U| = 2,892 and |N| = 830 over |S_T| = 8,940."""
+    """|I| = 5,216, |U| = 2,886 and |N| = 832 over |S_T| = 8,934 (corrected donor map, Section 5.2)."""
     r = records[0]
-    assert (r["informative"], r["same_ref"], r["novel"]) == (5218, 2892, 830)
-    assert r["informative"] + r["same_ref"] + r["novel"] == 8940
+    assert (r["informative"], r["same_ref"], r["novel"]) == (5216, 2886, 832)
+    assert r["informative"] + r["same_ref"] + r["novel"] == 8934
 
 
 def test_identity_holds_in_27_of_30_cells(records):

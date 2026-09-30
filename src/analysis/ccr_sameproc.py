@@ -8,7 +8,7 @@ the same-procedure pairs are the nearest donors available.
 The procedure label is not a separate artifact. Kvasir-VQA-x1 carries it as an
 ordinary question -- "What type of procedure is the image taken from?" -- whose
 answer is colonoscopy or gastroscopy, so it is read straight out of the swap
-map. It covers 776 of the 1,291 test images; the 8 C5 pairs where either side
+map. It covers 776 of the 1,291 test images; the 2 C5 pairs where either side
 lacks the label are excluded from both subsets rather than guessed.
 
 Answers are scored with `answers_match` from ccr.py: one ruler, the same one

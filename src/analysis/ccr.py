@@ -36,7 +36,7 @@ denominator -- 0 of 353, 0 of 268 and 0 of 13 -- because it counts over the
 whole test set, the set phi is defined on, while the counts above cover only
 the templates that enter this module's informative computation. Both are
 correct for what they measure; src/analysis/coverage.py computes the second and
-docs/COVERAGE.md records the difference. The informative sets are 5,218 = 3,936 + 1,282 in
+docs/COVERAGE.md records the difference. The informative sets are 5,216 = 3,935 + 1,281 in
 Kvasir under C5, 92 in SLAKE under C6, and 1 in VQA-RAD.
 
 The donor mapping and the per-question references come from the swap map
@@ -72,7 +72,7 @@ def question_key(q) -> str:
     image?", so it must stay a stable dictionary key. Deliberately does not go
     through normalize_text(): stripping punctuation would change these keys and
     could merge or split templates, which would change the size of the
-    informative set. That size is a published quantity (5,218 in Kvasir under
+    informative set. That size is a published quantity (5,216 in Kvasir under
     C5) and must not move as a side effect of the answer-scoring rule.
     """
     return re.sub(r"\s+", " ", str(q).strip().lower())

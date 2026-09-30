@@ -30,11 +30,11 @@ def test_list_slice_triggers_on_either_side():
 
 
 def test_kvasir_c5_slice_sizes_match_the_paper():
-    """5,218 informative per seed = 3,936 single-valued + 1,282 list."""
+    """5,216 informative per seed = 3,935 single-valued + 1,281 list (corrected donor map)."""
     record = run("KVASIR", "C5", RESULTS, SWAPMAP)["M3AE_KVASIR"]
-    assert record["all"]["n"] == 5218
-    assert record["single"]["n"] == 3936
-    assert record["list"]["n"] == 1282
+    assert record["all"]["n"] == 5216
+    assert record["single"]["n"] == 3935
+    assert record["list"]["n"] == 1281
     assert record["single"]["n"] + record["list"]["n"] == record["all"]["n"]
 
 
@@ -67,7 +67,7 @@ def test_same_procedure_partition_matches_the_paper():
     parts = split_donor_map(entry["swap"]["C5"], procedure_by_image(qid_meta))
     assert len(parts["same"]) == 240
     assert len(parts["cross"]) == 369
-    assert len(parts["unlabelled"]) == 8
+    assert len(parts["unlabelled"]) == 2
     assert sum(len(p) for p in parts.values()) == len(entry["swap"]["C5"])
 
 

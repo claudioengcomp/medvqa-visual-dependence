@@ -22,7 +22,7 @@ RESULTS = os.path.join(REPO, "results")
 
 # Published denominators (Section 5.4): informative questions per seed.
 PUBLISHED_INFORMATIVE = {
-    ("KVASIR", "C5", "M3AE_KVASIR_seed0"): 5218,
+    ("KVASIR", "C5", "M3AE_KVASIR_seed0"): 5216,
     ("SLAKE", "C6", "M3AE_SCRATCH_SLAKE"): 92,
 }
 
