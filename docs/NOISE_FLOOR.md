@@ -33,6 +33,25 @@ independently: for each configuration, comparing the original C0 against run 1
 and against run 2 gives *identical* counts (same number of differences, same
 b, same c), which is only possible if the two runs agree exactly.
 
+## The two sources, measured on the paper's own cells (Section 5.6)
+
+Across environments: the C6 predictions of the SLAKE classifier (M3AE_SCRATCH)
+re-run in one session differ from the published file in **5.94%** of the
+rows (63 of 1,061; `results/reruns/M3AE_SCRATCH_SLAKE_C6_sameenv.json`
+against `results/M3AE_SCRATCH_SLAKE_C6.json`), the top of the 2.7-5.9% band
+above.
+
+Batch composition, same host and same arrow: re-running C0 with batch size 1
+instead of 4 changes **0.71%** of the predictions of SmolVLM2 LoRA seed 2
+(77 of 10,779; 36 change their `correct` flag) and **0.59%** of SmolVLM2 DoRA
+seed 0 (64 of 10,779; 32), on Kvasir-VQA-x1
+(`results/reruns/*_bs1.json`; `docs/v4/ccr_identity_bytes.json`). Decoding is
+greedy but not invariant to how a batch is composed.
+
+These are the three cells where the identity of Section 5.2 fails on the
+published files and holds on the re-runs (`python -m src.analysis.identity
+--all --reruns`).
+
 ## Consequence for the paper
 
 The instability reported between C5 and C6 on their shared questions
