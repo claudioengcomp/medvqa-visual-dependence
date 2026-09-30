@@ -2,7 +2,6 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .DS_Store
-figures/
 data/finetune_arrows/
 
 # Coverage-analysis inputs (Section 5.3). Not redistributable: PathVQA and
