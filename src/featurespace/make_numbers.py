@@ -641,5 +641,21 @@ L.append("<sub>kvasir_procedure_bucket.json · `%s` · the same pattern holds on
          "the official split, where the 237 unseen images carry only this "
          "template</sub>\n" % commit("docs/v4/kvasir_procedure_bucket.json"))
 
+sec("Model-derived rulers (Table 1 on the towers of the fine-tuned models, Section 3.3)")
+note("Leave-one-out kNN (k = 10) on the intact test images with the labels of Table 1, "
+     "the encoder of each fine-tuned model used as a ruler: the vision tower (`tower`) and "
+     "the projection into the language model (`proj`), fp32; mean over the three seeds per "
+     "configuration, then minimum and maximum across configurations, the paper's rule.")
+mr = J("model_rulers.json")["A_table1"]["per_config"]["kvasir_finding_in_colonoscopy"]
+ADAPTED = {"m3ae": "M3AE (fully fine-tuned)", "smolvlm_lora": "SmolVLM2 LoRA", "smolvlm_dora": "SmolVLM2 DoRA"}
+for kind in ("tower", "proj"):
+    vals = {ADAPTED[c]: mr["%s_%s" % (c, kind)]["mean"] for c in ADAPTED}
+    line("finding within colonoscopy, adapted encoders, %s" % kind,
+         "; ".join("%s %.3f" % (k, v) for k, v in vals.items()) + "; min-max %.3f-%.3f" % (min(vals.values()), max(vals.values())),
+         "model_rulers.json")
+line("finding within colonoscopy, frozen encoders",
+     "; ".join("%s %.3f" % (k, mr[k]["mean"]) for k in ("qwen2vl_base_tower", "qwen2vl_base_proj", "smolvlm_base_tower", "smolvlm_base_proj", "m3ae_base_tower", "m3ae_base_proj")),
+     "model_rulers.json")
+
 OUT.write_text("\n".join(L) + "\n")
 print("gravado %s (%d linhas)" % (OUT, len(L)))
