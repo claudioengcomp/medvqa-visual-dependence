@@ -40,19 +40,19 @@ Every number the text may cite, with the JSON it comes from and the commit that 
 - **colour along C3, VQARAD** — `0.0247 -> 0.0072 -> 0.0021  (falling)`  
   <sub>g1_results.json · `2f17051`</sub>
 - **Figure 3 points** — `145 (condition x configuration x benchmark); x is knn relative to C0, y is VDD`  
-  <sub>figs/fig3_vdd_vs_distance.json · `sem commit`</sub>
+  <sub>figs/fig3_vdd_vs_distance.json · `26a3299`</sub>
 - **VDD of the swaps at x = 0, KVASIR** — `31.0882 to 48.2054 over 15 points; C3-75 20.9296 to 30.8470`  
-  <sub>figs/fig3_vdd_vs_distance.json · `sem commit`</sub>
+  <sub>figs/fig3_vdd_vs_distance.json · `26a3299`</sub>
 - **VDD of the swaps at x = 0, SLAKE** — `-0.3497 to 39.5853 over 15 points; C3-75 29.3120 to 34.8099`  
-  <sub>figs/fig3_vdd_vs_distance.json · `sem commit`</sub>
+  <sub>figs/fig3_vdd_vs_distance.json · `26a3299`</sub>
 - **VDD of the swaps at x = 0, VQARAD** — `1.4782 to 38.1375 over 10 points; C3-75 7.5388 to 28.8248`  
-  <sub>figs/fig3_vdd_vs_distance.json · `sem commit`</sub>
+  <sub>figs/fig3_vdd_vs_distance.json · `26a3299`</sub>
 - **Figure 5 images per benchmark** — `KVASIR 1291, SLAKE 96, VQARAD 203; within the domain bucket 520, 93, 203`  
-  <sub>figs/fig5_flip_vs_distance.json · `sem commit`</sub>
+  <sub>figs/fig5_flip_vs_distance.json · `26a3299`</sub>
 - **Figure 5 rows per checkpoint** — `KVASIR 29978, SLAKE 2374, VQARAD 902 over 15 checkpoints per curve`  
-  <sub>figs/fig5_flip_vs_distance.json · `sem commit`</sub>
+  <sub>figs/fig5_flip_vs_distance.json · `26a3299`</sub>
 - **SLAKE under the colour histogram, pairs at d < 0.01** — `96 of 188 pairs`  
-  <sub>figs/fig5_flip_vs_distance.json · `sem commit`</sub>
+  <sub>figs/fig5_flip_vs_distance.json · `26a3299`</sub>
 
 ## B — donor distance
 
@@ -325,31 +325,31 @@ Every number the text may cite, with the JSON it comes from and the commit that 
 Table 1 validates the rulers on intact test images; analysis A measures distances to the training bank. The same leave-one-out kNN (k = 10) on the bank, with labels derived by the same rules, and the bank's own leave-one-out knn distance against knn_C0 of the test set. Computed on host-A in `v5_analysis/train_rulers/` (report `relatorio_reguas_treino.md`); both regressions (Table 1, 30/30 cells; analysis-A C0, 15/15) reproduce to the digit. The gastroscopy branch is excluded as in the paper.
 
 - **bank kNN within 0.02 of the test value, four content rulers** — `18 of 20 cells; exceptions: slake_modality x medsiglip +0.043 (bank 1.000); slake_modality x biomedclip +0.032 (bank 1.000)`  
-  <sub>train_rulers_table1.json · `sem commit`</sub>
+  <sub>train_rulers_table1.json · `26a3299`</sub>
 - **bank kNN within 0.02, all five rulers** — `20 of 25 cells`  
-  <sub>train_rulers_table1.json · `sem commit`</sub>
+  <sub>train_rulers_table1.json · `26a3299`</sub>
 - **bank images with a label** — `kvasir_procedure 2756 of 4514; kvasir_finding 2138 of 4514; kvasir_finding_in_colonoscopy 1479 of 4514; vqarad_organ 314 of 314; slake_modality 450 of 450`  
-  <sub>train_rulers_table1.json · `sem commit`</sub>
+  <sub>train_rulers_table1.json · `26a3299`</sub>
 - **finding within colonoscopy on the bank (n = 1479)** — `medsiglip 0.992 (test 0.986); dinov3 0.982 (test 0.967); biomedclip 0.969 (test 0.972); dinov2 0.930 (test 0.917); colorhist 0.930 (test 0.910)`  
-  <sub>train_rulers_table1.json · `sem commit`</sub>
+  <sub>train_rulers_table1.json · `26a3299`</sub>
 - **bank leave-one-out knn vs test knn_C0, KVASIR, content rulers** — `W1 0.0011-0.0023; test images above the bank median 48.0-50.1%`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 - **bank leave-one-out knn vs test knn_C0, SLAKE, content rulers** — `W1 0.0038-0.0094; test images above the bank median 42.7-52.1%`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 - **bank leave-one-out knn vs test knn_C0, VQARAD, content rulers** — `W1 0.0052-0.0190; test images above the bank median 33.0-41.4%`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 - **bank vs test distance distributions, KVASIR, medsiglip** — `train LOO mean 0.0630 median 0.0673 q10 0.0124 q90 0.1049 (n 4514); test C0 mean 0.0620 median 0.0660 q10 0.0123 q90 0.1032 (n 1291)`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 - **C1 above the bank median for every test image** — `12 of 12 content-ruler cells; median minus bank median +0.407 to +0.938`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 - **C7 above the bank median for every test image** — `12 of 12 content-ruler cells; median minus bank median +0.191 to +0.848`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 - **occlusion 75% (paper C3-75) above the bank median for every test image** — `12 of 12 content-ruler cells; median minus bank median +0.168 to +0.881`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 - **C2 above the bank median for every test image** — `0 of 12 content-ruler cells; median minus bank median -0.018 to +0.002`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 - **1-NN test to bank, KVASIR, medsiglip (agrees with the sha256 audit above)** — `35 below 1e-4; 318 below 0.01; 630 below 0.05 (bank LOO 1-NN median 0.0518)`  
-  <sub>train_rulers_distances.json · `sem commit`</sub>
+  <sub>train_rulers_distances.json · `26a3299`</sub>
 
 ## The sentence about the trivial template
 
