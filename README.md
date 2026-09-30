@@ -89,6 +89,21 @@ the test of whether a swapped question is informative.
 | SLAKE under C6 (92 informative questions per seed) | 56.9 - 69.6% |
 | VQA-RAD | fewer than four informative questions; not reportable |
 
+### Amendment E7: the zero-shot row
+
+The `MEDVLTHINKER_ZEROSHOT_*` files are re-scored under amendment E7 (dated
+19 September 2026): on closed questions, those whose reference is `yes` or
+`no`, the tokens `negative` and `positive` count as `no` and `yes`. Nothing
+else is accepted. The rule changes only the `correct` field of the items it
+touches (each one carries `"closed_synonym": "negative->no"` or
+`"positive->yes"`) and the file-level `n_correct` and `accuracy`; the predicted
+text is never edited, `answer_matches` is untouched, and every file that was
+re-scored records it under `closed_synonyms_e7` with the number of items
+flipped. The fine-tuned models and the question-only baseline never emit those
+two tokens, so no other file moves. The `_vs_C0.json` comparisons of this row
+are regenerated from the re-scored files; the Kvasir C6 file of this row is the
+only one of the row without a `closed_synonyms_e7` field.
+
 The rule never merges distinct reference answers of the same question: within a
 question template, no two reference answers of the three benchmarks compare as
 equal (0 of 260 reference strings in Kvasir-VQA-x1, 0 of 130 in SLAKE, 0 of 120

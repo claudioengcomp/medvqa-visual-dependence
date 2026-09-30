@@ -1,2716 +1,2766 @@
 {
-  "model": "MEDVLTHINKER_ZEROSHOT",
-  "dataset": "VQARAD",
-  "condition": "C4_OCC_75",
-  "accuracy": 0.2328159645232816,
-  "n": 451,
-  "n_correct": 105,
-  "predictions": [
-    {
-      "qid": 11,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 24,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 13,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 20,
-      "predicted": "pa",
-      "gold": "posterior anterior",
-      "correct": false
-    },
-    {
-      "qid": 14,
-      "predicted": "axial",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 22,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 32,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 34,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 178,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 180,
-      "predicted": "small",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 36,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 38,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 40,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 42,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2735,
-      "predicted": "left",
-      "gold": "right side",
-      "correct": false
-    },
-    {
-      "qid": 46,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 47,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2420,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 49,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 186,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 188,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 275,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 277,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 86,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 87,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 239,
-      "predicted": "nil",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 241,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 121,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 123,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 158,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 160,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 162,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 164,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 2586,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 198,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 200,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 222,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 224,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 269,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 271,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 298,
-      "predicted": "indeterminate",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 300,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2349,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 302,
-      "predicted": "think the image appears to be an xray of the chest but the central portion is completely blacked out making it impossible to assess any lung abnormalities the visible portions at the top and bottom suggest normal lung fields think answeranswer",
-      "gold": "pulmonary nodules",
-      "correct": false
-    },
-    {
-      "qid": 304,
-      "predicted": "none",
-      "gold": "pulmonary nodules",
-      "correct": false
-    },
-    {
-      "qid": 306,
-      "predicted": "stomach",
-      "gold": "free air",
-      "correct": false
-    },
-    {
-      "qid": 308,
-      "predicted": "free air",
-      "gold": "free air",
-      "correct": true
-    },
-    {
-      "qid": 493,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 495,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 310,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 415,
-      "predicted": "think the image appears to be an xray of the chest specifically the lung apices however the image is completely black which suggests that there might be a technical issue with the image acquisition or display rather than any actual abnormalities in the lung apices in a real clinical scenario if this were a patients xray one would need to check the image quality and possibly reacquire the image if it is indeed a technical issue think answeranswer",
-      "gold": "nodular opacities",
-      "correct": false
-    },
-    {
-      "qid": 417,
-      "predicted": "calcification",
-      "gold": "nodular opacities",
-      "correct": false
-    },
-    {
-      "qid": 503,
-      "predicted": "xray",
-      "gold": "x ray",
-      "correct": true
-    },
-    {
-      "qid": 319,
-      "predicted": "think the image is completely black which suggests that there might be an issue with the image acquisition or display however since the question asks about a spleen abnormality and the image content is not visible we cannot provide a description of the spleen based on this image alone think answeranswer",
-      "gold": "hypodense lesion",
-      "correct": false
-    },
-    {
-      "qid": 321,
-      "predicted": "think the image provided is completely black which suggests that there might be an issue with the image loading or a technical problem however based on the question and the typical format of such questions we are expected to identify abnormalities in the spleen from the image since the image is entirely black its impossible to determine any abnormalities visually think answeranswer",
-      "gold": "hypodense lesion",
-      "correct": false
-    },
-    {
-      "qid": 401,
-      "predicted": "1",
-      "gold": "1",
-      "correct": true
-    },
-    {
-      "qid": 402,
-      "predicted": "0",
-      "gold": "1",
-      "correct": false
-    },
-    {
-      "qid": 335,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 485,
-      "predicted": "unsure",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 487,
-      "predicted": "indeterminate",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2596,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 393,
-      "predicted": "lateral",
-      "gold": "pa",
-      "correct": false
-    },
-    {
-      "qid": 423,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 425,
-      "predicted": "normal",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 470,
-      "predicted": "pleura",
-      "gold": "right lung",
-      "correct": false
-    },
-    {
-      "qid": 472,
-      "predicted": "left",
-      "gold": "right lung",
-      "correct": false
-    },
-    {
-      "qid": 413,
-      "predicted": "think the image appears to be a crosssectional view of the abdomen likely from an ultrasound or ct scan showing the pancreas the pancreas is not visible in this image which suggests that there might be an issue with the imaging modality or the patients positioning however based on the question and the provided image it seems the pancreas itself is not the focus the question asks about what is abnormal about the pancreas but the image does not provide enough information to determine any abnormalities in the pancreas think answeranswer",
-      "gold": "enlarged",
-      "correct": false
-    },
-    {
-      "qid": 414,
-      "predicted": "agenesis",
-      "gold": "enlarged",
-      "correct": false
-    },
-    {
-      "qid": 522,
-      "predicted": "nos",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 524,
-      "predicted": "na",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 427,
-      "predicted": "lesion",
-      "gold": "ring enhancing lesions",
-      "correct": false
-    },
-    {
-      "qid": 429,
-      "predicted": "na",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 431,
-      "predicted": "frontal",
-      "gold": "right temporal lobe",
-      "correct": false
-    },
-    {
-      "qid": 433,
-      "predicted": "brain",
-      "gold": "right temporal lobe",
-      "correct": false
-    },
-    {
-      "qid": 458,
-      "predicted": "not applicable",
-      "gold": "middle mogul",
-      "correct": false
-    },
-    {
-      "qid": 460,
-      "predicted": "mass",
-      "gold": "middle mogul",
-      "correct": false
-    },
-    {
-      "qid": 462,
-      "predicted": "mass",
-      "gold": "middle mogul",
-      "correct": false
-    },
-    {
-      "qid": 475,
-      "predicted": "na",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 513,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2406,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2408,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 531,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 532,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 557,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 571,
-      "predicted": "0",
-      "gold": "1",
-      "correct": false
-    },
-    {
-      "qid": 573,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 595,
-      "predicted": "right",
-      "gold": "left",
-      "correct": false
-    },
-    {
-      "qid": 596,
-      "predicted": "right",
-      "gold": "left",
-      "correct": false
-    },
-    {
-      "qid": 709,
-      "predicted": "subcutaneous air",
-      "gold": "on right shoulder",
-      "correct": false
-    },
-    {
-      "qid": 711,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 598,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 600,
-      "predicted": "yes",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 606,
-      "predicted": "yes",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 608,
-      "predicted": "enlarged",
-      "gold": "it is less than half width of thorax",
-      "correct": false
-    },
-    {
-      "qid": 610,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 612,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 629,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 630,
-      "predicted": "metastasis",
-      "gold": "blood vessel",
-      "correct": false
-    },
-    {
-      "qid": 726,
-      "predicted": "not visible",
-      "gold": "not seen here",
-      "correct": false
-    },
-    {
-      "qid": 728,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 631,
-      "predicted": "none",
-      "gold": "above clavicles bilaterally",
-      "correct": false
-    },
-    {
-      "qid": 633,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2452,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 648,
-      "predicted": "think the image provided is completely black with no visible anatomical structures there are no visible signs of the ascending colon or any other part of the gastrointestinal tract the question cannot be answered based on this image alone think answeranswer",
-      "gold": "posterior to appendix",
-      "correct": false
-    },
-    {
-      "qid": 650,
-      "predicted": "colon",
-      "gold": "psoas muscle",
-      "correct": false
-    },
-    {
-      "qid": 663,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 735,
-      "predicted": "larger",
-      "gold": "smaller",
-      "correct": false
-    },
-    {
-      "qid": 713,
-      "predicted": "unknown",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 718,
-      "predicted": "heart",
-      "gold": "bullous lesion",
-      "correct": false
-    },
-    {
-      "qid": 720,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 722,
-      "predicted": "femur",
-      "gold": "anterior mediastinum",
-      "correct": false
-    },
-    {
-      "qid": 724,
-      "predicted": "right",
-      "gold": "right",
-      "correct": true
-    },
-    {
-      "qid": 733,
-      "predicted": "left",
-      "gold": "left",
-      "correct": true
-    },
-    {
-      "qid": 734,
-      "predicted": "colon",
-      "gold": "left",
-      "correct": false
-    },
-    {
-      "qid": 750,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 751,
-      "predicted": "axial",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 754,
-      "predicted": "brain",
-      "gold": "skull cartilage and medulla",
-      "correct": false
-    },
-    {
-      "qid": 756,
-      "predicted": "bulla",
-      "gold": "right bronchus",
-      "correct": false
-    },
-    {
-      "qid": 759,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 763,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 773,
-      "predicted": "xray",
-      "gold": "plain film x ray",
-      "correct": false
-    },
-    {
-      "qid": 797,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 780,
-      "predicted": "think the image appears to be a black screen with no visible opacities or structures the question seems to be based on an image that is not provided here as the image content is entirely black think answeranswer",
-      "gold": "small intestines",
-      "correct": false
-    },
-    {
-      "qid": 813,
-      "predicted": "think this image appears to be a blank or placeholder image possibly indicating an error or missing data in the medpix database there are no discernible features that suggest it is from a specific modality like ct mri or xray think answeranswer",
-      "gold": "ct with contrast",
-      "correct": false
-    },
-    {
-      "qid": 787,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 790,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 809,
-      "predicted": "coronal",
-      "gold": "axial",
-      "correct": false
-    },
-    {
-      "qid": 795,
-      "predicted": "kidney",
-      "gold": "diaphragm",
-      "correct": false
-    },
-    {
-      "qid": 811,
-      "predicted": "ct",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 814,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 821,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 830,
-      "predicted": "cerebellum",
-      "gold": "lateral ventricles",
-      "correct": false
-    },
-    {
-      "qid": 832,
-      "predicted": "cerebellum",
-      "gold": "lateral ventricles",
-      "correct": false
-    },
-    {
-      "qid": 840,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 842,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2652,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 844,
-      "predicted": "infratentorial",
-      "gold": "supratentorial",
-      "correct": false
-    },
-    {
-      "qid": 900,
-      "predicted": "nmr",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 874,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2660,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 906,
-      "predicted": "indeterminate",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 908,
-      "predicted": "unsure",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 910,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 912,
-      "predicted": "nil",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2600,
-      "predicted": "transverse",
-      "gold": "axial",
-      "correct": false
-    },
-    {
-      "qid": 918,
-      "predicted": "fat",
-      "gold": "fat",
-      "correct": true
-    },
-    {
-      "qid": 920,
-      "predicted": "tendon",
-      "gold": "fat",
-      "correct": false
-    },
-    {
-      "qid": 2642,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 925,
-      "predicted": "uncertain",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 926,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2545,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 946,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 948,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 950,
-      "predicted": "think the image is completely black with no visible anatomical structures including the mediastinum therefore its not possible to evaluate the mediastinum in this image think answeranswer",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 951,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 977,
-      "predicted": "heart",
-      "gold": "mid left subclavian vein",
-      "correct": false
-    },
-    {
-      "qid": 978,
-      "predicted": "heart",
-      "gold": "mid left subclavian vein",
-      "correct": false
-    },
-    {
-      "qid": 979,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 981,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 983,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 985,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1078,
-      "predicted": "thorax",
-      "gold": "pulmonary lymphatic",
-      "correct": false
-    },
-    {
-      "qid": 2741,
-      "predicted": "right lung",
-      "gold": "right of midline superior to right hilum",
-      "correct": false
-    },
-    {
-      "qid": 989,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 991,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1050,
-      "predicted": "mass",
-      "gold": "cardiomegaly with pulmonary edema",
-      "correct": false
-    },
-    {
-      "qid": 1052,
-      "predicted": "mass",
-      "gold": "cardiomegaly with pulmonary edema",
-      "correct": false
-    },
-    {
-      "qid": 1007,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 1009,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1011,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1013,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1035,
-      "predicted": "mri",
-      "gold": "t2 mri",
-      "correct": false
-    },
-    {
-      "qid": 1046,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1048,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1080,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1082,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1108,
-      "predicted": "lower lung zone",
-      "gold": "right upper lobe",
-      "correct": false
-    },
-    {
-      "qid": 1110,
-      "predicted": "right upper lobe",
-      "gold": "right upper lobe",
-      "correct": true
-    },
-    {
-      "qid": 1116,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1118,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1132,
-      "predicted": "ap",
-      "gold": "coronal",
-      "correct": false
-    },
-    {
-      "qid": 1175,
-      "predicted": "right kidney",
-      "gold": "head of pancreas",
-      "correct": false
-    },
-    {
-      "qid": 1177,
-      "predicted": "left hemisphere",
-      "gold": "head of pancreas",
-      "correct": false
-    },
-    {
-      "qid": 1185,
-      "predicted": "tail",
-      "gold": "pancreatic head",
-      "correct": false
-    },
-    {
-      "qid": 1187,
-      "predicted": "t2",
-      "gold": "t2 weighted mri",
-      "correct": false
-    },
-    {
-      "qid": 1259,
-      "predicted": "nil",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1192,
-      "predicted": "think the image provided is completely black with no discernible structures or masses visible there are no hypodense areas to identify emanating from any structure the question appears to be based on an image that does not contain the necessary information to answer think answeranswer",
-      "gold": "base of cecum",
-      "correct": false
-    },
-    {
-      "qid": 1205,
-      "predicted": "frontal",
-      "gold": "right frontal lobe",
-      "correct": false
-    },
-    {
-      "qid": 1267,
-      "predicted": "hemorrhage",
-      "gold": "regression of left frontal mass",
-      "correct": false
-    },
-    {
-      "qid": 1209,
-      "predicted": "yes",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1236,
-      "predicted": "axial",
-      "gold": "axial plane",
-      "correct": false
-    },
-    {
-      "qid": 1210,
-      "predicted": "pneumothorax",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1238,
-      "predicted": "mri",
-      "gold": "mri",
-      "correct": true
-    },
-    {
-      "qid": 1264,
-      "predicted": "left",
-      "gold": "3rd ventricle and lateral ventricles",
-      "correct": false
-    },
-    {
-      "qid": 1265,
-      "predicted": "unknown",
-      "gold": "abdomen",
-      "correct": false
-    },
-    {
-      "qid": 1266,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1268,
-      "predicted": "nil",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1273,
-      "predicted": "na",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1379,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1419,
-      "predicted": "think the image provided is completely black with no visible anatomical structures making it impossible to measure the length of the kidneys the question cannot be answered based on this image think answeranswer",
-      "gold": "coronal plane",
-      "correct": false
-    },
-    {
-      "qid": 1280,
-      "predicted": "right",
-      "gold": "right",
-      "correct": true
-    },
-    {
-      "qid": 1282,
-      "predicted": "right",
-      "gold": "right",
-      "correct": true
-    },
-    {
-      "qid": 1284,
-      "predicted": "renal vein",
-      "gold": "ivc",
-      "correct": false
-    },
-    {
-      "qid": 1286,
-      "predicted": "ivc",
-      "gold": "ivc",
-      "correct": true
-    },
-    {
-      "qid": 1307,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 1309,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 1311,
-      "predicted": "right",
-      "gold": "left",
-      "correct": false
-    },
-    {
-      "qid": 1312,
-      "predicted": "right",
-      "gold": "left",
-      "correct": false
-    },
-    {
-      "qid": 1375,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1377,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1330,
-      "predicted": "coronal",
-      "gold": "axial",
-      "correct": false
-    },
-    {
-      "qid": 1348,
-      "predicted": "think the image appears to be an xray of the chest but the entire image is black which suggests that the image may have been rotated or flipped incorrectly in a normal chest xray a pleural effusion would typically show up as a hazy area adjacent to the lung field often seen along the costophrenic angle however since the image is entirely black its impossible to determine if there is a pleural effusion present think answeranswer",
-      "gold": "right side",
-      "correct": false
-    },
-    {
-      "qid": 1350,
-      "predicted": "right",
-      "gold": "right side",
-      "correct": false
-    },
-    {
-      "qid": 1393,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 1395,
-      "predicted": "na",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1384,
-      "predicted": "think the image appears to be an axial view of a brain mri likely an flair sequence given the high signal intensity in the white matter and the lack of contrast enhancement the presence of acute infarcts is not evident from this image alone as the flair sequence is not typically used to detect acute ischemic strokes acute infarcts are often better visualized on t2weighted images or dwi sequences which show hyperintense areas corresponding to restricted diffusion think answeranswer",
-      "gold": "r frontal lobe",
-      "correct": false
-    },
-    {
-      "qid": 1386,
-      "predicted": "think the image appears to be an axial slice of a brain mri likely an flair sequence given the high signal intensity in the white matter and the lack of contrast enhancement there are no visible areas of acute infarct on this image acute infarcts typically show low signal on t1weighted images and high signal on t2weighted and flair images which is not evident here think answeranswer",
-      "gold": "r frontal lobe",
-      "correct": false
-    },
-    {
-      "qid": 1409,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1456,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1652,
-      "predicted": "none",
-      "gold": "right posteroinferior cerebellum",
-      "correct": false
-    },
-    {
-      "qid": 1654,
-      "predicted": "think the image appears to be completely black which could indicate an issue with the image acquisition or display however without additional context or information about the patients history and symptoms its impossible to determine if there is an abnormality present think answeranswer",
-      "gold": "bleeding in right posteroinferior cerebellum",
-      "correct": false
-    },
-    {
-      "qid": 1461,
-      "predicted": "mri",
-      "gold": "mri t2 weighted",
-      "correct": false
-    },
-    {
-      "qid": 1529,
-      "predicted": "mca",
-      "gold": "basilar artery",
-      "correct": false
-    },
-    {
-      "qid": 1531,
-      "predicted": "mca",
-      "gold": "basilar artery",
-      "correct": false
-    },
-    {
-      "qid": 1614,
-      "predicted": "csf",
-      "gold": "csf",
-      "correct": true
-    },
-    {
-      "qid": 1615,
-      "predicted": "csf",
-      "gold": "csf",
-      "correct": true
-    },
-    {
-      "qid": 1626,
-      "predicted": "nervous system",
-      "gold": "brain",
-      "correct": false
-    },
-    {
-      "qid": 1466,
-      "predicted": "ap",
-      "gold": "axial",
-      "correct": false
-    },
-    {
-      "qid": 1467,
-      "predicted": "axial",
-      "gold": "axial",
-      "correct": true
-    },
-    {
-      "qid": 1476,
-      "predicted": "t12",
-      "gold": "right lower lateral lung field",
-      "correct": false
-    },
-    {
-      "qid": 1478,
-      "predicted": "lumbar",
-      "gold": "right lower lateral lung field",
-      "correct": false
-    },
-    {
-      "qid": 2607,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1480,
-      "predicted": "indeterminate",
-      "gold": "3.4 cm",
-      "correct": false
-    },
-    {
-      "qid": 1482,
-      "predicted": "think the image provided is an xray of the abdomen specifically an abdominal xray the question asks about the size of a mass in the right upper quadrant however the image does not show any visible masses it appears to be a normal xray with no obvious abnormalities therefore there is no mass to measure think answeranswer",
-      "gold": "3.4 cm",
-      "correct": false
-    },
-    {
-      "qid": 1616,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1618,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1630,
-      "predicted": "right upper lobe",
-      "gold": "right upper lobe",
-      "correct": true
-    },
-    {
-      "qid": 1632,
-      "predicted": "mediastinum",
-      "gold": "right upper lobe",
-      "correct": false
-    },
-    {
-      "qid": 1651,
-      "predicted": "xray",
-      "gold": "xray",
-      "correct": true
-    },
-    {
-      "qid": 1492,
-      "predicted": "male",
-      "gold": "female",
-      "correct": false
-    },
-    {
-      "qid": 1493,
-      "predicted": "male",
-      "gold": "female",
-      "correct": false
-    },
-    {
-      "qid": 1500,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1502,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1506,
-      "predicted": "chest",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1507,
-      "predicted": "unknown",
-      "gold": "brain",
-      "correct": false
-    },
-    {
-      "qid": 1622,
-      "predicted": "cardiomegaly",
-      "gold": "hydrocephalus",
-      "correct": false
-    },
-    {
-      "qid": 1624,
-      "predicted": "hypertrophy",
-      "gold": "hydrocephalus",
-      "correct": false
-    },
-    {
-      "qid": 1512,
-      "predicted": "think the image provided is a black and white radiograph with no visible structures or hemorrhages it appears to be a placeholder or a nondiagnostic image therefore there are no structures to identify in relation to a hemorrhagethink answeranswer",
-      "gold": "left thalamus and basal ganglia",
-      "correct": false
-    },
-    {
-      "qid": 1514,
-      "predicted": "soft tissue",
-      "gold": "left thalamus and basal ganglia",
-      "correct": false
-    },
-    {
-      "qid": 1548,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2650,
-      "predicted": "old",
-      "gold": "early hemorrhage",
-      "correct": false
-    },
-    {
-      "qid": 1540,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1542,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1549,
-      "predicted": "think the image provided is a black screen with some text and a logo which does not contain any visible brain lesions or medical images therefore its not possible to determine the location of brain lesions from this image alone think answeranswer",
-      "gold": "right hemisphere",
-      "correct": false
-    },
-    {
-      "qid": 1551,
-      "predicted": "unknown",
-      "gold": "right hemisphere",
-      "correct": false
-    },
-    {
-      "qid": 1578,
-      "predicted": "temporal lobe",
-      "gold": "right cerebellopontine angle",
-      "correct": false
-    },
-    {
-      "qid": 1580,
-      "predicted": "l3",
-      "gold": "right cerebellopontine angle",
-      "correct": false
-    },
-    {
-      "qid": 1602,
-      "predicted": "bowel wall",
-      "gold": "adipose tissue",
-      "correct": false
-    },
-    {
-      "qid": 1603,
-      "predicted": "fat",
-      "gold": "adipose tissue",
-      "correct": false
-    },
-    {
-      "qid": 2425,
-      "predicted": "lung",
-      "gold": "ascending colon",
-      "correct": false
-    },
-    {
-      "qid": 1627,
-      "predicted": "none",
-      "gold": "ct",
-      "correct": false
-    },
-    {
-      "qid": 1628,
-      "predicted": "none",
-      "gold": "ct",
-      "correct": false
-    },
-    {
-      "qid": 1678,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1680,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1701,
-      "predicted": "metastasis",
-      "gold": "gallbladder",
-      "correct": false
-    },
-    {
-      "qid": 1703,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1686,
-      "predicted": "na",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1688,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2377,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1690,
-      "predicted": "lying down",
-      "gold": "supine see air fluid level",
-      "correct": false
-    },
-    {
-      "qid": 1781,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1783,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1850,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1721,
-      "predicted": "unknown",
-      "gold": "female",
-      "correct": false
-    },
-    {
-      "qid": 1722,
-      "predicted": "unknown",
-      "gold": "female",
-      "correct": false
-    },
-    {
-      "qid": 1736,
-      "predicted": "normal",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1738,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 1930,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1932,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1753,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1755,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1758,
-      "predicted": "liver",
-      "gold": "liver",
-      "correct": true
-    },
-    {
-      "qid": 1768,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1814,
-      "predicted": "lateral",
-      "gold": "lying supine with their feet towards screen",
-      "correct": false
-    },
-    {
-      "qid": 1810,
-      "predicted": "lung",
-      "gold": "maxillary sinuses",
-      "correct": false
-    },
-    {
-      "qid": 1812,
-      "predicted": "air",
-      "gold": "maxillary sinuses",
-      "correct": false
-    },
-    {
-      "qid": 1851,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1853,
-      "predicted": "knee",
-      "gold": "sacroiliac joint",
-      "correct": false
-    },
-    {
-      "qid": 2568,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1867,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 2413,
-      "predicted": "right",
-      "gold": "upper left",
-      "correct": false
-    },
-    {
-      "qid": 1872,
-      "predicted": "left",
-      "gold": "right",
-      "correct": false
-    },
-    {
-      "qid": 1874,
-      "predicted": "right",
-      "gold": "right",
-      "correct": true
-    },
-    {
-      "qid": 1884,
-      "predicted": "bones",
-      "gold": "ribs",
-      "correct": false
-    },
-    {
-      "qid": 1886,
-      "predicted": "calcification",
-      "gold": "ribs",
-      "correct": false
-    },
-    {
-      "qid": 2714,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1888,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1890,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2627,
-      "predicted": "cerebrum",
-      "gold": "basal ganglia cerebellum cerebral cortex",
-      "correct": false
-    },
-    {
-      "qid": 1892,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1894,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 1908,
-      "predicted": "heart",
-      "gold": "right vs left sided pathology",
-      "correct": false
-    },
-    {
-      "qid": 1910,
-      "predicted": "pneumothorax",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1912,
-      "predicted": "pneumothorax",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1943,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1945,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 1982,
-      "predicted": "axial",
-      "gold": "axial",
-      "correct": true
-    },
-    {
-      "qid": 2710,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1951,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1968,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2005,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2007,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2520,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 1996,
-      "predicted": "breast",
-      "gold": "intestines",
-      "correct": false
-    },
-    {
-      "qid": 2001,
-      "predicted": "obstructed",
-      "gold": "lateral and third ventricular hydrocephalus",
-      "correct": false
-    },
-    {
-      "qid": 2003,
-      "predicted": "lvh",
-      "gold": "lateral and third ventricular hydrocephalus",
-      "correct": false
-    },
-    {
-      "qid": 2035,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2037,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2458,
-      "predicted": "none",
-      "gold": "right",
-      "correct": false
-    },
-    {
-      "qid": 2043,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2045,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2563,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2082,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2084,
-      "predicted": "normal",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2094,
-      "predicted": "normal",
-      "gold": "diverticulitis",
-      "correct": false
-    },
-    {
-      "qid": 2096,
-      "predicted": "think the image provided is completely black with no discernible features or structures that could be analyzed for pathology there are no visible abnormalities lesions or any other indicators of pathology on this image think answeranswer",
-      "gold": "diverticulitis",
-      "correct": false
-    },
-    {
-      "qid": 2448,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2121,
-      "predicted": "unknown",
-      "gold": "axial",
-      "correct": false
-    },
-    {
-      "qid": 2135,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2137,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2143,
-      "predicted": "calcification",
-      "gold": "gallstones",
-      "correct": false
-    },
-    {
-      "qid": 2144,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2158,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 2160,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2166,
-      "predicted": "arteries",
-      "gold": "left aca and mca",
-      "correct": false
-    },
-    {
-      "qid": 2168,
-      "predicted": "none",
-      "gold": "left aca and mca",
-      "correct": false
-    },
-    {
-      "qid": 2185,
-      "predicted": "brain",
-      "gold": "brain",
-      "correct": true
-    },
-    {
-      "qid": 2187,
-      "predicted": "cerebrospinal fluid",
-      "gold": "caudate putamen left parietal",
-      "correct": false
-    },
-    {
-      "qid": 2475,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 2203,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2205,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2603,
-      "predicted": "none",
-      "gold": "plain film",
-      "correct": false
-    },
-    {
-      "qid": 2223,
-      "predicted": "think the image appears to be completely black which suggests that there might be an issue with the image loading or it could be a placeholder image since no organs or systems are visible its not possible to determine which organ system is shown think answeranswer",
-      "gold": "brain",
-      "correct": false
-    },
-    {
-      "qid": 2224,
-      "predicted": "think the image appears to be completely black with no discernible structures or features this could indicate that the image is either intentionally dark possibly due to a lack of light during acquisition or there might be an issue with the image file itself think answeranswer",
-      "gold": "brain",
-      "correct": false
-    },
-    {
-      "qid": 2226,
-      "predicted": "foreign body",
-      "gold": "kidney cyst",
-      "correct": false
-    },
-    {
-      "qid": 2228,
-      "predicted": "foreign body",
-      "gold": "kidney cyst",
-      "correct": false
-    },
-    {
-      "qid": 2254,
-      "predicted": "indeterminate",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2256,
-      "predicted": "na",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2257,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2259,
-      "predicted": "na",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2261,
-      "predicted": "na",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2263,
-      "predicted": "na",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2268,
-      "predicted": "mri",
-      "gold": "axial",
-      "correct": false
-    },
-    {
-      "qid": 2269,
-      "predicted": "sagittal",
-      "gold": "axial",
-      "correct": false
-    },
-    {
-      "qid": 2479,
-      "predicted": "unknown",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2310,
-      "predicted": "tuberosities",
-      "gold": "diaphragm",
-      "correct": false
-    },
-    {
-      "qid": 2552,
-      "predicted": "shoulder",
-      "gold": "anterior mediastinum",
-      "correct": false
-    },
-    {
-      "qid": 2311,
-      "predicted": "normal",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2313,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2515,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2318,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2320,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2465,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2328,
-      "predicted": "skull",
-      "gold": "chest",
-      "correct": false
-    },
-    {
-      "qid": 2333,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2335,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2352,
-      "predicted": "left ventricle",
-      "gold": "4th ventricle",
-      "correct": false
-    },
-    {
-      "qid": 2369,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2371,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2372,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2381,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2383,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2391,
-      "predicted": "xray",
-      "gold": "xr",
-      "correct": false
-    },
-    {
-      "qid": 3136,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 3138,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2417,
-      "predicted": "none",
-      "gold": "mucosal hyperemia",
-      "correct": false
-    },
-    {
-      "qid": 2428,
-      "predicted": "artifact",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2430,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 2481,
-      "predicted": "ribs",
-      "gold": "mediport",
-      "correct": false
-    },
-    {
-      "qid": 2509,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2524,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2538,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2546,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2554,
-      "predicted": "solid",
-      "gold": "cystic",
-      "correct": false
-    },
-    {
-      "qid": 2581,
-      "predicted": "unknown",
-      "gold": "5mm",
-      "correct": false
-    },
-    {
-      "qid": 2592,
-      "predicted": "yes",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2594,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2598,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2957,
-      "predicted": "normal",
-      "gold": "abnormal",
-      "correct": false
-    },
-    {
-      "qid": 2958,
-      "predicted": "normal",
-      "gold": "abnormal",
-      "correct": false
-    },
-    {
-      "qid": 3084,
-      "predicted": "kidney",
-      "gold": "proximal aspect of appendix",
-      "correct": false
-    },
-    {
-      "qid": 3086,
-      "predicted": "none",
-      "gold": "proximal aspect of appendix",
-      "correct": false
-    },
-    {
-      "qid": 2611,
-      "predicted": "abnormal",
-      "gold": "abnormal",
-      "correct": true
-    },
-    {
-      "qid": 2617,
-      "predicted": "mri",
-      "gold": "mri",
-      "correct": true
-    },
-    {
-      "qid": 2623,
-      "predicted": "dark",
-      "gold": "frontal and occipital",
-      "correct": false
-    },
-    {
-      "qid": 2632,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2651,
-      "predicted": "negative",
-      "gold": "on patient's left",
-      "correct": false
-    },
-    {
-      "qid": 2662,
-      "predicted": "right",
-      "gold": "bilateral lungs",
-      "correct": false
-    },
-    {
-      "qid": 2682,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2691,
-      "predicted": "t1",
-      "gold": "dwi diffusion weighted",
-      "correct": false
-    },
-    {
-      "qid": 2702,
-      "predicted": "yes",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2716,
-      "predicted": "us",
-      "gold": "ct",
-      "correct": false
-    },
-    {
-      "qid": 2721,
-      "predicted": "unsure",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2949,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2951,
-      "predicted": "hyperinflation",
-      "gold": "hyperinflation",
-      "correct": true
-    },
-    {
-      "qid": 2724,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 3059,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 3061,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2726,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2788,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 2790,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 2731,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2745,
-      "predicted": "negative",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2752,
-      "predicted": "0",
-      "gold": "2.5cm x 1.7cm x 1.6cm",
-      "correct": false
-    },
-    {
-      "qid": 2770,
-      "predicted": "none",
-      "gold": "both",
-      "correct": false
-    },
-    {
-      "qid": 2771,
-      "predicted": "unilateral",
-      "gold": "bilateral",
-      "correct": false
-    },
-    {
-      "qid": 2952,
-      "predicted": "flat",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2954,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2817,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2818,
-      "predicted": "yes",
-      "gold": "yes",
-      "correct": true
-    },
-    {
-      "qid": 2845,
-      "predicted": "xray",
-      "gold": "no",
-      "correct": false
-    },
-    {
-      "qid": 2940,
-      "predicted": "calcification",
-      "gold": "calcified atherosclerosis",
-      "correct": false
-    },
-    {
-      "qid": 2942,
-      "predicted": "fat",
-      "gold": "calcified atherosclerosis",
-      "correct": false
-    },
-    {
-      "qid": 2821,
-      "predicted": "abdomen",
-      "gold": "stomach",
-      "correct": false
-    },
-    {
-      "qid": 2823,
-      "predicted": "lung",
-      "gold": "stomach",
-      "correct": false
-    },
-    {
-      "qid": 2834,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2837,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2839,
-      "predicted": "negative",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2878,
-      "predicted": "artifact",
-      "gold": "motion",
-      "correct": false
-    },
-    {
-      "qid": 2880,
-      "predicted": "metallic",
-      "gold": "motion",
-      "correct": false
-    },
-    {
-      "qid": 2902,
-      "predicted": "axial",
-      "gold": "axial",
-      "correct": true
-    },
-    {
-      "qid": 2903,
-      "predicted": "axial",
-      "gold": "axial",
-      "correct": true
-    },
-    {
-      "qid": 2904,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2905,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 2938,
-      "predicted": "t2",
-      "gold": "flair",
-      "correct": false
-    },
-    {
-      "qid": 2939,
-      "predicted": "mri",
-      "gold": "mr flair",
-      "correct": false
-    },
-    {
-      "qid": 2970,
-      "predicted": "think the image provided is completely black which suggests that there might be an issue with the image acquisition or display however since the question asks for the sequence of the mri and there is no visible information about the sequence we cannot determine the correct sequence from this image alone think answeranswer",
-      "gold": "t2 weighted",
-      "correct": false
-    },
-    {
-      "qid": 3055,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 3057,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 2987,
-      "predicted": "think the image appears to be a dark screen with no visible anatomical structures or abnormalities it could be due to an error in image acquisition or display think answeranswer",
-      "gold": "soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy",
-      "correct": false
-    },
-    {
-      "qid": 2989,
-      "predicted": "technicalerror",
-      "gold": "soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy",
-      "correct": false
-    },
-    {
-      "qid": 3132,
-      "predicted": "no",
-      "gold": "yes",
-      "correct": false
-    },
-    {
-      "qid": 3001,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 3003,
-      "predicted": "no",
-      "gold": "no",
-      "correct": true
-    },
-    {
-      "qid": 3015,
-      "predicted": "metallic artifact",
-      "gold": "cavum vergae",
-      "correct": false
-    },
-    {
-      "qid": 3017,
-      "predicted": "gas",
-      "gold": "cavum vergae",
-      "correct": false
-    },
-    {
-      "qid": 3026,
-      "predicted": "ct",
-      "gold": "mri",
-      "correct": false
-    },
-    {
-      "qid": 3027,
-      "predicted": "ct",
-      "gold": "mri",
-      "correct": false
-    },
-    {
-      "qid": 3030,
-      "predicted": "coronal",
-      "gold": "axial",
-      "correct": false
-    },
-    {
-      "qid": 3063,
-      "predicted": "osteoarthritis",
-      "gold": "appendicitis",
-      "correct": false
-    },
-    {
-      "qid": 3064,
-      "predicted": "normal",
-      "gold": "appendicitis",
-      "correct": false
-    }
-  ]
+ "model": "MEDVLTHINKER_ZEROSHOT",
+ "dataset": "VQARAD",
+ "condition": "C4_OCC_75",
+ "accuracy": 0.328159645232816,
+ "n": 451,
+ "n_correct": 148,
+ "predictions": [
+  {
+   "qid": 11,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 24,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 13,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 20,
+   "predicted": "pa",
+   "gold": "posterior anterior",
+   "correct": false
+  },
+  {
+   "qid": 14,
+   "predicted": "axial",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 22,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 32,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 34,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 178,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 180,
+   "predicted": "small",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 36,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 38,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 40,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 42,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2735,
+   "predicted": "left",
+   "gold": "right side",
+   "correct": false
+  },
+  {
+   "qid": 46,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 47,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2420,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 49,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 186,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 188,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 275,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 277,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 86,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 87,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 239,
+   "predicted": "nil",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 241,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 121,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 123,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 158,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 160,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 162,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 164,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 2586,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 198,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 200,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 222,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 224,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 269,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 271,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 298,
+   "predicted": "indeterminate",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 300,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2349,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 302,
+   "predicted": "think the image appears to be an xray of the chest but the central portion is completely blacked out making it impossible to assess any lung abnormalities the visible portions at the top and bottom suggest normal lung fields think answeranswer",
+   "gold": "pulmonary nodules",
+   "correct": false
+  },
+  {
+   "qid": 304,
+   "predicted": "none",
+   "gold": "pulmonary nodules",
+   "correct": false
+  },
+  {
+   "qid": 306,
+   "predicted": "stomach",
+   "gold": "free air",
+   "correct": false
+  },
+  {
+   "qid": 308,
+   "predicted": "free air",
+   "gold": "free air",
+   "correct": true
+  },
+  {
+   "qid": 493,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 495,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 310,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 415,
+   "predicted": "think the image appears to be an xray of the chest specifically the lung apices however the image is completely black which suggests that there might be a technical issue with the image acquisition or display rather than any actual abnormalities in the lung apices in a real clinical scenario if this were a patients xray one would need to check the image quality and possibly reacquire the image if it is indeed a technical issue think answeranswer",
+   "gold": "nodular opacities",
+   "correct": false
+  },
+  {
+   "qid": 417,
+   "predicted": "calcification",
+   "gold": "nodular opacities",
+   "correct": false
+  },
+  {
+   "qid": 503,
+   "predicted": "xray",
+   "gold": "x ray",
+   "correct": true
+  },
+  {
+   "qid": 319,
+   "predicted": "think the image is completely black which suggests that there might be an issue with the image acquisition or display however since the question asks about a spleen abnormality and the image content is not visible we cannot provide a description of the spleen based on this image alone think answeranswer",
+   "gold": "hypodense lesion",
+   "correct": false
+  },
+  {
+   "qid": 321,
+   "predicted": "think the image provided is completely black which suggests that there might be an issue with the image loading or a technical problem however based on the question and the typical format of such questions we are expected to identify abnormalities in the spleen from the image since the image is entirely black its impossible to determine any abnormalities visually think answeranswer",
+   "gold": "hypodense lesion",
+   "correct": false
+  },
+  {
+   "qid": 401,
+   "predicted": "1",
+   "gold": "1",
+   "correct": true
+  },
+  {
+   "qid": 402,
+   "predicted": "0",
+   "gold": "1",
+   "correct": false
+  },
+  {
+   "qid": 335,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 485,
+   "predicted": "unsure",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 487,
+   "predicted": "indeterminate",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2596,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 393,
+   "predicted": "lateral",
+   "gold": "pa",
+   "correct": false
+  },
+  {
+   "qid": 423,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 425,
+   "predicted": "normal",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 470,
+   "predicted": "pleura",
+   "gold": "right lung",
+   "correct": false
+  },
+  {
+   "qid": 472,
+   "predicted": "left",
+   "gold": "right lung",
+   "correct": false
+  },
+  {
+   "qid": 413,
+   "predicted": "think the image appears to be a crosssectional view of the abdomen likely from an ultrasound or ct scan showing the pancreas the pancreas is not visible in this image which suggests that there might be an issue with the imaging modality or the patients positioning however based on the question and the provided image it seems the pancreas itself is not the focus the question asks about what is abnormal about the pancreas but the image does not provide enough information to determine any abnormalities in the pancreas think answeranswer",
+   "gold": "enlarged",
+   "correct": false
+  },
+  {
+   "qid": 414,
+   "predicted": "agenesis",
+   "gold": "enlarged",
+   "correct": false
+  },
+  {
+   "qid": 522,
+   "predicted": "nos",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 524,
+   "predicted": "na",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 427,
+   "predicted": "lesion",
+   "gold": "ring enhancing lesions",
+   "correct": false
+  },
+  {
+   "qid": 429,
+   "predicted": "na",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 431,
+   "predicted": "frontal",
+   "gold": "right temporal lobe",
+   "correct": false
+  },
+  {
+   "qid": 433,
+   "predicted": "brain",
+   "gold": "right temporal lobe",
+   "correct": false
+  },
+  {
+   "qid": 458,
+   "predicted": "not applicable",
+   "gold": "middle mogul",
+   "correct": false
+  },
+  {
+   "qid": 460,
+   "predicted": "mass",
+   "gold": "middle mogul",
+   "correct": false
+  },
+  {
+   "qid": 462,
+   "predicted": "mass",
+   "gold": "middle mogul",
+   "correct": false
+  },
+  {
+   "qid": 475,
+   "predicted": "na",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 513,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2406,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2408,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 531,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 532,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 557,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 571,
+   "predicted": "0",
+   "gold": "1",
+   "correct": false
+  },
+  {
+   "qid": 573,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 595,
+   "predicted": "right",
+   "gold": "left",
+   "correct": false
+  },
+  {
+   "qid": 596,
+   "predicted": "right",
+   "gold": "left",
+   "correct": false
+  },
+  {
+   "qid": 709,
+   "predicted": "subcutaneous air",
+   "gold": "on right shoulder",
+   "correct": false
+  },
+  {
+   "qid": 711,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 598,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 600,
+   "predicted": "yes",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 606,
+   "predicted": "yes",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 608,
+   "predicted": "enlarged",
+   "gold": "it is less than half width of thorax",
+   "correct": false
+  },
+  {
+   "qid": 610,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 612,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 629,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 630,
+   "predicted": "metastasis",
+   "gold": "blood vessel",
+   "correct": false
+  },
+  {
+   "qid": 726,
+   "predicted": "not visible",
+   "gold": "not seen here",
+   "correct": false
+  },
+  {
+   "qid": 728,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 631,
+   "predicted": "none",
+   "gold": "above clavicles bilaterally",
+   "correct": false
+  },
+  {
+   "qid": 633,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2452,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 648,
+   "predicted": "think the image provided is completely black with no visible anatomical structures there are no visible signs of the ascending colon or any other part of the gastrointestinal tract the question cannot be answered based on this image alone think answeranswer",
+   "gold": "posterior to appendix",
+   "correct": false
+  },
+  {
+   "qid": 650,
+   "predicted": "colon",
+   "gold": "psoas muscle",
+   "correct": false
+  },
+  {
+   "qid": 663,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 735,
+   "predicted": "larger",
+   "gold": "smaller",
+   "correct": false
+  },
+  {
+   "qid": 713,
+   "predicted": "unknown",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 718,
+   "predicted": "heart",
+   "gold": "bullous lesion",
+   "correct": false
+  },
+  {
+   "qid": 720,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 722,
+   "predicted": "femur",
+   "gold": "anterior mediastinum",
+   "correct": false
+  },
+  {
+   "qid": 724,
+   "predicted": "right",
+   "gold": "right",
+   "correct": true
+  },
+  {
+   "qid": 733,
+   "predicted": "left",
+   "gold": "left",
+   "correct": true
+  },
+  {
+   "qid": 734,
+   "predicted": "colon",
+   "gold": "left",
+   "correct": false
+  },
+  {
+   "qid": 750,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 751,
+   "predicted": "axial",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 754,
+   "predicted": "brain",
+   "gold": "skull cartilage and medulla",
+   "correct": false
+  },
+  {
+   "qid": 756,
+   "predicted": "bulla",
+   "gold": "right bronchus",
+   "correct": false
+  },
+  {
+   "qid": 759,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 763,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 773,
+   "predicted": "xray",
+   "gold": "plain film x ray",
+   "correct": false
+  },
+  {
+   "qid": 797,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 780,
+   "predicted": "think the image appears to be a black screen with no visible opacities or structures the question seems to be based on an image that is not provided here as the image content is entirely black think answeranswer",
+   "gold": "small intestines",
+   "correct": false
+  },
+  {
+   "qid": 813,
+   "predicted": "think this image appears to be a blank or placeholder image possibly indicating an error or missing data in the medpix database there are no discernible features that suggest it is from a specific modality like ct mri or xray think answeranswer",
+   "gold": "ct with contrast",
+   "correct": false
+  },
+  {
+   "qid": 787,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 790,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 809,
+   "predicted": "coronal",
+   "gold": "axial",
+   "correct": false
+  },
+  {
+   "qid": 795,
+   "predicted": "kidney",
+   "gold": "diaphragm",
+   "correct": false
+  },
+  {
+   "qid": 811,
+   "predicted": "ct",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 814,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 821,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 830,
+   "predicted": "cerebellum",
+   "gold": "lateral ventricles",
+   "correct": false
+  },
+  {
+   "qid": 832,
+   "predicted": "cerebellum",
+   "gold": "lateral ventricles",
+   "correct": false
+  },
+  {
+   "qid": 840,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 842,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2652,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 844,
+   "predicted": "infratentorial",
+   "gold": "supratentorial",
+   "correct": false
+  },
+  {
+   "qid": 900,
+   "predicted": "nmr",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 874,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2660,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 906,
+   "predicted": "indeterminate",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 908,
+   "predicted": "unsure",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 910,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 912,
+   "predicted": "nil",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2600,
+   "predicted": "transverse",
+   "gold": "axial",
+   "correct": false
+  },
+  {
+   "qid": 918,
+   "predicted": "fat",
+   "gold": "fat",
+   "correct": true
+  },
+  {
+   "qid": 920,
+   "predicted": "tendon",
+   "gold": "fat",
+   "correct": false
+  },
+  {
+   "qid": 2642,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 925,
+   "predicted": "uncertain",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 926,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2545,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 946,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 948,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 950,
+   "predicted": "think the image is completely black with no visible anatomical structures including the mediastinum therefore its not possible to evaluate the mediastinum in this image think answeranswer",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 951,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 977,
+   "predicted": "heart",
+   "gold": "mid left subclavian vein",
+   "correct": false
+  },
+  {
+   "qid": 978,
+   "predicted": "heart",
+   "gold": "mid left subclavian vein",
+   "correct": false
+  },
+  {
+   "qid": 979,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 981,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 983,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 985,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1078,
+   "predicted": "thorax",
+   "gold": "pulmonary lymphatic",
+   "correct": false
+  },
+  {
+   "qid": 2741,
+   "predicted": "right lung",
+   "gold": "right of midline superior to right hilum",
+   "correct": false
+  },
+  {
+   "qid": 989,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 991,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1050,
+   "predicted": "mass",
+   "gold": "cardiomegaly with pulmonary edema",
+   "correct": false
+  },
+  {
+   "qid": 1052,
+   "predicted": "mass",
+   "gold": "cardiomegaly with pulmonary edema",
+   "correct": false
+  },
+  {
+   "qid": 1007,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 1009,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1011,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1013,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1035,
+   "predicted": "mri",
+   "gold": "t2 mri",
+   "correct": false
+  },
+  {
+   "qid": 1046,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1048,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1080,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1082,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1108,
+   "predicted": "lower lung zone",
+   "gold": "right upper lobe",
+   "correct": false
+  },
+  {
+   "qid": 1110,
+   "predicted": "right upper lobe",
+   "gold": "right upper lobe",
+   "correct": true
+  },
+  {
+   "qid": 1116,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1118,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1132,
+   "predicted": "ap",
+   "gold": "coronal",
+   "correct": false
+  },
+  {
+   "qid": 1175,
+   "predicted": "right kidney",
+   "gold": "head of pancreas",
+   "correct": false
+  },
+  {
+   "qid": 1177,
+   "predicted": "left hemisphere",
+   "gold": "head of pancreas",
+   "correct": false
+  },
+  {
+   "qid": 1185,
+   "predicted": "tail",
+   "gold": "pancreatic head",
+   "correct": false
+  },
+  {
+   "qid": 1187,
+   "predicted": "t2",
+   "gold": "t2 weighted mri",
+   "correct": false
+  },
+  {
+   "qid": 1259,
+   "predicted": "nil",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1192,
+   "predicted": "think the image provided is completely black with no discernible structures or masses visible there are no hypodense areas to identify emanating from any structure the question appears to be based on an image that does not contain the necessary information to answer think answeranswer",
+   "gold": "base of cecum",
+   "correct": false
+  },
+  {
+   "qid": 1205,
+   "predicted": "frontal",
+   "gold": "right frontal lobe",
+   "correct": false
+  },
+  {
+   "qid": 1267,
+   "predicted": "hemorrhage",
+   "gold": "regression of left frontal mass",
+   "correct": false
+  },
+  {
+   "qid": 1209,
+   "predicted": "yes",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 1236,
+   "predicted": "axial",
+   "gold": "axial plane",
+   "correct": false
+  },
+  {
+   "qid": 1210,
+   "predicted": "pneumothorax",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 1238,
+   "predicted": "mri",
+   "gold": "mri",
+   "correct": true
+  },
+  {
+   "qid": 1264,
+   "predicted": "left",
+   "gold": "3rd ventricle and lateral ventricles",
+   "correct": false
+  },
+  {
+   "qid": 1265,
+   "predicted": "unknown",
+   "gold": "abdomen",
+   "correct": false
+  },
+  {
+   "qid": 1266,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1268,
+   "predicted": "nil",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 1273,
+   "predicted": "na",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 1379,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1419,
+   "predicted": "think the image provided is completely black with no visible anatomical structures making it impossible to measure the length of the kidneys the question cannot be answered based on this image think answeranswer",
+   "gold": "coronal plane",
+   "correct": false
+  },
+  {
+   "qid": 1280,
+   "predicted": "right",
+   "gold": "right",
+   "correct": true
+  },
+  {
+   "qid": 1282,
+   "predicted": "right",
+   "gold": "right",
+   "correct": true
+  },
+  {
+   "qid": 1284,
+   "predicted": "renal vein",
+   "gold": "ivc",
+   "correct": false
+  },
+  {
+   "qid": 1286,
+   "predicted": "ivc",
+   "gold": "ivc",
+   "correct": true
+  },
+  {
+   "qid": 1307,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 1309,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 1311,
+   "predicted": "right",
+   "gold": "left",
+   "correct": false
+  },
+  {
+   "qid": 1312,
+   "predicted": "right",
+   "gold": "left",
+   "correct": false
+  },
+  {
+   "qid": 1375,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1377,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1330,
+   "predicted": "coronal",
+   "gold": "axial",
+   "correct": false
+  },
+  {
+   "qid": 1348,
+   "predicted": "think the image appears to be an xray of the chest but the entire image is black which suggests that the image may have been rotated or flipped incorrectly in a normal chest xray a pleural effusion would typically show up as a hazy area adjacent to the lung field often seen along the costophrenic angle however since the image is entirely black its impossible to determine if there is a pleural effusion present think answeranswer",
+   "gold": "right side",
+   "correct": false
+  },
+  {
+   "qid": 1350,
+   "predicted": "right",
+   "gold": "right side",
+   "correct": false
+  },
+  {
+   "qid": 1393,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 1395,
+   "predicted": "na",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1384,
+   "predicted": "think the image appears to be an axial view of a brain mri likely an flair sequence given the high signal intensity in the white matter and the lack of contrast enhancement the presence of acute infarcts is not evident from this image alone as the flair sequence is not typically used to detect acute ischemic strokes acute infarcts are often better visualized on t2weighted images or dwi sequences which show hyperintense areas corresponding to restricted diffusion think answeranswer",
+   "gold": "r frontal lobe",
+   "correct": false
+  },
+  {
+   "qid": 1386,
+   "predicted": "think the image appears to be an axial slice of a brain mri likely an flair sequence given the high signal intensity in the white matter and the lack of contrast enhancement there are no visible areas of acute infarct on this image acute infarcts typically show low signal on t1weighted images and high signal on t2weighted and flair images which is not evident here think answeranswer",
+   "gold": "r frontal lobe",
+   "correct": false
+  },
+  {
+   "qid": 1409,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1456,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1652,
+   "predicted": "none",
+   "gold": "right posteroinferior cerebellum",
+   "correct": false
+  },
+  {
+   "qid": 1654,
+   "predicted": "think the image appears to be completely black which could indicate an issue with the image acquisition or display however without additional context or information about the patients history and symptoms its impossible to determine if there is an abnormality present think answeranswer",
+   "gold": "bleeding in right posteroinferior cerebellum",
+   "correct": false
+  },
+  {
+   "qid": 1461,
+   "predicted": "mri",
+   "gold": "mri t2 weighted",
+   "correct": false
+  },
+  {
+   "qid": 1529,
+   "predicted": "mca",
+   "gold": "basilar artery",
+   "correct": false
+  },
+  {
+   "qid": 1531,
+   "predicted": "mca",
+   "gold": "basilar artery",
+   "correct": false
+  },
+  {
+   "qid": 1614,
+   "predicted": "csf",
+   "gold": "csf",
+   "correct": true
+  },
+  {
+   "qid": 1615,
+   "predicted": "csf",
+   "gold": "csf",
+   "correct": true
+  },
+  {
+   "qid": 1626,
+   "predicted": "nervous system",
+   "gold": "brain",
+   "correct": false
+  },
+  {
+   "qid": 1466,
+   "predicted": "ap",
+   "gold": "axial",
+   "correct": false
+  },
+  {
+   "qid": 1467,
+   "predicted": "axial",
+   "gold": "axial",
+   "correct": true
+  },
+  {
+   "qid": 1476,
+   "predicted": "t12",
+   "gold": "right lower lateral lung field",
+   "correct": false
+  },
+  {
+   "qid": 1478,
+   "predicted": "lumbar",
+   "gold": "right lower lateral lung field",
+   "correct": false
+  },
+  {
+   "qid": 2607,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1480,
+   "predicted": "indeterminate",
+   "gold": "3.4 cm",
+   "correct": false
+  },
+  {
+   "qid": 1482,
+   "predicted": "think the image provided is an xray of the abdomen specifically an abdominal xray the question asks about the size of a mass in the right upper quadrant however the image does not show any visible masses it appears to be a normal xray with no obvious abnormalities therefore there is no mass to measure think answeranswer",
+   "gold": "3.4 cm",
+   "correct": false
+  },
+  {
+   "qid": 1616,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1618,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1630,
+   "predicted": "right upper lobe",
+   "gold": "right upper lobe",
+   "correct": true
+  },
+  {
+   "qid": 1632,
+   "predicted": "mediastinum",
+   "gold": "right upper lobe",
+   "correct": false
+  },
+  {
+   "qid": 1651,
+   "predicted": "xray",
+   "gold": "xray",
+   "correct": true
+  },
+  {
+   "qid": 1492,
+   "predicted": "male",
+   "gold": "female",
+   "correct": false
+  },
+  {
+   "qid": 1493,
+   "predicted": "male",
+   "gold": "female",
+   "correct": false
+  },
+  {
+   "qid": 1500,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1502,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1506,
+   "predicted": "chest",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1507,
+   "predicted": "unknown",
+   "gold": "brain",
+   "correct": false
+  },
+  {
+   "qid": 1622,
+   "predicted": "cardiomegaly",
+   "gold": "hydrocephalus",
+   "correct": false
+  },
+  {
+   "qid": 1624,
+   "predicted": "hypertrophy",
+   "gold": "hydrocephalus",
+   "correct": false
+  },
+  {
+   "qid": 1512,
+   "predicted": "think the image provided is a black and white radiograph with no visible structures or hemorrhages it appears to be a placeholder or a nondiagnostic image therefore there are no structures to identify in relation to a hemorrhagethink answeranswer",
+   "gold": "left thalamus and basal ganglia",
+   "correct": false
+  },
+  {
+   "qid": 1514,
+   "predicted": "soft tissue",
+   "gold": "left thalamus and basal ganglia",
+   "correct": false
+  },
+  {
+   "qid": 1548,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2650,
+   "predicted": "old",
+   "gold": "early hemorrhage",
+   "correct": false
+  },
+  {
+   "qid": 1540,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1542,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1549,
+   "predicted": "think the image provided is a black screen with some text and a logo which does not contain any visible brain lesions or medical images therefore its not possible to determine the location of brain lesions from this image alone think answeranswer",
+   "gold": "right hemisphere",
+   "correct": false
+  },
+  {
+   "qid": 1551,
+   "predicted": "unknown",
+   "gold": "right hemisphere",
+   "correct": false
+  },
+  {
+   "qid": 1578,
+   "predicted": "temporal lobe",
+   "gold": "right cerebellopontine angle",
+   "correct": false
+  },
+  {
+   "qid": 1580,
+   "predicted": "l3",
+   "gold": "right cerebellopontine angle",
+   "correct": false
+  },
+  {
+   "qid": 1602,
+   "predicted": "bowel wall",
+   "gold": "adipose tissue",
+   "correct": false
+  },
+  {
+   "qid": 1603,
+   "predicted": "fat",
+   "gold": "adipose tissue",
+   "correct": false
+  },
+  {
+   "qid": 2425,
+   "predicted": "lung",
+   "gold": "ascending colon",
+   "correct": false
+  },
+  {
+   "qid": 1627,
+   "predicted": "none",
+   "gold": "ct",
+   "correct": false
+  },
+  {
+   "qid": 1628,
+   "predicted": "none",
+   "gold": "ct",
+   "correct": false
+  },
+  {
+   "qid": 1678,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1680,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1701,
+   "predicted": "metastasis",
+   "gold": "gallbladder",
+   "correct": false
+  },
+  {
+   "qid": 1703,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1686,
+   "predicted": "na",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1688,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2377,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1690,
+   "predicted": "lying down",
+   "gold": "supine see air fluid level",
+   "correct": false
+  },
+  {
+   "qid": 1781,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1783,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1850,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1721,
+   "predicted": "unknown",
+   "gold": "female",
+   "correct": false
+  },
+  {
+   "qid": 1722,
+   "predicted": "unknown",
+   "gold": "female",
+   "correct": false
+  },
+  {
+   "qid": 1736,
+   "predicted": "normal",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 1738,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 1930,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1932,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1753,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1755,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1758,
+   "predicted": "liver",
+   "gold": "liver",
+   "correct": true
+  },
+  {
+   "qid": 1768,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1814,
+   "predicted": "lateral",
+   "gold": "lying supine with their feet towards screen",
+   "correct": false
+  },
+  {
+   "qid": 1810,
+   "predicted": "lung",
+   "gold": "maxillary sinuses",
+   "correct": false
+  },
+  {
+   "qid": 1812,
+   "predicted": "air",
+   "gold": "maxillary sinuses",
+   "correct": false
+  },
+  {
+   "qid": 1851,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1853,
+   "predicted": "knee",
+   "gold": "sacroiliac joint",
+   "correct": false
+  },
+  {
+   "qid": 2568,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1867,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 2413,
+   "predicted": "right",
+   "gold": "upper left",
+   "correct": false
+  },
+  {
+   "qid": 1872,
+   "predicted": "left",
+   "gold": "right",
+   "correct": false
+  },
+  {
+   "qid": 1874,
+   "predicted": "right",
+   "gold": "right",
+   "correct": true
+  },
+  {
+   "qid": 1884,
+   "predicted": "bones",
+   "gold": "ribs",
+   "correct": false
+  },
+  {
+   "qid": 1886,
+   "predicted": "calcification",
+   "gold": "ribs",
+   "correct": false
+  },
+  {
+   "qid": 2714,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1888,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1890,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2627,
+   "predicted": "cerebrum",
+   "gold": "basal ganglia cerebellum cerebral cortex",
+   "correct": false
+  },
+  {
+   "qid": 1892,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1894,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 1908,
+   "predicted": "heart",
+   "gold": "right vs left sided pathology",
+   "correct": false
+  },
+  {
+   "qid": 1910,
+   "predicted": "pneumothorax",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 1912,
+   "predicted": "pneumothorax",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 1943,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1945,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 1982,
+   "predicted": "axial",
+   "gold": "axial",
+   "correct": true
+  },
+  {
+   "qid": 2710,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1951,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1968,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2005,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2007,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2520,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 1996,
+   "predicted": "breast",
+   "gold": "intestines",
+   "correct": false
+  },
+  {
+   "qid": 2001,
+   "predicted": "obstructed",
+   "gold": "lateral and third ventricular hydrocephalus",
+   "correct": false
+  },
+  {
+   "qid": 2003,
+   "predicted": "lvh",
+   "gold": "lateral and third ventricular hydrocephalus",
+   "correct": false
+  },
+  {
+   "qid": 2035,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2037,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2458,
+   "predicted": "none",
+   "gold": "right",
+   "correct": false
+  },
+  {
+   "qid": 2043,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2045,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2563,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2082,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2084,
+   "predicted": "normal",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2094,
+   "predicted": "normal",
+   "gold": "diverticulitis",
+   "correct": false
+  },
+  {
+   "qid": 2096,
+   "predicted": "think the image provided is completely black with no discernible features or structures that could be analyzed for pathology there are no visible abnormalities lesions or any other indicators of pathology on this image think answeranswer",
+   "gold": "diverticulitis",
+   "correct": false
+  },
+  {
+   "qid": 2448,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2121,
+   "predicted": "unknown",
+   "gold": "axial",
+   "correct": false
+  },
+  {
+   "qid": 2135,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2137,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2143,
+   "predicted": "calcification",
+   "gold": "gallstones",
+   "correct": false
+  },
+  {
+   "qid": 2144,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2158,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 2160,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2166,
+   "predicted": "arteries",
+   "gold": "left aca and mca",
+   "correct": false
+  },
+  {
+   "qid": 2168,
+   "predicted": "none",
+   "gold": "left aca and mca",
+   "correct": false
+  },
+  {
+   "qid": 2185,
+   "predicted": "brain",
+   "gold": "brain",
+   "correct": true
+  },
+  {
+   "qid": 2187,
+   "predicted": "cerebrospinal fluid",
+   "gold": "caudate putamen left parietal",
+   "correct": false
+  },
+  {
+   "qid": 2475,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 2203,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2205,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2603,
+   "predicted": "none",
+   "gold": "plain film",
+   "correct": false
+  },
+  {
+   "qid": 2223,
+   "predicted": "think the image appears to be completely black which suggests that there might be an issue with the image loading or it could be a placeholder image since no organs or systems are visible its not possible to determine which organ system is shown think answeranswer",
+   "gold": "brain",
+   "correct": false
+  },
+  {
+   "qid": 2224,
+   "predicted": "think the image appears to be completely black with no discernible structures or features this could indicate that the image is either intentionally dark possibly due to a lack of light during acquisition or there might be an issue with the image file itself think answeranswer",
+   "gold": "brain",
+   "correct": false
+  },
+  {
+   "qid": 2226,
+   "predicted": "foreign body",
+   "gold": "kidney cyst",
+   "correct": false
+  },
+  {
+   "qid": 2228,
+   "predicted": "foreign body",
+   "gold": "kidney cyst",
+   "correct": false
+  },
+  {
+   "qid": 2254,
+   "predicted": "indeterminate",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 2256,
+   "predicted": "na",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 2257,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2259,
+   "predicted": "na",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 2261,
+   "predicted": "na",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 2263,
+   "predicted": "na",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 2268,
+   "predicted": "mri",
+   "gold": "axial",
+   "correct": false
+  },
+  {
+   "qid": 2269,
+   "predicted": "sagittal",
+   "gold": "axial",
+   "correct": false
+  },
+  {
+   "qid": 2479,
+   "predicted": "unknown",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2310,
+   "predicted": "tuberosities",
+   "gold": "diaphragm",
+   "correct": false
+  },
+  {
+   "qid": 2552,
+   "predicted": "shoulder",
+   "gold": "anterior mediastinum",
+   "correct": false
+  },
+  {
+   "qid": 2311,
+   "predicted": "normal",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2313,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2515,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2318,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2320,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2465,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2328,
+   "predicted": "skull",
+   "gold": "chest",
+   "correct": false
+  },
+  {
+   "qid": 2333,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2335,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2352,
+   "predicted": "left ventricle",
+   "gold": "4th ventricle",
+   "correct": false
+  },
+  {
+   "qid": 2369,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2371,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2372,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2381,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2383,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2391,
+   "predicted": "xray",
+   "gold": "xr",
+   "correct": false
+  },
+  {
+   "qid": 3136,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 3138,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2417,
+   "predicted": "none",
+   "gold": "mucosal hyperemia",
+   "correct": false
+  },
+  {
+   "qid": 2428,
+   "predicted": "artifact",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2430,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 2481,
+   "predicted": "ribs",
+   "gold": "mediport",
+   "correct": false
+  },
+  {
+   "qid": 2509,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2524,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2538,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2546,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2554,
+   "predicted": "solid",
+   "gold": "cystic",
+   "correct": false
+  },
+  {
+   "qid": 2581,
+   "predicted": "unknown",
+   "gold": "5mm",
+   "correct": false
+  },
+  {
+   "qid": 2592,
+   "predicted": "yes",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 2594,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2598,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2957,
+   "predicted": "normal",
+   "gold": "abnormal",
+   "correct": false
+  },
+  {
+   "qid": 2958,
+   "predicted": "normal",
+   "gold": "abnormal",
+   "correct": false
+  },
+  {
+   "qid": 3084,
+   "predicted": "kidney",
+   "gold": "proximal aspect of appendix",
+   "correct": false
+  },
+  {
+   "qid": 3086,
+   "predicted": "none",
+   "gold": "proximal aspect of appendix",
+   "correct": false
+  },
+  {
+   "qid": 2611,
+   "predicted": "abnormal",
+   "gold": "abnormal",
+   "correct": true
+  },
+  {
+   "qid": 2617,
+   "predicted": "mri",
+   "gold": "mri",
+   "correct": true
+  },
+  {
+   "qid": 2623,
+   "predicted": "dark",
+   "gold": "frontal and occipital",
+   "correct": false
+  },
+  {
+   "qid": 2632,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2651,
+   "predicted": "negative",
+   "gold": "on patient's left",
+   "correct": false
+  },
+  {
+   "qid": 2662,
+   "predicted": "right",
+   "gold": "bilateral lungs",
+   "correct": false
+  },
+  {
+   "qid": 2682,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2691,
+   "predicted": "t1",
+   "gold": "dwi diffusion weighted",
+   "correct": false
+  },
+  {
+   "qid": 2702,
+   "predicted": "yes",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 2716,
+   "predicted": "us",
+   "gold": "ct",
+   "correct": false
+  },
+  {
+   "qid": 2721,
+   "predicted": "unsure",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2949,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2951,
+   "predicted": "hyperinflation",
+   "gold": "hyperinflation",
+   "correct": true
+  },
+  {
+   "qid": 2724,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 3059,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 3061,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2726,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2788,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 2790,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 2731,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2745,
+   "predicted": "negative",
+   "gold": "no",
+   "correct": true,
+   "closed_synonym": "negative->no"
+  },
+  {
+   "qid": 2752,
+   "predicted": "0",
+   "gold": "2.5cm x 1.7cm x 1.6cm",
+   "correct": false
+  },
+  {
+   "qid": 2770,
+   "predicted": "none",
+   "gold": "both",
+   "correct": false
+  },
+  {
+   "qid": 2771,
+   "predicted": "unilateral",
+   "gold": "bilateral",
+   "correct": false
+  },
+  {
+   "qid": 2952,
+   "predicted": "flat",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2954,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2817,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2818,
+   "predicted": "yes",
+   "gold": "yes",
+   "correct": true
+  },
+  {
+   "qid": 2845,
+   "predicted": "xray",
+   "gold": "no",
+   "correct": false
+  },
+  {
+   "qid": 2940,
+   "predicted": "calcification",
+   "gold": "calcified atherosclerosis",
+   "correct": false
+  },
+  {
+   "qid": 2942,
+   "predicted": "fat",
+   "gold": "calcified atherosclerosis",
+   "correct": false
+  },
+  {
+   "qid": 2821,
+   "predicted": "abdomen",
+   "gold": "stomach",
+   "correct": false
+  },
+  {
+   "qid": 2823,
+   "predicted": "lung",
+   "gold": "stomach",
+   "correct": false
+  },
+  {
+   "qid": 2834,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2837,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2839,
+   "predicted": "negative",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2878,
+   "predicted": "artifact",
+   "gold": "motion",
+   "correct": false
+  },
+  {
+   "qid": 2880,
+   "predicted": "metallic",
+   "gold": "motion",
+   "correct": false
+  },
+  {
+   "qid": 2902,
+   "predicted": "axial",
+   "gold": "axial",
+   "correct": true
+  },
+  {
+   "qid": 2903,
+   "predicted": "axial",
+   "gold": "axial",
+   "correct": true
+  },
+  {
+   "qid": 2904,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2905,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 2938,
+   "predicted": "t2",
+   "gold": "flair",
+   "correct": false
+  },
+  {
+   "qid": 2939,
+   "predicted": "mri",
+   "gold": "mr flair",
+   "correct": false
+  },
+  {
+   "qid": 2970,
+   "predicted": "think the image provided is completely black which suggests that there might be an issue with the image acquisition or display however since the question asks for the sequence of the mri and there is no visible information about the sequence we cannot determine the correct sequence from this image alone think answeranswer",
+   "gold": "t2 weighted",
+   "correct": false
+  },
+  {
+   "qid": 3055,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 3057,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 2987,
+   "predicted": "think the image appears to be a dark screen with no visible anatomical structures or abnormalities it could be due to an error in image acquisition or display think answeranswer",
+   "gold": "soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy",
+   "correct": false
+  },
+  {
+   "qid": 2989,
+   "predicted": "technicalerror",
+   "gold": "soft tissue mass in region of terminal ileum with mesenteric lymphadenopathy",
+   "correct": false
+  },
+  {
+   "qid": 3132,
+   "predicted": "no",
+   "gold": "yes",
+   "correct": false
+  },
+  {
+   "qid": 3001,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 3003,
+   "predicted": "no",
+   "gold": "no",
+   "correct": true
+  },
+  {
+   "qid": 3015,
+   "predicted": "metallic artifact",
+   "gold": "cavum vergae",
+   "correct": false
+  },
+  {
+   "qid": 3017,
+   "predicted": "gas",
+   "gold": "cavum vergae",
+   "correct": false
+  },
+  {
+   "qid": 3026,
+   "predicted": "ct",
+   "gold": "mri",
+   "correct": false
+  },
+  {
+   "qid": 3027,
+   "predicted": "ct",
+   "gold": "mri",
+   "correct": false
+  },
+  {
+   "qid": 3030,
+   "predicted": "coronal",
+   "gold": "axial",
+   "correct": false
+  },
+  {
+   "qid": 3063,
+   "predicted": "osteoarthritis",
+   "gold": "appendicitis",
+   "correct": false
+  },
+  {
+   "qid": 3064,
+   "predicted": "normal",
+   "gold": "appendicitis",
+   "correct": false
+  }
+ ],
+ "closed_synonyms_e7": {
+  "synonyms": {
+   "negative": "no",
+   "positive": "yes"
+  },
+  "n_flipped": 43
+ }
 }
