@@ -121,8 +121,7 @@ text is never edited, `answer_matches` is untouched, and every file that was
 re-scored records it under `closed_synonyms_e7` with the number of items
 flipped. The fine-tuned models and the question-only baseline never emit those
 two tokens, so no other file moves. The `_vs_C0.json` comparisons of this row
-are regenerated from the re-scored files; the Kvasir C6 file of this row is the
-only one of the row without a `closed_synonyms_e7` field.
+are regenerated from the re-scored files.
 
 ---
 
