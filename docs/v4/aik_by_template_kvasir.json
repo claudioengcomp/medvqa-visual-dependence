@@ -1,0 +1,429 @@
+{
+ "benchmark": "KVASIR",
+ "ruler": "medsiglip",
+ "min_n": 20,
+ "cuts": [
+  0.21429103697144233,
+  0.29557820426460146
+ ],
+ "descriptive_only": true,
+ "terciles": {
+  "perto": {
+   "templates": 16,
+   "rows": [
+    {
+     "template": "are there any abnormalities in the image? check all that are present.",
+     "n_c2": 615,
+     "n_c5": 1965,
+     "a_I_minus_k_c2": 0.8601626016260162,
+     "a_I_minus_k_c5": 0.9231552162849873,
+     "diff": 0.0629926146589711
+    },
+    {
+     "template": "what color is the abnormality? if more than one separate with ;",
+     "n_c2": 1380,
+     "n_c5": 1860,
+     "a_I_minus_k_c2": 0.08985507246376812,
+     "a_I_minus_k_c5": 0.20053763440860214,
+     "diff": 0.11068256194483403
+    },
+    {
+     "template": "where in the image is the abnormality?",
+     "n_c2": 1215,
+     "n_c5": 1755,
+     "a_I_minus_k_c2": 0.2271604938271605,
+     "a_I_minus_k_c5": 0.3396011396011396,
+     "diff": 0.11244064577397908
+    },
+    {
+     "template": "what type of polyp is present?",
+     "n_c2": 885,
+     "n_c5": 1740,
+     "a_I_minus_k_c2": 0.3954802259887006,
+     "a_I_minus_k_c5": 0.496551724137931,
+     "diff": 0.10107149814923044
+    },
+    {
+     "template": "have all polyps been removed?",
+     "n_c2": 945,
+     "n_c5": 1740,
+     "a_I_minus_k_c2": 0.8835978835978836,
+     "a_I_minus_k_c5": 0.9166666666666666,
+     "diff": 0.033068783068783025
+    },
+    {
+     "template": "how many polyps are in the image?",
+     "n_c2": 630,
+     "n_c5": 1725,
+     "a_I_minus_k_c2": 0.7047619047619048,
+     "a_I_minus_k_c5": 0.8771014492753623,
+     "diff": 0.17233954451345745
+    },
+    {
+     "template": "what is the size of the polyp?",
+     "n_c2": 1035,
+     "n_c5": 1725,
+     "a_I_minus_k_c2": 0.44154589371980674,
+     "a_I_minus_k_c5": 0.5553623188405797,
+     "diff": 0.113816425120773
+    },
+    {
+     "template": "is there a green/black box artefact?",
+     "n_c2": 1080,
+     "n_c5": 870,
+     "a_I_minus_k_c2": 0.7805555555555556,
+     "a_I_minus_k_c5": 0.8919540229885058,
+     "diff": 0.11139846743295023
+    },
+    {
+     "template": "how many findings are present?",
+     "n_c2": 390,
+     "n_c5": 585,
+     "a_I_minus_k_c2": 0.41794871794871796,
+     "a_I_minus_k_c5": 0.5623931623931624,
+     "diff": 0.14444444444444443
+    },
+    {
+     "template": "what type of procedure is the image taken from?",
+     "n_c2": 210,
+     "n_c5": 405,
+     "a_I_minus_k_c2": 0.8428571428571429,
+     "a_I_minus_k_c5": 0.9358024691358025,
+     "diff": 0.09294532627865959
+    },
+    {
+     "template": "is there text?",
+     "n_c2": 480,
+     "n_c5": 330,
+     "a_I_minus_k_c2": 0.8520833333333333,
+     "a_I_minus_k_c5": 0.8939393939393939,
+     "diff": 0.04185606060606062
+    },
+    {
+     "template": "where in the image is the instrument?",
+     "n_c2": 780,
+     "n_c5": 330,
+     "a_I_minus_k_c2": 0.6166666666666667,
+     "a_I_minus_k_c5": 0.5424242424242425,
+     "diff": -0.07424242424242422
+    },
+    {
+     "template": "are there any instruments in the image? check all that are present.",
+     "n_c2": 600,
+     "n_c5": 330,
+     "a_I_minus_k_c2": 0.885,
+     "a_I_minus_k_c5": 0.703030303030303,
+     "diff": -0.181969696969697
+    },
+    {
+     "template": "how many instrumnets are in the image?",
+     "n_c2": 885,
+     "n_c5": 330,
+     "a_I_minus_k_c2": 0.9333333333333333,
+     "a_I_minus_k_c5": 0.896969696969697,
+     "diff": -0.036363636363636376
+    },
+    {
+     "template": "are there any anatomical landmarks in the image? check all that are present.",
+     "n_c2": 150,
+     "n_c5": 240,
+     "a_I_minus_k_c2": 0.26666666666666666,
+     "a_I_minus_k_c5": 0.6583333333333333,
+     "diff": 0.39166666666666666
+    },
+    {
+     "template": "where in the image is the anatomical landmark?",
+     "n_c2": 330,
+     "n_c5": 210,
+     "a_I_minus_k_c2": 0.08787878787878788,
+     "a_I_minus_k_c5": 0.36666666666666664,
+     "diff": 0.27878787878787875
+    }
+   ],
+   "within_template_c2": 0.5803471425140904,
+   "within_template_c5": 0.6725305900060234,
+   "within_template_diff": 0.09218344749193308,
+   "all_I_c2": 0.561068044788975,
+   "all_I_c5": 0.6464684014869888,
+   "all_I_diff": 0.08540035669801382
+  },
+  "meio": {
+   "templates": 16,
+   "rows": [
+    {
+     "template": "are there any abnormalities in the image? check all that are present.",
+     "n_c2": 1095,
+     "n_c5": 3105,
+     "a_I_minus_k_c2": 0.9579908675799087,
+     "a_I_minus_k_c5": 0.9745571658615136,
+     "diff": 0.01656629828160494
+    },
+    {
+     "template": "what color is the abnormality? if more than one separate with ;",
+     "n_c2": 1080,
+     "n_c5": 2655,
+     "a_I_minus_k_c2": 0.412962962962963,
+     "a_I_minus_k_c5": 0.44030131826741997,
+     "diff": 0.027338355304456996
+    },
+    {
+     "template": "where in the image is the abnormality?",
+     "n_c2": 870,
+     "n_c5": 2355,
+     "a_I_minus_k_c2": 0.5287356321839081,
+     "a_I_minus_k_c5": 0.4908704883227176,
+     "diff": -0.03786514386119044
+    },
+    {
+     "template": "have all polyps been removed?",
+     "n_c2": 1125,
+     "n_c5": 2295,
+     "a_I_minus_k_c2": 0.9191111111111111,
+     "a_I_minus_k_c5": 0.9355119825708061,
+     "diff": 0.016400871459695043
+    },
+    {
+     "template": "what type of polyp is present?",
+     "n_c2": 810,
+     "n_c5": 2295,
+     "a_I_minus_k_c2": 0.7481481481481481,
+     "a_I_minus_k_c5": 0.6832244008714597,
+     "diff": -0.06492374727668837
+    },
+    {
+     "template": "what is the size of the polyp?",
+     "n_c2": 825,
+     "n_c5": 2265,
+     "a_I_minus_k_c2": 0.7648484848484849,
+     "a_I_minus_k_c5": 0.6883002207505519,
+     "diff": -0.07654826409793303
+    },
+    {
+     "template": "how many polyps are in the image?",
+     "n_c2": 810,
+     "n_c5": 2205,
+     "a_I_minus_k_c2": 0.9209876543209876,
+     "a_I_minus_k_c5": 0.9306122448979591,
+     "diff": 0.009624590576971515
+    },
+    {
+     "template": "what type of procedure is the image taken from?",
+     "n_c2": 840,
+     "n_c5": 1635,
+     "a_I_minus_k_c2": 1.0,
+     "a_I_minus_k_c5": 0.9957186544342508,
+     "diff": -0.004281345565749217
+    },
+    {
+     "template": "is there a green/black box artefact?",
+     "n_c2": 930,
+     "n_c5": 1530,
+     "a_I_minus_k_c2": 0.8602150537634409,
+     "a_I_minus_k_c5": 0.8627450980392157,
+     "diff": 0.0025300442757748565
+    },
+    {
+     "template": "how many findings are present?",
+     "n_c2": 630,
+     "n_c5": 1500,
+     "a_I_minus_k_c2": 0.8031746031746032,
+     "a_I_minus_k_c5": 0.8673333333333333,
+     "diff": 0.06415873015873008
+    },
+    {
+     "template": "is there text?",
+     "n_c2": 810,
+     "n_c5": 945,
+     "a_I_minus_k_c2": 0.9580246913580247,
+     "a_I_minus_k_c5": 0.9883597883597883,
+     "diff": 0.030335097001763622
+    },
+    {
+     "template": "are there any anatomical landmarks in the image? check all that are present.",
+     "n_c2": 300,
+     "n_c5": 765,
+     "a_I_minus_k_c2": 0.85,
+     "a_I_minus_k_c5": 0.8091503267973856,
+     "diff": -0.040849673202614345
+    },
+    {
+     "template": "where in the image is the anatomical landmark?",
+     "n_c2": 450,
+     "n_c5": 690,
+     "a_I_minus_k_c2": 0.22444444444444445,
+     "a_I_minus_k_c5": 0.41884057971014493,
+     "diff": 0.1943961352657005
+    },
+    {
+     "template": "where in the image is the instrument?",
+     "n_c2": 900,
+     "n_c5": 435,
+     "a_I_minus_k_c2": 0.6755555555555556,
+     "a_I_minus_k_c5": 0.5908045977011495,
+     "diff": -0.08475095785440612
+    },
+    {
+     "template": "how many instrumnets are in the image?",
+     "n_c2": 825,
+     "n_c5": 405,
+     "a_I_minus_k_c2": 0.9309090909090909,
+     "a_I_minus_k_c5": 0.8222222222222222,
+     "diff": -0.10868686868686872
+    },
+    {
+     "template": "are there any instruments in the image? check all that are present.",
+     "n_c2": 765,
+     "n_c5": 390,
+     "a_I_minus_k_c2": 0.9228758169934641,
+     "a_I_minus_k_c5": 0.676923076923077,
+     "diff": -0.24595274007038714
+    }
+   ],
+   "within_template_c2": 0.7798740073346335,
+   "within_template_c5": 0.7609672186914371,
+   "within_template_diff": -0.018906788643196393,
+   "all_I_c2": 0.7908151549942595,
+   "all_I_c5": 0.7703965449548489,
+   "all_I_diff": -0.02041861003941059
+  },
+  "longe": {
+   "templates": 16,
+   "rows": [
+    {
+     "template": "are there any abnormalities in the image? check all that are present.",
+     "n_c2": 1515,
+     "n_c5": 4095,
+     "a_I_minus_k_c2": 0.9603960396039604,
+     "a_I_minus_k_c5": 0.9863247863247864,
+     "diff": 0.025928746720826013
+    },
+    {
+     "template": "what color is the abnormality? if more than one separate with ;",
+     "n_c2": 1305,
+     "n_c5": 3540,
+     "a_I_minus_k_c2": 0.46206896551724136,
+     "a_I_minus_k_c5": 0.6231638418079096,
+     "diff": 0.16109487629066827
+    },
+    {
+     "template": "what type of procedure is the image taken from?",
+     "n_c2": 1695,
+     "n_c5": 3495,
+     "a_I_minus_k_c2": 1.0,
+     "a_I_minus_k_c5": 0.9954220314735336,
+     "diff": -0.004577968526466414
+    },
+    {
+     "template": "where in the image is the abnormality?",
+     "n_c2": 945,
+     "n_c5": 3000,
+     "a_I_minus_k_c2": 0.5936507936507937,
+     "a_I_minus_k_c5": 0.6933333333333334,
+     "diff": 0.0996825396825397
+    },
+    {
+     "template": "what type of polyp is present?",
+     "n_c2": 930,
+     "n_c5": 2775,
+     "a_I_minus_k_c2": 0.667741935483871,
+     "a_I_minus_k_c5": 0.834954954954955,
+     "diff": 0.16721301947108402
+    },
+    {
+     "template": "how many findings are present?",
+     "n_c2": 1125,
+     "n_c5": 2760,
+     "a_I_minus_k_c2": 0.8257777777777778,
+     "a_I_minus_k_c5": 0.8398550724637681,
+     "diff": 0.014077294685990283
+    },
+    {
+     "template": "what is the size of the polyp?",
+     "n_c2": 930,
+     "n_c5": 2760,
+     "a_I_minus_k_c2": 0.7688172043010753,
+     "a_I_minus_k_c5": 0.8155797101449276,
+     "diff": 0.04676250584385233
+    },
+    {
+     "template": "have all polyps been removed?",
+     "n_c2": 1035,
+     "n_c5": 2745,
+     "a_I_minus_k_c2": 0.9207729468599034,
+     "a_I_minus_k_c5": 0.9387978142076503,
+     "diff": 0.018024867347746887
+    },
+    {
+     "template": "how many polyps are in the image?",
+     "n_c2": 915,
+     "n_c5": 2700,
+     "a_I_minus_k_c2": 0.892896174863388,
+     "a_I_minus_k_c5": 0.9492592592592592,
+     "diff": 0.05636308439587123
+    },
+    {
+     "template": "is there text?",
+     "n_c2": 1290,
+     "n_c5": 2175,
+     "a_I_minus_k_c2": 0.9837209302325581,
+     "a_I_minus_k_c5": 0.9705747126436781,
+     "diff": -0.013146217588880016
+    },
+    {
+     "template": "is there a green/black box artefact?",
+     "n_c2": 840,
+     "n_c5": 2115,
+     "a_I_minus_k_c2": 0.8857142857142857,
+     "a_I_minus_k_c5": 0.8723404255319149,
+     "diff": -0.013373860182370745
+    },
+    {
+     "template": "are there any anatomical landmarks in the image? check all that are present.",
+     "n_c2": 555,
+     "n_c5": 1305,
+     "a_I_minus_k_c2": 0.972972972972973,
+     "a_I_minus_k_c5": 0.8467432950191571,
+     "diff": -0.1262296779538159
+    },
+    {
+     "template": "where in the image is the anatomical landmark?",
+     "n_c2": 510,
+     "n_c5": 1155,
+     "a_I_minus_k_c2": 0.32745098039215687,
+     "a_I_minus_k_c5": 0.38961038961038963,
+     "diff": 0.062159409218232764
+    },
+    {
+     "template": "where in the image is the instrument?",
+     "n_c2": 615,
+     "n_c5": 690,
+     "a_I_minus_k_c2": 0.5983739837398374,
+     "a_I_minus_k_c5": 0.7840579710144927,
+     "diff": 0.1856839872746553
+    },
+    {
+     "template": "how many instrumnets are in the image?",
+     "n_c2": 705,
+     "n_c5": 675,
+     "a_I_minus_k_c2": 0.9574468085106383,
+     "a_I_minus_k_c5": 0.9185185185185185,
+     "diff": -0.038928289992119836
+    },
+    {
+     "template": "are there any instruments in the image? check all that are present.",
+     "n_c2": 645,
+     "n_c5": 645,
+     "a_I_minus_k_c2": 0.8170542635658915,
+     "a_I_minus_k_c5": 0.9085271317829458,
+     "diff": 0.09147286821705425
+    }
+   ],
+   "within_template_c2": 0.7896785039491471,
+   "within_template_c5": 0.8354414530057013,
+   "within_template_diff": 0.0457629490565542,
+   "all_I_c2": 0.8125361620057859,
+   "all_I_c5": 0.8487032487032488,
+   "all_I_diff": 0.036167086697462825
+  }
+ }
+}

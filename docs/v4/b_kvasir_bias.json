@@ -1,0 +1,63 @@
+{
+ "host": "host-B",
+ "n_perm": 1000,
+ "seed": 20260917,
+ "rulers": {
+  "medsiglip": {
+   "n_excluded": 298,
+   "n_classified": 478,
+   "mean_excluded": 0.26341150405080527,
+   "mean_classified": 0.2511818347005766,
+   "difference": 0.012229669350228678,
+   "w1": 0.015258826151140987,
+   "w1_p": 0.017982017982017984,
+   "differs_at_001": false,
+   "direction": "sem diferenca"
+  },
+  "dinov3": {
+   "n_excluded": 298,
+   "n_classified": 478,
+   "mean_excluded": 0.20463841214075223,
+   "mean_classified": 0.19949994498066254,
+   "difference": 0.005138467160089699,
+   "w1": 0.00816882923795741,
+   "w1_p": 0.2817182817182817,
+   "differs_at_001": false,
+   "direction": "sem diferenca"
+  },
+  "biomedclip": {
+   "n_excluded": 298,
+   "n_classified": 478,
+   "mean_excluded": 0.2580724625208428,
+   "mean_classified": 0.23833401828932632,
+   "difference": 0.019738444231516494,
+   "w1": 0.020314582444128988,
+   "w1_p": 0.000999000999000999,
+   "differs_at_001": true,
+   "direction": "mais longe"
+  },
+  "dinov2": {
+   "n_excluded": 298,
+   "n_classified": 478,
+   "mean_excluded": 0.28227166981596713,
+   "mean_classified": 0.2508526833105911,
+   "difference": 0.031418986505376056,
+   "w1": 0.031245186499273627,
+   "w1_p": 0.000999000999000999,
+   "differs_at_001": true,
+   "direction": "mais longe"
+  },
+  "colorhist": {
+   "n_excluded": 298,
+   "n_classified": 478,
+   "mean_excluded": 0.4049031849513849,
+   "mean_classified": 0.3618453465777537,
+   "difference": 0.043057838373631196,
+   "w1": 0.08979870528522742,
+   "w1_p": 0.000999000999000999,
+   "differs_at_001": true,
+   "direction": "mais longe"
+  }
+ },
+ "verdict": "difere em 3 de 5 reguas: biomedclip, dinov2, colorhist"
+}

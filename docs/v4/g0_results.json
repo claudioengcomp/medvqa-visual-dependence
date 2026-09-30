@@ -1,0 +1,274 @@
+{
+ "manifest": {
+  "k": 10,
+  "cache": "cache/embeddings",
+  "arrays": {
+   "KVASIR__biomedclip": {
+    "shape": [
+     1291,
+     512
+    ],
+    "sha256": "4a69c16d6cfeb1c7b68cc531c02c0c7c14253dba0fcf3d3016eada761e47bcca"
+   },
+   "KVASIR__colorhist": {
+    "shape": [
+     1291,
+     192
+    ],
+    "sha256": "5b1e0142246af7a74eb131ccb44d724a639ccaa236bce8294a0a7efe2136508f"
+   },
+   "KVASIR__dinov2": {
+    "shape": [
+     1291,
+     1024
+    ],
+    "sha256": "7e303f2ad254cf92f378057688258a4abf1b8d5f77390c03a41506918fd50a3c"
+   },
+   "KVASIR__dinov3": {
+    "shape": [
+     1291,
+     1024
+    ],
+    "sha256": "225f7f1b559e6690827c3ef2929bc2de00e1f9bf1b6d435e72ba05baa50f83b5"
+   },
+   "KVASIR__medsiglip": {
+    "shape": [
+     1291,
+     1152
+    ],
+    "sha256": "0ef003548bc726a437b3542f7bd0713185c87f737e1e382a87b36bd0eed87cfa"
+   },
+   "KVASIR__medsiglip_fp16": {
+    "shape": [
+     1291,
+     1152
+    ],
+    "sha256": "45da4a46227bba76f802c443091c3d472e79cb0c1c7a67023edcbfc69e642cb8"
+   },
+   "SLAKE__biomedclip": {
+    "shape": [
+     96,
+     512
+    ],
+    "sha256": "68ace36980e665cd17e8bc530c116428ff9a5658660082af082659dda672b7e3"
+   },
+   "SLAKE__colorhist": {
+    "shape": [
+     96,
+     192
+    ],
+    "sha256": "761d2901a807e00e6ec9152c609781a41b808afd6e4e63292db150cb531319e0"
+   },
+   "SLAKE__dinov2": {
+    "shape": [
+     96,
+     1024
+    ],
+    "sha256": "5361648d4eb2b37d21f6f118fbd3431772b32bf1d6f7b982c9d5392607a7adef"
+   },
+   "SLAKE__dinov3": {
+    "shape": [
+     96,
+     1024
+    ],
+    "sha256": "b130e720fed0bcaef3b56e8edad53ab261dd1c6f92f552cb3d4531029b4c846a"
+   },
+   "SLAKE__medsiglip": {
+    "shape": [
+     96,
+     1152
+    ],
+    "sha256": "915edfc6c3aeea55300c00d056b44f0d12adb7e8f9edeec90dc41099ddfefa24"
+   },
+   "SLAKE__medsiglip_fp16": {
+    "shape": [
+     96,
+     1152
+    ],
+    "sha256": "94a7b3c445c8beef2fb53de202ef0c8dfb858319d6f009c2e014c4285782eb99"
+   },
+   "VQARAD__biomedclip": {
+    "shape": [
+     203,
+     512
+    ],
+    "sha256": "511a1055f96e379eb8ef249a4f6e850b23902d475e4ccc2a3c1222dc1680f438"
+   },
+   "VQARAD__colorhist": {
+    "shape": [
+     203,
+     192
+    ],
+    "sha256": "887910e81fbcf9b7b4c99e4cebd877f879404d40dbd5751fc783b081d7d53b2c"
+   },
+   "VQARAD__dinov2": {
+    "shape": [
+     203,
+     1024
+    ],
+    "sha256": "5a84e83f76e6a1668c64aa6ff2da23a363fa2a87bf0027480356fef74ac5b149"
+   },
+   "VQARAD__dinov3": {
+    "shape": [
+     203,
+     1024
+    ],
+    "sha256": "59d1d9eceb25870d40d07728c2197972be70e071184d8f056b9a12c3bf3c7b9e"
+   },
+   "VQARAD__medsiglip": {
+    "shape": [
+     203,
+     1152
+    ],
+    "sha256": "f779adc936023ff3d31e0e1b0cf7bde0b0e43c1d0fcb8639bde8e54ce431ab69"
+   },
+   "VQARAD__medsiglip_fp16": {
+    "shape": [
+     203,
+     1152
+    ],
+    "sha256": "0b64ddbabadec94a438a2ff6065d3dabfa6786c9527f720c2b9446e93ce5e067"
+   }
+  },
+  "rulers": {
+   "medsiglip": {
+    "repo": "google/medsiglip-448",
+    "role": "primary (medical)",
+    "dtype": "float32",
+    "dim": 1152
+   },
+   "dinov3": {
+    "repo": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+    "role": "secondary (visual)",
+    "dtype": "float32",
+    "dim": 1024,
+    "note": "ViT-L/16. Variant confirmed from the cache directory and from the 1024-d output; ViT-S would be 384, ViT-B 768."
+   },
+   "biomedclip": {
+    "repo": "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+    "role": "third (comparability)",
+    "dtype": "float32",
+    "dim": 512
+   },
+   "dinov2": {
+    "repo": "facebook/dinov2-large",
+    "role": "robustness",
+    "dtype": "float32",
+    "dim": 1024
+   },
+   "colorhist": {
+    "repo": null,
+    "role": "counterfactual floor, not a ruler",
+    "dtype": "float32",
+    "dim": 192,
+    "note": "RGB histogram, 64 bins per channel, L1-normalised."
+   },
+   "medsiglip_fp16": {
+    "repo": "google/medsiglip-448",
+    "role": "not a ruler: evidence only",
+    "dtype": "float16",
+    "dim": 1152,
+    "note": "Retained as the evidence behind amendment 7.5. Never used in an analysis."
+   }
+  },
+  "precision_rule": "fp32 for every ruler, with no exception. DINOv3 in fp16 produced NaN (17/09); MedSigLIP in fp16 agreed with fp32 to a median cosine of 0.999986 but is run in fp32 anyway, because the rule admits no exception."
+ },
+ "composite_labels_dropped": 9,
+ "results": {
+  "kvasir_procedure": {
+   "benchmark": "KVASIR",
+   "n": 776,
+   "classes": [
+    "colonoscopy",
+    "gastroscopy"
+   ],
+   "acc": {
+    "medsiglip": 0.9961340206185567,
+    "dinov3": 0.9948453608247423,
+    "biomedclip": 0.9871134020618557,
+    "dinov2": 0.9896907216494846,
+    "colorhist": 0.9600515463917526
+   }
+  },
+  "kvasir_finding": {
+   "benchmark": "KVASIR",
+   "n": 612,
+   "classes": [
+    "barretts",
+    "oesophagitis",
+    "polyp",
+    "ulcerative colitis"
+   ],
+   "acc": {
+    "medsiglip": 0.9820261437908496,
+    "dinov3": 0.9705882352941176,
+    "biomedclip": 0.9526143790849673,
+    "dinov2": 0.9248366013071896,
+    "colorhist": 0.9183006535947712
+   }
+  },
+  "kvasir_finding_in_colonoscopy": {
+   "benchmark": "KVASIR",
+   "n": 424,
+   "classes": [
+    "polyp",
+    "ulcerative colitis"
+   ],
+   "acc": {
+    "medsiglip": 0.9858490566037735,
+    "dinov3": 0.9669811320754716,
+    "biomedclip": 0.9716981132075472,
+    "dinov2": 0.9174528301886793,
+    "colorhist": 0.910377358490566
+   }
+  },
+  "kvasir_finding_in_gastroscopy": {
+   "benchmark": "KVASIR",
+   "n": 187,
+   "classes": [
+    "barretts",
+    "oesophagitis",
+    "polyp"
+   ],
+   "acc": {
+    "medsiglip": 0.9893048128342246,
+    "dinov3": 0.9893048128342246,
+    "biomedclip": 0.9893048128342246,
+    "dinov2": 0.9893048128342246,
+    "colorhist": 0.9893048128342246
+   }
+  },
+  "vqarad_organ": {
+   "benchmark": "VQARAD",
+   "n": 203,
+   "classes": [
+    "abdomen",
+    "chest",
+    "head"
+   ],
+   "acc": {
+    "medsiglip": 1.0,
+    "dinov3": 0.9655172413793104,
+    "biomedclip": 1.0,
+    "dinov2": 0.9852216748768473,
+    "colorhist": 0.8078817733990148
+   }
+  },
+  "slake_modality": {
+   "benchmark": "SLAKE",
+   "n": 93,
+   "classes": [
+    "CT",
+    "MRI",
+    "XRAY"
+   ],
+   "acc": {
+    "medsiglip": 0.956989247311828,
+    "dinov3": 0.967741935483871,
+    "biomedclip": 0.967741935483871,
+    "dinov2": 0.967741935483871,
+    "colorhist": 0.8494623655913979
+   }
+  }
+ }
+}

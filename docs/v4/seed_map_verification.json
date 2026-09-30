@@ -1,0 +1,29 @@
+{
+ "seed": 42,
+ "c2": {
+  "KVASIR": {
+   "regenerated": true,
+   "pairing_reproduced": true,
+   "file_bytes_identical": true,
+   "items": 1291,
+   "items_differing": 0,
+   "seed_evidence": "observed command (docs/superpowers/plans/2026-08-21-kvasir-vqa-integration.md)"
+  },
+  "SLAKE": {
+   "regenerated": true,
+   "pairing_reproduced": true,
+   "file_bytes_identical": false,
+   "items": 96,
+   "items_differing": 0,
+   "seed_evidence": "observed command (docs/superpowers/plans/2026-08-21-colab-session-A-m3ae-prompt.md)"
+  },
+  "VQARAD": {
+   "regenerated": true,
+   "pairing_reproduced": true,
+   "file_bytes_identical": false,
+   "items": 203,
+   "items_differing": 0,
+   "seed_evidence": "harness default (argparse default=42); no recorded command overrides it"
+  }
+ }
+}

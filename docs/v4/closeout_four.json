@@ -1,0 +1,150 @@
+{
+ "item1_ccr_corrected_manifest": {
+  "n_I": 5216,
+  "per_config": {
+   "M3AE": {
+    "runs": 3,
+    "mean": 79.29447852760737,
+    "sd": 0.2837164222957956,
+    "mean_e7": 79.29447852760737,
+    "n_I": 5216
+   },
+   "QWEN2VL_LORA": {
+    "runs": 3,
+    "mean": 79.29447852760735,
+    "sd": 0.18488594250370152,
+    "mean_e7": 79.29447852760735,
+    "n_I": 5216
+   },
+   "QWEN2VL_DORA": {
+    "runs": 3,
+    "mean": 79.4478527607362,
+    "sd": 0.2394554447238653,
+    "mean_e7": 79.4478527607362,
+    "n_I": 5216
+   },
+   "SMOLVLM_LORA": {
+    "runs": 3,
+    "mean": 80.75792433537832,
+    "sd": 0.22220524860319207,
+    "mean_e7": 80.75792433537832,
+    "n_I": 5216
+   },
+   "SMOLVLM_DORA": {
+    "runs": 3,
+    "mean": 79.60761758691207,
+    "sd": 1.023911818595675,
+    "mean_e7": 79.60761758691207,
+    "n_I": 5216
+   },
+   "MEDVLTHINKER_ZEROSHOT": {
+    "runs": 1,
+    "mean": 21.759969325153374,
+    "sd": 0.0,
+    "mean_e7": 24.041411042944784,
+    "n_I": 5216
+   }
+  },
+  "fine_tuned_range": [
+   79.29447852760735,
+   80.75792433537832
+  ],
+  "table3_form": {
+   "M3AE": "79.3 +- 0.3",
+   "QWEN2VL_LORA": "79.3 +- 0.2",
+   "QWEN2VL_DORA": "79.4 +- 0.2",
+   "SMOLVLM_LORA": "80.8 +- 0.2",
+   "SMOLVLM_DORA": "79.6 +- 1.0",
+   "MEDVLTHINKER_ZEROSHOT": "21.8 +- 0.0"
+  }
+ },
+ "item4_within_run_determinism": {
+  "test": "under C1 every image is the same grey frame, so rows sharing a question share the input; more than one answer means the decoding is not deterministic within the run",
+  "cells": {
+   "KVASIR|zero-shot": {
+    "prefix": "MEDVLTHINKER_ZEROSHOT_KVASIR",
+    "rows": 10779,
+    "questions": 18,
+    "questions_with_more_than_one_answer": 5,
+    "rows_off_the_modal_answer": 1212,
+    "fraction_off": 0.11244085722237684
+   },
+   "KVASIR|M3AE": {
+    "prefix": "M3AE_KVASIR_seed0",
+    "rows": 10779,
+    "questions": 18,
+    "questions_with_more_than_one_answer": 0,
+    "rows_off_the_modal_answer": 0,
+    "fraction_off": 0.0
+   },
+   "KVASIR|QWEN2VL_LORA": {
+    "prefix": "QWEN2VL_LORA_KVASIR_seed0",
+    "rows": 10779,
+    "questions": 18,
+    "questions_with_more_than_one_answer": 0,
+    "rows_off_the_modal_answer": 0,
+    "fraction_off": 0.0
+   },
+   "KVASIR|SMOLVLM_LORA": {
+    "prefix": "SMOLVLM_LORA_KVASIR_seed0",
+    "rows": 10779,
+    "questions": 18,
+    "questions_with_more_than_one_answer": 0,
+    "rows_off_the_modal_answer": 0,
+    "fraction_off": 0.0
+   },
+   "SLAKE|zero-shot": {
+    "prefix": "MEDVLTHINKER_ZEROSHOT_SLAKE",
+    "rows": 1061,
+    "questions": 319,
+    "questions_with_more_than_one_answer": 33,
+    "rows_off_the_modal_answer": 83,
+    "fraction_off": 0.07822808671065033
+   },
+   "SLAKE|M3AE_SCRATCH": {
+    "prefix": "M3AE_SCRATCH_SLAKE",
+    "rows": 1061,
+    "questions": 319,
+    "questions_with_more_than_one_answer": 0,
+    "rows_off_the_modal_answer": 0,
+    "fraction_off": 0.0
+   },
+   "SLAKE|QWEN2VL_LORA": {
+    "prefix": "QWEN2VL_LORA_SLAKE",
+    "rows": 1061,
+    "questions": 319,
+    "questions_with_more_than_one_answer": 0,
+    "rows_off_the_modal_answer": 0,
+    "fraction_off": 0.0
+   },
+   "SLAKE|SMOLVLM_LORA": {
+    "prefix": "SMOLVLM_LORA_SLAKE",
+    "rows": 1061,
+    "questions": 319,
+    "questions_with_more_than_one_answer": 0,
+    "rows_off_the_modal_answer": 0,
+    "fraction_off": 0.0
+   }
+  },
+  "generation_config": {
+   "MedVLThinker-7B-RL_PMC": {
+    "do_sample": true,
+    "temperature": 1e-06,
+    "top_k": null,
+    "top_p": null,
+    "num_beams": null
+   },
+   "Qwen2-VL-2B-Instruct": {
+    "do_sample": true,
+    "temperature": 0.01,
+    "top_p": 0.001,
+    "top_k": 1
+   },
+   "SmolVLM2-2.2B-Instruct": {
+    "do_sample": null,
+    "note": "falls back to do_sample=False"
+   },
+   "source": "generation_config of each checkpoint, read on 2026-09-07 (visapp/analise_2026-09-05/generation_config.txt); the call site passes no sampling argument"
+  }
+ }
+}

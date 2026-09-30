@@ -1,0 +1,152 @@
+[
+ {
+  "benchmark": "KVASIR",
+  "ruler": "medsiglip",
+  "d": 1152,
+  "n_test": 1291,
+  "rank_test_cov": 1152,
+  "rank_bank_cov": 1152,
+  "cond_product": 2.9374640261245645e+17,
+  "n_exceeds_d": true
+ },
+ {
+  "benchmark": "KVASIR",
+  "ruler": "dinov3",
+  "d": 1024,
+  "n_test": 1291,
+  "rank_test_cov": 1023,
+  "rank_bank_cov": 1023,
+  "cond_product": 2.212873532641148e+21,
+  "n_exceeds_d": true
+ },
+ {
+  "benchmark": "KVASIR",
+  "ruler": "biomedclip",
+  "d": 512,
+  "n_test": 1291,
+  "rank_test_cov": 512,
+  "rank_bank_cov": 512,
+  "cond_product": 6.021768632079979e+16,
+  "n_exceeds_d": true
+ },
+ {
+  "benchmark": "KVASIR",
+  "ruler": "dinov2",
+  "d": 1024,
+  "n_test": 1291,
+  "rank_test_cov": 1023,
+  "rank_bank_cov": 1023,
+  "cond_product": 8.409881135246735e+17,
+  "n_exceeds_d": true
+ },
+ {
+  "benchmark": "KVASIR",
+  "ruler": "colorhist",
+  "d": 192,
+  "n_test": 1291,
+  "rank_test_cov": 189,
+  "rank_bank_cov": 189,
+  "cond_product": 3.872905958143869e+17,
+  "n_exceeds_d": true
+ },
+ {
+  "benchmark": "SLAKE",
+  "ruler": "medsiglip",
+  "d": 1152,
+  "n_test": 96,
+  "rank_test_cov": 95,
+  "rank_bank_cov": 449,
+  "cond_product": 7.067365017997945e+20,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "SLAKE",
+  "ruler": "dinov3",
+  "d": 1024,
+  "n_test": 96,
+  "rank_test_cov": 95,
+  "rank_bank_cov": 449,
+  "cond_product": 1.4320584147388124e+24,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "SLAKE",
+  "ruler": "biomedclip",
+  "d": 512,
+  "n_test": 96,
+  "rank_test_cov": 95,
+  "rank_bank_cov": 449,
+  "cond_product": 6.257634364316645e+19,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "SLAKE",
+  "ruler": "dinov2",
+  "d": 1024,
+  "n_test": 96,
+  "rank_test_cov": 95,
+  "rank_bank_cov": 449,
+  "cond_product": 2.6621985814465833e+20,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "SLAKE",
+  "ruler": "colorhist",
+  "d": 192,
+  "n_test": 96,
+  "rank_test_cov": 63,
+  "rank_bank_cov": 63,
+  "cond_product": 1.1596214379198805e+44,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "VQARAD",
+  "ruler": "medsiglip",
+  "d": 1152,
+  "n_test": 203,
+  "rank_test_cov": 202,
+  "rank_bank_cov": 313,
+  "cond_product": 6.317251045710717e+20,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "VQARAD",
+  "ruler": "dinov3",
+  "d": 1024,
+  "n_test": 203,
+  "rank_test_cov": 202,
+  "rank_bank_cov": 313,
+  "cond_product": 1.3907979828144558e+25,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "VQARAD",
+  "ruler": "biomedclip",
+  "d": 512,
+  "n_test": 203,
+  "rank_test_cov": 202,
+  "rank_bank_cov": 313,
+  "cond_product": 2.6308668021310906e+19,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "VQARAD",
+  "ruler": "dinov2",
+  "d": 1024,
+  "n_test": 203,
+  "rank_test_cov": 202,
+  "rank_bank_cov": 313,
+  "cond_product": 3.740557190915579e+20,
+  "n_exceeds_d": false
+ },
+ {
+  "benchmark": "VQARAD",
+  "ruler": "colorhist",
+  "d": 192,
+  "n_test": 203,
+  "rank_test_cov": 69,
+  "rank_bank_cov": 76,
+  "cond_product": 3.288546538850787e+21,
+  "n_exceeds_d": true
+ }
+]

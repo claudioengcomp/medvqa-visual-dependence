@@ -1,0 +1,52 @@
+{
+ "host": "host-A",
+ "n_boot": 1000,
+ "seed": 20260917,
+ "predictions": "M3AE_KVASIR_C0.json",
+ "predictions_note": "M3AE on the official split, the run the repository kept as _DESCARTADO_split_vazado_kvasir_prefix; restored from Drive, md5 verified",
+ "definition_seen": "image_id present in train or validation of the official split",
+ "images": {
+  "total": 4058,
+  "seen": 3821,
+  "unseen": 237
+ },
+ "questions": {
+  "seen": 23992,
+  "unseen": 237,
+  "total": 24229
+ },
+ "accuracy_seen": 0.9091780593531177,
+ "ci_seen": [
+  0.9052370333652687,
+  0.9131375709119537
+ ],
+ "accuracy_unseen": 1.0,
+ "ci_unseen": [
+  1.0,
+  1.0
+ ],
+ "difference": -0.09082194064688232,
+ "ci_difference": [
+  -0.09476296663473126,
+  -0.08686242908804627
+ ],
+ "excludes_zero": true,
+ "within_template_control": {
+  "template": "does this image contain any finding?",
+  "note": "the 237 unseen images carry only this template, always answered no; the naive gap is composition",
+  "vistas": {
+   "n": 0,
+   "accuracy": null,
+   "answers": {}
+  },
+  "nao vistas": {
+   "n": 237,
+   "accuracy": 1.0,
+   "answers": {
+    "no": 237
+   }
+  },
+  "within_template_difference": null
+ },
+ "naive_gap_is_composition": true
+}

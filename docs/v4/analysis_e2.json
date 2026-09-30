@@ -1,0 +1,279 @@
+{
+ "host": "host-A",
+ "excluded": {
+  "VQARAD": "one informative question; phi has no denominator"
+ },
+ "pathvqa_note": "excluded in the pre-registration for want of question-level gold structure; that reason stopped holding when E1 built the arrow, and amendment E.1 declares the lift",
+ "reading_rule": "phi_HN >= 0.9 and |V|_HN >= 20 in more than half the items -> HN-Gap interpretable; |V|_HN below the floor or phi_HN < 0.7 -> the restriction's criticism gains a number",
+ "benchmarks": {
+  "KVASIR": {
+   "pool": {
+    "images": 1291,
+    "items": 10779,
+    "items_per_image_mean": 8.349,
+    "images_with_two_or_more_labels": 777,
+    "filter_ceiling": 0.3981,
+    "images_with_both_yes_and_no": 573,
+    "fraction_yes_no": 0.4438,
+    "note": "an image with two distinct labels survives the restriction for any y_i, so the ceiling is the share the restriction could ever exclude"
+   },
+   "hard_negative": {
+    "biomedclip": {
+     "encoder": "biomedclip",
+     "items": 10779,
+     "no_donor_found": 0,
+     "V_HN": 9182,
+     "I": 1732,
+     "U": 7450,
+     "N": 1597,
+     "phi_HN": 0.18862992812023524,
+     "fraction_without_question": 0.14815845625753782,
+     "donor_byte_identical": 0.0027831895352073478,
+     "donor_phash_le_4": 0.007236292791539103,
+     "cosine_mean": 0.9334813312441618,
+     "cosine_min": 0.7027260716985495,
+     "cosine_max": 1.0000000000000007,
+     "d_medsiglip_mean": 0.11695845351101468,
+     "d_medsiglip_median": 0.10911588904448255
+    },
+    "clipL14": {
+     "encoder": "clipL14",
+     "items": 10779,
+     "no_donor_found": 0,
+     "V_HN": 9554,
+     "I": 1838,
+     "U": 7716,
+     "N": 1225,
+     "phi_HN": 0.19238015490893867,
+     "fraction_without_question": 0.11364690602096669,
+     "donor_byte_identical": 0.0027831895352073478,
+     "donor_phash_le_4": 0.007236292791539103,
+     "cosine_mean": 0.9531339641855242,
+     "cosine_min": 0.7596652217075017,
+     "cosine_max": 0.9999999999999998,
+     "d_medsiglip_mean": 0.11310629808175453,
+     "d_medsiglip_median": 0.10520229811085091
+    }
+   },
+   "reference": {
+    "C2": {
+     "V": 5613,
+     "I": 2682,
+     "U": 2931,
+     "N": 5166,
+     "phi": 0.4778193479422769,
+     "d_medsiglip_mean": 0.25853891040090754
+    },
+    "C5": {
+     "V": 8102,
+     "I": 5216,
+     "U": 2886,
+     "N": 832,
+     "phi": 0.6437916563811404,
+     "d_medsiglip_mean": 0.2918988133545834
+    }
+   },
+   "correct_restriction": {
+    "biomedclip": {
+     "encoder": "biomedclip",
+     "items": 10779,
+     "items_with_donor": 10265,
+     "fraction_with_donor": 0.9523146859634475,
+     "cosine_mean": 0.8989932051133708,
+     "cosine_min": 0.6710220567109122,
+     "d_medsiglip_mean": 0.1597953043988396,
+     "phi_by_construction": 1.0,
+     "note": "under this restriction every accepted pair is informative by construction, so phi is 1 and the question becomes how many items find a donor at all"
+    },
+    "clipL14": {
+     "encoder": "clipL14",
+     "items": 10779,
+     "items_with_donor": 10265,
+     "fraction_with_donor": 0.9523146859634475,
+     "cosine_mean": 0.933177143258146,
+     "cosine_min": 0.7846272345081705,
+     "d_medsiglip_mean": 0.16492420461988944,
+     "phi_by_construction": 1.0,
+     "note": "under this restriction every accepted pair is informative by construction, so phi is 1 and the question becomes how many items find a donor at all"
+    }
+   }
+  },
+  "SLAKE": {
+   "pool": {
+    "images": 96,
+    "items": 1061,
+    "items_per_image_mean": 11.052,
+    "images_with_two_or_more_labels": 96,
+    "filter_ceiling": 0.0,
+    "images_with_both_yes_and_no": 72,
+    "fraction_yes_no": 0.75,
+    "note": "an image with two distinct labels survives the restriction for any y_i, so the ceiling is the share the restriction could ever exclude"
+   },
+   "hard_negative": {
+    "biomedclip": {
+     "encoder": "biomedclip",
+     "items": 1061,
+     "no_donor_found": 0,
+     "V_HN": 325,
+     "I": 69,
+     "U": 256,
+     "N": 736,
+     "phi_HN": 0.2123076923076923,
+     "fraction_without_question": 0.6936852026390198,
+     "donor_byte_identical": 0.0,
+     "donor_phash_le_4": 0.05560791705937795,
+     "cosine_mean": 0.9285815278902027,
+     "cosine_min": 0.809870243331037,
+     "cosine_max": 0.9914926850310681,
+     "d_medsiglip_mean": 0.2206319945063581,
+     "d_medsiglip_median": 0.1394448416352676
+    },
+    "clipL14": {
+     "encoder": "clipL14",
+     "items": 1061,
+     "no_donor_found": 0,
+     "V_HN": 302,
+     "I": 54,
+     "U": 248,
+     "N": 759,
+     "phi_HN": 0.17880794701986755,
+     "fraction_without_question": 0.7153628652214892,
+     "donor_byte_identical": 0.0,
+     "donor_phash_le_4": 0.043355325164938736,
+     "cosine_mean": 0.9613446516631843,
+     "cosine_min": 0.8991721501577241,
+     "cosine_max": 0.9903012460923817,
+     "d_medsiglip_mean": 0.2411768845019243,
+     "d_medsiglip_median": 0.14952706064559562
+    }
+   },
+   "reference": {
+    "C2": {
+     "V": 125,
+     "I": 70,
+     "U": 55,
+     "N": 936,
+     "phi": 0.56,
+     "d_medsiglip_mean": 0.5892790176906372
+    },
+    "C5": {
+     "V": 58,
+     "I": 18,
+     "U": 40,
+     "N": 228,
+     "phi": 0.3103448275862069,
+     "d_medsiglip_mean": 0.5549898537756256
+    }
+   },
+   "correct_restriction": {
+    "biomedclip": {
+     "encoder": "biomedclip",
+     "items": 1061,
+     "items_with_donor": 714,
+     "fraction_with_donor": 0.6729500471253534,
+     "cosine_mean": 0.728454117190732,
+     "cosine_min": 0.31308780688534865,
+     "d_medsiglip_mean": 0.45902635021627974,
+     "phi_by_construction": 1.0,
+     "note": "under this restriction every accepted pair is informative by construction, so phi is 1 and the question becomes how many items find a donor at all"
+    },
+    "clipL14": {
+     "encoder": "clipL14",
+     "items": 1061,
+     "items_with_donor": 714,
+     "fraction_with_donor": 0.6729500471253534,
+     "cosine_mean": 0.8681095204150286,
+     "cosine_min": 0.6091106374656643,
+     "d_medsiglip_mean": 0.46233230213708043,
+     "phi_by_construction": 1.0,
+     "note": "under this restriction every accepted pair is informative by construction, so phi is 1 and the question becomes how many items find a donor at all"
+    }
+   }
+  },
+  "PATHVQA": {
+   "pool": {
+    "images": 858,
+    "items": 6719,
+    "items_per_image_mean": 7.831,
+    "images_with_two_or_more_labels": 853,
+    "filter_ceiling": 0.0058,
+    "images_with_both_yes_and_no": 701,
+    "fraction_yes_no": 0.817,
+    "note": "an image with two distinct labels survives the restriction for any y_i, so the ceiling is the share the restriction could ever exclude"
+   },
+   "hard_negative": {
+    "biomedclip": {
+     "encoder": "biomedclip",
+     "items": 6719,
+     "no_donor_found": 0,
+     "V_HN": 2321,
+     "I": 1359,
+     "U": 962,
+     "N": 4398,
+     "phi_HN": 0.5855234812580784,
+     "fraction_without_question": 0.6545616907277869,
+     "donor_byte_identical": null,
+     "donor_phash_le_4": null,
+     "cosine_mean": 0.8271290778037098,
+     "cosine_min": 0.5043284832560825,
+     "cosine_max": 0.9749811633076151,
+     "d_medsiglip_mean": 0.23662717392817628,
+     "d_medsiglip_median": 0.22027958254809532
+    },
+    "clipL14": {
+     "encoder": "clipL14",
+     "items": 6719,
+     "no_donor_found": 0,
+     "V_HN": 2398,
+     "I": 1432,
+     "U": 966,
+     "N": 4321,
+     "phi_HN": 0.5971643035863219,
+     "fraction_without_question": 0.6431016520315523,
+     "donor_byte_identical": null,
+     "donor_phash_le_4": null,
+     "cosine_mean": 0.9097040035298096,
+     "cosine_min": 0.6449558622062839,
+     "cosine_max": 0.9866212590144852,
+     "d_medsiglip_mean": 0.2441182251075965,
+     "d_medsiglip_median": 0.23763874885907366
+    }
+   },
+   "reference": {
+    "C2": {
+     "V": 1505,
+     "I": 1419,
+     "U": 86,
+     "N": 5214,
+     "phi": 0.9428571428571428,
+     "d_medsiglip_mean": 0.6027325582338339
+    }
+   },
+   "correct_restriction": {
+    "biomedclip": {
+     "encoder": "biomedclip",
+     "items": 6719,
+     "items_with_donor": 3097,
+     "fraction_with_donor": 0.4609316862628367,
+     "cosine_mean": 0.7455461873679399,
+     "cosine_min": 0.1659782008325739,
+     "d_medsiglip_mean": 0.34094375990389897,
+     "phi_by_construction": 1.0,
+     "note": "under this restriction every accepted pair is informative by construction, so phi is 1 and the question becomes how many items find a donor at all"
+    },
+    "clipL14": {
+     "encoder": "clipL14",
+     "items": 6719,
+     "items_with_donor": 3097,
+     "fraction_with_donor": 0.4609316862628367,
+     "cosine_mean": 0.8723275056748379,
+     "cosine_min": 0.5568439294724529,
+     "d_medsiglip_mean": 0.34622589903288215,
+     "phi_by_construction": 1.0,
+     "note": "under this restriction every accepted pair is informative by construction, so phi is 1 and the question becomes how many items find a donor at all"
+    }
+   }
+  }
+ },
+ "e2d_note": "the correct restriction makes phi 1 by construction; what it costs is coverage, and that is the number reported"
+}

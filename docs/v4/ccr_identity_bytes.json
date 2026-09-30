@@ -1,0 +1,412 @@
+{
+ "pairing": "sha256 of the image plus identical question text",
+ "forbidden_files": [
+  "M3AE_SLAKE_C0_sameenv",
+  "M3AE_SLAKE_C6_sameenv",
+  "_C5_sameenv"
+ ],
+ "cells": {
+  "KVASIR|M3AE|seed0": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|M3AE|seed1": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|M3AE|seed2": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|QWEN2VL_LORA|seed0": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|QWEN2VL_LORA|seed1": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|QWEN2VL_LORA|seed2": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|QWEN2VL_DORA|seed0": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|QWEN2VL_DORA|seed1": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|QWEN2VL_DORA|seed2": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|SMOLVLM_LORA|seed0": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|SMOLVLM_LORA|seed1": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|SMOLVLM_LORA|seed2": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|SMOLVLM_DORA|seed0": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|SMOLVLM_DORA|seed1": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "KVASIR|SMOLVLM_DORA|seed2": {
+   "n_informative": 5218,
+   "agree": 5218,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|M3AE_SCRATCH|seed0": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|M3AE_SCRATCH|seed1": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|M3AE_SCRATCH|seed2": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|QWEN2VL_LORA|seed0": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|QWEN2VL_LORA|seed1": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|QWEN2VL_LORA|seed2": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|QWEN2VL_DORA|seed0": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|QWEN2VL_DORA|seed1": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|QWEN2VL_DORA|seed2": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|SMOLVLM_LORA|seed0": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|SMOLVLM_LORA|seed1": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|SMOLVLM_LORA|seed2": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|SMOLVLM_DORA|seed0": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|SMOLVLM_DORA|seed1": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  },
+  "SLAKE|SMOLVLM_DORA|seed2": {
+   "n_informative": 92,
+   "agree": 92,
+   "rate": 1.0,
+   "ambiguous_twins": 0,
+   "exact": true
+  }
+ },
+ "files_used": {
+  "KVASIR|M3AE|seed0": {
+   "C0": "M3AE_KVASIR_seed0_C0.json",
+   "C5": "M3AE_KVASIR_seed0_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|M3AE|seed1": {
+   "C0": "M3AE_KVASIR_seed1_C0.json",
+   "C5": "M3AE_KVASIR_seed1_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|M3AE|seed2": {
+   "C0": "M3AE_KVASIR_seed2_C0.json",
+   "C5": "M3AE_KVASIR_seed2_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|QWEN2VL_LORA|seed0": {
+   "C0": "QWEN2VL_LORA_KVASIR_seed0_C0.json",
+   "C5": "QWEN2VL_LORA_KVASIR_seed0_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|QWEN2VL_LORA|seed1": {
+   "C0": "QWEN2VL_LORA_KVASIR_seed1_C0.json",
+   "C5": "QWEN2VL_LORA_KVASIR_seed1_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|QWEN2VL_LORA|seed2": {
+   "C0": "QWEN2VL_LORA_KVASIR_seed2_C0.json",
+   "C5": "QWEN2VL_LORA_KVASIR_seed2_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|QWEN2VL_DORA|seed0": {
+   "C0": "QWEN2VL_DORA_KVASIR_seed0_C0.json",
+   "C5": "QWEN2VL_DORA_KVASIR_seed0_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|QWEN2VL_DORA|seed1": {
+   "C0": "QWEN2VL_DORA_KVASIR_seed1_C0.json",
+   "C5": "QWEN2VL_DORA_KVASIR_seed1_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|QWEN2VL_DORA|seed2": {
+   "C0": "QWEN2VL_DORA_KVASIR_seed2_C0.json",
+   "C5": "QWEN2VL_DORA_KVASIR_seed2_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|SMOLVLM_LORA|seed0": {
+   "C0": "SMOLVLM_LORA_KVASIR_seed0_C0.json",
+   "C5": "SMOLVLM_LORA_KVASIR_seed0_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|SMOLVLM_LORA|seed1": {
+   "C0": "SMOLVLM_LORA_KVASIR_seed1_C0.json",
+   "C5": "SMOLVLM_LORA_KVASIR_seed1_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|SMOLVLM_LORA|seed2": {
+   "C0": "SMOLVLM_LORA_KVASIR_seed2_C0_bs1.json",
+   "C5": "SMOLVLM_LORA_KVASIR_seed2_C5_bs1.json",
+   "why": "batch size 1"
+  },
+  "KVASIR|SMOLVLM_DORA|seed0": {
+   "C0": "SMOLVLM_DORA_KVASIR_seed0_C0_bs1.json",
+   "C5": "SMOLVLM_DORA_KVASIR_seed0_C5_bs1.json",
+   "why": "batch size 1"
+  },
+  "KVASIR|SMOLVLM_DORA|seed1": {
+   "C0": "SMOLVLM_DORA_KVASIR_seed1_C0.json",
+   "C5": "SMOLVLM_DORA_KVASIR_seed1_C5.json",
+   "why": "default files"
+  },
+  "KVASIR|SMOLVLM_DORA|seed2": {
+   "C0": "SMOLVLM_DORA_KVASIR_seed2_C0.json",
+   "C5": "SMOLVLM_DORA_KVASIR_seed2_C5.json",
+   "why": "default files"
+  },
+  "SLAKE|M3AE_SCRATCH|seed0": {
+   "C0": "M3AE_SCRATCH_SLAKE_C0_sameenv.json",
+   "C6": "M3AE_SCRATCH_SLAKE_C6_sameenv.json",
+   "why": "C0 and C6 re-run in one session"
+  },
+  "SLAKE|M3AE_SCRATCH|seed1": {
+   "C0": "M3AE_SCRATCH_SLAKE_seed1_C0.json",
+   "C6": "M3AE_SCRATCH_SLAKE_seed1_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|M3AE_SCRATCH|seed2": {
+   "C0": "M3AE_SCRATCH_SLAKE_seed2_C0.json",
+   "C6": "M3AE_SCRATCH_SLAKE_seed2_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|QWEN2VL_LORA|seed0": {
+   "C0": "QWEN2VL_LORA_SLAKE_C0.json",
+   "C6": "QWEN2VL_LORA_SLAKE_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|QWEN2VL_LORA|seed1": {
+   "C0": "QWEN2VL_LORA_SLAKE_seed1_C0.json",
+   "C6": "QWEN2VL_LORA_SLAKE_seed1_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|QWEN2VL_LORA|seed2": {
+   "C0": "QWEN2VL_LORA_SLAKE_seed2_C0.json",
+   "C6": "QWEN2VL_LORA_SLAKE_seed2_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|QWEN2VL_DORA|seed0": {
+   "C0": "QWEN2VL_DORA_SLAKE_C0.json",
+   "C6": "QWEN2VL_DORA_SLAKE_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|QWEN2VL_DORA|seed1": {
+   "C0": "QWEN2VL_DORA_SLAKE_seed1_C0.json",
+   "C6": "QWEN2VL_DORA_SLAKE_seed1_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|QWEN2VL_DORA|seed2": {
+   "C0": "QWEN2VL_DORA_SLAKE_seed2_C0.json",
+   "C6": "QWEN2VL_DORA_SLAKE_seed2_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|SMOLVLM_LORA|seed0": {
+   "C0": "SMOLVLM_LORA_SLAKE_C0.json",
+   "C6": "SMOLVLM_LORA_SLAKE_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|SMOLVLM_LORA|seed1": {
+   "C0": "SMOLVLM_LORA_SLAKE_seed1_C0.json",
+   "C6": "SMOLVLM_LORA_SLAKE_seed1_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|SMOLVLM_LORA|seed2": {
+   "C0": "SMOLVLM_LORA_SLAKE_seed2_C0.json",
+   "C6": "SMOLVLM_LORA_SLAKE_seed2_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|SMOLVLM_DORA|seed0": {
+   "C0": "SMOLVLM_DORA_SLAKE_C0.json",
+   "C6": "SMOLVLM_DORA_SLAKE_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|SMOLVLM_DORA|seed1": {
+   "C0": "SMOLVLM_DORA_SLAKE_seed1_C0.json",
+   "C6": "SMOLVLM_DORA_SLAKE_seed1_C6.json",
+   "why": "default files"
+  },
+  "SLAKE|SMOLVLM_DORA|seed2": {
+   "C0": "SMOLVLM_DORA_SLAKE_seed2_C0.json",
+   "C6": "SMOLVLM_DORA_SLAKE_seed2_C6.json",
+   "why": "default files"
+  }
+ },
+ "exact_cells": 30,
+ "total_cells": 30,
+ "non_determinism": {
+  "across_environments": {
+   "cell": "M3AE_SCRATCH SLAKE C6",
+   "files": [
+    "M3AE_SCRATCH_SLAKE_C6.json",
+    "M3AE_SCRATCH_SLAKE_C6_sameenv.json"
+   ],
+   "differing": 63,
+   "n": 1061,
+   "fraction": 0.05937794533459001
+  },
+  "batch_composition": {
+   "SMOLVLM_LORA seed2": {
+    "condition": "C0",
+    "files": [
+     "SMOLVLM_LORA_KVASIR_seed2_C0.json",
+     "SMOLVLM_LORA_KVASIR_seed2_C0_bs1.json"
+    ],
+    "differing_predictions": 77,
+    "differing_correct": 36,
+    "n": 10779,
+    "fraction": 0.007143519807032192,
+    "fraction_correct": 0.003339827442248817
+   },
+   "SMOLVLM_DORA seed0": {
+    "condition": "C0",
+    "files": [
+     "SMOLVLM_DORA_KVASIR_seed0_C0.json",
+     "SMOLVLM_DORA_KVASIR_seed0_C0_bs1.json"
+    ],
+    "differing_predictions": 64,
+    "differing_correct": 32,
+    "n": 10779,
+    "fraction": 0.005937471008442341,
+    "fraction_correct": 0.0029687355042211706
+   }
+  }
+ }
+}

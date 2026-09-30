@@ -1,0 +1,316 @@
+{
+ "item1_slake_V_phi": {
+  "definition": "S_T: swapped rows; V: donor carries the same question; I: and its reference differs; phi = |I|/|V|",
+  "model_free": true,
+  "by_condition": {
+   "C2": {
+    "S_T": 1061,
+    "I": 70,
+    "U": 55,
+    "N": 936,
+    "V": 125,
+    "phi": 0.56
+   },
+   "C5": {
+    "S_T": 286,
+    "I": 18,
+    "U": 40,
+    "N": 228,
+    "V": 58,
+    "phi": 0.3103448275862069
+   },
+   "C6": {
+    "S_T": 1027,
+    "I": 92,
+    "U": 200,
+    "N": 735,
+    "V": 292,
+    "phi": 0.3150684931506849
+   }
+  }
+ },
+ "item2_kvasir_c5_destination": {
+  "denominators": {
+   "changed_*": "rows of I whose prediction changed; the three sum to 1",
+   "k_over_I": "all rows of I (Equation 2)",
+   "followed_over_I": "all rows of I (the CCR of Table 3)"
+  },
+  "n_I": 5216,
+  "per_config": {
+   "M3AE": {
+    "n_I": 5216.0,
+    "n_changed": 4761.333333333333,
+    "neither_over_I": 0.16264059304703474,
+    "changed_followed": 0.8256050540627351,
+    "changed_kept": 0.002589377848028118,
+    "changed_neither": 0.17180556808923678,
+    "changed_share_of_I": 0.9128323108384458,
+    "k_over_I": 0.04441462167689162,
+    "followed_over_I": 0.7929447852760737
+   },
+   "QWEN2VL_DORA": {
+    "n_I": 5216.0,
+    "n_changed": 4811.333333333333,
+    "neither_over_I": 0.17024539877300615,
+    "changed_followed": 0.8205630017829936,
+    "changed_kept": 0.0027741002074287494,
+    "changed_neither": 0.1766628980095776,
+    "changed_share_of_I": 0.9224182004089979,
+    "k_over_I": 0.0352760736196319,
+    "followed_over_I": 0.794478527607362
+   },
+   "QWEN2VL_LORA": {
+    "n_I": 5216.0,
+    "n_changed": 4814.0,
+    "neither_over_I": 0.17254601226993868,
+    "changed_followed": 0.8170662497404918,
+    "changed_kept": 0.002768779544253733,
+    "changed_neither": 0.18016497071525447,
+    "changed_share_of_I": 0.9229294478527607,
+    "k_over_I": 0.03450920245398773,
+    "followed_over_I": 0.7929447852760737
+   },
+   "SMOLVLM_DORA": {
+    "n_I": 5216.0,
+    "n_changed": 4877.0,
+    "neither_over_I": 0.17069274028629858,
+    "changed_followed": 0.8216389183960283,
+    "changed_kept": 0.0025306510599407864,
+    "changed_neither": 0.17583043054403077,
+    "changed_share_of_I": 0.9350076687116564,
+    "k_over_I": 0.033231083844580775,
+    "followed_over_I": 0.7960761758691207
+   },
+   "SMOLVLM_LORA": {
+    "n_I": 5216.0,
+    "n_changed": 4914.0,
+    "neither_over_I": 0.1660276073619632,
+    "changed_followed": 0.8264160919776797,
+    "changed_kept": 0.0024412466757452738,
+    "changed_neither": 0.17114266134657505,
+    "changed_share_of_I": 0.942101226993865,
+    "k_over_I": 0.02639314928425358,
+    "followed_over_I": 0.8075792433537833
+   }
+  },
+  "min_max": {
+   "changed_followed": [
+    0.8170662497404918,
+    0.8264160919776797
+   ],
+   "changed_kept": [
+    0.0024412466757452738,
+    0.0027741002074287494
+   ],
+   "changed_neither": [
+    0.17114266134657505,
+    0.18016497071525447
+   ],
+   "changed_share_of_I": [
+    0.9128323108384458,
+    0.942101226993865
+   ],
+   "k_over_I": [
+    0.02639314928425358,
+    0.04441462167689162
+   ],
+   "followed_over_I": [
+    0.7929447852760737,
+    0.8075792433537833
+   ],
+   "neither_over_I": [
+    0.16264059304703474,
+    0.17254601226993868
+   ]
+  }
+ },
+ "item4_c1_on_closed": {
+  "denominator": "the qids of the M0 question-only file of each benchmark",
+  "benchmarks": {
+   "SLAKE": {
+    "n_closed": 416,
+    "floor": 0.6418269230769231,
+    "by_config": {
+     "M3AE_SCRATCH": {
+      "acc_c1_closed": 0.5777243589743589,
+      "n_closed_seen": 416.0,
+      "acc_c1_all": 0.4715677034244424,
+      "acc_c0_closed": 0.8725961538461539
+     },
+     "QWEN2VL_DORA": {
+      "acc_c1_closed": 0.5528846153846154,
+      "n_closed_seen": 416.0,
+      "acc_c1_all": 0.3371033616085454,
+      "acc_c0_closed": 0.7828525641025642
+     },
+     "QWEN2VL_LORA": {
+      "acc_c1_closed": 0.5753205128205128,
+      "n_closed_seen": 416.0,
+      "acc_c1_all": 0.3452717562048382,
+      "acc_c0_closed": 0.7780448717948718
+     },
+     "SMOLVLM_DORA": {
+      "acc_c1_closed": 0.4927884615384615,
+      "n_closed_seen": 416.0,
+      "acc_c1_all": 0.29563305058121264,
+      "acc_c0_closed": 0.8173076923076924
+     },
+     "SMOLVLM_LORA": {
+      "acc_c1_closed": 0.4895833333333333,
+      "n_closed_seen": 416.0,
+      "acc_c1_all": 0.28872133207665723,
+      "acc_c0_closed": 0.8181089743589743
+     }
+    }
+   },
+   "VQARAD": {
+    "n_closed": 272,
+    "floor": 0.6213235294117647,
+    "by_config": {
+     "M3AE_SCRATCH": {
+      "acc_c1_closed": 0.5526960784313726,
+      "n_closed_seen": 272.0,
+      "acc_c1_all": 0.4057649667405765,
+      "acc_c0_closed": 0.8100490196078431
+     },
+     "QWEN2VL_DORA": {
+      "acc_c1_closed": 0.616421568627451,
+      "n_closed_seen": 272.0,
+      "acc_c1_all": 0.39393939393939387,
+      "acc_c0_closed": 0.6911764705882352
+     },
+     "QWEN2VL_LORA": {
+      "acc_c1_closed": 0.6176470588235294,
+      "n_closed_seen": 272.0,
+      "acc_c1_all": 0.3946784922394679,
+      "acc_c0_closed": 0.6801470588235294
+     },
+     "SMOLVLM_DORA": {
+      "acc_c1_closed": 0.6127450980392157,
+      "n_closed_seen": 272.0,
+      "acc_c1_all": 0.3991130820399113,
+      "acc_c0_closed": 0.698529411764706
+     },
+     "SMOLVLM_LORA": {
+      "acc_c1_closed": 0.6127450980392157,
+      "n_closed_seen": 272.0,
+      "acc_c1_all": 0.3976348854397635,
+      "acc_c0_closed": 0.6960784313725489
+     }
+    }
+   },
+   "KVASIR": {
+    "n_closed": 10779,
+    "floor": 0.657,
+    "by_config": {
+     "M3AE": {
+      "acc_c1_closed": 0.5852119862695982,
+      "n_closed_seen": 10779.0,
+      "acc_c1_all": 0.5852119862695982,
+      "acc_c0_closed": 0.8709527785508859
+     },
+     "QWEN2VL_DORA": {
+      "acc_c1_closed": 0.5234251785879952,
+      "n_closed_seen": 10779.0,
+      "acc_c1_all": 0.5234251785879952,
+      "acc_c0_closed": 0.8669326158889198
+     },
+     "QWEN2VL_LORA": {
+      "acc_c1_closed": 0.4919132881838142,
+      "n_closed_seen": 10779.0,
+      "acc_c1_all": 0.4919132881838142,
+      "acc_c0_closed": 0.8647060642607539
+     },
+     "SMOLVLM_DORA": {
+      "acc_c1_closed": 0.49262454773170045,
+      "n_closed_seen": 10779.0,
+      "acc_c1_all": 0.49262454773170045,
+      "acc_c0_closed": 0.86872622692272
+     },
+     "SMOLVLM_LORA": {
+      "acc_c1_closed": 0.49277916937254534,
+      "n_closed_seen": 10779.0,
+      "acc_c1_all": 0.49277916937254534,
+      "acc_c0_closed": 0.8757460494170765
+     }
+    }
+   }
+  }
+ },
+ "item5_slake_pairs": {
+  "rows_per_condition": {
+   "C2": 96,
+   "C5": 25,
+   "C6": 93
+  },
+  "self_pairs_per_condition": {
+   "C2": 0,
+   "C5": 0,
+   "C6": 0
+  },
+  "medsiglip": {
+   "distinct_image_distance_entries": 188,
+   "distinct_image_donor_pairs": 188,
+   "entries_below_0.01": 0,
+   "distinct_images_among_those": 0,
+   "image_donor_pairs_below_0.01": 0
+  },
+  "colorhist": {
+   "distinct_image_distance_entries": 188,
+   "distinct_image_donor_pairs": 188,
+   "entries_below_0.01": 96,
+   "distinct_images_among_those": 60,
+   "image_donor_pairs_below_0.01": 96
+  }
+ },
+ "item6_coefficient_scale": {
+  "KVASIR": {
+   "all_pairs_per_config_means": [
+    2.6999809826230905,
+    3.7671022804508687
+   ],
+   "all_pairs_seed0": [
+    2.823047056064741,
+    3.7716499776310983
+   ],
+   "within_bucket_per_config_means": [
+    4.616015302836818,
+    5.470660196069923
+   ],
+   "scale": "raw logistic coefficient on d, both",
+   "within_aggregation": "mean over the three seeds of the within-bucket fit"
+  },
+  "SLAKE": {
+   "all_pairs_per_config_means": [
+    2.7146211014771993,
+    2.9530488767423235
+   ],
+   "all_pairs_seed0": [
+    2.558343265416751,
+    2.9819545863143238
+   ],
+   "within_bucket_per_config_means": [
+    -0.837546879493654,
+    0.22266723040481148
+   ],
+   "scale": "raw logistic coefficient on d, both",
+   "within_aggregation": "mean over the three seeds of the within-bucket fit"
+  },
+  "VQARAD": {
+   "all_pairs_per_config_means": [
+    0.7624828555574333,
+    1.6667325851327703
+   ],
+   "all_pairs_seed0": [
+    0.9363160145397414,
+    1.7624324308619337
+   ],
+   "within_bucket_per_config_means": [
+    -1.4732774311699597,
+    0.25718605006882594
+   ],
+   "scale": "raw logistic coefficient on d, both",
+   "within_aggregation": "mean over the three seeds of the within-bucket fit"
+  }
+ }
+}

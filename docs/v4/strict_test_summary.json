@@ -1,0 +1,58 @@
+{
+ "KVASIR": {
+  "full": {
+   "images": 1291,
+   "questions": 10779
+  },
+  "thresholds": {
+   "2": {
+    "images": 1018,
+    "questions": 10390,
+    "dropped_images": 273,
+    "dropped_exact_copy": 36,
+    "dropped_near_neighbour": 266,
+    "dropped_internal_duplicate": 7,
+    "fraction_images_kept": 0.7885,
+    "fraction_questions_kept": 0.9639
+   },
+   "4": {
+    "images": 933,
+    "questions": 10203,
+    "dropped_images": 358,
+    "dropped_exact_copy": 36,
+    "dropped_near_neighbour": 351,
+    "dropped_internal_duplicate": 7,
+    "fraction_images_kept": 0.7227,
+    "fraction_questions_kept": 0.9466
+   }
+  }
+ },
+ "SLAKE": {
+  "full": {
+   "images": 96,
+   "questions": 1061
+  },
+  "thresholds": {
+   "2": {
+    "images": 77,
+    "questions": 865,
+    "dropped_images": 19,
+    "dropped_exact_copy": 0,
+    "dropped_near_neighbour": 19,
+    "dropped_internal_duplicate": 0,
+    "fraction_images_kept": 0.8021,
+    "fraction_questions_kept": 0.8153
+   },
+   "4": {
+    "images": 72,
+    "questions": 810,
+    "dropped_images": 24,
+    "dropped_exact_copy": 0,
+    "dropped_near_neighbour": 24,
+    "dropped_internal_duplicate": 0,
+    "fraction_images_kept": 0.75,
+    "fraction_questions_kept": 0.7634
+   }
+  }
+ }
+}

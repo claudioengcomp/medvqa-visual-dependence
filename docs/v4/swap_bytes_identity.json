@@ -1,0 +1,56 @@
+{
+ "KVASIR": {
+  "C2": {
+   "same_sha_multiset": true,
+   "same_id_to_sha_map": true,
+   "rows_whose_image_id_changed": 1291,
+   "n_rows": 1291
+  },
+  "C5": {
+   "same_sha_multiset": true,
+   "same_id_to_sha_map": true,
+   "rows_whose_image_id_changed": 611,
+   "n_rows": 1291
+  },
+  "C6": {
+   "same_sha_multiset": true,
+   "same_id_to_sha_map": true,
+   "rows_whose_image_id_changed": 777,
+   "n_rows": 1291
+  }
+ },
+ "SLAKE": {
+  "C2": {
+   "same_sha_multiset": true,
+   "same_id_to_sha_map": true,
+   "rows_whose_image_id_changed": 96,
+   "n_rows": 96
+  },
+  "C5": {
+   "same_sha_multiset": true,
+   "same_id_to_sha_map": true,
+   "rows_whose_image_id_changed": 25,
+   "n_rows": 96
+  },
+  "C6": {
+   "same_sha_multiset": true,
+   "same_id_to_sha_map": true,
+   "rows_whose_image_id_changed": 93,
+   "n_rows": 96
+  }
+ },
+ "VQARAD": {
+  "C2": {
+   "same_sha_multiset": true,
+   "same_id_to_sha_map": true,
+   "rows_whose_image_id_changed": 203,
+   "n_rows": 203
+  },
+  "C6": {
+   "same_sha_multiset": true,
+   "same_id_to_sha_map": true,
+   "rows_whose_image_id_changed": 203,
+   "n_rows": 203
+  }
+ }
+}

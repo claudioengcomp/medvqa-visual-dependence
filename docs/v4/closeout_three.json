@@ -1,0 +1,161 @@
+{
+ "item1_informative_set": {
+  "definition": "I: the donor carries the same question and its reference differs; references only, no model",
+  "by_donor_map": {
+   "swap_map": {
+    "donor_assignments": 617,
+    "S_T": 8940,
+    "I": 5218,
+    "U": 2892,
+    "N": 830,
+    "V": 8110,
+    "phi": 0.643403205918619
+   },
+   "corrected_manifest": {
+    "donor_assignments": 611,
+    "S_T": 8934,
+    "I": 5216,
+    "U": 2886,
+    "N": 832,
+    "V": 8102,
+    "phi": 0.6437916563811404
+   }
+  },
+  "items_only_in_swap_map": [
+   2000405,
+   2000414
+  ],
+  "ccr_kvasir_c5": {
+   "swap_map": {
+    "M3AE": {
+     "ccr": 79.276862143861,
+     "n_I": 5218,
+     "ccr_e7": 79.276862143861,
+     "runs": 3
+    },
+    "QWEN2VL_LORA": {
+     "ccr": 79.30241471828288,
+     "n_I": 5218,
+     "ccr_e7": 79.30241471828288,
+     "runs": 3
+    },
+    "QWEN2VL_DORA": {
+     "ccr": 79.4557301648141,
+     "n_I": 5218,
+     "ccr_e7": 79.4557301648141,
+     "runs": 3
+    },
+    "SMOLVLM_LORA": {
+     "ccr": 80.73974702951323,
+     "n_I": 5218,
+     "ccr_e7": 80.73974702951323,
+     "runs": 3
+    },
+    "SMOLVLM_DORA": {
+     "ccr": 79.577104893318,
+     "n_I": 5218,
+     "ccr_e7": 79.577104893318,
+     "runs": 3
+    },
+    "MEDVLTHINKER_ZEROSHOT": {
+     "ccr": 21.751628976619394,
+     "n_I": 5218,
+     "ccr_e7": 24.03219624377156,
+     "runs": 1
+    }
+   },
+   "corrected_manifest": {
+    "M3AE": {
+     "ccr": 79.29447852760735,
+     "n_I": 5216,
+     "ccr_e7": 79.29447852760735,
+     "runs": 3
+    },
+    "QWEN2VL_LORA": {
+     "ccr": 79.29447852760735,
+     "n_I": 5216,
+     "ccr_e7": 79.29447852760735,
+     "runs": 3
+    },
+    "QWEN2VL_DORA": {
+     "ccr": 79.4478527607362,
+     "n_I": 5216,
+     "ccr_e7": 79.4478527607362,
+     "runs": 3
+    },
+    "SMOLVLM_LORA": {
+     "ccr": 80.75792433537832,
+     "n_I": 5216,
+     "ccr_e7": 80.75792433537832,
+     "runs": 3
+    },
+    "SMOLVLM_DORA": {
+     "ccr": 79.60761758691207,
+     "n_I": 5216,
+     "ccr_e7": 79.60761758691207,
+     "runs": 3
+    },
+    "MEDVLTHINKER_ZEROSHOT": {
+     "ccr": 21.759969325153374,
+     "n_I": 5216,
+     "ccr_e7": 24.041411042944784,
+     "runs": 1
+    }
+   }
+  },
+  "fine_tuned_range": {
+   "swap_map": [
+    79.276862143861,
+    80.73974702951323
+   ],
+   "corrected_manifest": [
+    79.29447852760735,
+    80.75792433537832
+   ]
+  }
+ },
+ "item2_prediction_files": {
+  "files_with_predictions": 558,
+  "files_by_family": {
+   "M0": 21,
+   "M3AE": 111,
+   "MEDVLTHINKER": 32,
+   "QWEN2VL": 196,
+   "SMOLVLM": 198
+  },
+  "items_with_negative_or_positive": {
+   "M0": 0,
+   "M3AE": 0,
+   "MEDVLTHINKER": 9272,
+   "QWEN2VL": 5,
+   "SMOLVLM": 0
+  },
+  "tokens": [
+   "negative",
+   "positive"
+  ]
+ },
+ "item3_identity_cells": {
+  "cell": "one fine-tuned checkpoint: configuration x seed, on the benchmark whose CCR Table 3 reports (Kvasir-VQA-x1 under C5, SLAKE under C6)",
+  "n_cells": 30,
+  "per_benchmark": {
+   "KVASIR": 15,
+   "SLAKE": 15
+  },
+  "zero_shot_included": false,
+  "zero_shot_measured_apart": {
+   "KVASIR": {
+    "condition": "C5",
+    "n": 5218,
+    "agree": 4646,
+    "rate": 0.8903794557301649
+   },
+   "SLAKE": {
+    "condition": "C6",
+    "n": 92,
+    "agree": 86,
+    "rate": 0.9347826086956522
+   }
+  }
+ }
+}

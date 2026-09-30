@@ -1,0 +1,56 @@
+{
+ "criterion": "separation in >= 3 of 4, and HEAL unimodal",
+ "verdict_read_on": "medsiglip",
+ "benchmarks": {
+  "KVASIR": {
+   "instrument": "W1 near vs far, permutation",
+   "separated": true,
+   "w1": 0.10657183438879983,
+   "p": 0.000999000999000999,
+   "near_fraction": 0.6171548117154811,
+   "pairs": 478,
+   "note": "domain label available; two-sample test",
+   "phi_v3": 0.487
+  },
+  "SLAKE": {
+   "instrument": "W1 near vs far, permutation",
+   "separated": true,
+   "w1": 0.2795840171810872,
+   "p": 0.000999000999000999,
+   "near_fraction": 0.2777777777777778,
+   "pairs": 90,
+   "note": "domain label available; two-sample test",
+   "phi_v3": 0.595
+  },
+  "VQARAD": {
+   "instrument": "W1 near vs far, permutation",
+   "separated": true,
+   "w1": 0.35303846622694857,
+   "p": 0.000999000999000999,
+   "near_fraction": 0.3399014778325123,
+   "pairs": 203,
+   "note": "domain label available; two-sample test",
+   "phi_v3": null
+  },
+  "PATHVQA": {
+   "instrument": "Hartigan dip",
+   "separated": false,
+   "dip": 0.011317726081057867,
+   "p": 0.7030484933617058,
+   "pairs": 858,
+   "mean_d": 0.6039769636457882,
+   "note": "no domain label; the dip only sees domain structure when it produces two clear modes, so a negative here is weak evidence and not evidence of absence",
+   "phi_v3": 0.943
+  }
+ },
+ "heal": {
+  "unimodal_primary": true,
+  "dip": 0.007095799772712167,
+  "p": 0.9640886905869269,
+  "mean_d": 0.39942575115512047,
+  "all_rulers_unimodal": true
+ },
+ "separating": 3,
+ "passed": true,
+ "margin": "at the threshold: 3 of 4"
+}

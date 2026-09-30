@@ -1,0 +1,172 @@
+{
+ "KVASIR": {
+  "C0": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1284
+  },
+  "C1": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1
+  },
+  "C2": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1284
+  },
+  "C3-25": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1284
+  },
+  "C3-50": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1284
+  },
+  "C3-75": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1284
+  },
+  "C4-25": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1291
+  },
+  "C4-50": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1291
+  },
+  "C4-75": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1291
+  },
+  "C5": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1284
+  },
+  "C6": {
+   "rows": 1291,
+   "unique_image_id": 1291,
+   "unique_sha256": 1284
+  }
+ },
+ "SLAKE": {
+  "C0": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 96
+  },
+  "C1": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 1
+  },
+  "C2": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 96
+  },
+  "C3-25": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 96
+  },
+  "C3-50": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 89
+  },
+  "C3-75": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 75
+  },
+  "C4-25": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 96
+  },
+  "C4-50": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 96
+  },
+  "C4-75": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 96
+  },
+  "C5": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 96
+  },
+  "C6": {
+   "rows": 96,
+   "unique_image_id": 96,
+   "unique_sha256": 96
+  }
+ },
+ "VQARAD": {
+  "C0": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  },
+  "C1": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 1
+  },
+  "C2": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  },
+  "C3-25": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  },
+  "C3-50": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  },
+  "C3-75": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  },
+  "C4-25": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  },
+  "C4-50": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  },
+  "C4-75": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  },
+  "C6": {
+   "rows": 203,
+   "unique_image_id": 203,
+   "unique_sha256": 203
+  }
+ },
+ "_verdict": {
+  "swaps_match_c0_in_rows_and_ids": true,
+  "offenders": []
+ }
+}

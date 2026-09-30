@@ -1,0 +1,1401 @@
+{
+ "arrows": {
+  "KVASIR_clean": {
+   "C0": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean.arrow",
+    "bytes": 71609186,
+    "sha256": "ff5c25692c1b46326c221cd197622037e5afa6099b799a85bd7db26e83715891",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c1": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c1.arrow",
+    "bytes": 5012434,
+    "sha256": "5e25da22db58d4d65b185f9054c4f425a26f888d549b2ba88d74ade80fb950b7",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_25": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c4_occ_25.arrow",
+    "bytes": 57428066,
+    "sha256": "56ea9d8990aa5cafb2ddc4e0bf8adb650cc2f3bcbb0613dc0bb02a0c8e194ecc",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_50": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c4_occ_50.arrow",
+    "bytes": 45370362,
+    "sha256": "fb9499d508f48db4c2f495e216619b3c1d3f9aa84c71acc62f79021170e78d02",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_75": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c4_occ_75.arrow",
+    "bytes": 29601314,
+    "sha256": "adf224757f1b959ad1ddc703c40f1822d1c383b46f53a0eef82140c984f541db",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_25": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c4_noise_25.arrow",
+    "bytes": 389991354,
+    "sha256": "7c77e74d0bec69cce7612360b4b9c99d14d313b78b829b4bc3af0439891e7f76",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_50": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c4_noise_50.arrow",
+    "bytes": 487725130,
+    "sha256": "3157a0e8e41f788d5b794eda88f5d198e6f0584efc856fc6d6e1df07d0c01d12",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_75": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c4_noise_75.arrow",
+    "bytes": 523745546,
+    "sha256": "d46e898c470e47b8037bc3d2a25c956fe4fafda8063e1742b98520fef3e50eaa",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c2": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c2.arrow",
+    "bytes": 71609186,
+    "sha256": "c50a302be8454ae7c011a92a580a95bc1ee81895dd35b2bed507768371c94f26",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c5": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c5.arrow",
+    "bytes": 71609186,
+    "sha256": "f89a5e670ff0c07f5bf8d7f01bec96d51ce4c67f6738f75aeb65092b8e4b62d6",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c6": {
+    "path": "data/finetune_arrows/vqa_kvasir_test_clean_c6.arrow",
+    "bytes": 71609186,
+    "sha256": "5264b80bd2063581ef6b5c1a57a7e783a4504359149d386cab8166a7037ff88f",
+    "rows": 1291,
+    "questions": 10779,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   }
+  },
+  "SLAKE": {
+   "C0": {
+    "path": "data/finetune_arrows/vqa_slack_test.arrow",
+    "bytes": 8901146,
+    "sha256": "fe94d9a08770ab65608ac32c1f59f88dba4baa88611c401ceddd8452c85149d1",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c1": {
+    "path": "data/finetune_arrows/vqa_slack_test_c1.arrow",
+    "bytes": 404170,
+    "sha256": "24cc94c7beca9cab7623b4407057570d3b9e29104e9d438a6268036103cca2e9",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_25": {
+    "path": "data/finetune_arrows/vqa_slack_test_c4_occ_25.arrow",
+    "bytes": 2505594,
+    "sha256": "675ce10d5da0bf750b6afe7b8b665078f3f94a09dd9cfc9a40494654b7e35162",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_50": {
+    "path": "data/finetune_arrows/vqa_slack_test_c4_occ_50.arrow",
+    "bytes": 1944490,
+    "sha256": "10e32ec63ae0d99b94ebfcbcf380cbb14e4ba8c0e0f6cdfe3b85c045c8f725c3",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_75": {
+    "path": "data/finetune_arrows/vqa_slack_test_c4_occ_75.arrow",
+    "bytes": 1439026,
+    "sha256": "b626f02f6c6062195d11cfadb719553e8d80510a74bb992371c33705acfa9423",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_25": {
+    "path": "data/finetune_arrows/vqa_slack_test_c4_noise_25.arrow",
+    "bytes": 21975554,
+    "sha256": "e4ba0c8d5e14b45f96613fde9700b25bfdec49d23febe919103cf79420f9f8a7",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_50": {
+    "path": "data/finetune_arrows/vqa_slack_test_c4_noise_50.arrow",
+    "bytes": 27820498,
+    "sha256": "a7a4c46efdf08a88fc9887ed1125ef98e475eed91f02d2e23489c711f1973964",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_75": {
+    "path": "data/finetune_arrows/vqa_slack_test_c4_noise_75.arrow",
+    "bytes": 29992082,
+    "sha256": "f247dad6c6d31c8434efcb0cdcbafa590d555acab10808540d6b76a887765058",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c2": {
+    "path": "data/finetune_arrows/vqa_slack_test_c2.arrow",
+    "bytes": 8900778,
+    "sha256": "7551cd37b76c88937a6c998ef26865edc8492d669d56cc86f7ac21d73ad7603a",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c5": {
+    "path": "data/finetune_arrows/vqa_slack_test_c5.arrow",
+    "bytes": 8901562,
+    "sha256": "ac019cc208db5d65630dc43b1b7d73416fdfb8c8fa83881528aa69ff9dbef0a5",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c6": {
+    "path": "data/finetune_arrows/vqa_slack_test_c6.arrow",
+    "bytes": 8901562,
+    "sha256": "3800189575015c74811a7a4bca8039a055d5a495497e6aba3ee235ee15f34140",
+    "rows": 96,
+    "questions": 1061,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   }
+  },
+  "VQARAD": {
+   "C0": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test.arrow",
+    "bytes": 10566754,
+    "sha256": "d75d6000ac1b9433ca756c272c0091639689d189906dd7e0235f880944efa2d5",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c1": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c1.arrow",
+    "bytes": 662962,
+    "sha256": "c840f40f3fab213380141ea6dc02abd2711a149772c27d768b0886eab839a7b8",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_25": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c4_occ_25.arrow",
+    "bytes": 7945994,
+    "sha256": "3b7cbf95d8adb07da5856a6ab2c542ba2e907be4bdb24840ee36456efe9e1179",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_50": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c4_occ_50.arrow",
+    "bytes": 5978162,
+    "sha256": "21cb2e5121f7d55c7b4ae565251f87742600826c1d462a3f987a8f720b4fe541",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_occ_75": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c4_occ_75.arrow",
+    "bytes": 4467050,
+    "sha256": "eed2d08ff4ad02124f09850d6a4853400cf0ddb9892d2aad90b96cca496a696d",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_25": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c4_noise_25.arrow",
+    "bytes": 65617202,
+    "sha256": "91e8c58eb0ab48fc990a55e7fe2b4ab38ee2123fb5dd785632a4c3bd3fb6167a",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_50": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c4_noise_50.arrow",
+    "bytes": 84125658,
+    "sha256": "75afb552f4be15851fe9950cda42ed926522995dbf53c8471aee357cd0dfeb07",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c4_noise_75": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c4_noise_75.arrow",
+    "bytes": 91102442,
+    "sha256": "a44a2ba157e481ad8a80a48d040e38723dbcc3542fc73542d6627260d518f10f",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c2": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c2.arrow",
+    "bytes": 10566386,
+    "sha256": "cfafebd97a9af9815486e47f0e5ea94c93ac8dc10c16af037cbb96a81c74291c",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   },
+   "c5": null,
+   "c6": {
+    "path": "data/finetune_arrows/vqa_vqa_rad_test_c6.arrow",
+    "bytes": 10568034,
+    "sha256": "821cca83158399aa6ca404b6972f546a52a51e74c65450fe5e03387c2df7483f",
+    "rows": 203,
+    "questions": 451,
+    "columns": [
+     "answer_labels",
+     "answer_scores",
+     "answer_type",
+     "answers",
+     "image",
+     "image_id",
+     "question_id",
+     "questions"
+    ]
+   }
+  }
+ },
+ "swap_maps": {
+  "C5_manifest_KVASIR.json": {
+   "bytes": 258144,
+   "sha256": "0c7961bed74fd4c3729ccf13c0640de98ff58d5292ac68c92aaa5035f49cecef"
+  },
+  "C5_manifest_KVASIR_clean.json": {
+   "bytes": 114691,
+   "sha256": "dcb4d58ac65d3305c93c314044b5bfaed3523c7ad3b428160ab5f94f0070fe82"
+  },
+  "C5_manifest_SLAKE.json": {
+   "bytes": 5587,
+   "sha256": "34b588872f1ff68ee11aed03c2df95e62db443298dfa2bc8adcaf7765820e2f8"
+  },
+  "C5_manifest_SLAKE_MRI.json": {
+   "bytes": 3709,
+   "sha256": "1e25a31ede1ce6760a09c071e90e3408e95475878fddef833fc12fb0661069fb"
+  },
+  "C6_manifest_KVASIR.json": {
+   "bytes": 442016,
+   "sha256": "a5c8a0678d552fe7fba4499c0b443470b077037277496cc47cdefad2166386f6"
+  },
+  "C6_manifest_KVASIR_clean.json": {
+   "bytes": 142745,
+   "sha256": "79aa5fd880dec85b63ac2f0d1cd539d1281ceb6d7e012647d37e09844cc3be00"
+  },
+  "C6_manifest_KVASIR_clean_colonoscopy.json": {
+   "bytes": 140717,
+   "sha256": "66d022737e0821168c7aa4cc77641598385eed4f422b38497fea3ab64110b96d"
+  },
+  "C6_manifest_KVASIR_clean_gastroscopy.json": {
+   "bytes": 116719,
+   "sha256": "c852b6177979201b1f463e90ad2ba60b7be1354a6e4d65ec08ea4b9cb726e9f1"
+  },
+  "C6_manifest_SLAKE.json": {
+   "bytes": 20545,
+   "sha256": "810e2b936fff8f41789c493c112a39314dc74d7cc1b7a9229ba241ac252c583a"
+  },
+  "C6_manifest_SLAKE_CT_ABDOMEN.json": {
+   "bytes": 4510,
+   "sha256": "a53f83095e60d94682a195b549fe63a5bc8504438569fe0a8650c53e61f76442"
+  },
+  "C6_manifest_SLAKE_CT_BRAIN_FACE.json": {
+   "bytes": 412,
+   "sha256": "9f3cef96eb72aeae5c2e6d13c4c3e4e0944877e6339d6d811f56886113cc28f1"
+  },
+  "C6_manifest_SLAKE_CT_LUNG.json": {
+   "bytes": 1021,
+   "sha256": "30bfd0363a0b76eceae643f758142f109cbcb8ea63d7a24c1ef51e6c2afb79de"
+  },
+  "C6_manifest_SLAKE_CT_NECK.json": {
+   "bytes": 617,
+   "sha256": "6988129afa5d626da79a75cef437c86c8692a1bfd066e73907c5e40f231d396f"
+  },
+  "C6_manifest_SLAKE_CT_PELVIC_CAVITY.json": {
+   "bytes": 1232,
+   "sha256": "9229952108b572d0e10ae488c727ffdf204d06a4fdf26b98322e8af335bea868"
+  },
+  "C6_manifest_SLAKE_MRI_ABDOMEN.json": {
+   "bytes": 611,
+   "sha256": "a3669325537c10da8415d3efdfd9c36c74cc733390a9e75a0062bcbc6762461d"
+  },
+  "C6_manifest_SLAKE_MRI_BRAIN.json": {
+   "bytes": 1017,
+   "sha256": "718d98f776bfd828d4877f2dbc902244ebc9c950dbcce53541f03e0d5da25fdc"
+  },
+  "C6_manifest_SLAKE_MRI_BRAIN_TISSUE.json": {
+   "bytes": 4529,
+   "sha256": "eeca7265fce9eadbf81c272fb35d4c8903d247c680cefd3b52b45b90823a0ff6"
+  },
+  "C6_manifest_SLAKE_XRAY_LUNG.json": {
+   "bytes": 6612,
+   "sha256": "f004e198872f7e8f3d15d21beb4ee4b3f5850d681f65084a12012460aa09878a"
+  },
+  "C6_manifest_VQARAD.json": {
+   "bytes": 41615,
+   "sha256": "36ea3ea7aedce05e16a9d68ebded1dabb1e305a90260311a7767cdea1a1b28df"
+  },
+  "swapmap.json": null
+ },
+ "train": {
+  "KVASIR_clean": {
+   "path": "data/finetune_arrows/vqa_kvasir_train_clean.arrow",
+   "bytes": 247544682,
+   "sha256": "3f75d18fa1129a65623d45e9f9a08b6748e660d4fc8dcdb969692e8d870fa502",
+   "rows": 4514,
+   "questions": 38211,
+   "columns": [
+    "answer_labels",
+    "answer_scores",
+    "answer_type",
+    "answers",
+    "image",
+    "image_id",
+    "question_id",
+    "questions"
+   ]
+  },
+  "SLAKE": {
+   "path": "data/finetune_arrows/vqa_slack_train.arrow",
+   "bytes": 39723170,
+   "sha256": "6267d69739da6af1ce5c75afc0a49bca6135de55efd2b83805ad827f02abbe1c",
+   "rows": 450,
+   "questions": 4919,
+   "columns": [
+    "answer_labels",
+    "answer_scores",
+    "answer_type",
+    "answers",
+    "image",
+    "image_id",
+    "question_id",
+    "questions"
+   ]
+  },
+  "VQARAD": {
+   "path": "data/finetune_arrows/vqa_vqa_rad_train.arrow",
+   "bytes": 16762042,
+   "sha256": "75a9545aae1a9aa3105e4d11cc8159c7ddfb263b67d7663d1686ae2911454d56",
+   "rows": 314,
+   "questions": 2758,
+   "columns": [
+    "answer_labels",
+    "answer_scores",
+    "answer_type",
+    "answers",
+    "image",
+    "image_id",
+    "question_id",
+    "questions"
+   ]
+  }
+ },
+ "coverage": {
+  "PathVQA": {
+   "dir": "data/coverage",
+   "exists": false,
+   "files": []
+  },
+  "PMC-VQA": {
+   "dir": "data/coverage",
+   "exists": false,
+   "files": []
+  },
+  "ProbMed": {
+   "dir": "data/coverage",
+   "exists": false,
+   "files": []
+  }
+ },
+ "predictions": {
+  "total_files": 559,
+  "configs": 51,
+  "by_config": {
+   "M0_question_only_SLAKE": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "M0_question_only_VQARAD": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "M3AE_KVASIR_seed0": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "M3AE_KVASIR_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "M3AE_KVASIR_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "M3AE_SCRATCH_SLAKE": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "M3AE_SCRATCH_SLAKE_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "M3AE_SCRATCH_SLAKE_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "M3AE_SCRATCH_VQARAD": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "M3AE_SCRATCH_VQARAD_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "M3AE_SCRATCH_VQARAD_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "M3AE_SLAKE": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "MEDVLTHINKER_ZEROSHOT_KVASIR": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "MEDVLTHINKER_ZEROSHOT_SLAKE": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "MEDVLTHINKER_ZEROSHOT_VQARAD": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "QWEN2VL_DORA_KVASIR_seed0": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_DORA_KVASIR_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_DORA_KVASIR_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_DORA_SLAKE": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_DORA_SLAKE_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_DORA_SLAKE_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_DORA_VQARAD": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "QWEN2VL_DORA_VQARAD_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "QWEN2VL_DORA_VQARAD_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "QWEN2VL_LORA_KVASIR_seed0": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_LORA_KVASIR_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_LORA_KVASIR_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_LORA_SLAKE": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_LORA_SLAKE_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_LORA_SLAKE_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "QWEN2VL_LORA_VQARAD": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "QWEN2VL_LORA_VQARAD_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "QWEN2VL_LORA_VQARAD_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "SMOLVLM_DORA_KVASIR_seed0": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_DORA_KVASIR_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_DORA_KVASIR_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_DORA_SLAKE": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_DORA_SLAKE_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_DORA_SLAKE_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_DORA_VQARAD": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "SMOLVLM_DORA_VQARAD_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "SMOLVLM_DORA_VQARAD_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "SMOLVLM_LORA_KVASIR_seed0": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_LORA_KVASIR_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_LORA_KVASIR_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_LORA_SLAKE": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_LORA_SLAKE_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_LORA_SLAKE_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C5",
+    "C6"
+   ],
+   "SMOLVLM_LORA_VQARAD": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "SMOLVLM_LORA_VQARAD_seed1": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ],
+   "SMOLVLM_LORA_VQARAD_seed2": [
+    "C0",
+    "C1",
+    "C2",
+    "C4_NOISE_25",
+    "C4_NOISE_50",
+    "C4_NOISE_75",
+    "C4_OCC_25",
+    "C4_OCC_50",
+    "C4_OCC_75",
+    "C6"
+   ]
+  }
+ },
+ "checkpoints": {
+  "task_finetune_vqa_kvasir-seed0-from_downloaded_pretrained_m3ae.ckpt_dummy": [
+   {
+    "path": "../M3AE/checkpoints/task_finetune_vqa_kvasir-seed0-from_downloaded_pretrained_m3ae.ckpt_dummy/0_7ct48ydq/checkpoints/epoch=8-step=6866.ckpt",
+    "bytes": 1391908165
+   },
+   {
+    "path": "../M3AE/checkpoints/task_finetune_vqa_kvasir-seed0-from_downloaded_pretrained_m3ae.ckpt_dummy/0_7ct48ydq/checkpoints/last.ckpt",
+    "bytes": 1391908165
+   },
+   {
+    "path": "../M3AE/checkpoints/task_finetune_vqa_kvasir-seed0-from_downloaded_pretrained_m3ae.ckpt_dummy/1_u2zxbyuv/checkpoints/epoch=11-step=7175.ckpt",
+    "bytes": 1391902021
+   },
+   {
+    "path": "../M3AE/checkpoints/task_finetune_vqa_kvasir-seed0-from_downloaded_pretrained_m3ae.ckpt_dummy/1_u2zxbyuv/checkpoints/last.ckpt",
+    "bytes": 1391902021
+   }
+  ],
+  "task_finetune_vqa_kvasir-seed1-from_downloaded_pretrained_m3ae.ckpt_dummy": [
+   {
+    "path": "../M3AE/checkpoints/task_finetune_vqa_kvasir-seed1-from_downloaded_pretrained_m3ae.ckpt_dummy/0_u7xbsvdm/checkpoints/epoch=7-step=4783.ckpt",
+    "bytes": 1391902021
+   },
+   {
+    "path": "../M3AE/checkpoints/task_finetune_vqa_kvasir-seed1-from_downloaded_pretrained_m3ae.ckpt_dummy/0_u7xbsvdm/checkpoints/last.ckpt",
+    "bytes": 1391902021
+   }
+  ],
+  "task_finetune_vqa_kvasir-seed2-from_downloaded_pretrained_m3ae.ckpt_dummy": [
+   {
+    "path": "../M3AE/checkpoints/task_finetune_vqa_kvasir-seed2-from_downloaded_pretrained_m3ae.ckpt_dummy/0_w33cyvbi/checkpoints/epoch=7-step=4783.ckpt",
+    "bytes": 1391902021
+   },
+   {
+    "path": "../M3AE/checkpoints/task_finetune_vqa_kvasir-seed2-from_downloaded_pretrained_m3ae.ckpt_dummy/0_w33cyvbi/checkpoints/last.ckpt",
+    "bytes": 1391902021
+   }
+  ]
+ },
+ "missing": [
+  "arrow VQARAD c5: data/finetune_arrows/vqa_vqa_rad_test_c5.arrow",
+  "swapmap.json: data/swapmap.json",
+  "data/coverage/ ausente no host-A (PathVQA, PMC-VQA, ProbMed)"
+ ]
+}

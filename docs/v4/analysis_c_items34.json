@@ -1,0 +1,441 @@
+{
+ "rulers": [
+  "medsiglip",
+  "colorhist"
+ ],
+ "n_bins": 5,
+ "benchmarks": {
+  "KVASIR": {
+   "item3": {
+    "medsiglip": [
+     {
+      "bin": 0,
+      "n": 33060,
+      "d_lo": 0.017754806998335627,
+      "d_hi": 0.19866463070964857,
+      "followed_donor": 0.7449485783424078,
+      "kept_original": 0.06376285541439806,
+      "neither": 0.19128856624319418
+     },
+     {
+      "bin": 1,
+      "n": 37530,
+      "d_lo": 0.19866463070964857,
+      "d_hi": 0.24519412962855014,
+      "followed_donor": 0.7959232613908873,
+      "kept_original": 0.0425259792166267,
+      "neither": 0.161550759392486
+     },
+     {
+      "bin": 2,
+      "n": 40560,
+      "d_lo": 0.24519412962855014,
+      "d_hi": 0.2937293718471896,
+      "followed_donor": 0.827465483234714,
+      "kept_original": 0.027785996055226823,
+      "neither": 0.14474852071005917
+     },
+     {
+      "bin": 3,
+      "n": 41940,
+      "d_lo": 0.2937293718471896,
+      "d_hi": 0.34986976156094407,
+      "followed_donor": 0.7938006676204101,
+      "kept_original": 0.034978540772532186,
+      "neither": 0.1712207916070577
+     },
+     {
+      "bin": 4,
+      "n": 48015,
+      "d_lo": 0.34986976156094407,
+      "d_hi": 0.6529215161637272,
+      "followed_donor": 0.7808809746954077,
+      "kept_original": 0.03240653962303447,
+      "neither": 0.18671248568155785
+     }
+    ],
+    "colorhist": [
+     {
+      "bin": 0,
+      "n": 45900,
+      "d_lo": 0.010343865303965338,
+      "d_hi": 0.1722919534562608,
+      "followed_donor": 0.8029847494553377,
+      "kept_original": 0.036405228758169934,
+      "neither": 0.16061002178649236
+     },
+     {
+      "bin": 1,
+      "n": 42150,
+      "d_lo": 0.1722919534562608,
+      "d_hi": 0.29089065346721876,
+      "followed_donor": 0.7853855278766311,
+      "kept_original": 0.03938315539739027,
+      "neither": 0.17523131672597864
+     },
+     {
+      "bin": 2,
+      "n": 33855,
+      "d_lo": 0.29089065346721876,
+      "d_hi": 0.4209335419657101,
+      "followed_donor": 0.7945059813912273,
+      "kept_original": 0.04188450745827795,
+      "neither": 0.16360951115049477
+     },
+     {
+      "bin": 3,
+      "n": 36135,
+      "d_lo": 0.4209335419657101,
+      "d_hi": 0.7129720833665818,
+      "followed_donor": 0.7882108758821088,
+      "kept_original": 0.033181126331811264,
+      "neither": 0.17860799778607997
+     },
+     {
+      "bin": 4,
+      "n": 43065,
+      "d_lo": 0.7129720833665818,
+      "d_hi": 0.9406204653838737,
+      "followed_donor": 0.7780332056194125,
+      "kept_original": 0.044258678741437366,
+      "neither": 0.17770811563915012
+     }
+    ]
+   },
+   "item4": {
+    "medsiglip": {
+     "unit": "percentage points, Acc(C0) - Acc(T) on the rows of the tercile",
+     "n_rows_per_tercile": [
+      9989,
+      9990,
+      9999
+     ],
+     "n_rows_c5": 8934,
+     "restricted_to": "all",
+     "tercile_vdd": [
+      30.18653852571162,
+      40.532532532532535,
+      49.62362902956963
+     ],
+     "tercile_sd": [
+      0.9340845950346662,
+      0.550109933792852,
+      0.6849029390639885
+     ],
+     "vdd_c5": 47.12633385568242,
+     "n_cells": 15
+    },
+    "colorhist": {
+     "unit": "percentage points, Acc(C0) - Acc(T) on the rows of the tercile",
+     "n_rows_per_tercile": [
+      9988,
+      9981,
+      10009
+     ],
+     "n_rows_c5": 8934,
+     "restricted_to": "all",
+     "tercile_vdd": [
+      37.12321452409558,
+      39.77490565407608,
+      43.44689779198722
+     ],
+     "tercile_sd": [
+      0.5736207628807478,
+      0.8172771809585757,
+      0.5299668691322431
+     ],
+     "vdd_c5": 47.12633385568242,
+     "n_cells": 15
+    }
+   }
+  },
+  "SLAKE": {
+   "item3": {
+    "medsiglip": [
+     {
+      "bin": 0,
+      "n": 405,
+      "d_lo": 0.018484561026198644,
+      "d_hi": 0.18320557713033792,
+      "followed_donor": 0.5037037037037037,
+      "kept_original": 0.24691358024691357,
+      "neither": 0.24938271604938272
+     },
+     {
+      "bin": 1,
+      "n": 810,
+      "d_lo": 0.18320557713033792,
+      "d_hi": 0.4489160126561962,
+      "followed_donor": 0.7469135802469136,
+      "kept_original": 0.16913580246913582,
+      "neither": 0.08395061728395062
+     },
+     {
+      "bin": 2,
+      "n": 330,
+      "d_lo": 0.4489160126561962,
+      "d_hi": 0.5584115920707743,
+      "followed_donor": 0.5848484848484848,
+      "kept_original": 0.09393939393939393,
+      "neither": 0.3212121212121212
+     },
+     {
+      "bin": 3,
+      "n": 495,
+      "d_lo": 0.5584115920707743,
+      "d_hi": 0.6821721775036442,
+      "followed_donor": 0.6161616161616161,
+      "kept_original": 0.10505050505050505,
+      "neither": 0.2787878787878788
+     },
+     {
+      "bin": 4,
+      "n": 660,
+      "d_lo": 0.6821721775036442,
+      "d_hi": 0.929610327339243,
+      "followed_donor": 0.6833333333333333,
+      "kept_original": 0.04696969696969697,
+      "neither": 0.2696969696969697
+     }
+    ],
+    "colorhist": [
+     {
+      "bin": 0,
+      "n": 495,
+      "d_lo": 2.0412233616485528e-06,
+      "d_hi": 0.001907759944389853,
+      "followed_donor": 0.6808080808080809,
+      "kept_original": 0.13333333333333333,
+      "neither": 0.18585858585858586
+     },
+     {
+      "bin": 1,
+      "n": 660,
+      "d_lo": 0.001907759944389853,
+      "d_hi": 0.007844359596393513,
+      "followed_donor": 0.7121212121212122,
+      "kept_original": 0.12424242424242424,
+      "neither": 0.16363636363636364
+     },
+     {
+      "bin": 2,
+      "n": 420,
+      "d_lo": 0.007844359596393513,
+      "d_hi": 0.20853148879379424,
+      "followed_donor": 0.48095238095238096,
+      "kept_original": 0.16904761904761906,
+      "neither": 0.35
+     },
+     {
+      "bin": 3,
+      "n": 465,
+      "d_lo": 0.20853148879379424,
+      "d_hi": 0.5144993157428542,
+      "followed_donor": 0.5010752688172043,
+      "kept_original": 0.1956989247311828,
+      "neither": 0.3032258064516129
+     },
+     {
+      "bin": 4,
+      "n": 660,
+      "d_lo": 0.5144993157428542,
+      "d_hi": 0.9970163879153253,
+      "followed_donor": 0.7818181818181819,
+      "kept_original": 0.06212121212121212,
+      "neither": 0.15606060606060607
+     }
+    ]
+   },
+   "item4": {
+    "medsiglip": {
+     "unit": "percentage points, Acc(C0) - Acc(T) on the rows of the tercile",
+     "n_rows_per_tercile": [
+      0,
+      547,
+      461
+     ],
+     "n_rows_c5": 286,
+     "restricted_to": "XRAY_LUNG",
+     "tercile_vdd": [
+      null,
+      1.998781230956734,
+      21.77874186550976
+     ],
+     "tercile_sd": [
+      null,
+      1.7064507615538955,
+      3.8174587382344756
+     ],
+     "vdd_c5": 1.9580419580419581,
+     "n_cells": 15
+    },
+    "colorhist": {
+     "unit": "percentage points, Acc(C0) - Acc(T) on the rows of the tercile",
+     "n_rows_per_tercile": [
+      0,
+      482,
+      526
+     ],
+     "n_rows_c5": 286,
+     "restricted_to": "XRAY_LUNG",
+     "tercile_vdd": [
+      null,
+      0.9128630705394191,
+      20.329531051964512
+     ],
+     "tercile_sd": [
+      null,
+      1.155882844579595,
+      3.997803487059507
+     ],
+     "vdd_c5": 1.9580419580419581,
+     "n_cells": 15
+    }
+   }
+  },
+  "VQARAD": {
+   "item3": {
+    "medsiglip": [
+     {
+      "bin": 0,
+      "n": 15,
+      "d_lo": 0.08505747508313219,
+      "d_hi": 0.2367714435794424,
+      "followed_donor": 1.0,
+      "kept_original": 0.0,
+      "neither": 0.0
+     },
+     {
+      "bin": 1,
+      "n": 0,
+      "d_lo": 0.2367714435794424,
+      "d_hi": 0.37089766365323484,
+      "followed_donor": null,
+      "kept_original": null,
+      "neither": null
+     },
+     {
+      "bin": 2,
+      "n": 0,
+      "d_lo": 0.37089766365323484,
+      "d_hi": 0.542621685756255,
+      "followed_donor": null,
+      "kept_original": null,
+      "neither": null
+     },
+     {
+      "bin": 3,
+      "n": 0,
+      "d_lo": 0.542621685756255,
+      "d_hi": 0.6668866537110785,
+      "followed_donor": null,
+      "kept_original": null,
+      "neither": null
+     },
+     {
+      "bin": 4,
+      "n": 0,
+      "d_lo": 0.6668866537110785,
+      "d_hi": 0.9555930032874157,
+      "followed_donor": null,
+      "kept_original": null,
+      "neither": null
+     }
+    ],
+    "colorhist": [
+     {
+      "bin": 0,
+      "n": 15,
+      "d_lo": 0.00036131351674892906,
+      "d_hi": 0.020003050499064104,
+      "followed_donor": 1.0,
+      "kept_original": 0.0,
+      "neither": 0.0
+     },
+     {
+      "bin": 1,
+      "n": 0,
+      "d_lo": 0.020003050499064104,
+      "d_hi": 0.16212294893685164,
+      "followed_donor": null,
+      "kept_original": null,
+      "neither": null
+     },
+     {
+      "bin": 2,
+      "n": 0,
+      "d_lo": 0.16212294893685164,
+      "d_hi": 0.43157721548348604,
+      "followed_donor": null,
+      "kept_original": null,
+      "neither": null
+     },
+     {
+      "bin": 3,
+      "n": 0,
+      "d_lo": 0.43157721548348604,
+      "d_hi": 0.7054748491891799,
+      "followed_donor": null,
+      "kept_original": null,
+      "neither": null
+     },
+     {
+      "bin": 4,
+      "n": 0,
+      "d_lo": 0.7054748491891799,
+      "d_hi": 0.9432643050457529,
+      "followed_donor": null,
+      "kept_original": null,
+      "neither": null
+     }
+    ]
+   },
+   "item4": {
+    "medsiglip": {
+     "unit": "percentage points, Acc(C0) - Acc(T) on the rows of the tercile",
+     "n_rows_per_tercile": [
+      299,
+      297,
+      306
+     ],
+     "n_rows_c5": 0,
+     "restricted_to": "all",
+     "tercile_vdd": [
+      7.536231884057971,
+      9.809203142536473,
+      13.420479302832243
+     ],
+     "tercile_sd": [
+      10.713390802743833,
+      12.480561004108445,
+      11.480757998314068
+     ],
+     "vdd_c5": null,
+     "n_cells": 15
+    },
+    "colorhist": {
+     "unit": "percentage points, Acc(C0) - Acc(T) on the rows of the tercile",
+     "n_rows_per_tercile": [
+      300,
+      300,
+      302
+     ],
+     "n_rows_c5": 0,
+     "restricted_to": "all",
+     "tercile_vdd": [
+      7.533333333333332,
+      11.177777777777774,
+      12.119205298013245
+     ],
+     "tercile_sd": [
+      11.982579948501167,
+      11.589820991597927,
+      11.075519603269447
+     ],
+     "vdd_c5": null,
+     "n_cells": 15
+    }
+   }
+  }
+ }
+}

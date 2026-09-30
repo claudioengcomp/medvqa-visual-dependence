@@ -1,0 +1,185 @@
+{
+ "comparable": "within a ruler, across benchmarks",
+ "not_comparable": "across rulers: each encoder has its own geometry and its own typical cosine scale",
+ "regime_named_by": "the dip test, which tests shape, not the mean",
+ "rulers": {
+  "medsiglip": {
+   "mean": {
+    "KVASIR": 0.24473452551086844,
+    "SLAKE": 0.5685601604936946,
+    "VQARAD": 0.568323235972747,
+    "PATHVQA": 0.6039769636457882,
+    "HEAL": 0.39942575115512047
+   },
+   "rank_within_ruler": {
+    "KVASIR": 1,
+    "HEAL": 2,
+    "VQARAD": 3,
+    "SLAKE": 4,
+    "PATHVQA": 5
+   },
+   "nearest": "KVASIR",
+   "farthest": "PATHVQA",
+   "median": {
+    "KVASIR": 0.23802588816846282,
+    "SLAKE": 0.6143316805807335,
+    "VQARAD": 0.6361837811781159,
+    "PATHVQA": 0.6163080060797481,
+    "HEAL": 0.38922260710283946
+   }
+  },
+  "dinov3": {
+   "mean": {
+    "KVASIR": 0.1977180835020238,
+    "SLAKE": 0.3890362601921192,
+    "VQARAD": 0.38909103432426656,
+    "PATHVQA": 0.6358764905534652,
+    "HEAL": 0.054947115574030446
+   },
+   "rank_within_ruler": {
+    "HEAL": 1,
+    "KVASIR": 2,
+    "SLAKE": 3,
+    "VQARAD": 4,
+    "PATHVQA": 5
+   },
+   "nearest": "HEAL",
+   "farthest": "PATHVQA",
+   "median": {
+    "KVASIR": 0.1832870358487776,
+    "SLAKE": 0.3707181590712966,
+    "VQARAD": 0.37174161455620136,
+    "PATHVQA": 0.7356537854620127,
+    "HEAL": 0.05226156087982775
+   }
+  },
+  "biomedclip": {
+   "mean": {
+    "KVASIR": 0.2409719650642646,
+    "SLAKE": 0.3649921863140933,
+    "VQARAD": 0.42927286000956016,
+    "PATHVQA": 0.5494889856707736,
+    "HEAL": 0.14292147919835743
+   },
+   "rank_within_ruler": {
+    "HEAL": 1,
+    "KVASIR": 2,
+    "SLAKE": 3,
+    "VQARAD": 4,
+    "PATHVQA": 5
+   },
+   "nearest": "HEAL",
+   "farthest": "PATHVQA",
+   "median": {
+    "KVASIR": 0.23601282098771859,
+    "SLAKE": 0.3998753777393895,
+    "VQARAD": 0.46833852438406764,
+    "PATHVQA": 0.5592590722534061,
+    "HEAL": 0.13093470064805512
+   }
+  },
+  "dinov2": {
+   "mean": {
+    "KVASIR": 0.27021050051845336,
+    "SLAKE": 0.28558148332355004,
+    "VQARAD": 0.20009457422154645,
+    "PATHVQA": 0.6894325914939412,
+    "HEAL": 0.029785496170637384
+   },
+   "rank_within_ruler": {
+    "HEAL": 1,
+    "VQARAD": 2,
+    "KVASIR": 3,
+    "SLAKE": 4,
+    "PATHVQA": 5
+   },
+   "nearest": "HEAL",
+   "farthest": "PATHVQA",
+   "median": {
+    "KVASIR": 0.23886353541988714,
+    "SLAKE": 0.27595393428379555,
+    "VQARAD": 0.22829819913296512,
+    "PATHVQA": 0.8552317443871784,
+    "HEAL": 0.02811438039094316
+   }
+  },
+  "colorhist": {
+   "mean": {
+    "KVASIR": 0.3676429614482209,
+    "SLAKE": 0.3631262751494626,
+    "VQARAD": 0.4026379568590014,
+    "PATHVQA": 0.6268829093187024,
+    "HEAL": 0.35958497545447704
+   },
+   "rank_within_ruler": {
+    "HEAL": 1,
+    "SLAKE": 2,
+    "KVASIR": 3,
+    "VQARAD": 4,
+    "PATHVQA": 5
+   },
+   "nearest": "HEAL",
+   "farthest": "PATHVQA",
+   "median": {
+    "KVASIR": 0.3418540328082318,
+    "SLAKE": 0.1614014462251191,
+    "VQARAD": 0.38726282361275854,
+    "PATHVQA": 0.6695103001881344,
+    "HEAL": 0.35965062862814107
+   }
+  }
+ },
+ "rulers_disagree_on_nearest": true,
+ "shape_by_dip": {
+  "PATHVQA|medsiglip": {
+   "dip": 0.011317726081057867,
+   "p": 0.7030484933617058,
+   "bimodal": false
+  },
+  "PATHVQA|dinov3": {
+   "dip": 0.0176088441504206,
+   "p": 0.07200993239402209,
+   "bimodal": false
+  },
+  "PATHVQA|biomedclip": {
+   "dip": 0.007441239756017807,
+   "p": 0.9931475385438561,
+   "bimodal": false
+  },
+  "PATHVQA|dinov2": {
+   "dip": 0.04184857352369091,
+   "p": 0.0,
+   "bimodal": true
+  },
+  "PATHVQA|colorhist": {
+   "dip": 0.008201561775377524,
+   "p": 0.9895219187181129,
+   "bimodal": false
+  },
+  "HEAL|medsiglip": {
+   "dip": 0.007095799772712167,
+   "p": 0.9640886905869269,
+   "bimodal": false
+  },
+  "HEAL|dinov3": {
+   "dip": 0.00497566153443349,
+   "p": 0.9983949302808354,
+   "bimodal": false
+  },
+  "HEAL|biomedclip": {
+   "dip": 0.006444674662117515,
+   "p": 0.990497071771552,
+   "bimodal": false
+  },
+  "HEAL|dinov2": {
+   "dip": 0.005227533110373371,
+   "p": 0.9970407925731489,
+   "bimodal": false
+  },
+  "HEAL|colorhist": {
+   "dip": 0.010665895349324477,
+   "p": 0.39913811472565774,
+   "bimodal": false
+  }
+ }
+}

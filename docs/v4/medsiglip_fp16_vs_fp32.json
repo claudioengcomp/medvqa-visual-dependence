@@ -1,0 +1,22 @@
+{
+ "median_cos_min": 0.9999859304706057,
+ "cos_rule_ok": true,
+ "g0_stable_2dp": true,
+ "moved": [],
+ "g0_fp16": {
+  "kvasir_procedure": 0.9961340206185567,
+  "kvasir_finding": 0.9820261437908496,
+  "kvasir_finding_in_colonoscopy": 0.9858490566037735,
+  "kvasir_finding_in_gastroscopy": 0.9893048128342246,
+  "vqarad_organ": 1.0,
+  "slake_modality": 0.956989247311828
+ },
+ "g0_fp32": {
+  "kvasir_procedure": 0.9961340206185567,
+  "kvasir_finding": 0.9820261437908496,
+  "kvasir_finding_in_colonoscopy": 0.9858490566037735,
+  "kvasir_finding_in_gastroscopy": 0.9893048128342246,
+  "vqarad_organ": 1.0,
+  "slake_modality": 0.956989247311828
+ }
+}

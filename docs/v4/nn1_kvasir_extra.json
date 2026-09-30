@@ -1,0 +1,31 @@
+{
+ "biomedclip": {
+  "zeros": 35,
+  "sha_exact": 34,
+  "extra": [
+   "kvasir/clb0kvxur8zno074y200b0bfa"
+  ]
+ },
+ "dinov2": {
+  "zeros": 35,
+  "sha_exact": 34,
+  "extra": [
+   "kvasir/clb0kvxur8zno074y200b0bfa"
+  ]
+ },
+ "medsiglip": {
+  "zeros": 34,
+  "sha_exact": 34,
+  "extra": []
+ },
+ "dinov3": {
+  "zeros": 34,
+  "sha_exact": 34,
+  "extra": []
+ },
+ "colorhist": {
+  "zeros": 34,
+  "sha_exact": 34,
+  "extra": []
+ }
+}

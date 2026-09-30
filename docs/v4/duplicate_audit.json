@@ -1,0 +1,447 @@
+{
+ "near_threshold": 4,
+ "benchmarks": {
+  "KVASIR": {
+   "counts": {
+    "train": 4514,
+    "val": 644,
+    "test": 1291
+   },
+   "exact_inside_test": {
+    "groups": 7,
+    "images": 14,
+    "examples": [
+     [
+      "kvasir/cl8k2u1ro1ggr083243ex3ksv",
+      "kvasir/clb0lbwzadoxw086uf703fgwy"
+     ],
+     [
+      "kvasir/clbnxtowr6uee079ofjwk3sfc",
+      "kvasir/clbnxtowr6uea079o8qumfebs"
+     ],
+     [
+      "kvasir/clbnxtowp6u92079o0pvw7nww",
+      "kvasir/clbnxtowp6u8y079ocmih7sff"
+     ],
+     [
+      "kvasir/clbnxtox06v0m079oa97d50h3",
+      "kvasir/clbnxtox06v0q079o0ygnbj30"
+     ],
+     [
+      "kvasir/clbnxtows6uhy079o4j8qcwtu",
+      "kvasir/clbnxtows6uhu079o91rehaar"
+     ],
+     [
+      "kvasir/clbnxtogibnou074c0igla5ze",
+      "kvasir/clbnxtow46tbe079o0cp3ffk1"
+     ],
+     [
+      "kvasir/clbnxtoxl6w12079obu21ch46",
+      "kvasir/clbnxtoxl6w0y079oa8kob1xn"
+     ]
+    ]
+   },
+   "exact_test_vs_bank": {
+    "test_images_affected": 36,
+    "fraction_of_test": 0.0279,
+    "examples": [
+     {
+      "test": "kvasir/clb0lbwz4doro086ua6fxbql5",
+      "also_in": [
+       "train:kvasir/clb0lbwzbdoz0086u4leqb9pu"
+      ]
+     },
+     {
+      "test": "kvasir/clb0lbwz3doqs086u0kqy5ut2",
+      "also_in": [
+       "train:kvasir/clb0lbwzadoy8086u7rog5t28"
+      ]
+     },
+     {
+      "test": "kvasir/cla820gmfs5nz071ucpw9dejr",
+      "also_in": [
+       "train:kvasir/cla820gmds5lb071ug0oedfn0"
+      ]
+     },
+     {
+      "test": "kvasir/clbnxtoxl6w1m079o6n48429u",
+      "also_in": [
+       "val:kvasir/clbnxtoxl6w1i079oa82t005d"
+      ]
+     },
+     {
+      "test": "kvasir/clbnxtowt6uiy079ocvy4fplm",
+      "also_in": [
+       "train:kvasir/clbnxtowt6uj2079oe2l8f2ie"
+      ]
+     },
+     {
+      "test": "kvasir/clbnxtox16v32079o8vgxhsdh",
+      "also_in": [
+       "train:kvasir/clbnxtox16v36079o1e7qg76r"
+      ]
+     },
+     {
+      "test": "kvasir/clbnxtowz6uza079oa4bndh01",
+      "also_in": [
+       "train:kvasir/clbnxtowz6uze079oe3mpebxi"
+      ]
+     },
+     {
+      "test": "kvasir/clbnxtonoarvd0755d6syhwq8",
+      "also_in": [
+       "train:kvasir/clbnxtonoarvh075537bn3q83"
+      ]
+     },
+     {
+      "test": "kvasir/clbnxtows6uha079o979cc83q",
+      "also_in": [
+       "train:kvasir/clbnxtows6uh6079og3t34p1e"
+      ]
+     },
+     {
+      "test": "kvasir/clbnxtox16v3q079oa4mehs1g",
+      "also_in": [
+       "train:kvasir/clbnxtox16v3u079o8z3m8vri"
+      ]
+     }
+    ]
+   },
+   "near_test_vs_bank": {
+    "pairs": 1293,
+    "test_images_affected": 351,
+    "fraction_of_test": 0.2719,
+    "examples": [
+     {
+      "test": "kvasir/clbnxtonmarrt07552mxec4kx",
+      "matches": 19,
+      "closest": "train:kvasir/clbnxtowy6uvq079ohgyfchhw",
+      "distance": 0
+     },
+     {
+      "test": "kvasir/clbnxtogabn6y074chv8q7hcx",
+      "matches": 18,
+      "closest": "train:kvasir/clbnxtowy6uvq079ohgyfchhw",
+      "distance": 2
+     },
+     {
+      "test": "kvasir/clbnxtonras1l07558z4bh57c",
+      "matches": 18,
+      "closest": "train:kvasir/clbnxtox76vj6079o5r9hgjpw",
+      "distance": 2
+     },
+     {
+      "test": "kvasir/clbnxtoeubkxi074c64xa7xyr",
+      "matches": 17,
+      "closest": "train:kvasir/clbnxtow96tj2079o294tcnhk",
+      "distance": 0
+     },
+     {
+      "test": "kvasir/clbnxtoww6us2079o2p6c879r",
+      "matches": 17,
+      "closest": "train:kvasir/clbnxtow96tj2079o294tcnhk",
+      "distance": 0
+     },
+     {
+      "test": "kvasir/clbnxtox86vka079ohrm4av9m",
+      "matches": 16,
+      "closest": "train:kvasir/clbnxtoxf6vly079o9awiby7y",
+      "distance": 0
+     },
+     {
+      "test": "kvasir/clbnxtox76vje079o0aq3e5i1",
+      "matches": 15,
+      "closest": "train:kvasir/clbnxtogabn7a074c8ir963wt",
+      "distance": 0
+     },
+     {
+      "test": "kvasir/clbnxtowf6tvu079o8o815bx8",
+      "matches": 15,
+      "closest": "train:kvasir/clbnxtogdbnd6074cd73156lm",
+      "distance": 0
+     },
+     {
+      "test": "kvasir/clbnxtofgbm6e074cbsx69bam",
+      "matches": 15,
+      "closest": "train:kvasir/clbnxtogabn7a074c8ir963wt",
+      "distance": 0
+     },
+     {
+      "test": "kvasir/clbnxtoexbl4m074cfybzenb1",
+      "matches": 15,
+      "closest": "train:kvasir/clbnxtogdbnd6074cd73156lm",
+      "distance": 0
+     }
+    ]
+   },
+   "interpretation": {
+    "what_it_is": "repeated frames of the same endoscopy: consecutive frames are seconds apart, so the same lesion recurs under different ids",
+    "clean_by_id": true,
+    "clean_by_content": false,
+    "measured": {
+     "exact_copies": 36,
+     "near_at_4": 351,
+     "of": 1291
+    }
+   }
+  },
+  "SLAKE": {
+   "counts": {
+    "train": 450,
+    "val": 96,
+    "test": 96
+   },
+   "exact_inside_test": {
+    "groups": 0,
+    "images": 0,
+    "examples": []
+   },
+   "exact_test_vs_bank": {
+    "test_images_affected": 0,
+    "fraction_of_test": 0.0,
+    "examples": []
+   },
+   "near_test_vs_bank": {
+    "pairs": 57,
+    "test_images_affected": 24,
+    "fraction_of_test": 0.25,
+    "examples": [
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab628/source.jpg",
+      "matches": 5,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab626/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab629/source.jpg",
+      "matches": 5,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab630/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab543/source.jpg",
+      "matches": 4,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab542/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab548/source.jpg",
+      "matches": 4,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab549/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab604/source.jpg",
+      "matches": 4,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab602/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab605/source.jpg",
+      "matches": 4,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab606/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab427/source.jpg",
+      "matches": 3,
+      "closest": "val:data/finetune_data/slack//imgs/xmlab426/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab557/source.jpg",
+      "matches": 3,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab559/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab573/source.jpg",
+      "matches": 3,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab571/source.jpg",
+      "distance": 2
+     },
+     {
+      "test": "data/finetune_data/slack//imgs/xmlab401/source.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/slack//imgs/xmlab402/source.jpg",
+      "distance": 2
+     }
+    ]
+   },
+   "interpretation": {
+    "what_it_is": "slices of the same volume across partitions, not duplicate images: SLAKE is built from volumes and neighbouring slices are near-identical by construction",
+    "fraction_is_a_floor": true,
+    "why_a_floor": "pHash <= 4 catches slices that are nearly the same picture and misses slices of the same volume that look different while still coming from the same patient; an image-level hash can only bound patient-level overlap from below",
+    "measured_floor": {
+     "test_images_affected": 24,
+     "of": 96,
+     "fraction": 0.25,
+     "threshold_phash": 4
+    }
+   }
+  },
+  "VQARAD": {
+   "counts": {
+    "train": 314,
+    "val": 195,
+    "test": 203
+   },
+   "exact_inside_test": {
+    "groups": 0,
+    "images": 0,
+    "examples": []
+   },
+   "exact_test_vs_bank": {
+    "test_images_affected": 203,
+    "fraction_of_test": 1.0,
+    "examples": [
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic42202.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic42202.jpg",
+       "val:data/finetune_data/vqa_rad//images/synpic42202.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic29265.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic29265.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic54610.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic54610.jpg",
+       "val:data/finetune_data/vqa_rad//images/synpic54610.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic21776.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic21776.jpg",
+       "val:data/finetune_data/vqa_rad//images/synpic21776.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic25821.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic25821.jpg",
+       "val:data/finetune_data/vqa_rad//images/synpic25821.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic34515.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic34515.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic40272.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic40272.jpg",
+       "val:data/finetune_data/vqa_rad//images/synpic40272.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic25534.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic25534.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic39086.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic39086.jpg",
+       "val:data/finetune_data/vqa_rad//images/synpic39086.jpg"
+      ]
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic30324.jpg",
+      "also_in": [
+       "train:data/finetune_data/vqa_rad//images/synpic30324.jpg",
+       "val:data/finetune_data/vqa_rad//images/synpic30324.jpg"
+      ]
+     }
+    ]
+   },
+   "near_test_vs_bank": {
+    "pairs": 327,
+    "test_images_affected": 203,
+    "fraction_of_test": 1.0,
+    "examples": [
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic42202.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic42202.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic54610.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic54610.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic21776.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic21776.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic25821.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic25821.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic40272.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic40272.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic39086.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic39086.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic30324.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic30324.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic16174.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic16174.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic52767.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic52767.jpg",
+      "distance": 0
+     },
+     {
+      "test": "data/finetune_data/vqa_rad//images/synpic33889.jpg",
+      "matches": 2,
+      "closest": "train:data/finetune_data/vqa_rad//images/synpic33889.jpg",
+      "distance": 0
+     }
+    ]
+   },
+   "interpretation": {
+    "what_it_is": "byte-identical copies: every test image also appears in train or validation after decoding",
+    "measured": {
+     "exact_copies": 203,
+     "of": 203,
+     "fraction": 1.0
+    },
+    "no_strict_subset_possible": true,
+    "why": "removing every test image with a copy in train or validation empties the test split; there is nothing left to evaluate on",
+    "relation_to_literature": "the paper cites 202 of 203 from Yang et al. 2024; this measurement gives 203 of 203, by pixel identity after decoding rather than by identifier"
+   }
+  }
+ }
+}

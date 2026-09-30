@@ -1,0 +1,112 @@
+{
+ "KVASIR": {
+  "condition": "C5",
+  "informative": 5218,
+  "exact": 4646,
+  "rate": 0.8903794557301649,
+  "mismatches": 572,
+  "kinds": {
+   "different answer": 510,
+   "same answer, different spelling": 15,
+   "E7 synonym pair": 47
+  },
+  "kinds_share": {
+   "different answer": 0.8916083916083916,
+   "same answer, different spelling": 0.026223776223776224,
+   "E7 synonym pair": 0.08216783216783216
+  },
+  "mean_len_swapped": 10.62937062937063,
+  "mean_len_c0_donor": 10.174825174825175,
+  "examples": [
+   {
+    "qid": 2000009,
+    "swapped": "no",
+    "c0_on_donor": "polyp",
+    "question": "Are there any abnormalities in the image? Check all that are"
+   },
+   {
+    "qid": 2000011,
+    "swapped": "pink red",
+    "c0_on_donor": "pink",
+    "question": "What color is the abnormality? If more than one separate wit"
+   },
+   {
+    "qid": 2000023,
+    "swapped": "10mm",
+    "c0_on_donor": "1cm",
+    "question": "What is the size of the polyp?"
+   },
+   {
+    "qid": 2000039,
+    "swapped": "ulcer",
+    "c0_on_donor": "abnormalities",
+    "question": "Are there any abnormalities in the image? Check all that are"
+   },
+   {
+    "qid": 2000058,
+    "swapped": "instrument",
+    "c0_on_donor": "endoscope",
+    "question": "Are there any instruments in the image? Check all that are p"
+   },
+   {
+    "qid": 2000070,
+    "swapped": "colon",
+    "c0_on_donor": "diverticulum",
+    "question": "Are there any anatomical landmarks in the image? Check all t"
+   }
+  ]
+ },
+ "SLAKE": {
+  "condition": "C6",
+  "informative": 92,
+  "exact": 86,
+  "rate": 0.9347826086956522,
+  "mismatches": 6,
+  "kinds": {
+   "different answer": 6
+  },
+  "kinds_share": {
+   "different answer": 1.0
+  },
+  "mean_len_swapped": 10.166666666666666,
+  "mean_len_c0_donor": 10.666666666666666,
+  "examples": [
+   {
+    "qid": 11943,
+    "swapped": "right lung",
+    "c0_on_donor": "lung",
+    "question": "Where is/are the abnormality located?"
+   },
+   {
+    "qid": 11999,
+    "swapped": "cardiomegaly",
+    "c0_on_donor": "none",
+    "question": "Where is/are the abnormality located?"
+   },
+   {
+    "qid": 12005,
+    "swapped": "free air",
+    "c0_on_donor": "pneumoperitoneum",
+    "question": "What diseases are included in the picture?"
+   },
+   {
+    "qid": 12044,
+    "swapped": "pulmonary",
+    "c0_on_donor": "cardiomegaly",
+    "question": "Where is/are the abnormality located?"
+   },
+   {
+    "qid": 12070,
+    "swapped": "pulmonary nodule",
+    "c0_on_donor": "pneumonia",
+    "question": "What diseases are included in the picture?"
+   },
+   {
+    "qid": 12691,
+    "swapped": "stroke",
+    "c0_on_donor": "cerebral infarction",
+    "question": "What diseases are included in the picture?"
+   }
+  ]
+ }
+}

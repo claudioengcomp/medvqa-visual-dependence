@@ -1,0 +1,182 @@
+{
+ "benchmark": "SLAKE",
+ "near_threshold": 4,
+ "audit_near_bank": {
+  "n": 24,
+  "ids": [
+   "xmlab401",
+   "xmlab405",
+   "xmlab407",
+   "xmlab427",
+   "xmlab429",
+   "xmlab442",
+   "xmlab474",
+   "xmlab483",
+   "xmlab538",
+   "xmlab543",
+   "xmlab548",
+   "xmlab554",
+   "xmlab557",
+   "xmlab561",
+   "xmlab573",
+   "xmlab578",
+   "xmlab580",
+   "xmlab586",
+   "xmlab604",
+   "xmlab605",
+   "xmlab628",
+   "xmlab629",
+   "xmlab634",
+   "xmlab82"
+  ]
+ },
+ "near_inside_test": {
+  "n": 8,
+  "ids": [
+   "xmlab428",
+   "xmlab429",
+   "xmlab447",
+   "xmlab468",
+   "xmlab604",
+   "xmlab605",
+   "xmlab628",
+   "xmlab629"
+  ]
+ },
+ "severities": {
+  "C3-25": {
+   "collapsed_groups": 0,
+   "images_collapsed": 0,
+   "groups": [],
+   "overlap_with_audit_near_bank": {
+    "n": 0,
+    "ids": []
+   },
+   "overlap_with_near_inside_test": {
+    "n": 0,
+    "ids": []
+   }
+  },
+  "C3-50": {
+   "collapsed_groups": 1,
+   "images_collapsed": 8,
+   "groups": [
+    [
+     "xmlab436",
+     "xmlab442",
+     "xmlab469",
+     "xmlab471",
+     "xmlab483",
+     "xmlab495",
+     "xmlab498",
+     "xmlab529"
+    ]
+   ],
+   "overlap_with_audit_near_bank": {
+    "n": 2,
+    "ids": [
+     "xmlab442",
+     "xmlab483"
+    ]
+   },
+   "overlap_with_near_inside_test": {
+    "n": 0,
+    "ids": []
+   }
+  },
+  "C3-75": {
+   "collapsed_groups": 1,
+   "images_collapsed": 22,
+   "groups": [
+    [
+     "xmlab436",
+     "xmlab442",
+     "xmlab447",
+     "xmlab468",
+     "xmlab469",
+     "xmlab471",
+     "xmlab473",
+     "xmlab474",
+     "xmlab483",
+     "xmlab49",
+     "xmlab495",
+     "xmlab498",
+     "xmlab506",
+     "xmlab508",
+     "xmlab513",
+     "xmlab525",
+     "xmlab529",
+     "xmlab53",
+     "xmlab532",
+     "xmlab58",
+     "xmlab71",
+     "xmlab77"
+    ]
+   ],
+   "overlap_with_audit_near_bank": {
+    "n": 3,
+    "ids": [
+     "xmlab442",
+     "xmlab474",
+     "xmlab483"
+    ]
+   },
+   "overlap_with_near_inside_test": {
+    "n": 2,
+    "ids": [
+     "xmlab447",
+     "xmlab468"
+    ]
+   }
+  }
+ },
+ "verdict": {
+  "collapsed_75": 22,
+  "audit_24": 24,
+  "in_both": 3,
+  "collapsed_only": [
+   "xmlab436",
+   "xmlab447",
+   "xmlab468",
+   "xmlab469",
+   "xmlab471",
+   "xmlab473",
+   "xmlab49",
+   "xmlab495",
+   "xmlab498",
+   "xmlab506",
+   "xmlab508",
+   "xmlab513",
+   "xmlab525",
+   "xmlab529",
+   "xmlab53",
+   "xmlab532",
+   "xmlab58",
+   "xmlab71",
+   "xmlab77"
+  ],
+  "audit_only": [
+   "xmlab401",
+   "xmlab405",
+   "xmlab407",
+   "xmlab427",
+   "xmlab429",
+   "xmlab538",
+   "xmlab543",
+   "xmlab548",
+   "xmlab554",
+   "xmlab557",
+   "xmlab561",
+   "xmlab573",
+   "xmlab578",
+   "xmlab580",
+   "xmlab586",
+   "xmlab604",
+   "xmlab605",
+   "xmlab628",
+   "xmlab629",
+   "xmlab634",
+   "xmlab82"
+  ]
+ }
+}

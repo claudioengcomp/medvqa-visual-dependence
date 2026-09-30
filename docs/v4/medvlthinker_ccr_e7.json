@@ -1,0 +1,16 @@
+{
+ "KVASIR": {
+  "condition": "C5",
+  "informative": 5218,
+  "ccr_shared_ruler": 21.751628976619394,
+  "ccr_e7": 24.03219624377156,
+  "note": "the row's Acc and VDD cells use E7; this CCR cell does not"
+ },
+ "SLAKE": {
+  "condition": "C6",
+  "informative": 92,
+  "ccr_shared_ruler": 41.30434782608695,
+  "ccr_e7": 41.30434782608695,
+  "note": "the row's Acc and VDD cells use E7; this CCR cell does not"
+ }
+}
