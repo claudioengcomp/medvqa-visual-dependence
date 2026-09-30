@@ -18,14 +18,29 @@ prediction under C0 on the donor item, cell by cell (configuration x seed).
 A single scoring rule: question_key and answers_match come from
 src/analysis/ccr.py, the pair behind accuracy, VDD and the CCR.
 
+Two ways of naming the donor item (`--pair-by`):
+
+    sha   (default, what the paper reports) the donor item is every C0 item
+          whose image has the same SHA-256 as the bytes the swapped row received
+          and whose question text is the same; read from the per-row manifests
+          in results/manifests/. Byte-identical copies of one picture under
+          distinct image identifiers (Kvasir-VQA-x1 has 34 test images with an
+          identical copy in the training set and 7 within the test set) are the
+          same item, so the identity is checked against all of them.
+    id    the donor item is the C0 item with the donor's image identifier. A
+          copy under another identifier is then a different item, and the
+          identity can fail where the model answered the two copies differently.
+
 Usage:
     python -m src.analysis.identity --dataset KVASIR --condition C5
     python -m src.analysis.identity --all --json identity.json
+    python -m src.analysis.identity --all --pair-by id
 """
 from __future__ import annotations
 
 import argparse
 import json
+import os
 
 from src.analysis.ccr import (answers_match, load_predictions, load_swapmap,
                               question_key)
@@ -77,8 +92,36 @@ def strata(qid_meta: dict, donor_map: dict):
     return parts, donor_qid, donor_ref
 
 
+def sha_twins(qid_meta: dict, donor_map: dict, manifest_path: str):
+    """For every swapped question, the C0 items that carry the SAME PICTURE (by
+    SHA-256 of the image bytes) and the same question as the donor item.
+
+    The manifest gives the SHA-256 of the original and of the received bytes of
+    every swapped row; every test image appears in it either as an original or
+    as a donor, so the image -> sha map covers the whole test set.
+    """
+    with open(manifest_path) as fp:
+        rows = json.load(fp)["rows"]
+    sha = {}
+    for r in rows:
+        sha[r["image_id_original"]] = r["sha256_original"]
+        sha[r["image_id_received"]] = r["sha256_received"]
+    by_sha_q = {}
+    for qid, meta in qid_meta.items():
+        s = sha.get(meta["img"])
+        if s is not None:
+            by_sha_q.setdefault((s, question_key(meta["q"])), []).append(qid)
+    twins = {}
+    for qid, meta in qid_meta.items():
+        donor = donor_map.get(meta["img"])
+        if donor is None or donor not in sha:
+            continue
+        twins[qid] = by_sha_q.get((sha[donor], question_key(meta["q"])), [])
+    return twins
+
+
 def check_cell(c0: dict, swapped: dict, informative: list[int],
-               donor_qid: dict, donor_ref: dict) -> dict:
+               donor_qid: dict, donor_ref: dict, twins: dict | None = None) -> dict:
     """The three quantities the identity relates, over the same items.
 
     agreement  how often the swapped prediction equals the C0 prediction on the
@@ -87,30 +130,67 @@ def check_cell(c0: dict, swapped: dict, informative: list[int],
     donor_acc  the accuracy the model already has under C0 on those donor items
 
     The identity says ccr and donor_acc are the same number.
+
+    With `twins` (pairing by image bytes) the donor item is the set of C0 items
+    that carry the same picture and question; the swapped prediction agrees when
+    it equals the C0 prediction of any of them, and donor_acc reads the
+    correctness of the twin it agrees with (of the first twin when it agrees
+    with none). Twins whose C0 predictions differ among themselves are counted
+    in `ambiguous_twins`.
     """
-    usable = [q for q in informative if q in swapped and donor_qid[q] in c0]
+    if twins is None:
+        usable = [q for q in informative if q in swapped and donor_qid[q] in c0]
+        if not usable:
+            return {"n": 0}
+        agree = sum(1 for q in usable
+                    if answers_match(swapped[q]["predicted"],
+                                     [c0[donor_qid[q]]["predicted"]]))
+        ccr = sum(1 for q in usable
+                  if answers_match(swapped[q]["predicted"], donor_ref[q]))
+        donor_acc = sum(1 for q in usable if c0[donor_qid[q]]["correct"])
+        n = len(usable)
+        return {"n": n, "agreement": agree / n, "ccr": ccr / n,
+                "donor_accuracy": donor_acc / n,
+                "difference_pp": (ccr - donor_acc) / n * 100,
+                "exact": agree == n and ccr == donor_acc}
+    usable = [q for q in informative if q in swapped
+              and any(t in c0 for t in twins.get(q, []))]
     if not usable:
         return {"n": 0}
-    agree = sum(1 for q in usable
-                if answers_match(swapped[q]["predicted"],
-                                 [c0[donor_qid[q]]["predicted"]]))
-    ccr = sum(1 for q in usable
-              if answers_match(swapped[q]["predicted"], donor_ref[q]))
-    donor_acc = sum(1 for q in usable if c0[donor_qid[q]]["correct"])
+    agree = ccr = donor_acc = ambiguous = 0
+    for q in usable:
+        ts = [t for t in twins[q] if t in c0]
+        preds = {str(c0[t]["predicted"]) for t in ts}
+        ambiguous += len(preds) > 1
+        hit = [t for t in ts if answers_match(swapped[q]["predicted"],
+                                              [c0[t]["predicted"]])]
+        agree += bool(hit)
+        ccr += answers_match(swapped[q]["predicted"], donor_ref[q])
+        # the twin's C0 prediction scored against the reference of the donor
+        # item the swap named (a copy under another identifier may carry its
+        # own reference; the identity is about the same picture and question)
+        donor_acc += answers_match(c0[(hit or ts)[0]]["predicted"], donor_ref[q])
     n = len(usable)
     return {"n": n, "agreement": agree / n, "ccr": ccr / n,
             "donor_accuracy": donor_acc / n,
-            "difference_pp": (ccr - donor_acc) / n * 100}
+            "difference_pp": (ccr - donor_acc) / n * 100,
+            "ambiguous_twins": ambiguous, "exact": agree == n and ccr == donor_acc}
 
 
-def run(dataset: str, condition: str, results_dir: str, swapmap_path: str) -> dict:
+def run(dataset: str, condition: str, results_dir: str, swapmap_path: str,
+        pair_by: str = "sha", manifests_dir: str | None = None) -> dict:
     entry = load_swapmap(swapmap_path)[dataset]
     qid_meta = {int(k): v for k, v in entry["qid"].items()}
     if condition not in entry["swap"]:
         raise SystemExit(f"{dataset} has no donor map for {condition}")
     parts, donor_qid, donor_ref = strata(qid_meta, entry["swap"][condition])
+    twins = None
+    if pair_by == "sha":
+        manifest = os.path.join(manifests_dir or os.path.join(results_dir, "manifests"),
+                                f"{dataset}_{condition}_rows.json")
+        twins = sha_twins(qid_meta, entry["swap"][condition], manifest)
 
-    out = {"dataset": dataset, "condition": condition,
+    out = {"dataset": dataset, "condition": condition, "pair_by": pair_by,
            "informative": len(parts["informative"]),
            "same_ref": len(parts["same_ref"]), "novel": len(parts["novel"]),
            "cells": {}}
@@ -121,14 +201,13 @@ def run(dataset: str, condition: str, results_dir: str, swapmap_path: str) -> di
             if c0 is None or swapped is None:
                 continue
             out["cells"][prefix] = check_cell(
-                c0, swapped, parts["informative"], donor_qid, donor_ref)
+                c0, swapped, parts["informative"], donor_qid, donor_ref, twins)
     return out
 
 
 def summarize(records: list[dict]) -> dict:
     cells = [(name, c) for r in records for name, c in r["cells"].items() if c["n"]]
-    exact = [n for n, c in cells
-             if c["agreement"] == 1.0 and abs(c["difference_pp"]) < 1e-9]
+    exact = [n for n, c in cells if c["exact"]]
     return {"cells": len(cells), "exact": len(exact),
             "exceptions": sorted(
                 ({"cell": n, "agreement": c["agreement"],
@@ -144,6 +223,10 @@ def _parse_args():
     p.add_argument("--dataset")
     p.add_argument("--condition")
     p.add_argument("--all", action="store_true", help="the cells the paper reports")
+    p.add_argument("--pair-by", choices=("sha", "id"), default="sha",
+                   help="name the donor item by image bytes (sha, the paper) or by image identifier (id)")
+    p.add_argument("--manifests-dir", default=None,
+                   help="per-row manifests with the SHA-256 (default: <results-dir>/manifests)")
     p.add_argument("--json")
     return p.parse_args()
 
@@ -154,9 +237,10 @@ def main():
                                                             args.condition)]
     records = []
     for dataset, condition in pairs:
-        r = run(dataset, condition, args.results_dir, args.swapmap)
+        r = run(dataset, condition, args.results_dir, args.swapmap,
+                args.pair_by, args.manifests_dir)
         records.append(r)
-        print(f"\n=== {dataset} {condition}  "
+        print(f"\n=== {dataset} {condition}  paired by {args.pair_by}  "
               f"informative {r['informative']}, same reference {r['same_ref']}, "
               f"novel pairing {r['novel']}")
         print(f"{'cell':<30}{'n':>7}{'agreement':>12}{'CCR':>9}"

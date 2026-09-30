@@ -50,6 +50,9 @@ def test_kvasir_c5_strata_sizes_match_section_5_2(records):
 
 
 def test_identity_holds_in_27_of_30_cells(records):
+    """Default pairing by image bytes (results/manifests); the three exceptions are
+    the same under --pair-by id, since no swapped question meets twins with
+    diverging C0 predictions."""
     s = summarize(records)
     assert s["cells"] == 30
     assert s["exact"] == 27
