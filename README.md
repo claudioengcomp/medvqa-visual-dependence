@@ -293,6 +293,10 @@ question each that received no donor in the manifests) and one image whose
 donor differs; it is kept unchanged as `data/swapmap_v3.json` for the record.
 The six removed rows change the informative set by two items (qids 2000405 and
 2000414) and the CCR range by at most 0.1 pp.
+`python -m src.analysis.coverage` (step 2, `validate`) recomputes on this map the
+cells of Table 4 and Eq. 2 for Kvasir-VQA-x1: under C5 |S_T| = 8,934,
+|V| = 8,102, |I| = 5,216, phi = 0.6438; under C2 |V| = 5,613, |I| = 2,682,
+phi = 0.4778.
 Quantities the submitted paper computed on the earlier map move by at most
 0.1 pp under the corrected one, and four of them change at one decimal:
 VDD(C5) of Qwen2-VL DoRA 46.9 -> 47.0 and VDD(C6) of Qwen2-VL LoRA

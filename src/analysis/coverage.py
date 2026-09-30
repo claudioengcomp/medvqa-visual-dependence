@@ -390,7 +390,8 @@ def scale(pre: dict, rng, subsample: int | None = None,
 # Step 2: the blocking validation against published numbers
 # --------------------------------------------------------------------------
 def validate(swapmap_path: str) -> dict:
-    """Reproduce SLAKE C2 (phi = 56.0% over 125 verifiable) and VQA-RAD (|I| < 4).
+    """Reproduce SLAKE C2 (phi = 56.0% over 125 verifiable), VQA-RAD (|I| < 4) and
+    Kvasir-VQA-x1 C5 (|V| = 8,102, |I| = 5,216, phi = 0.6438; Table 4 and Eq. 2).
 
     Uses the RECORDED swap map, not a draw: those numbers came from that map.
     Draws enter only in Step 3.
@@ -399,7 +400,8 @@ def validate(swapmap_path: str) -> dict:
         swapmap = json.load(fp)
     out = {}
     for name, ds, cond in (("SLAKE", "SLAKE", "C2"), ("VQA-RAD", "VQARAD", "C6"),
-                           ("VQA-RAD", "VQARAD", "C2")):
+                           ("VQA-RAD", "VQARAD", "C2"), ("Kvasir-VQA-x1", "KVASIR", "C5"),
+                           ("Kvasir-VQA-x1", "KVASIR", "C2")):
         entry = swapmap[ds]
         qid_meta = {int(k): v for k, v in entry["qid"].items()}
         donors = entry["swap"][cond]
