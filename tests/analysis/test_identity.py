@@ -94,7 +94,7 @@ def test_identity_closes_30_of_30_with_the_reruns():
     """Section 5.2: the identity holds when both runs share the environment and
     the batch composition. The re-runs of the three cells of Section 5.6 make
     it exact everywhere; the default (published files) stays at 27 of 30."""
-    reruns = [run(ds, cond, RESULTS, SWAPMAP, reruns_dir=os.path.join(REPO, "results", "reruns"))
+    reruns = [run(ds, cond, RESULTS, SWAPMAP, reruns_dir=os.path.join(RESULTS, "reruns"))
               for ds, cond in REPORTED]
     s = summarize(reruns)
     assert (s["cells"], s["exact"]) == (30, 30)
