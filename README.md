@@ -123,7 +123,7 @@ flipped. The fine-tuned models and the question-only baseline never emit those
 two tokens, so no other file moves. The `_vs_C0.json` comparisons of this row
 are regenerated from the re-scored files.
 
-### The identity of Section 5.2, on the published files
+### The identity of Section 5.2
 
 `python -m src.analysis.identity --all` checks, cell by cell (configuration ×
 seed; Kvasir-VQA-x1 under C5, SLAKE under C6), that the prediction on a
@@ -131,14 +131,14 @@ swapped row equals the model's own C0 prediction on the donor item. The
 default pairing names the donor item by the SHA-256 of the image bytes plus
 the question text (`results/manifests/`), so byte-identical copies of a picture
 under distinct identifiers count as one item; `--pair-by id` names it by the
-image identifier. On the prediction files of this repository the identity
-holds exactly in **27 of 30** cells under either pairing, with no ambiguous
-twin; the three exceptions (the SLAKE classifier, 88.0%; two SmolVLM2 seeds
-on Kvasir-VQA-x1, 99.0% and 99.1%) are the cells whose C0 and swap
-predictions come from different environments or batch compositions
-(Section 5.6). The 30 of 30 the paper reports pairs by bytes and, for those
-three cells, uses re-runs made in one session and with batch size 1, which are
-not part of this repository (`docs/v4/ccr_identity_bytes.json` lists them).
+image identifier. The identity holds in **27 of 30** cells on the published
+predictions, under either pairing and with no ambiguous twin; the three
+exceptions (the SLAKE classifier, 88.0%; two SmolVLM2 seeds on Kvasir-VQA-x1,
+99.0% and 99.1%) are the cells whose C0 and swap predictions come from
+different environments or batch compositions (Section 5.6). With
+`--reruns`, which replaces those three cells by the same checkpoints
+re-inferred in one session or with batch size 1 (`results/reruns/`), it holds
+in **30 of 30**, as Section 5.2 states.
 
 ---
 

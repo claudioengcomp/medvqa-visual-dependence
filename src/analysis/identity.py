@@ -31,10 +31,17 @@ Two ways of naming the donor item (`--pair-by`):
           copy under another identifier is then a different item, and the
           identity can fail where the model answered the two copies differently.
 
+Three cells have their C0 and swap predictions from different environments or
+batch compositions (Section 5.6); `--reruns` replaces them by the re-runs in
+results/reruns/ (same checkpoints, one session or batch size 1), the files the
+paper's 30 of 30 is computed on. Without it, on the published predictions, the
+identity holds in 27 of 30 cells.
+
 Usage:
     python -m src.analysis.identity --dataset KVASIR --condition C5
     python -m src.analysis.identity --all --json identity.json
     python -m src.analysis.identity --all --pair-by id
+    python -m src.analysis.identity --all --reruns
 """
 from __future__ import annotations
 
@@ -59,6 +66,27 @@ CONFIGURATIONS = {
                "QWEN2VL_DORA_VQARAD", "SMOLVLM_LORA_VQARAD",
                "SMOLVLM_DORA_VQARAD"],
 }
+
+
+# prefix -> {condition: file in results/reruns/} for the three cells of Section 5.6
+RERUNS = {
+    "M3AE_SCRATCH_SLAKE": {"C0": "M3AE_SCRATCH_SLAKE_C0_sameenv.json",
+                           "C6": "M3AE_SCRATCH_SLAKE_C6_sameenv.json"},
+    "SMOLVLM_LORA_KVASIR_seed2": {"C0": "SMOLVLM_LORA_KVASIR_seed2_C0_bs1.json",
+                                  "C5": "SMOLVLM_LORA_KVASIR_seed2_C5_bs1.json"},
+    "SMOLVLM_DORA_KVASIR_seed0": {"C0": "SMOLVLM_DORA_KVASIR_seed0_C0_bs1.json",
+                                  "C5": "SMOLVLM_DORA_KVASIR_seed0_C5_bs1.json"},
+}
+
+
+def load_with_reruns(results_dir: str, prefix: str, condition: str, reruns_dir: str | None):
+    """The prediction file of one run, replaced by its re-run when asked and available."""
+    if reruns_dir and condition in RERUNS.get(prefix, {}):
+        path = os.path.join(reruns_dir, RERUNS[prefix][condition])
+        if os.path.exists(path):
+            with open(path) as fp:
+                return {p["qid"]: p for p in json.load(fp)["predictions"]}
+    return load_predictions(results_dir, prefix, condition)
 
 
 def strata(qid_meta: dict, donor_map: dict):
@@ -178,7 +206,8 @@ def check_cell(c0: dict, swapped: dict, informative: list[int],
 
 
 def run(dataset: str, condition: str, results_dir: str, swapmap_path: str,
-        pair_by: str = "sha", manifests_dir: str | None = None) -> dict:
+        pair_by: str = "sha", manifests_dir: str | None = None,
+        reruns_dir: str | None = None) -> dict:
     entry = load_swapmap(swapmap_path)[dataset]
     qid_meta = {int(k): v for k, v in entry["qid"].items()}
     if condition not in entry["swap"]:
@@ -191,13 +220,14 @@ def run(dataset: str, condition: str, results_dir: str, swapmap_path: str,
         twins = sha_twins(qid_meta, entry["swap"][condition], manifest)
 
     out = {"dataset": dataset, "condition": condition, "pair_by": pair_by,
+           "reruns": bool(reruns_dir),
            "informative": len(parts["informative"]),
            "same_ref": len(parts["same_ref"]), "novel": len(parts["novel"]),
            "cells": {}}
     for base in CONFIGURATIONS[dataset]:
         for prefix in seed_prefixes(results_dir, base, condition):
-            c0 = load_predictions(results_dir, prefix, "C0")
-            swapped = load_predictions(results_dir, prefix, condition)
+            c0 = load_with_reruns(results_dir, prefix, "C0", reruns_dir)
+            swapped = load_with_reruns(results_dir, prefix, condition, reruns_dir)
             if c0 is None or swapped is None:
                 continue
             out["cells"][prefix] = check_cell(
@@ -227,6 +257,8 @@ def _parse_args():
                    help="name the donor item by image bytes (sha, the paper) or by image identifier (id)")
     p.add_argument("--manifests-dir", default=None,
                    help="per-row manifests with the SHA-256 (default: <results-dir>/manifests)")
+    p.add_argument("--reruns", nargs="?", const="results/reruns", default=None,
+                   help="use the re-runs of the three cells of Section 5.6 (default dir: results/reruns)")
     p.add_argument("--json")
     return p.parse_args()
 
@@ -238,7 +270,7 @@ def main():
     records = []
     for dataset, condition in pairs:
         r = run(dataset, condition, args.results_dir, args.swapmap,
-                args.pair_by, args.manifests_dir)
+                args.pair_by, args.manifests_dir, args.reruns)
         records.append(r)
         print(f"\n=== {dataset} {condition}  paired by {args.pair_by}  "
               f"informative {r['informative']}, same reference {r['same_ref']}, "

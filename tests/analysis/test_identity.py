@@ -7,6 +7,8 @@ wearing the same number.
 """
 from __future__ import annotations
 
+import os
+
 import pytest
 
 from src.analysis.identity import REPORTED, run, strata, summarize
@@ -86,3 +88,14 @@ def test_ccr_equals_donor_accuracy_wherever_the_identity_holds(records):
                 continue
             assert c["ccr"] == pytest.approx(c["donor_accuracy"], abs=1e-12), name
             assert c["difference_pp"] == pytest.approx(0.0, abs=1e-9), name
+
+
+def test_identity_closes_30_of_30_with_the_reruns():
+    """Section 5.2: the identity holds when both runs share the environment and
+    the batch composition. The re-runs of the three cells of Section 5.6 make
+    it exact everywhere; the default (published files) stays at 27 of 30."""
+    reruns = [run(ds, cond, RESULTS, SWAPMAP, reruns_dir=os.path.join(REPO, "results", "reruns"))
+              for ds, cond in REPORTED]
+    s = summarize(reruns)
+    assert (s["cells"], s["exact"]) == (30, 30)
+    assert s["exceptions"] == []
