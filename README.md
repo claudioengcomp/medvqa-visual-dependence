@@ -1,12 +1,12 @@
 # Destabilized or Redirected
 ### What the Standard Probes of Visual Dependence Measure in Med-VQA
 
-Companion repository for the paper of the same name: code, the image-disjoint
+Companion repository for the paper of the same name: code, the identifier-disjoint
 split of Kvasir-VQA-x1, the per-item predictions of every model, seed and
 condition, the swap manifests, the pre-registration and the feature-space
 analyses.
 
-It contains everything needed to verify the paper's claims: the image-disjoint
+It contains everything needed to verify the paper's claims: the identifier-disjoint
 split, the intervention code that defines the conditions C0-C7, the statistics
 (VDD, McNemar, Cohen's *g*, bootstrap, multi-seed aggregation), the identity of
 the swap cost and its decomposition (Eq. 2), the coverage analysis that computes
@@ -49,7 +49,7 @@ split, run without it.
 | §3.3 | Analyses A-C of the feature space and their gates G0-G3 | `src/featurespace/analysis_a.py`, `analysis_b.py`, `analysis_c.py`, `g*_check.py` |
 | §3.3 | Pre-registration of the feature-space analyses and its dated amendments | `docs/preregistration/`, `docs/PROVENANCE.md` |
 | §4.1 | 3,821 of 4,058 official Kvasir-VQA-x1 test images appear in its training set | `docs/LEAKAGE.md` |
-| §4.1 | Release of a stratified, image-disjoint split, and *"a test asserts that no image appears in two partitions"* | `data/kvasir_clean_split/`, `tests/prepro/test_build_kvasir_clean_split.py` |
+| §4.1 | Release of a stratified, identifier-disjoint split, and *"a test asserts that no image appears in two partitions"* | `data/kvasir_clean_split/`, `tests/prepro/test_build_kvasir_clean_split.py` |
 | §4.1 | The content audit of the split: exact copies and pHash neighbours between test and training | `src/featurespace/dup_audit.py`, `docs/v4/duplicate_audit.json` |
 | §4.2 | Training hyperparameters of every fine-tuned configuration | `configs/` |
 | §4.3 | Counts: 435 paired comparisons of the fine-tuned rows and 464 in all | `tests/test_published_counts.py` |
@@ -209,8 +209,9 @@ difference Section 4.2 and the model-derived rulers of Section 3.3 rely on.
 The official release of Kvasir-VQA-x1 assigns image-question pairs to
 partitions, and 3,821 of its 4,058 test images also appear in training
 (`docs/LEAKAGE.md`). The split released in `data/kvasir_clean_split/` is
-**image-disjoint**: no image identifier appears in two partitions, and a test
-asserts it. Disjoint identifiers are not disjoint content. The audit the paper
+**identifier-disjoint**: no image identifier appears in two partitions, and a test
+asserts it (the paper's "disjoint by image identifier", Section 4.1). Disjoint
+identifiers are not disjoint content. The audit the paper
 reports (§4.1; `docs/v4/duplicate_audit.json`, `docs/v4/nn1_to_bank.json`)
 finds, between the test images of this split and its training and validation
 images, 36 exact byte copies and 351 near neighbours at a perceptual-hash
@@ -318,12 +319,12 @@ produced are in `docs/v4/`.
 
 ```
 data/
-  kvasir_clean_split/   split_map.csv, qid_map.csv — the image-disjoint split
+  kvasir_clean_split/   split_map.csv, qid_map.csv — the identifier-disjoint split
   swapmap.json          donor of every swapped image + reference answers (for CCR); corrected Kvasir C5/C6 map
   swapmap_v3.json       the earlier map recovered from the arrows (six phantom rows; kept for the record)
   fig_data.json         aggregated data behind the figures of an earlier draft (kept; the paper's figures read docs/v4/)
 src/
-  prepro/               construction of the image-disjoint split and of the domain/finding labels
+  prepro/               construction of the identifier-disjoint split and of the domain/finding labels
   interventions/        the conditions C1-C6
   featurespace/         rulers, embeddings, C7, the analyses A-E of the feature space, gates, audits, the numbers sheet
   stats/                VDD, McNemar, Cohen's g, bootstrap, multi-seed, spread tests

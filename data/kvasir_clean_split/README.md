@@ -1,7 +1,7 @@
-# Image-disjoint split of Kvasir-VQA-x1
+# Identifier-disjoint split of Kvasir-VQA-x1
 
 This directory contains the exact image-to-split and question-to-split mapping
-of the image-disjoint split of Kvasir-VQA-x1 used in the paper. It is the
+of the identifier-disjoint split of Kvasir-VQA-x1 used in the paper. It is the
 artifact referred to in Section 4.1 ("the split map is released with the code").
 
 ## 1. The problem this solves

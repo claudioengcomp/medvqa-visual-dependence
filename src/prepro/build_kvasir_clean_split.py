@@ -1,11 +1,11 @@
-"""Build the 3 image-disjoint arrows (train/val/test) for Kvasir-VQA-x1 --
-an image-disjoint split (src.prepro.kvasir_split), reusing the atomic
+"""Build the 3 identifier-disjoint arrows (train/val/test) for Kvasir-VQA-x1 --
+an identifier-disjoint split (src.prepro.kvasir_split), reusing the atomic
 decomposition and the image download already exercised in
 src/prepro/prepare_kvasir_arrow.py.
 
 Two properties define it. Generative training and evaluation use the same
 terse atomic facts, not the composite verbose answer. And the split is
-image-disjoint, which the official HuggingFace split is not: 3,821 of its
+identifier-disjoint, which the official HuggingFace split is not: 3,821 of its
 4,058 test images (94%) also appear in training, verified by image
 identifier, because the dataset assigns each image-question PAIR to a
 partition rather than each image. An automated zero-overlap test guards the
@@ -50,7 +50,7 @@ def build_clean_arrows(
     seed: int = 42,
     download_fn: Callable[[str], bytes] = _download_image_bytes,
 ) -> dict:
-    """Build the 3 image-disjoint arrows from the raw HuggingFace `train`
+    """Build the 3 identifier-disjoint arrows from the raw HuggingFace `train`
     and `test` rows (already loaded -- injectable so tests can run without
     network access).
     Returns a manifest {"counts": {"train": N, "val": N, "test": N}}."""
