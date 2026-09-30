@@ -1,0 +1,409 @@
+{
+ "k": 10,
+ "labels_bank": {
+  "kvasir_procedure": {
+   "benchmark": "KVASIR",
+   "n": 2756
+  },
+  "kvasir_finding": {
+   "benchmark": "KVASIR",
+   "n": 2138
+  },
+  "kvasir_finding_in_colonoscopy": {
+   "benchmark": "KVASIR",
+   "n": 1479
+  },
+  "kvasir_finding_in_gastroscopy": {
+   "benchmark": "KVASIR",
+   "n": 649
+  },
+  "vqarad_organ": {
+   "benchmark": "VQARAD",
+   "n": 314
+  },
+  "slake_modality": {
+   "benchmark": "SLAKE",
+   "n": 450
+  }
+ },
+ "coverage": {
+  "kvasir_procedure": {
+   "benchmark": "KVASIR",
+   "n_bank_labelled": 2756,
+   "n_bank": 4514,
+   "n_test_labelled": 776,
+   "n_test": 1291,
+   "classes_bank": {
+    "gastroscopy": 697,
+    "colonoscopy": 2059
+   }
+  },
+  "kvasir_finding": {
+   "benchmark": "KVASIR",
+   "n_bank_labelled": 2138,
+   "n_bank": 4514,
+   "n_test_labelled": 612,
+   "n_test": 1291,
+   "classes_bank": {
+    "oesophagitis": 645,
+    "polyp": 796,
+    "ulcerative colitis": 694,
+    "barretts": 2,
+    "hemorrhoids": 1
+   }
+  },
+  "kvasir_finding_in_colonoscopy": {
+   "benchmark": "KVASIR",
+   "n_bank_labelled": 1479,
+   "n_bank": 4514,
+   "n_test_labelled": 424,
+   "n_test": 1291,
+   "classes_bank": {
+    "polyp": 785,
+    "ulcerative colitis": 692,
+    "barretts": 1,
+    "hemorrhoids": 1
+   }
+  },
+  "kvasir_finding_in_gastroscopy": {
+   "benchmark": "KVASIR",
+   "n_bank_labelled": 649,
+   "n_bank": 4514,
+   "n_test_labelled": 187,
+   "n_test": 1291,
+   "classes_bank": {
+    "oesophagitis": 645,
+    "polyp": 3,
+    "barretts": 1
+   }
+  },
+  "vqarad_organ": {
+   "benchmark": "VQARAD",
+   "n_bank_labelled": 314,
+   "n_bank": 314,
+   "n_test_labelled": 203,
+   "n_test": 203,
+   "classes_bank": {
+    "head": 103,
+    "chest": 107,
+    "abdomen": 104
+   }
+  },
+  "slake_modality": {
+   "benchmark": "SLAKE",
+   "n_bank_labelled": 450,
+   "n_bank": 450,
+   "n_test_labelled": 93,
+   "n_test": 96,
+   "classes_bank": {
+    "MRI": 128,
+    "CT": 200,
+    "XRAY": 122
+   }
+  },
+  "_notes": {
+   "kvasir_procedure_conflicts_dropped": [
+    "kvasir/cl8k2u1ra1ftv0832g01j6sp5",
+    "kvasir/clb0lbwyododc086ubq8n9guo",
+    "kvasir/clb0lbwysdogk086udfo75x68",
+    "kvasir/clb0lbwzddp24086u7nvb3zgc"
+   ],
+   "kvasir_finding_composite_dropped": 32
+  }
+ },
+ "checks": {
+  "kvasir_procedure_rule_vs_test_buckets": {
+   "agree": 776,
+   "buckets": 776,
+   "rule_labels_test": 776,
+   "conflicts_test": 0
+  },
+  "slake_modality_meta_vs_c6_manifests": {
+   "agree": 93,
+   "manifest_labels": 93
+  },
+  "vqarad_organ_meta_vs_test_buckets": {
+   "agree": null
+  }
+ },
+ "results": {
+  "kvasir_procedure": {
+   "benchmark": "KVASIR",
+   "n_bank": 2756,
+   "classes": [
+    "colonoscopy",
+    "gastroscopy"
+   ],
+   "cells": {
+    "medsiglip": {
+     "train": 0.9956458635703919,
+     "test": 0.9961340206185567,
+     "delta_train_minus_test": -0.00048815704816485006,
+     "n_train": 2756,
+     "n_test": 776
+    },
+    "dinov3": {
+     "train": 0.9949201741654572,
+     "test": 0.9948453608247423,
+     "delta_train_minus_test": 7.481334071490764e-05,
+     "n_train": 2756,
+     "n_test": 776
+    },
+    "biomedclip": {
+     "train": 0.9952830188679245,
+     "test": 0.9871134020618557,
+     "delta_train_minus_test": 0.008169616806068758,
+     "n_train": 2756,
+     "n_test": 776
+    },
+    "dinov2": {
+     "train": 0.9905660377358491,
+     "test": 0.9896907216494846,
+     "delta_train_minus_test": 0.000875316086364486,
+     "n_train": 2756,
+     "n_test": 776
+    },
+    "colorhist": {
+     "train": 0.9760522496371553,
+     "test": 0.9600515463917526,
+     "delta_train_minus_test": 0.016000703245402703,
+     "n_train": 2756,
+     "n_test": 776
+    }
+   }
+  },
+  "kvasir_finding": {
+   "benchmark": "KVASIR",
+   "n_bank": 2138,
+   "classes": [
+    "barretts",
+    "hemorrhoids",
+    "oesophagitis",
+    "polyp",
+    "ulcerative colitis"
+   ],
+   "cells": {
+    "medsiglip": {
+     "train": 0.989242282507016,
+     "test": 0.9820261437908496,
+     "delta_train_minus_test": 0.0072161387161663315,
+     "n_train": 2138,
+     "n_test": 612
+    },
+    "dinov3": {
+     "train": 0.9831618334892422,
+     "test": 0.9705882352941176,
+     "delta_train_minus_test": 0.012573598195124602,
+     "n_train": 2138,
+     "n_test": 612
+    },
+    "biomedclip": {
+     "train": 0.9691300280636108,
+     "test": 0.9526143790849673,
+     "delta_train_minus_test": 0.01651564897864355,
+     "n_train": 2138,
+     "n_test": 612
+    },
+    "dinov2": {
+     "train": 0.9424695977549111,
+     "test": 0.9248366013071896,
+     "delta_train_minus_test": 0.01763299644772154,
+     "n_train": 2138,
+     "n_test": 612
+    },
+    "colorhist": {
+     "train": 0.9420018709073901,
+     "test": 0.9183006535947712,
+     "delta_train_minus_test": 0.023701217312618872,
+     "n_train": 2138,
+     "n_test": 612
+    }
+   }
+  },
+  "kvasir_finding_in_colonoscopy": {
+   "benchmark": "KVASIR",
+   "n_bank": 1479,
+   "classes": [
+    "barretts",
+    "hemorrhoids",
+    "polyp",
+    "ulcerative colitis"
+   ],
+   "cells": {
+    "medsiglip": {
+     "train": 0.9918864097363083,
+     "test": 0.9858490566037735,
+     "delta_train_minus_test": 0.0060373531325347285,
+     "n_train": 1479,
+     "n_test": 424
+    },
+    "dinov3": {
+     "train": 0.982420554428668,
+     "test": 0.9669811320754716,
+     "delta_train_minus_test": 0.015439422353196397,
+     "n_train": 1479,
+     "n_test": 424
+    },
+    "biomedclip": {
+     "train": 0.9688979039891819,
+     "test": 0.9716981132075472,
+     "delta_train_minus_test": -0.0028002092183653238,
+     "n_train": 1479,
+     "n_test": 424
+    },
+    "dinov2": {
+     "train": 0.9303583502366464,
+     "test": 0.9174528301886793,
+     "delta_train_minus_test": 0.012905520047967078,
+     "n_train": 1479,
+     "n_test": 424
+    },
+    "colorhist": {
+     "train": 0.9303583502366464,
+     "test": 0.910377358490566,
+     "delta_train_minus_test": 0.019980991746080368,
+     "n_train": 1479,
+     "n_test": 424
+    }
+   }
+  },
+  "kvasir_finding_in_gastroscopy": {
+   "benchmark": "KVASIR",
+   "n_bank": 649,
+   "classes": [
+    "barretts",
+    "oesophagitis",
+    "polyp"
+   ],
+   "cells": {
+    "medsiglip": {
+     "train": 0.9938366718027735,
+     "test": 0.9893048128342246,
+     "delta_train_minus_test": 0.0045318589685489075,
+     "n_train": 649,
+     "n_test": 187
+    },
+    "dinov3": {
+     "train": 0.9938366718027735,
+     "test": 0.9893048128342246,
+     "delta_train_minus_test": 0.0045318589685489075,
+     "n_train": 649,
+     "n_test": 187
+    },
+    "biomedclip": {
+     "train": 0.9938366718027735,
+     "test": 0.9893048128342246,
+     "delta_train_minus_test": 0.0045318589685489075,
+     "n_train": 649,
+     "n_test": 187
+    },
+    "dinov2": {
+     "train": 0.9938366718027735,
+     "test": 0.9893048128342246,
+     "delta_train_minus_test": 0.0045318589685489075,
+     "n_train": 649,
+     "n_test": 187
+    },
+    "colorhist": {
+     "train": 0.9938366718027735,
+     "test": 0.9893048128342246,
+     "delta_train_minus_test": 0.0045318589685489075,
+     "n_train": 649,
+     "n_test": 187
+    }
+   }
+  },
+  "vqarad_organ": {
+   "benchmark": "VQARAD",
+   "n_bank": 314,
+   "classes": [
+    "abdomen",
+    "chest",
+    "head"
+   ],
+   "cells": {
+    "medsiglip": {
+     "train": 1.0,
+     "test": 1.0,
+     "delta_train_minus_test": 0.0,
+     "n_train": 314,
+     "n_test": 203
+    },
+    "dinov3": {
+     "train": 0.9840764331210191,
+     "test": 0.9655172413793104,
+     "delta_train_minus_test": 0.018559191741708725,
+     "n_train": 314,
+     "n_test": 203
+    },
+    "biomedclip": {
+     "train": 1.0,
+     "test": 1.0,
+     "delta_train_minus_test": 0.0,
+     "n_train": 314,
+     "n_test": 203
+    },
+    "dinov2": {
+     "train": 0.9904458598726115,
+     "test": 0.9852216748768473,
+     "delta_train_minus_test": 0.005224184995764158,
+     "n_train": 314,
+     "n_test": 203
+    },
+    "colorhist": {
+     "train": 0.8535031847133758,
+     "test": 0.8078817733990148,
+     "delta_train_minus_test": 0.04562141131436104,
+     "n_train": 314,
+     "n_test": 203
+    }
+   }
+  },
+  "slake_modality": {
+   "benchmark": "SLAKE",
+   "n_bank": 450,
+   "classes": [
+    "CT",
+    "MRI",
+    "XRAY"
+   ],
+   "cells": {
+    "medsiglip": {
+     "train": 1.0,
+     "test": 0.956989247311828,
+     "delta_train_minus_test": 0.043010752688172005,
+     "n_train": 450,
+     "n_test": 93
+    },
+    "dinov3": {
+     "train": 0.9866666666666667,
+     "test": 0.967741935483871,
+     "delta_train_minus_test": 0.018924731182795695,
+     "n_train": 450,
+     "n_test": 93
+    },
+    "biomedclip": {
+     "train": 1.0,
+     "test": 0.967741935483871,
+     "delta_train_minus_test": 0.032258064516129004,
+     "n_train": 450,
+     "n_test": 93
+    },
+    "dinov2": {
+     "train": 0.9844444444444445,
+     "test": 0.967741935483871,
+     "delta_train_minus_test": 0.01670250896057346,
+     "n_train": 450,
+     "n_test": 93
+    },
+    "colorhist": {
+     "train": 0.9622222222222222,
+     "test": 0.8494623655913979,
+     "delta_train_minus_test": 0.11275985663082433,
+     "n_train": 450,
+     "n_test": 93
+    }
+   }
+  }
+ }
+}

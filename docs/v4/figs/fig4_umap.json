@@ -1,0 +1,57 @@
+{
+ "host": "host-A",
+ "illustration_only": true,
+ "no_number_is_read_from_this_figure": true,
+ "umap": {
+  "n_neighbors": 15,
+  "min_dist": 0.1,
+  "metric": "cosine",
+  "seed_base": 20260917,
+  "seed_per_cell": "sha256(SEED|bench|ruler)"
+ },
+ "n_segments": 60,
+ "panels": {
+  "KVASIR|medsiglip": {
+   "n_points": 1291,
+   "n_buckets": 2,
+   "without_bucket": 515,
+   "segments_drawn": 60
+  },
+  "KVASIR|colorhist": {
+   "n_points": 1291,
+   "n_buckets": 2,
+   "without_bucket": 515,
+   "segments_drawn": 60
+  },
+  "VQARAD|medsiglip": {
+   "n_points": 203,
+   "n_buckets": 3,
+   "without_bucket": 0,
+   "segments_drawn": 60
+  },
+  "VQARAD|colorhist": {
+   "n_points": 203,
+   "n_buckets": 3,
+   "without_bucket": 0,
+   "segments_drawn": 60
+  },
+  "HEAL|medsiglip": {
+   "n_points": 1360,
+   "n_buckets": 0,
+   "without_bucket": 1360,
+   "segments_drawn": 60
+  },
+  "HEAL|colorhist": {
+   "n_points": 1360,
+   "n_buckets": 0,
+   "without_bucket": 1360,
+   "segments_drawn": 60
+  }
+ },
+ "variant": "paper",
+ "benchmarks": [
+  "KVASIR",
+  "VQARAD",
+  "HEAL"
+ ]
+}

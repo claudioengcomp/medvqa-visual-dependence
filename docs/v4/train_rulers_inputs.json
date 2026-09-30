@@ -1,0 +1,1402 @@
+{
+ "t": "2026-09-28 22:39:03",
+ "git_commit_p0": "9c350b323071b7707934ffafa8358e308a63508b",
+ "k": 10,
+ "inputs": {
+  "results/kvasir_clean_bucket_colonoscopy.json": {
+   "sha256": "c98f73fa5629cb22777c22fa35b02aefa6f8e8452d19d3088c9d384b7a381c88",
+   "bytes": 21966,
+   "role": "labels (test, G0)"
+  },
+  "results/kvasir_clean_bucket_gastroscopy.json": {
+   "sha256": "6f866b7519b3df6d24c546fe10e0c0cbccf4774b81935d47ab2972d7b84af129",
+   "bytes": 7526,
+   "role": "labels (test, G0)"
+  },
+  "results/vqarad_bucket_chest.json": {
+   "sha256": "d9bcf2036bf117babf4ecf962fd44533b970336e6c92a76fe487ea58ab491221",
+   "bytes": 4090,
+   "role": "labels (test, G0)"
+  },
+  "results/vqarad_bucket_abd.json": {
+   "sha256": "46c1193c4af0486475fbf1b4ab29e5d0da8624e05e2a9de7e0fc0327b6cfdccf",
+   "bytes": 3922,
+   "role": "labels (test, G0)"
+  },
+  "results/vqarad_bucket_head.json": {
+   "sha256": "aa9871424df4582ada5b8a4d890a7ab04fcf4a09abf83213f7613c110db34916",
+   "bytes": 3361,
+   "role": "labels (test, G0)"
+  },
+  "results/C6_manifest_SLAKE_CT_ABDOMEN.json": {
+   "sha256": "a53f83095e60d94682a195b549fe63a5bc8504438569fe0a8650c53e61f76442",
+   "bytes": 4510,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "results/C6_manifest_SLAKE_CT_BRAIN_FACE.json": {
+   "sha256": "9f3cef96eb72aeae5c2e6d13c4c3e4e0944877e6339d6d811f56886113cc28f1",
+   "bytes": 412,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "results/C6_manifest_SLAKE_CT_LUNG.json": {
+   "sha256": "30bfd0363a0b76eceae643f758142f109cbcb8ea63d7a24c1ef51e6c2afb79de",
+   "bytes": 1021,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "results/C6_manifest_SLAKE_CT_NECK.json": {
+   "sha256": "6988129afa5d626da79a75cef437c86c8692a1bfd066e73907c5e40f231d396f",
+   "bytes": 617,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "results/C6_manifest_SLAKE_CT_PELVIC_CAVITY.json": {
+   "sha256": "9229952108b572d0e10ae488c727ffdf204d06a4fdf26b98322e8af335bea868",
+   "bytes": 1232,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "results/C6_manifest_SLAKE_MRI_ABDOMEN.json": {
+   "sha256": "a3669325537c10da8415d3efdfd9c36c74cc733390a9e75a0062bcbc6762461d",
+   "bytes": 611,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "results/C6_manifest_SLAKE_MRI_BRAIN.json": {
+   "sha256": "718d98f776bfd828d4877f2dbc902244ebc9c950dbcce53541f03e0d5da25fdc",
+   "bytes": 1017,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "results/C6_manifest_SLAKE_MRI_BRAIN_TISSUE.json": {
+   "sha256": "eeca7265fce9eadbf81c272fb35d4c8903d247c680cefd3b52b45b90823a0ff6",
+   "bytes": 4529,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "results/C6_manifest_SLAKE_XRAY_LUNG.json": {
+   "sha256": "f004e198872f7e8f3d15d21beb4ee4b3f5850d681f65084a12012460aa09878a",
+   "bytes": 6612,
+   "role": "labels (test, G0 slake modality)"
+  },
+  "docs/v4/g0_results.json": {
+   "sha256": "e42ab607a944cbfb4b2a3a6bffc530ec26a37d230c338016a523147909dbcd3a",
+   "bytes": 6289,
+   "role": "regression target (Table 1)"
+  },
+  "docs/v4/analysis_a.json": {
+   "sha256": "99d90f07d9d5e2b7281db671d31f2e90c3c4659d9cefa4e6eafd09503224af08",
+   "bytes": 69580,
+   "role": "regression target (Analysis A C0)"
+  },
+  "cache/embeddings/KVASIR__medsiglip.npy": {
+   "sha256": "0ef003548bc726a437b3542f7bd0713185c87f737e1e382a87b36bd0eed87cfa",
+   "bytes": 5949056,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/KVASIR__dinov3.npy": {
+   "sha256": "225f7f1b559e6690827c3ef2929bc2de00e1f9bf1b6d435e72ba05baa50f83b5",
+   "bytes": 5288064,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/KVASIR__biomedclip.npy": {
+   "sha256": "4a69c16d6cfeb1c7b68cc531c02c0c7c14253dba0fcf3d3016eada761e47bcca",
+   "bytes": 2644096,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/KVASIR__dinov2.npy": {
+   "sha256": "7e303f2ad254cf92f378057688258a4abf1b8d5f77390c03a41506918fd50a3c",
+   "bytes": 5288064,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/KVASIR__colorhist.npy": {
+   "sha256": "5b1e0142246af7a74eb131ccb44d724a639ccaa236bce8294a0a7efe2136508f",
+   "bytes": 991616,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/VQARAD__medsiglip.npy": {
+   "sha256": "f779adc936023ff3d31e0e1b0cf7bde0b0e43c1d0fcb8639bde8e54ce431ab69",
+   "bytes": 935552,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/VQARAD__dinov3.npy": {
+   "sha256": "59d1d9eceb25870d40d07728c2197972be70e071184d8f056b9a12c3bf3c7b9e",
+   "bytes": 831616,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/VQARAD__biomedclip.npy": {
+   "sha256": "511a1055f96e379eb8ef249a4f6e850b23902d475e4ccc2a3c1222dc1680f438",
+   "bytes": 415872,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/VQARAD__dinov2.npy": {
+   "sha256": "5a84e83f76e6a1668c64aa6ff2da23a363fa2a87bf0027480356fef74ac5b149",
+   "bytes": 831616,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/VQARAD__colorhist.npy": {
+   "sha256": "887910e81fbcf9b7b4c99e4cebd877f879404d40dbd5751fc783b081d7d53b2c",
+   "bytes": 156032,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/SLAKE__medsiglip.npy": {
+   "sha256": "915edfc6c3aeea55300c00d056b44f0d12adb7e8f9edeec90dc41099ddfefa24",
+   "bytes": 442496,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/SLAKE__dinov3.npy": {
+   "sha256": "b130e720fed0bcaef3b56e8edad53ab261dd1c6f92f552cb3d4531029b4c846a",
+   "bytes": 393344,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/SLAKE__biomedclip.npy": {
+   "sha256": "68ace36980e665cd17e8bc530c116428ff9a5658660082af082659dda672b7e3",
+   "bytes": 196736,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/SLAKE__dinov2.npy": {
+   "sha256": "5361648d4eb2b37d21f6f118fbd3431772b32bf1d6f7b982c9d5392607a7adef",
+   "bytes": 393344,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "cache/embeddings/SLAKE__colorhist.npy": {
+   "sha256": "761d2901a807e00e6ec9152c609781a41b808afd6e4e63292db150cb531319e0",
+   "bytes": 73856,
+   "role": "test C0 embeddings (Table 1 / Analysis A)"
+  },
+  "data/finetune_arrows/vqa_kvasir_train_clean.arrow": {
+   "sha256": "3f75d18fa1129a65623d45e9f9a08b6748e660d4fc8dcdb969692e8d870fa502",
+   "bytes": 247544682,
+   "role": "arrow (questions/answers for labels)"
+  },
+  "data/finetune_arrows/vqa_kvasir_clean_pathology_labels.json": {
+   "sha256": "d30db3cb317b092487c0ba7d92e4903bf49a8f27c2cd9d80e2a9e54f2456770a",
+   "bytes": 165998,
+   "role": "labels (kvasir finding)"
+  },
+  "../M3AE/data/finetune_data/vqa_rad/trainset.json": {
+   "sha256": "d651351d37657bd92a915c1a024709ab73bdfbc0e5c182a0637ce1e4f9fe52ba",
+   "bytes": 715996,
+   "role": "labels (vqarad image_organ)"
+  },
+  "../M3AE/data/finetune_data/vqa_rad/testset.json": {
+   "sha256": "3d32a047592cb680e18054030b38b1a44d6b17105fc62d3088c8655d56a00ced",
+   "bytes": 100488,
+   "role": "labels (vqarad image_organ)"
+  },
+  "../M3AE/data/finetune_data/vqa_rad/valset.json": {
+   "sha256": "df13e13a1c473287fbbfecec40f5c1061cf8b947b3803c46a472d741192045cd",
+   "bytes": 79675,
+   "role": "labels (vqarad image_organ)"
+  },
+  "../M3AE/data/finetune_data/slack/train.json": {
+   "sha256": "7a9fb81f9d7bb145c3d7e9bc8d3b9016ba18b6539ea5031a53bae8fd3cd991c3",
+   "bytes": 2964571,
+   "role": "labels (slake modality)"
+  },
+  "../M3AE/data/finetune_data/slack/validate.json": {
+   "sha256": "32b016440b0c3be11056a78a18eeab46333268407fbb6e6b32f9f4c2debc50f6",
+   "bytes": 639139,
+   "role": "labels (slake modality)"
+  },
+  "../M3AE/data/finetune_data/slack/test.json": {
+   "sha256": "6be8f7b4c5a46cdbc713a5210a25b6ed5aa1fd1574c83cefb4f998131f17c2c3",
+   "bytes": 635829,
+   "role": "labels (slake modality)"
+  },
+  "data/finetune_arrows/vqa_kvasir_test_clean.arrow": {
+   "sha256": "ff5c25692c1b46326c221cd197622037e5afa6099b799a85bd7db26e83715891",
+   "bytes": 71609186,
+   "role": "arrow (questions/answers for labels)"
+  },
+  "cache/embeddings/KVASIR__TRAIN__medsiglip.npy": {
+   "sha256": "84f3e34db15611634058ec3434931bb72d86ddddbae91755d41b9c26d629fa90",
+   "bytes": 20800640,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__TRAIN__dinov3.npy": {
+   "sha256": "f0bd5cb0493ee54fae028ee718c1d12e01eff6ac24f64c681ccbbccaf70dd676",
+   "bytes": 18489472,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__TRAIN__biomedclip.npy": {
+   "sha256": "d3aa2a98a2e6ec0c2a62a8876d978d741df4c8c0f837d8209a8572d863c44e78",
+   "bytes": 9244800,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__TRAIN__dinov2.npy": {
+   "sha256": "d3e90795e91d0997da9983fba3e709c9ae31ec29fea56d3f1fa3c457734f95b8",
+   "bytes": 18489472,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__TRAIN__colorhist.npy": {
+   "sha256": "628f01ee32987090b897d56597df2392a757c9c97f0ef66b6f72a4f1e933b73d",
+   "bytes": 3466880,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/VQARAD__TRAIN__medsiglip.npy": {
+   "sha256": "337f078d2173c26eaeabcf9b66fc408bf4806e4382b12f4411602ce1ad75ce60",
+   "bytes": 1447040,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/VQARAD__TRAIN__dinov3.npy": {
+   "sha256": "087f80d00b232fb3455bf4080005ab914f8e4507e25ce959e5ff380129107920",
+   "bytes": 1286272,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/VQARAD__TRAIN__biomedclip.npy": {
+   "sha256": "00cba211a3ae4642414760f041f82d40235637638026e996d0621fae34ec6820",
+   "bytes": 643200,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/VQARAD__TRAIN__dinov2.npy": {
+   "sha256": "41daa178d380c9a4c7cec7948104c8616fb3e406a73c1a856786b0cf705464a3",
+   "bytes": 1286272,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/VQARAD__TRAIN__colorhist.npy": {
+   "sha256": "85cfdc4d3f9ea833ff4ecfe50cd6fe1c7715f5e847052f51c2b9260cf0d69fc3",
+   "bytes": 241280,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__TRAIN__medsiglip.npy": {
+   "sha256": "d87fd0c8ec0a9bb7d2dfa0b02f6541a8061f6cc202a3e7952f85e8fcb20e604f",
+   "bytes": 2073728,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__TRAIN__dinov3.npy": {
+   "sha256": "6bd8c53b64fdd31f18266defe786c1486edb523f5c695ecddb09a3ad6508066d",
+   "bytes": 1843328,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__TRAIN__biomedclip.npy": {
+   "sha256": "93aa0beeb8166a14f6c6d3d04886527f86617f4cdef9b921bedabd91b70dea1f",
+   "bytes": 921728,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__TRAIN__dinov2.npy": {
+   "sha256": "237e5112b91e7de0791423312fa4ff04844b71407862bfd2e03261df47f9e826",
+   "bytes": 1843328,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__TRAIN__colorhist.npy": {
+   "sha256": "8dd49567a6e55afd0a7350848abf4d66015a58b5ebe70be2b428af8cbb2f9c71",
+   "bytes": 345728,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__m3ae_base_proj.npy": {
+   "sha256": "e7cab475f241aa6a4b198490911a1b5952754f302b3ce88cbcd55265a71d3349",
+   "bytes": 13867136,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__m3ae_base_proj.npy": {
+   "sha256": "b827060338595edcd98d7e69abaa2571d40f75bd292487e3baad12168cd1b3fb",
+   "bytes": 3966080,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__m3ae_s0_proj.npy": {
+   "sha256": "d1bb3174ead3a8f7c41dd83a5b991fe9371260459c4d155aa67c3ff74ad1d636",
+   "bytes": 13867136,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__m3ae_s0_proj.npy": {
+   "sha256": "136d1e96e8ce02009dc2e2bca6b54de6f72f26941bb1211f5fa326dfefe2b7c2",
+   "bytes": 3966080,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__m3ae_s1_proj.npy": {
+   "sha256": "f8f9ae287d7fc0ed50517cbd34b56ed2e5e5072ab4e8098c71fcdfa80d98009a",
+   "bytes": 13867136,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__m3ae_s1_proj.npy": {
+   "sha256": "dbedb1b8ca6993a10e979b0472aa0bbc753b4c633fcb0740fa696f92ccc1f5d5",
+   "bytes": 3966080,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__m3ae_s2_proj.npy": {
+   "sha256": "f0ba3efa886149b2b56fd66975e7318fc2964e25a0f89bc2b9ec591f87edd1ae",
+   "bytes": 13867136,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__m3ae_s2_proj.npy": {
+   "sha256": "2478ec0c7e1c2c65a04ecc1dfa5beebc533afacecb00d6750749499a79845ae8",
+   "bytes": 3966080,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__qwen2vl_base_proj.npy": {
+   "sha256": "a937fe4b026d249303432cf641cd5738000dd52d8aa1d2295f278d93fe28493b",
+   "bytes": 27734144,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__qwen2vl_base_proj.npy": {
+   "sha256": "4676a2c634b19087ad0468c90884ba11592936b87d7c58cfa6b169fa3a3718ac",
+   "bytes": 7932032,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "142332ecdec48a142f73c6ca9c26f8fbe11c5a4d865c6c4dc596235a2b16a6a5",
+   "bytes": 27734144,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "dc309201099c50045b322ba241b37c1b0d31da412461b0e3b466a1c7fbd0e9d9",
+   "bytes": 7932032,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "5e74ae9192ca4fb8b62838df0047cc056a871f24e3ec5d7255f7216e7f49ec4e",
+   "bytes": 27734144,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "357307975e4aa11470f2016c8496c4513e15bae2e6e7b78d732afa049d99a176",
+   "bytes": 7932032,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "3b615d2e5c9629f05eb7759930cd8cc81ed643d857f0e6723a3e26e41157156e",
+   "bytes": 27734144,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "6b6c6005f47f1ab560abb9588c527eaf5e8175a6556a13299c44ed9da07fea8d",
+   "bytes": 7932032,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "bfed3dccadc02bc324d26a9fb6c5f51b7ab8da6fb7a9d427d85d0017009e57d3",
+   "bytes": 27734144,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "334836e2cf760d51ee18790092fe85ce0760378bb0b9ec58f0f3927bc9a3a290",
+   "bytes": 7932032,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "5c3c7be76645fdb51e9bdec4f847759025fa48380548ba07c7cf548262340fa9",
+   "bytes": 27734144,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "9d3af84917197cc1d527a4887220f2c69beb8eb931646e3ccd92d129bff86872",
+   "bytes": 7932032,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "a779bc5087f1c9b32ce916118fef44215122e5b4706d57f7649f14e408b96403",
+   "bytes": 27734144,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "1dae60bb1dd279c078150d15063bebc84a61319a2942eb60f22fb01be7307f2c",
+   "bytes": 7932032,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__smolvlm_base_proj.npy": {
+   "sha256": "f4d324bc7a936624205b7e3261fb9f3fba2a424c84a3958d07eb1454069fca03",
+   "bytes": 36978816,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__smolvlm_base_proj.npy": {
+   "sha256": "4d65b2aebf5a029180553ab313368629923b291f564712c410cdb355ff28567f",
+   "bytes": 10576000,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__smolvlm_dora_s0_proj.npy": {
+   "sha256": "a84add8b77974b188cc1fffb4256569b2620b41142514dbb81f0530f8cdca1df",
+   "bytes": 36978816,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__smolvlm_dora_s0_proj.npy": {
+   "sha256": "3790e0d396f81c4cb9aff8a223f747b873e68dcb2c81fd15024f56c917df5d45",
+   "bytes": 10576000,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__smolvlm_dora_s1_proj.npy": {
+   "sha256": "d8e8c46244b59e953b1c6269a714451b0cca5afc7d5d7d1d9d9647de47b93650",
+   "bytes": 36978816,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__smolvlm_dora_s1_proj.npy": {
+   "sha256": "0a4bb9dfdb3cb0967868995ffe76c3a34979cabe74c0329bfa6f7f1e8779a661",
+   "bytes": 10576000,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__smolvlm_dora_s2_proj.npy": {
+   "sha256": "3f73e5e323ae3f1ddf3471e28e74c4bf520018b023e3721f15f2650cc82951e1",
+   "bytes": 36978816,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__smolvlm_dora_s2_proj.npy": {
+   "sha256": "b80950f7885ea75e3473d81559c843a13bb6b8950a34a93bcc012abcc6c65db8",
+   "bytes": 10576000,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__smolvlm_lora_s0_proj.npy": {
+   "sha256": "f6cf6afffa134dd1afddfa5c17a194091934d146813c0e953c8be78455d60cec",
+   "bytes": 36978816,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__smolvlm_lora_s0_proj.npy": {
+   "sha256": "c15b7e70484e964b3828d928b8ff20886ba43c3fb3eede0bdb3295f56fa0c3f8",
+   "bytes": 10576000,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__smolvlm_lora_s1_proj.npy": {
+   "sha256": "bcf5e854e32cce6755c359f6f26d5a24ffadc54805cc970abc1f1c786d2ff40e",
+   "bytes": 36978816,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__smolvlm_lora_s1_proj.npy": {
+   "sha256": "0d1daf065c1406fdcaa8c4d57415bbaf0fbef89e80b10f10117cd832824b348c",
+   "bytes": 10576000,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/KVASIR__TRAIN__smolvlm_lora_s2_proj.npy": {
+   "sha256": "f5acae3eb10954cb334bcd883f4c455c3704bfa0c40c4be1cf7af8d9428db18e",
+   "bytes": 36978816,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/KVASIR__smolvlm_lora_s2_proj.npy": {
+   "sha256": "a9a84336bfcc25cd4cbb7be9eedfa5ec93f39edfb5ef807ce5f65a128b68fed9",
+   "bytes": 10576000,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__qwen2vl_base_proj.npy": {
+   "sha256": "e32a57fd8540cb9437967a91f9b3e27ac8269b99a738b7147d25e7a6d7759e26",
+   "bytes": 2764928,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__qwen2vl_base_proj.npy": {
+   "sha256": "4d85ee80a231c411da55d6cd33fe93bb075ad6010336d1770a7419bc13743bac",
+   "bytes": 589952,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "fbb23713efe9b81fe08e84a1f3a36e8b6f0f6fe041dbe6f2641c66e404d965ba",
+   "bytes": 2764928,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "5b79df3eca0b224b9a8587660b7e0979d5ff58edac39934173d873e423739e34",
+   "bytes": 589952,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "5bf4e13a9b13dac939479ab3395856965318bc43a2dfffc13eec1339e7334ef7",
+   "bytes": 2764928,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "ac44d40d3536b9eae555a2e85905bc08c6e4d3969ea03c2430a89f40699639b5",
+   "bytes": 589952,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "d7f012db7fce0ada013b23eb96d536379d074ff3b0807f6715484517f17c1ece",
+   "bytes": 2764928,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "4896911c24a60bdb140a7e37d76ea9fe550beb0d4b65e093e5ba56752a54b882",
+   "bytes": 589952,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "018a57ae1a8f8d15ef690295a8ab13207a6657b34c3f9887f0599d36caa91099",
+   "bytes": 2764928,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "c23a8dd79451b3c9eaf0a8879377c86b115780909bc6a7113a3cd6ca2103af7c",
+   "bytes": 589952,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "86690ad04e9dd238c7e21efa2154ca06842faa2b3f5641701d3c9245e838da20",
+   "bytes": 2764928,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "4b16137143c4f6fc93739ec459bf3df2b0b6025d89af531ad4efebff0e79c78f",
+   "bytes": 589952,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "6d5b99ac1740cfb82260337001ba7abc66a132d22df5e9c25ae4d4a5bdb32a62",
+   "bytes": 2764928,
+   "role": "bank embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "065ef733ba7b26d194d4d7a22642c695db57cd5069f75f4c22d683a407f58338",
+   "bytes": 589952,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__smolvlm_base_proj.npy": {
+   "sha256": "c72f35c7a00e833bc1ec5813f94713cdf57c2dcc67f20e9da904802a2c7a540c",
+   "bytes": 3686528,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__smolvlm_base_proj.npy": {
+   "sha256": "e64f0ebae9298c209561e448cd4012a59b4cbf988ef6886314ac82f807b04b8c",
+   "bytes": 786560,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__smolvlm_dora_s0_proj.npy": {
+   "sha256": "80ba803ef19b1562421c1af0f54bc2ed335f167e397f8a14d97f83fc7e749d8c",
+   "bytes": 3686528,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__smolvlm_dora_s0_proj.npy": {
+   "sha256": "73eac8b1552c4326644abe9edb10fadd867ada93345c17ee69c07a1b0d7002c9",
+   "bytes": 786560,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__smolvlm_dora_s1_proj.npy": {
+   "sha256": "49fbee1b8e2a6b4c9f7cf20f928fa73698fd2b40d6e9966e77b61365e7c24570",
+   "bytes": 3686528,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__smolvlm_dora_s1_proj.npy": {
+   "sha256": "7ffd5f8765c475b7b33e8aa813c17891f3430df3dfd5e2254db26e32f599f82a",
+   "bytes": 786560,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__smolvlm_dora_s2_proj.npy": {
+   "sha256": "d0f1459e46d7469430c204d6d386418dc739764e011c8c7cb6961d462df30352",
+   "bytes": 3686528,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__smolvlm_dora_s2_proj.npy": {
+   "sha256": "051fa8d7f97ede45c3ed4a6ceed444c572e3018553bef8d99f9125e4a95fdc1a",
+   "bytes": 786560,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__smolvlm_lora_s0_proj.npy": {
+   "sha256": "13196072ceca7b2bf4c1bbf6198e7fffa67dc3bdcc4c3d04bd158aedd76623ff",
+   "bytes": 3686528,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__smolvlm_lora_s0_proj.npy": {
+   "sha256": "266c78d04ba9b2da76fb41193ad7175280a2627c0be62822cf2913a7eed4de0e",
+   "bytes": 786560,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__smolvlm_lora_s1_proj.npy": {
+   "sha256": "f1072708443e9a93f36f9b6d2d6771c22d727ad0a12b8fa6439ee3725ab05d44",
+   "bytes": 3686528,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__smolvlm_lora_s1_proj.npy": {
+   "sha256": "b3d06bd1851969b9903875d0250a8a260d037204f688b1ae35c123231e4fdc92",
+   "bytes": 786560,
+   "role": "test C0 embeddings"
+  },
+  "../v5_analysis/embeddings/SLAKE__TRAIN__smolvlm_lora_s2_proj.npy": {
+   "sha256": "a391b6142ae3d10d2708ba43dcdb53de2c5016ffa5ea4d771c414484e51412a8",
+   "bytes": 3686528,
+   "role": "bank embeddings"
+  },
+  "cache/embeddings/SLAKE__smolvlm_lora_s2_proj.npy": {
+   "sha256": "7c8d76a4b9eb5b2c07f3790c157a83495674e09c67a8f6393526e202acd9f233",
+   "bytes": 786560,
+   "role": "test C0 embeddings"
+  },
+  "cache/embeddings/KVASIR__C1__medsiglip.npy": {
+   "sha256": "0ef65604b5bf7ac75fa7ccb114e971d4d43fc74f3fadb406fc000e2102df5c05",
+   "bytes": 5949056,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C2__medsiglip.npy": {
+   "sha256": "b03d3d91a323462350a2d6ac1d901ecc011e1e796f2c59ec04462a8b6f6f6b40",
+   "bytes": 5949056,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C7__medsiglip.npy": {
+   "sha256": "33703457e7eedc9de98fc2a35a808b9eefcffcdc9f12c30be2697cb8b8993fda",
+   "bytes": 5949056,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C4_OCC_75__medsiglip.npy": {
+   "sha256": "849d02d4a42a43ded701f563b9001b48ad2f6e0f5e6cf8f1fb1b0cd13d4e75c2",
+   "bytes": 5949056,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C1__dinov3.npy": {
+   "sha256": "0ced71ff82d08abad1dfea4c42ebaa01658a6159b4c4e37de32f07c3f3269aa8",
+   "bytes": 5288064,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C2__dinov3.npy": {
+   "sha256": "88471dc6cbeb62be73cdf3e4c88fb9c21f5467c51b2a84db3d9e8b2fb2d765b0",
+   "bytes": 5288064,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C7__dinov3.npy": {
+   "sha256": "750dc6dc97ac54bc0427968397e5417efb8b1a0ebf1f0d2904828dcf8b5816ef",
+   "bytes": 5288064,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C4_OCC_75__dinov3.npy": {
+   "sha256": "6565f2d4ae4cdea3be5cacd312f00958c79dcd8d61e89b53b44f65c4796cace6",
+   "bytes": 5288064,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C1__biomedclip.npy": {
+   "sha256": "5777a1c7a1df1e24f490d54fef134e4c5203fb40cde891a8227900c3d02babca",
+   "bytes": 2644096,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C2__biomedclip.npy": {
+   "sha256": "457c43b4df82c5563beb8e735ea721f7f07a1abcf2f1682d67e654c075c80b10",
+   "bytes": 2644096,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C7__biomedclip.npy": {
+   "sha256": "8ad705b76152842c94ddbee58fe572cedf3e6ec383dc83dcbd4ec0b6fe2e5780",
+   "bytes": 2644096,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C4_OCC_75__biomedclip.npy": {
+   "sha256": "9deaa9e0c750a22e4ccf5464a26373241e5690818acbb66e8726b77d7bf32045",
+   "bytes": 2644096,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C1__dinov2.npy": {
+   "sha256": "616323f01083d1afe73005ec3c21a68b73c0bb4abfe78e30244937b3c809e6c8",
+   "bytes": 5288064,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C2__dinov2.npy": {
+   "sha256": "e7afaf8ac21ed8bae2eac1db4f8236d7b3567791f8341dd1da4f18c8a94b8851",
+   "bytes": 5288064,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C7__dinov2.npy": {
+   "sha256": "3f83dd419eb7aef312fc874d31c8ae79e9b5c5362045e69fc38f0c440ce33643",
+   "bytes": 5288064,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C4_OCC_75__dinov2.npy": {
+   "sha256": "0b3cda5b2e102dcdb8a05e1f887a8e5cbffc72484e0a9b0dcf2e2000fd0b5df0",
+   "bytes": 5288064,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C1__colorhist.npy": {
+   "sha256": "5ac238e2f0b429c0b538cf1bb24b0072c0e4ae287031570f36f22de9df8ff737",
+   "bytes": 991616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C2__colorhist.npy": {
+   "sha256": "59b387ca7660e58a3097d934f8c08fddb070fa1a8f21fb603209c0dcbd04d1b7",
+   "bytes": 991616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C7__colorhist.npy": {
+   "sha256": "5b1e0142246af7a74eb131ccb44d724a639ccaa236bce8294a0a7efe2136508f",
+   "bytes": 991616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/KVASIR__C4_OCC_75__colorhist.npy": {
+   "sha256": "69fa6ac32406d048a6a16c0c923b7123a421b4805dc5270dd3294ddfa8389855",
+   "bytes": 991616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__m3ae_base_proj.npy": {
+   "sha256": "b98b04c49d6e341d14ba52c6063359530300bcbd5c4676fde206afdf724d2de4",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__m3ae_base_proj.npy": {
+   "sha256": "587ed4c11c62b98da30906ecd6dcacad1df6da55e01a576a066d882b73e676f0",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__m3ae_base_proj.npy": {
+   "sha256": "ecbb12115ca27dda993eac7c3173a5f9ec4dd69a165605f40621d8757b3d24c0",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__m3ae_s0_proj.npy": {
+   "sha256": "e7ebd5ea821dd73398cb22b406b6b462fce0545556b4000a57d6d4e6288f7078",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__m3ae_s0_proj.npy": {
+   "sha256": "d1374ca920a28d75b747f9f5343793200b8d9850bf4cd532131eab1114f929b2",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__m3ae_s0_proj.npy": {
+   "sha256": "b2b4eb6ec0e0274669b8aa3e2ca93a50cb5ae4e2b141cb7bbbabf3cc8cda40ef",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__m3ae_s1_proj.npy": {
+   "sha256": "d7168adc7b9282c7f73fa957541ab67206db169f5ade544721e7b987b75c74d3",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__m3ae_s1_proj.npy": {
+   "sha256": "6d7eb6594f2b6587955869f448b5e7d9f41cb335e0a6d1724d3d20e769185bbd",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__m3ae_s1_proj.npy": {
+   "sha256": "591a0f10884aad083f66a5ddc30b16467c0c9c6ab6485cea6465333d0fdbb69c",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__m3ae_s2_proj.npy": {
+   "sha256": "831b6d8bb15d6e1a2d34b7fe22e37fd53c1fa6a2b285ab74c6bb8c06f0f74ae9",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__m3ae_s2_proj.npy": {
+   "sha256": "2973826f9452b0781ae74d5ce6b97782d72781640e884c2823b69a8725c0d30f",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__m3ae_s2_proj.npy": {
+   "sha256": "71a65fca6739c01f8c0b93e2a125e6c60dcd1ffbbbdb1ce52493454b14b95096",
+   "bytes": 3966080,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__qwen2vl_base_proj.npy": {
+   "sha256": "cf24119512379c53b41bdf61c2db08ef2dccf6aaf43dad4f6f27ab0847ab4196",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__qwen2vl_base_proj.npy": {
+   "sha256": "170e828841e039d77574a208041b5282a2681e60f97b7d0c7b988d5865a67514",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__qwen2vl_base_proj.npy": {
+   "sha256": "56c75a39c51f31db9d6e15bae77b4af884e5b9d18e6d443c7acb608c3394604f",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "3e662cd82035aaf64794c67795197b692e06183b293e99c729d7e408bb96f2b1",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "708e8aa9305b67d21e7b5d66270f4234a354daf716bc4dec5158fc5bd0c858c6",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "f0961d5e230b24b014151e0068d866a32c074e128973ed76a15368847681c159",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "61e57f59fbc31f0dbe049fc557640daa2cb92c1985f7f6380e0b6672caafe07f",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "e4e3222439165079f1eac46be387306b4d661ce9e841d5a60348f838b962ce76",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "ca518d4a749aebbfee366d025bc8100f00d54a10750e1541e2be5a728d1a4e90",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "074178d6118a93346784d2453cd4286905d77f27cd7ea3b72f958d7b18fc4b6f",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "a025aacaa85cd528e0d8b2542344fa91b74011d3e0ecdd6ceb269f4317e1062f",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "6a22267df34e3fe3731df07d9d69ae7500ce5ed950480d2515fa3126695b6ddd",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "a8f8242dbb180b2c9b56abb9e60d4a464e11ef76e37e639898da104bc0b5ece2",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "7559cfffec98b4550750198926123ac011186e9aa1722ee00560d50172c6db5f",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "ba1bff359d7d902783bb2b1db1ededf3af4affb45a2c7f2615eec4e4f7f7e4c4",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "168eb0fa986ec16c2484be8d7a582267f1ffc198039ed6f0f4a10eeef313e3d2",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "4b1184fded77281b7b9631919cab56406c88fabf5cec9cee2c531b20db40477e",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "5d5d6f6f5111cde24a50b13eeccefca835eaa99b75c0f64823da47e6653b9e44",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "d6e1779b0c01fdf9dc659d3a7f1aa50d2a2e58e75e6cdb0e1b04335eb7914ccc",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "257640e059a1f885a09d758dfe03e3925bf92e4eb78c5acb4dabf11671ef95e3",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "39490215c152455e0bd64ce21df79fbb0bac46e8bf9c5ae4f15db9a025ac55ae",
+   "bytes": 7932032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__smolvlm_base_proj.npy": {
+   "sha256": "720e06fdfc4de0c7cc1a3b32d62380adc1810c8f70e5f7f44d1b2594426be22d",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__smolvlm_base_proj.npy": {
+   "sha256": "865db94d9312210968f33eca4c812c4c1f04768dd18c321c0a0f5875749ec737",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__smolvlm_base_proj.npy": {
+   "sha256": "2e9a3962ad7b1fb5ea1a1032d30b037c894fc2367e01d959c901eaa709c6f7b1",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__smolvlm_dora_s0_proj.npy": {
+   "sha256": "cc886131f7219adf245a0250a25ccddb81fa852f249b06a7ef3a1b0c42e4d90a",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__smolvlm_dora_s0_proj.npy": {
+   "sha256": "bfc51c9f4069317a4a4b4b82eadeb2420a50f160e0b038cb208b3b9342b491e6",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__smolvlm_dora_s0_proj.npy": {
+   "sha256": "39ffadda2bff8f9de0cc5c3ffb0b56fdf9fe823f8d7271b0d8ce2acf199ce7c3",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__smolvlm_dora_s1_proj.npy": {
+   "sha256": "153ab052f939a2ce272c7acc3d675a4b73bfdeaadeaf2110a6fc8aac62bbd8aa",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__smolvlm_dora_s1_proj.npy": {
+   "sha256": "dbfa01498158558cda7633595ad7231589bfead969ddb4f853ac4678f0a99cea",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__smolvlm_dora_s1_proj.npy": {
+   "sha256": "23df5367e902166124a319c09eef997464fbe880869c51bc01c0becb5a1cbc2b",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__smolvlm_dora_s2_proj.npy": {
+   "sha256": "20545fdd667e20735fdb622bc25c8355df9c774abfb97371f2f52e78eb5e76b1",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__smolvlm_dora_s2_proj.npy": {
+   "sha256": "cadabcd87fdc65906879f107cb4fa29cd46ae4617016f98679b838cf927c1d69",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__smolvlm_dora_s2_proj.npy": {
+   "sha256": "03d7df4d80a251dd0e74ab2e9f87403de9140cd51c0ae2538d868b2b08221c1a",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__smolvlm_lora_s0_proj.npy": {
+   "sha256": "112362800be9b1b2cbb3eeba3ad63d12627e352dd16a4501ae767b708e8aeeb2",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__smolvlm_lora_s0_proj.npy": {
+   "sha256": "5e14fac8d7ecf344ec464e60dfae4ff47c1427af44f0c6ccf8ee2ff3549438ed",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__smolvlm_lora_s0_proj.npy": {
+   "sha256": "95f57ef2b8caf9d8c8008895909b279d868065a20a38f0de6cffe2886103f854",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__smolvlm_lora_s1_proj.npy": {
+   "sha256": "f3f12f3f03ded056df758c201efd5faf5afc5d3118248023b532f1b4c6ad24f8",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__smolvlm_lora_s1_proj.npy": {
+   "sha256": "07448d8d999d433617c95c59f2aa993d6eab7f0f704e0f94003c1d2de46edb59",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__smolvlm_lora_s1_proj.npy": {
+   "sha256": "88743ff4811abba478c323c19d5429ff494ae483543f8e5e529bd06ddc9f8144",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C1__smolvlm_lora_s2_proj.npy": {
+   "sha256": "0fea1d493cbe3721db5b126e752ff428bd3be3937dce67ef90892ad15f6665fc",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C7__smolvlm_lora_s2_proj.npy": {
+   "sha256": "c790f420bda8ba961d96b9464d2c3f5b901d78ad7e5e48298436014a1590b51d",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/KVASIR__C4_OCC_75__smolvlm_lora_s2_proj.npy": {
+   "sha256": "630676a5647bee47b8a7bc1f22fb1d22d1c8efc42eeca860c9157088936485cd",
+   "bytes": 10576000,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C1__medsiglip.npy": {
+   "sha256": "c2fd15f1fb1970c991fbe3837f7c583bf2e7d05cc9faaae885ad319e773e4eb8",
+   "bytes": 442496,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C2__medsiglip.npy": {
+   "sha256": "89bc09f4703bdcead2282d269bfb3458a0d20346c71711c6768936181e175511",
+   "bytes": 442496,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C7__medsiglip.npy": {
+   "sha256": "eb1d6b58087a34a3eb853fac1abe168f625054e61d03676847297e1fb0f3bb4c",
+   "bytes": 442496,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C4_OCC_75__medsiglip.npy": {
+   "sha256": "a11ac0472b92cbcb02a1d04b66b850c2a056e6aa2ad8950f2ff2009b6ccd2e06",
+   "bytes": 442496,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C1__dinov3.npy": {
+   "sha256": "6ecaeea2aefd7a3c75cd8783288c52bcfedd5e5df472c337950d259fa4c1b5d9",
+   "bytes": 393344,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C2__dinov3.npy": {
+   "sha256": "66b8cc96c18f5869bb4497f11824a8261924727010fdf7c5e9539f69aeb8de38",
+   "bytes": 393344,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C7__dinov3.npy": {
+   "sha256": "d3ab3009de92ba892be32e42ba5ad0dbe55fd8f17b87a5451844108f49a0af38",
+   "bytes": 393344,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C4_OCC_75__dinov3.npy": {
+   "sha256": "789e7a06608db4af67e630efaa04404a964be0f660804430cd7096599cacb857",
+   "bytes": 393344,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C1__biomedclip.npy": {
+   "sha256": "1af334d2265a7203b5a1d2454285ee6ca8ad1bd7fccf3355c59c40dfb6b9b4f7",
+   "bytes": 196736,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C2__biomedclip.npy": {
+   "sha256": "0fd49995eeee0ba519d154a1f816c159b096efe05fe2ca8e0cb53ca97bbec3d2",
+   "bytes": 196736,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C7__biomedclip.npy": {
+   "sha256": "6ce0dbea063fa4d6375b80de33b8f5c996a56e593e901fda54bf23ca3bfb88b0",
+   "bytes": 196736,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C4_OCC_75__biomedclip.npy": {
+   "sha256": "a62d16bd3e442df03d5a8bc9904a16f4b5351f81a83fe9ec1c158ea541df5360",
+   "bytes": 196736,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C1__dinov2.npy": {
+   "sha256": "f2d28714eaa733896b8f50a52e4533110ee3762cd88083e2e68e30d00e4b87f2",
+   "bytes": 393344,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C2__dinov2.npy": {
+   "sha256": "19d85ab8518b7735603ec56b325bae3f7b8941a924a2f1186a807a0ea7e9a4e7",
+   "bytes": 393344,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C7__dinov2.npy": {
+   "sha256": "01e4455c6976323214101d68076e30975fc361685f7981c9a93c459cf7fa4009",
+   "bytes": 393344,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C4_OCC_75__dinov2.npy": {
+   "sha256": "eb7a61a88e996c81b21f3c84f6e79626ae4ec4a33801e4d5760adb0ab31982e1",
+   "bytes": 393344,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C1__colorhist.npy": {
+   "sha256": "090a5c65c857689a9a0b65447f0404ef4c7f9f017a1a55b2241fced311b5cf73",
+   "bytes": 73856,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C2__colorhist.npy": {
+   "sha256": "f05c8cb0259ef800905e8fe0d88a72a714efc83d384e40a7770fa133eada96d2",
+   "bytes": 73856,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C7__colorhist.npy": {
+   "sha256": "761d2901a807e00e6ec9152c609781a41b808afd6e4e63292db150cb531319e0",
+   "bytes": 73856,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/SLAKE__C4_OCC_75__colorhist.npy": {
+   "sha256": "f52f2629f2220d3d64ab67298fcd83bf29bf16c7a19104f4bc0a3694e01f4c54",
+   "bytes": 73856,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__qwen2vl_base_proj.npy": {
+   "sha256": "1f8c026f3b26603820df03fb4e622ab3e0311d809a5412ec2596f1ea2954855e",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__qwen2vl_base_proj.npy": {
+   "sha256": "03c4b5dcfb9f75bc765af85ad77f8a9d8fb51dceabddac166c18921b5f56471e",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__qwen2vl_base_proj.npy": {
+   "sha256": "40b1398c8c7ca0e970bbf0817dfc514940f1d201190c118d3bc5c560b5b756be",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "11ff6a2c7d4d5940587d8d38db48ca3d6b3d4a249aadfd64bc00b6210ad365d8",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "c7a113ec4fcab4d0c8ce0ec24ab212afadae15c137cac47280c341ca6051be03",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__qwen2vl_dora_vt_s0_proj.npy": {
+   "sha256": "5e548980268312384b09477ae0e5724a90359b095206e3584f3116f0e26a1995",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "438002ffb0c6520803a5d5dc6339e62086490d2edfec14dcde370ed3ac8f1b5d",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "29dd6a7dd252c1c9b6639a5f339fb2ca5b9bea46612aa44ad2ed666cdafd7a3f",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__qwen2vl_dora_vt_s1_proj.npy": {
+   "sha256": "970acf92e3b48159768a6f0bd88ac9e4ec857f4001fe94a25a5458c7121ed657",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "8c03b8138db498eed52bd77d31889bae8e4bbc0638276d615639af86b684d8e0",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "8baccdc0c88c8b752b31ff97ff2e35b90490178e0de3529bfe0aef8fbb8f4653",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__qwen2vl_dora_vt_s2_proj.npy": {
+   "sha256": "bd25e576b025b520209236603d909f6cf05f4a03f7b3eaa69336f9828f6d6708",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "dee7d8dc6792fd635e20b3e44e2e498c8a99bf61cf3bfe46c49f81d915e581b8",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "8e6bf4756d9f2737455df95c826ee7e1c6188404172b158d100957a182f091aa",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__qwen2vl_lora_vt_s0_proj.npy": {
+   "sha256": "460d9b9e3c04ae33385375f5e37b835175083d97636207e41a2edd47f4c5d1d4",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "fbdbb94c72c96f09e286f50a8fa22353afa945b63e9c570b10977c72b52ec0c7",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "80212e2bedd91da8d86cb4a7bf216392136c7f2f431aff75fb17d8d21945cb19",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__qwen2vl_lora_vt_s1_proj.npy": {
+   "sha256": "273ba68d6c14941b7b1993e5a3048f59b7901a77f305f6d043599ba0574392a0",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "3472a7e130558582841c6313f315110bdc9b2d4e6b1a4afbfe3e0da0ea2ff936",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "27700f9eb73da32e39012622c431f471980251bc285e84f4bbbb4a3c726a7a30",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__qwen2vl_lora_vt_s2_proj.npy": {
+   "sha256": "d75a450546c37a447cc576664b560b1a407b23218035b3990bad0dda02968766",
+   "bytes": 589952,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__smolvlm_base_proj.npy": {
+   "sha256": "fdf40309e071d3bfbc8b61ede3cab664de753e95e6e1eb0888f21f258dfecffe",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__smolvlm_base_proj.npy": {
+   "sha256": "87261f0d7a8da3c430b04f41555a1f16fc16682c89f041604f40b400e4bf0db2",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__smolvlm_base_proj.npy": {
+   "sha256": "96d8ea8a0fb4934966f5dfe7a6e93439e6cbe04113740c0dc085cc24166a56c6",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__smolvlm_dora_s0_proj.npy": {
+   "sha256": "ccb51654262f9be620a961ee5fb2cc3d8737d8c27017b2b78128ed32274949cc",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__smolvlm_dora_s0_proj.npy": {
+   "sha256": "5c1742501c0ab0e2f9b8d75110444b5036d77de972858237d2e6d2d23912d519",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__smolvlm_dora_s0_proj.npy": {
+   "sha256": "7438490b7ee7bb2472c8f75106ee7757639a9a57a7d13ede01bf618a946ef4a0",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__smolvlm_dora_s1_proj.npy": {
+   "sha256": "d6b11c063b66d75d2d8a5b1c944449b329ad3ce8e119ef3f3b48ede8d51c4f80",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__smolvlm_dora_s1_proj.npy": {
+   "sha256": "ada51127c40d1176529d585ba20bd396918a9fc1949db16adefc10b365bf6fd8",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__smolvlm_dora_s1_proj.npy": {
+   "sha256": "2c303a04fb1a8aff2962807ed76c199d9576f3c7a957995edad3b00cfc5e427e",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__smolvlm_dora_s2_proj.npy": {
+   "sha256": "c25302ada7c2db7d32fd39aa0e17a80ed8d86a60a82ff099e272e3c87963d61d",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__smolvlm_dora_s2_proj.npy": {
+   "sha256": "c836ad2de20419fd6c99362d41b5e3480a877d3d66796dbee6a90295763293cd",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__smolvlm_dora_s2_proj.npy": {
+   "sha256": "50dbd0ed2e97b4d344d8851b107ff3838f833b19fa444f7bd133326884544de3",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__smolvlm_lora_s0_proj.npy": {
+   "sha256": "3e9842b1a8ab6356cebbf37bfdc9d5c7533bf7ad3f80786d496753bdb843dfee",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__smolvlm_lora_s0_proj.npy": {
+   "sha256": "007130624549a6d0206af26eb49ffee2098cbae52de3317fa0492d47549b6e4b",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__smolvlm_lora_s0_proj.npy": {
+   "sha256": "2701b04b4adc450fadbf989ec3f1acc80327adaa4bd7084ed9d42f735c238237",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__smolvlm_lora_s1_proj.npy": {
+   "sha256": "1f27ad5e3f0e8b9012489eeb8cb302de559c642918946eb99c02976db1ceaf03",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__smolvlm_lora_s1_proj.npy": {
+   "sha256": "811aea20749074ed88f3397bd8669603adf6820acdabfa064d36b66ec3d5afc1",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__smolvlm_lora_s1_proj.npy": {
+   "sha256": "c630bca899871cb456653654d049fdce831fa70e292e7969b29c3a924ed89bef",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C1__smolvlm_lora_s2_proj.npy": {
+   "sha256": "3ee604f1efc2f498e46c096dd3d78ddc33ea13cbf805ca882bf2a203183532ac",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C7__smolvlm_lora_s2_proj.npy": {
+   "sha256": "b975f173f27e87c46e1cb6e662e9eff7fb244d06a9c00c59ef8def03cd41caef",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "../v5_analysis/embeddings/SLAKE__C4_OCC_75__smolvlm_lora_s2_proj.npy": {
+   "sha256": "bebc28ec787a8a16887361b05d312cb06bac4b0d1534775eb593cc74e2c0f3c5",
+   "bytes": 786560,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C1__medsiglip.npy": {
+   "sha256": "c8e36ef9c080729af73b1173d76c5cd9893cbb795bb0b4f1bc8f9f9acf916f37",
+   "bytes": 935552,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C2__medsiglip.npy": {
+   "sha256": "51b39b2821949fcbc0627d7b54dc229815411f947e57e4bd032b4f22a1bd55e7",
+   "bytes": 935552,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C7__medsiglip.npy": {
+   "sha256": "fdff24ef92c3c22224f579c548bbad0ea86c940316fc22987b6f487cca6ce5d6",
+   "bytes": 935552,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C4_OCC_75__medsiglip.npy": {
+   "sha256": "74e155173fe114ed598756eb0172eaa4e5382ece96125831281fae435fe45ab2",
+   "bytes": 935552,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C1__dinov3.npy": {
+   "sha256": "f57b04adf64a6d478128e5992becd27da71ca0162d1ad29ad34dc56cd4a82e46",
+   "bytes": 831616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C2__dinov3.npy": {
+   "sha256": "224a33c590cd7fb27c11d60bfa72fbd43edbe79102128765444dc94ec96857db",
+   "bytes": 831616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C7__dinov3.npy": {
+   "sha256": "54b26978bc7c89194c7332ca01be351f06d448bf53274e3495b4c8f0c068389a",
+   "bytes": 831616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C4_OCC_75__dinov3.npy": {
+   "sha256": "116bed4635c8a9470ce7f83666f287b8db0a76df2a5c807c83e152ec06af22f6",
+   "bytes": 831616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C1__biomedclip.npy": {
+   "sha256": "28ddc388e0191473e357658056d1097efb0f7bdac46ee77ad186d94f343b8429",
+   "bytes": 415872,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C2__biomedclip.npy": {
+   "sha256": "b5f58805bb12927251625b44f1f47a02f82d37a21925a2d7d6bf706832fe59d2",
+   "bytes": 415872,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C7__biomedclip.npy": {
+   "sha256": "6c054378918d0deeccaff6f2fb186178e9396e46da6c14d9ce10ae4e05062e68",
+   "bytes": 415872,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C4_OCC_75__biomedclip.npy": {
+   "sha256": "4ee8e5c51005ec362fa9afc0a1673b0edbb4558eb689c6c052fe181b3fd7cce7",
+   "bytes": 415872,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C1__dinov2.npy": {
+   "sha256": "62414faa396ac3ea817bd50313e7e3c0ef19d00905c1cbec301625cf12eda606",
+   "bytes": 831616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C2__dinov2.npy": {
+   "sha256": "bf3310d2d696ed016c30c1e226561eca5efdd3b166de9a0c499ef836ea1c8f5b",
+   "bytes": 831616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C7__dinov2.npy": {
+   "sha256": "74d040b1f1dc3840c54c90fc9512dd7c86b8d3002dc215a59842694cab4383ff",
+   "bytes": 831616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C4_OCC_75__dinov2.npy": {
+   "sha256": "0a1fb15e46c13eb1cedb04a62850b1db5be0ec495be27069b67d844bd23ba4c9",
+   "bytes": 831616,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C1__colorhist.npy": {
+   "sha256": "54aaf5c459bd6a76659e1bf9936a96abbb373fd4ef90de519c637e830ebf540b",
+   "bytes": 156032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C2__colorhist.npy": {
+   "sha256": "ccaf43b60a54c4a08135973c2cf15e8b096ec43369d5dd7566d778a3b6ae9649",
+   "bytes": 156032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C7__colorhist.npy": {
+   "sha256": "887910e81fbcf9b7b4c99e4cebd877f879404d40dbd5751fc783b081d7d53b2c",
+   "bytes": 156032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "cache/embeddings/VQARAD__C4_OCC_75__colorhist.npy": {
+   "sha256": "7432525c581542ce8a4d9e9bb771d77287c0e979d1ef0473f77ea69bd29fa7b1",
+   "bytes": 156032,
+   "role": "test condition embeddings (anchors)"
+  },
+  "data/finetune_arrows/vqa_slack_test.arrow.orig_backup": {
+   "sha256": "fe94d9a08770ab65608ac32c1f59f88dba4baa88611c401ceddd8452c85149d1",
+   "bytes": 8901146,
+   "role": "arrow (image bytes for the duplicate check)"
+  },
+  "data/finetune_arrows/vqa_slack_train.arrow": {
+   "sha256": "6267d69739da6af1ce5c75afc0a49bca6135de55efd2b83805ad827f02abbe1c",
+   "bytes": 39723170,
+   "role": "arrow (image bytes for the duplicate check)"
+  },
+  "data/finetune_arrows/vqa_vqa_rad_test.arrow": {
+   "sha256": "d75d6000ac1b9433ca756c272c0091639689d189906dd7e0235f880944efa2d5",
+   "bytes": 10566754,
+   "role": "arrow (image bytes for the duplicate check)"
+  },
+  "data/finetune_arrows/vqa_vqa_rad_train.arrow": {
+   "sha256": "75a9545aae1a9aa3105e4d11cc8159c7ddfb263b67d7663d1686ae2911454d56",
+   "bytes": 16762042,
+   "role": "arrow (image bytes for the duplicate check)"
+  }
+ }
+}
