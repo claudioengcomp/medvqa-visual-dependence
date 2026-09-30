@@ -1,4 +1,4 @@
-"""Build the 3 leakage-free arrows (train/val/test) for Kvasir-VQA-x1 --
+"""Build the 3 image-disjoint arrows (train/val/test) for Kvasir-VQA-x1 --
 an image-disjoint split (src.prepro.kvasir_split), reusing the atomic
 decomposition and the image download already exercised in
 src/prepro/prepare_kvasir_arrow.py.
@@ -50,7 +50,7 @@ def build_clean_arrows(
     seed: int = 42,
     download_fn: Callable[[str], bytes] = _download_image_bytes,
 ) -> dict:
-    """Build the 3 leakage-free arrows from the raw HuggingFace `train`
+    """Build the 3 image-disjoint arrows from the raw HuggingFace `train`
     and `test` rows (already loaded -- injectable so tests can run without
     network access).
     Returns a manifest {"counts": {"train": N, "val": N, "test": N}}."""

@@ -2,7 +2,7 @@
 during a long run of the C0-C6 battery and allows resuming where it stopped,
 without re-running what is already done.
 
-Kvasir has 10,779 questions in the leakage-free test split, and running the
+Kvasir has 10,779 questions in the image-disjoint test split, and running the
 11 conditions (C0, C1, C2, C4_OCC_25/50/75, C4_NOISE_25/50/75, C5, C6) with
 real text generation takes on the order of hours per condition. Checkpointing
 turns the cost of a connection drop or an OOM midway from the entire condition

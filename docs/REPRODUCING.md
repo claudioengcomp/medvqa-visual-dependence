@@ -102,7 +102,7 @@ python -m src.prepro.verify_leakage
 
 See [LEAKAGE.md](LEAKAGE.md) for the expected output.
 
-### Rebuild the leakage-free split
+### Rebuild the image-disjoint split
 
 ```bash
 python -m src.prepro.build_kvasir_clean_split --output-dir data/finetune_arrows --seed 42

@@ -51,7 +51,7 @@ Any result computed on the official split overestimates generalization, because
 a model can memorize an image during training and be asked a different question
 about the same image at test time.
 
-The leakage-free split released here is described in
+The image-disjoint split released here is described in
 [`../data/kvasir_clean_split/README.md`](../data/kvasir_clean_split/README.md),
 and the absence of overlap is asserted by an automated test:
 
