@@ -90,7 +90,7 @@ def _parse_args():
 if __name__ == "__main__":
     args = _parse_args()
     result = run(args.dataset, args.condition, args.results_dir, args.swapmap)
-    print(f"{args.dataset} {args.condition} — accuracy and VDD by question type")
+    print(f"{args.dataset} {args.condition} - accuracy and VDD by question type")
     print(f"{'configuration':<30}{'closed C0':>12}{'closed cond':>13}{'VDD':>8}"
           f"{'open C0':>12}{'open cond':>12}{'VDD':>8}")
     for base, record in result.items():

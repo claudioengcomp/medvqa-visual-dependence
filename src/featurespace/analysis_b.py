@@ -1,4 +1,4 @@
-"""Analysis B — donor distance, per the pre-registration of 17/09 and amendment B.1.
+"""Analysis B - donor distance, per the pre-registration of 17/09 and amendment B.1.
 
 Per swapped pair (original image, donor image) of C2, C5 and C6:
 

@@ -17,7 +17,7 @@ V4 = Path("docs/v4")
 
 def _line(label):
     text = SHEET.read_text()
-    m = re.search(r"\*\*%s\*\* — `([^`]*)`" % re.escape(label), text)
+    m = re.search(r"\*\*%s\*\* - `([^`]*)`" % re.escape(label), text)
     assert m, label
     return m.group(1)
 

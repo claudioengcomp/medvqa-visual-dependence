@@ -20,11 +20,11 @@ The split of Kvasir-VQA-x1 released here is identifier-disjoint; its content aud
 
 The datasets themselves must be obtained from their original distributors:
 
-- **SLAKE** — Liu et al., ISBI 2021.
-- **VQA-RAD** — Lau et al., Scientific Data 2018.
-- **Kvasir-VQA-x1** — Gautam et al., DEMI 2025 (MICCAI Workshop); `SimulaMet/Kvasir-VQA-x1` on the HuggingFace Hub.
-- **HEAL-MedVQA / VinDr-CXR** (PhysioNet, credentialed access) — used only in the feature-space analyses of Section 5.3. This repository holds **no image, no embedding and no study identifier** from it: only distributions of distances, dip statistics, counts and p-values (`docs/v4/`).
-- **PathVQA**, **PMC-VQA** (HuggingFace Hub) and **ProbMed** (credentialed release) — used only in the coverage analysis of Section 5.2 (phi); this repository holds only the coverage counts (`docs/COVERAGE.md`, `docs/v4/`).
+- **SLAKE** - Liu et al., ISBI 2021.
+- **VQA-RAD** - Lau et al., Scientific Data 2018.
+- **Kvasir-VQA-x1** - Gautam et al., DEMI 2025 (MICCAI Workshop); `SimulaMet/Kvasir-VQA-x1` on the HuggingFace Hub.
+- **HEAL-MedVQA / VinDr-CXR** (PhysioNet, credentialed access) - used only in the feature-space analyses of Section 5.3. This repository holds **no image, no embedding and no study identifier** from it: only distributions of distances, dip statistics, counts and p-values (`docs/v4/`).
+- **PathVQA**, **PMC-VQA** (HuggingFace Hub) and **ProbMed** (credentialed release) - used only in the coverage analysis of Section 5.2 (phi); this repository holds only the coverage counts (`docs/COVERAGE.md`, `docs/v4/`).
 
 If you are a rights holder and believe any file here exceeds fair reuse for
 research reproducibility, please open an issue and it will be removed.

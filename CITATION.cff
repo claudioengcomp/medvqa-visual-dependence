@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "medvqa-visual-dependence"
+authors:
+  - family-names: Leite
+    given-names: Claudio
+    orcid: "https://orcid.org/0009-0001-2405-0075"
+  - family-names: Almeida
+    given-names: Jurandy
+    orcid: "https://orcid.org/0000-0002-4998-6996"
+license: MIT
+repository-code: "https://github.com/claudioengcomp/medvqa-visual-dependence"
+preferred-citation:
+  type: conference-paper
+  title: "Destabilized or Redirected: What the Standard Probes of Visual Dependence Measure in Med-VQA"
+  authors:
+    - family-names: Leite
+      given-names: Claudio
+    - family-names: Almeida
+      given-names: Jurandy
+  collection-title: "International Conference on Computer Vision Theory and Applications (VISAPP)"
+  year: 2027

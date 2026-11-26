@@ -10,8 +10,8 @@ deterministic algorithms, batch size fixed at 32 and recorded, and the position
 control at exactly zero before anything is written.
 
 C0 of Kvasir, SLAKE and PathVQA is embedded: E2 searches the intact test pool.
-VQA-RAD stays out for the reason the pre-registration gives — one informative
-question — while PathVQA's stated reason ("no question-level gold structure in
+VQA-RAD stays out for the reason the pre-registration gives - one informative
+question - while PathVQA's stated reason ("no question-level gold structure in
 this repository") stopped holding when E1 built its arrow, and lifting that
 exclusion is declared in the pre-registration rather than done quietly.
 """

@@ -1,4 +1,4 @@
-# Item 5 — VQA-RAD, and the sentence the audit supports
+# Item 5 - VQA-RAD, and the sentence the audit supports
 
 ## VQA-RAD: 203 of 203, by bytes
 

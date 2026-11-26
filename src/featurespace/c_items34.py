@@ -1,18 +1,18 @@
 """The two pieces of C that tie it to Equation 3 and to v3.
 
-**Item 3 — where the answer goes.** A flip says the answer changed; it does not
+**Item 3 - where the answer goes.** A flip says the answer changed; it does not
 say it changed toward the donor. On the verifiable set V, where the donor image
 carries the same question and its reference y' differs from y, the swapped
 prediction can match y' (the model read the image it was given), match y (a
 textual or domain prior prevailed), or neither. Reported per bin of d, so the
-question is whether a far donor is followed more often than a near one — which
+question is whether a far donor is followed more often than a near one - which
 is what "the model uses the image" would mean, as opposed to "the model is
 disturbed".
 
 This is the CCR of v3 conditioned on distance. The three buckets are the same
 ones `compute_ccr` defines, and the scoring is `answers_match`.
 
-**Item 4 — VDD by tercile of d, against VDD(C5).** In percentage points,
+**Item 4 - VDD by tercile of d, against VDD(C5).** In percentage points,
 Acc(C0) - Acc(T) on the rows of the tercile, as Equation 1 defines it. Until
 2026-09-20 this block divided by the C0 correct count, which is the relative
 drop; the field was called `tercile_vdd` and read as VDD, and the comparison

@@ -15,8 +15,7 @@ coincide -- except on the seven byte-identical duplicate groups of
 Kvasir-VQA-x1, where several ids carry the same picture and the sha is the
 honest key.
 
-Three cells need files that are not the default ones, and the reason is in the
-handoff of 20/09:
+Three cells need files that are not the default ones, for the reasons below:
 
   M3AE_SCRATCH SLAKE          C0 and C6 re-run in one session (`_sameenv`),
                               because the C6 of 27/08 came from another

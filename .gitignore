@@ -4,6 +4,6 @@ __pycache__/
 .DS_Store
 data/finetune_arrows/
 
-# Coverage-analysis inputs (Section 5.3). Not redistributable: PathVQA and
+# Coverage-analysis inputs (Section 5.2). Not redistributable: PathVQA and
 # PMC-VQA come from the Hub, ProbMed is a gated release. See docs/COVERAGE.md.
 data/coverage/

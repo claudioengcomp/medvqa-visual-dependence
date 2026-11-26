@@ -5,7 +5,7 @@ The official Kvasir-VQA-x1 split puts the same image in training and in test:
 validation, and 237 do not. The question is what that buys a model.
 
 No inference was needed. The predictions of M3AE on the official split are the
-run the repository kept as `_DESCARTADO_split_vazado_kvasir_prefix` — discarded
+run the repository kept as `_DESCARTADO_split_vazado_kvasir_prefix` - discarded
 for the paper's main results precisely because the split leaks, which is exactly
 what makes it the right run for this measurement. Restored from Drive with its
 md5 checked; the checkpoints themselves are gone from host-A and were not needed.

@@ -4,14 +4,14 @@ Three things this does that `embed_conditions.py` does not.
 
 **It merges `image_ids.json` instead of overwriting it.** That file is written
 there with `write_text(json.dumps(ids_out))`, where `ids_out` holds only what
-the run computed — so any run covering a subset erases the rest, including the
+the run computed - so any run covering a subset erases the rest, including the
 C0 row orders that canonical ordering depends on.
 
 **It fixes the sources of position dependence before writing anything.** TF32
 off, deterministic algorithms on, cuDNN benchmark off, batch size fixed and
 recorded. Analysis G1's layer 1b found the same image embedding differently when
-it moved rows — 22 of 1,291 on Kvasir C2, always the same images across three
-rulers — and amendment 7.7 requires that to be zero for what is computed from
+it moved rows - 22 of 1,291 on Kvasir C2, always the same images across three
+rulers - and amendment 7.7 requires that to be zero for what is computed from
 now on.
 
 **It proves that, per ruler, before any array is written.** The control embeds a

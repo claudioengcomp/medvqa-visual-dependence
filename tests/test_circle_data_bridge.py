@@ -44,6 +44,6 @@ def test_load_condition_dataset_reuses_same_image_across_its_questions(tmp_path)
     write_sample_arrow_with_real_images(str(path), n=2, size=64)
     ds = load_condition_dataset(str(path))
     # The first two rows (id 0 and 1) come from the same image (row 0 of the
-    # arrow file) — their pixels must be identical.
+    # arrow file) - their pixels must be identical.
     by_id = {example["id"]: example for example in ds}
     assert list(by_id[0]["image"].getdata()) == list(by_id[1]["image"].getdata())

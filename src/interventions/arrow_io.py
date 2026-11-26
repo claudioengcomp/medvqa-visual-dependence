@@ -49,7 +49,7 @@ def write_arrow(df: pd.DataFrame, path: str) -> None:
 
     Creates the parent directory of `path` if it does not exist. This was
     found the hard way at run time: `data/finetune_arrows/` is gitignored
-    and therefore never exists in a fresh clone — pa.OSFile then raises a
+    and therefore never exists in a fresh clone - pa.OSFile then raises a
     low-level `FileNotFoundError` with no clear message, after minutes of
     work have already been done (e.g. downloading ~4,000 Kvasir images)."""
     parent = os.path.dirname(path)
@@ -66,7 +66,7 @@ def count_questions(df: pd.DataFrame) -> int:
     """Count the actual number of evaluated questions in an arrow DataFrame.
 
     Each ROW of the arrow file is an IMAGE, which carries a LIST of questions
-    in the 'questions' column — counting rows (len(df)) counts images, not
+    in the 'questions' column - counting rows (len(df)) counts images, not
     questions. This exact bug produced a wrong bootstrap 95% CI in the first
     M3AE result (n=96 images instead of n=1061 questions)."""
     return int(sum(len(qs) for qs in df["questions"]))

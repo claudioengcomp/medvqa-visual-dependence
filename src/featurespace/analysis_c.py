@@ -1,4 +1,4 @@
-"""Analysis C — does the donor distance predict that the answer changes?
+"""Analysis C - does the donor distance predict that the answer changes?
 
 Per the pre-registration committed in a32347b, before any number of C existed.
 
@@ -7,14 +7,14 @@ The unit is one swapped row × checkpoint × seed:
     flip = 1[ prediction under the swap != prediction under C0 ]
 
 compared with `answers_match`, the same ruler that decides `correct` behind
-accuracy, VDD and CCR — so "yes" against "Yes." is not a flip. Using raw string
+accuracy, VDD and CCR - so "yes" against "Yes." is not a flip. Using raw string
 inequality would count the scoring rule's own tolerance as a change of answer.
 
 `d` for a row is the distance of its (original, donor) image pair, taken from
 the manifests and the C0 embedding cache. The derangement is over images, so
 every row of an image carries the same `d`: the effective sample on the distance
 axis is the image, not the row. That is why every confidence interval is
-reported twice — resampling rows, and resampling images as clusters. Where the
+reported twice - resampling rows, and resampling images as clusters. Where the
 two disagree, the row-wise one is the optimistic one and the image-wise one is
 the honest one.
 
@@ -25,7 +25,7 @@ the per-condition fits are reported beside it.
 
 G3: the logistic coefficient of `flip ~ d` is positive with a confidence
 interval excluding zero in at least 12 of the 15 configuration × benchmark
-cells. Seeds are never pooled — a cell passes only if all three of its seeds do.
+cells. Seeds are never pooled - a cell passes only if all three of its seeds do.
 
 The logistic fit is IRLS with a Wald interval from the inverse Hessian; there is
 no statsmodels in this environment and the model is two-parameter.

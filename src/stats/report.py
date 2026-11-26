@@ -20,7 +20,7 @@ from src.analysis.build_summary_matrix import _COND_ORDER
 
 def _fmt_ci(ci) -> str:
     if ci is None:
-        return "—"
+        return "-"
     lo, hi = ci
     return f"[{lo:.3f}, {hi:.3f}]"
 
@@ -32,7 +32,7 @@ def _fmt_aggregate_ci(ci_c0, ci_c1) -> str:
     (it does not capture item-by-item correlation) -- it is labelled with
     '~' to make that explicit to the reader of the report."""
     if ci_c0 is None or ci_c1 is None:
-        return "—"
+        return "-"
     lo = ci_c0[0] - ci_c1[1]
     hi = ci_c0[1] - ci_c1[0]
     return f"~[{lo:.3f}, {hi:.3f}]"
@@ -51,7 +51,7 @@ def render_report(summaries: list[dict]) -> str:
         ci = s.get("ldv_ci_paired")
         ci_label = _fmt_ci(ci) if ci is not None else _fmt_aggregate_ci(s.get("ci_c0"), s.get("ci_c1"))
         p_value = s.get("mcnemar", {}).get("p_value")
-        p_str = f"{p_value:.4g}" if p_value is not None else "—"
+        p_str = f"{p_value:.4g}" if p_value is not None else "-"
         lines.append(
             f"| {s['model']} | {s['dataset']} | {s['accuracy_c0']:.4f} | "
             f"{s['accuracy_c1']:.4f} | {s['ldv']:.4f} | {ci_label} | {p_str} |"
@@ -83,10 +83,10 @@ def render_multiseed_report(matrix: dict) -> str:
                 continue
             acc_str = f"{agg['accuracy_c0_mean']:.4f} ± {agg['accuracy_c0_std']:.4f}"
             vdd_str = f"{agg['vdd_mean']:.4f} ± {agg['vdd_std']:.4f}"
-            vda_str = f"{vda_c1:.4f}" if cond == "C1" and vda_c1 is not None else "—"
+            vda_str = f"{vda_c1:.4f}" if cond == "C1" and vda_c1 is not None else "-"
             mcnemar_str = f"{agg['mcnemar_significant_count']}/{agg['mcnemar_total_seeds']}"
             g_mean, g_std, g_n = agg.get("cohens_g_mean"), agg.get("cohens_g_std"), agg.get("cohens_g_n")
-            g_str = f"{g_mean:.4f} ± {g_std:.4f} (n={g_n})" if g_mean is not None else "—"
+            g_str = f"{g_mean:.4f} ± {g_std:.4f} (n={g_n})" if g_mean is not None else "-"
             lines.append(
                 f"| {model_base} | {cond} | {agg['n_seeds']} | {acc_str} | "
                 f"{vdd_str} | {vda_str} | {mcnemar_str} | {g_str} |"

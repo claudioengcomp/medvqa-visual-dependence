@@ -42,7 +42,7 @@ training. The two criteria are incompatible, and the release follows the first.
 The last two lines of the output make the consequence visible: the test
 partition holds about 10% of the questions but 62% of the images, although each
 image carries roughly 25 questions. No split by image could produce that
-combination — the images are spread across both partitions, and only the
+combination - the images are spread across both partitions, and only the
 question–answer pairs are separated.
 
 ## Consequence

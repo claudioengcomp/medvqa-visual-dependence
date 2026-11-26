@@ -5,20 +5,20 @@ Decomposes each x1 row (composite question, natural-language answer) back
 into the atomic questions that generated it, via the `original` field (a
 JSON list of {"q":..., "a":...} entries for the base Kvasir-VQA template
 questions that were combined). This is necessary because:
-- M3AE needs a closed, short answer vocabulary for classification — the
+- M3AE needs a closed, short answer vocabulary for classification - the
   composite x1 answers are long sentences.
 - Evaluation under each condition (C0-C4, C5) reuses this same arrow for
-  the generative models via src/inference/circle_data_bridge.py — they
+  the generative models via src/inference/circle_data_bridge.py - they
   receive the same atomic question as every other model, with no
   disadvantage.
 
 It also captures, separately, the answer to the finding-category template
 question ("Are there any abnormalities in the image? Check all that are
-present.") as a per-image `pathology_label` — used by condition C5
+present.") as a per-image `pathology_label` - used by condition C5
 (src/interventions/make_c5_matched_pathology_swap.py) to restrict the
 swap to a different category.
 
-Generative model TRAINING (LoRA) does NOT use this arrow — it reads
+Generative model TRAINING (LoRA) does NOT use this arrow - it reads
 Kvasir-VQA-x1 directly through med_vlm.data.loader (composite questions),
 because med_vlm is already configured for that format natively.
 
@@ -29,14 +29,14 @@ Usage:
 
 Found at run time, and not covered by the 17 patterns mapped during
 planning (which only inspected the TEST split): the TRAIN split has 2
-extra patterns — "Does this image contain any finding?" (2263/6212 train
+extra patterns - "Does this image contain any finding?" (2263/6212 train
 images, 36%, had ONLY this question and were being discarded entirely;
 the answer was "no" in 100% of the 2263+237 occurrences measured across
-train+test — a degenerate question with no variance, but legitimately
+train+test - a degenerate question with no variance, but legitimately
 closed) and "What color is the anatomical landmark?..." (small
-vocabulary, 22 combinations in train — the same categorical pattern
+vocabulary, 22 combinations in train - the same categorical pattern
 already handled for its "what color is the abnormality" sibling). Both
-also occur in the test split (237 and 55 occurrences) — the test arrow
+also occur in the test split (237 and 55 occurrences) - the test arrow
 had to be regenerated after this fix to stay consistent with the train
 one.
 """
@@ -72,7 +72,7 @@ _PATHOLOGY_QUESTION = "are there any abnormalities in the image? check all that 
 
 def classify_question(question_text: str) -> str:
     """Classify an atomic Kvasir question as 'closed' or 'open'.
-    Raises ValueError if the text matches none of the known patterns — a
+    Raises ValueError if the text matches none of the known patterns - a
     signal that Kvasir-VQA-x1 changed or was decomposed incorrectly, which
     must not be silenced."""
     q = question_text.strip().lower()
@@ -87,7 +87,7 @@ def classify_question(question_text: str) -> str:
 def decompose_original_field(original_json: str) -> list[dict]:
     """Parse the `original` field (a JSON string) of a Kvasir-VQA-x1 row,
     returning the list of atomic {"question":..., "answer":...} entries.
-    Returns [] if the field is empty or malformed (no exception raised —
+    Returns [] if the field is empty or malformed (no exception raised -
     this is third-party data, so treat it as missing data)."""
     if not original_json:
         return []
@@ -128,13 +128,13 @@ def build_image_records(rows: list[dict]) -> list[dict]:
                 if classify_question(q) != "closed":
                     continue
             except ValueError:
-                continue  # unknown pattern — skip it, do not abort the whole build
+                continue  # unknown pattern - skip it, do not abort the whole build
             by_img[img_id]["seen_questions"][q] = a
 
     records = []
     for img_id, data in by_img.items():
         if not data["seen_questions"]:
-            continue  # image with no recognized closed question — out of scope
+            continue  # image with no recognized closed question - out of scope
         records.append({
             "img_id": img_id,
             "image_url": data["image_url"],
@@ -148,11 +148,11 @@ def build_image_records(rows: list[dict]) -> list[dict]:
 def _download_image_bytes(url: str, max_retries: int = 5, backoff_base_s: float = 1.0) -> bytes:
     """Download the bytes at `url`, with exponential retry. Found the hard
     way at run time: a transient `ConnectionResetError`/`URLError` occurred
-    in the middle of ~4,000 sequential urllib downloads — without retries a
+    in the middle of ~4,000 sequential urllib downloads - without retries a
     single network hiccup brought down the whole script after most images
     had already been fetched successfully, with no progress saved
     (`build_arrow_dataframe` only writes the arrow at the very end).
-    5 attempts, backoff 1s/2s/4s/8s/16s — generous enough to absorb
+    5 attempts, backoff 1s/2s/4s/8s/16s - generous enough to absorb
     transient instability of the image host without masking a genuine
     failure (broken URL, 404, etc., which `URLError` also covers)."""
     last_exc: Exception | None = None
@@ -172,10 +172,10 @@ _PLACEHOLDER_JPEG_BYTES: bytes | None = None
 
 
 def _placeholder_image_bytes(url: str) -> bytes:
-    """Always return the same bytes of a 1x1 black JPEG, ignoring `url` —
+    """Always return the same bytes of a 1x1 black JPEG, ignoring `url` -
     used in place of `_download_image_bytes` when the pixels will never
     actually be decoded (verified in practice: `train`/`val` only enter the
-    M3AE pipeline in order to assemble the answer vocabulary —
+    M3AE pipeline in order to assemble the answer vocabulary -
     `VQAKVASIRDataModule.setup()`, confirmed by reading
     m3ae/datamodules/base_datamodule.py, reads only the
     `answers`/`answer_labels` columns and never calls
@@ -219,7 +219,7 @@ def build_arrow_dataframe(records: list[dict], split: str, qid_offset: int = 0,
         rows["image"].append(image_bytes)
         rows["questions"].append(rec["questions"])
         rows["answers"].append([[a] for a in rec["answers"]])  # 1 reference answer per question
-        rows["answer_labels"].append([[0]] * n_q)  # placeholder — the real vocabulary is built in build_kvasir_answer_vocab.py
+        rows["answer_labels"].append([[0]] * n_q)  # placeholder - the real vocabulary is built in build_kvasir_answer_vocab.py
         rows["answer_scores"].append([[1.0]] * n_q)
         rows["image_id"].append(f"kvasir/{rec['img_id']}")
         rows["question_id"].append(qids)

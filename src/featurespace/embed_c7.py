@@ -2,8 +2,8 @@
 
 Same machinery as the PathVQA and HEAL pass: TF32 off, deterministic algorithms,
 cuDNN benchmark off, batch size fixed at 32 and recorded, fp32 throughout, and
-the position control — the same image embedded at two different places in the
-stream must give bit-identical vectors — required to pass at exactly zero before
+the position control - the same image embedded at two different places in the
+stream must give bit-identical vectors - required to pass at exactly zero before
 any array is written.
 
 `image_ids.json` is merged, never overwritten: it carries the row order of every

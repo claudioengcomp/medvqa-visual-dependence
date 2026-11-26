@@ -1,10 +1,19 @@
-# Item 4 — full test against the strict subset
+# Full test set against the strict (deduplicated) subset
 
-Two readings were drafted from these numbers before the controls were run, and
-both were wrong. They are recorded here because the corrected reading is only
-credible next to what it replaces.
+Sensitivity of the reported quantities to content duplicates in the clean
+Kvasir-VQA-x1 split (Section 4.1 of the paper). Removing the 351 test images
+with a neighbour in training (pHash <= 4; 36 of them exact copies) and 7
+copies internal to the test set leaves 933 of 1,291 images and 10,203 of 10,779
+questions. Over all templates the VDD is about 1 pp higher on the strict
+subset; with the single trivial template excluded from both sides the
+difference falls to between -0.01 and +0.14 pp, below the spread over seeds.
+The CCR and phi do not move materially.
 
-## What was claimed, and what the control showed
+Two earlier readings of these numbers did not survive their controls. They are
+kept below because the corrected reading is easier to check next to what it
+replaces.
+
+## Two readings the controls ruled out
 
 **Draft 1: "near-duplicates are 9 points easier, consistently and unanimously."**
 
@@ -28,7 +37,7 @@ VDD was about 1 pp higher on the strict subset, in every condition and
 configuration, exceeding the seed spread in 15 of 15 cells for the swaps.
 
 It was the same template. VDD on `does this image contain any finding?` is
-**0.00** — the answer does not depend on the image at all. The strict subset
+**0.00** - the answer does not depend on the image at all. The strict subset
 removes a set of questions that is disproportionately made of it, so the average
 VDD rises by arithmetic.
 
@@ -46,15 +55,13 @@ seed spread. There is no VDD effect of removing content duplicates on
 Kvasir-VQA-x1.
 
 Supporting numbers: VDD on the 576 removed questions is 14.8–17.8 pp against
-35–41 pp on the full set — the removed set is dominated by questions the image
+35–41 pp on the full set - the removed set is dominated by questions the image
 barely moves.
 
 ## CCR and phi
 
-`compute_ccr` returns `ccr` and the informative-set breakdown; it does not
-return phi, and the first report crashed averaging a key that was always None.
-phi = |I|/|V| is computed separately from the same swap map with the repository
-ruler.
+`compute_ccr` returns `ccr` and the informative-set breakdown; phi = |I|/|V| is
+computed separately from the same swap map with the repository ruler.
 
 | | CCR full | CCR strict | phi full | phi strict | \|V\| full | \|V\| strict |
 |---|---|---|---|---|---|---|
@@ -71,7 +78,7 @@ questions, so the changes are within what such denominators produce.
 ## What survives
 
 Content overlap between partitions of the clean Kvasir split is real and
-measured — 36 exact copies, 351 near neighbours in 1,291 test images — and it
+measured - 36 exact copies, 351 near neighbours in 1,291 test images - and it
 does **not** measurably change any quantity the paper reports. That is the claim
 the evidence supports: the overlap exists, and it is not load-bearing.
 

@@ -114,7 +114,7 @@ if __name__ == "__main__":
     for name, record in result.items():
         print(f"\n{name}: {record['pairs']} pairs, {record['questions']} questions, "
               f"{record['changed']} of {record['verifiable']} verifiable answers "
-              f"change ({record['changed_fraction']:.1%}) — {record['condition']}")
+              f"change ({record['changed_fraction']:.1%}) - {record['condition']}")
         print(f"  {'configuration':<30}{'VDD swap':>10}{'VDD blank':>12}{'ratio':>8}")
         for base, m in record["models"].items():
             blank = ("--" if m["vdd_blank_same_questions"][0] is None

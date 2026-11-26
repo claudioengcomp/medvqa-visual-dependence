@@ -1,4 +1,4 @@
-"""E2 — what CORAL's hard negative actually selects, measured without a model.
+"""E2 - what CORAL's hard negative actually selects, measured without a model.
 
 For each test item (x_i, q_i, y_i), the hard negative is the pool image nearest
 to x_i by cosine, subject to `label(x_j) != y_i`, where `label` is the gold
@@ -10,7 +10,7 @@ The restriction can only ever exclude an image whose every question carries
 the ceiling on what the restriction can filter**: an image with two different
 answers among its questions survives the restriction for any y_i whatsoever. On
 a closed benchmark, where the labels are yes and no, that fraction is the share
-of images carrying both — and if it is high, the restriction is not choosing a
+of images carrying both - and if it is high, the restriction is not choosing a
 donor, it is choosing a question.
 
 Measured per benchmark and per search encoder, with no model run at any point:

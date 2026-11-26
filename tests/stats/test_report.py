@@ -20,7 +20,7 @@ def test_render_report_includes_all_rows_and_values():
     assert "[0.150, 0.320]" in report
     assert "M0_question_only" in report
     assert "0.0000" in report
-    assert "—" in report
+    assert "-" in report
 
 
 def test_render_report_falls_back_to_aggregate_ci_when_no_paired_ci():
@@ -74,7 +74,7 @@ def test_render_multiseed_report_vda_only_shown_on_c1_row():
     c2_line = next(l for l in lines if "| C2 |" in l)
     assert "0.1806" in c1_line
     assert "0.1806" not in c2_line
-    assert c2_line.count("—") >= 1
+    assert c2_line.count("-") >= 1
 
 
 def test_render_multiseed_report_handles_undefined_cohens_g():
@@ -86,4 +86,4 @@ def test_render_multiseed_report_handles_undefined_cohens_g():
     report = render_multiseed_report(matrix)
 
     assert "M0_question_only_SLAKE" in report
-    assert "| — |\n" in report or report.strip().endswith("—")
+    assert "| - |\n" in report or report.strip().endswith("-")

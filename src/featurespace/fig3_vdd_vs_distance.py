@@ -2,8 +2,8 @@
 
 Every point is one condition under one configuration: on x, how far that
 condition pushes the images from the training bank; on y, how much accuracy it
-costs. The two axes come from different instruments — an encoder and a set of
-predictions — and the figure exists to show whether they agree.
+costs. The two axes come from different instruments - an encoder and a set of
+predictions - and the figure exists to show whether they agree.
 
 x   knn to the training bank under MedSigLIP, **relative to C0**, from
     `g1_results.json`. The relative form is what the pre-registration fixed for

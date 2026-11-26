@@ -6,11 +6,11 @@ the train+val+test arrows with the real indices.
 `--val-arrow` is mandatory: the actual M3AE vocabulary (`answer2id`, built
 in `VQAVQARADDataModule.setup()`, confirmed by reading the source of
 `zhjohnchan/M3AE` at commit `14da377255280eed547e451f368cf71a43f3ca1c`) is
-assembled from train+val, not train+test — without a val split the val
+assembled from train+val, not train+test - without a val split the val
 `answer_labels` would keep the `[[0]]` placeholder written by
 `prepare_kvasir_arrow.py`, breaking training. Test is included as well
 (not only train+val) so that any answer occurring exclusively there is
-covered — broader than the minimum M3AE requires at run time, at no cost,
+covered - broader than the minimum M3AE requires at run time, at no cost,
 and consistent with the VQA-RAD setup, whose vocabulary is likewise built
 over train+val+test.
 

@@ -17,7 +17,7 @@ def test_slake_image_id_prefix_matches_real_arrow_and_m3ae_source():
 
 def test_canonical_label_per_image_picks_deterministic_first_when_multiple():
     # canonical_label_per_image expects an already-normalised answer
-    # (lowercase, no surrounding whitespace) — normalisation happens inside
+    # (lowercase, no surrounding whitespace) - normalisation happens inside
     # build_slake_labels via normalize_answer(), before reaching here.
     records = [
         {"img_name": "xmlab1/source.jpg", "answer": "pneumonia"},
@@ -80,7 +80,7 @@ def test_normalize_answer_fixes_known_typos():
 def test_normalize_answer_excludes_organ_names_that_are_not_pathology():
     # Real finding: "lung" (33 images!), "heart" and "both" show up as
     # answers to content_type=='Abnormality' questions in SLAKE, but they
-    # are organ names / ambiguous answers rather than pathologies —
+    # are organ names / ambiguous answers rather than pathologies -
     # normalize_answer returns None to signal exclusion.
     assert normalize_answer("lung") is None
     assert normalize_answer("heart") is None

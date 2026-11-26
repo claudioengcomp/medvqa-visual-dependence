@@ -2,7 +2,7 @@
 
 The first pass reported that standardising by donor distance reverses Kvasir and
 SLAKE in five of five configurations. It did not report how many images hold up
-each bin, and SLAKE puts 0.010 of its 96 images in the second bin — one image.
+each bin, and SLAKE puts 0.010 of its 96 images in the second bin - one image.
 Under uniform weights that bin carries a fifth of the standardised VDD. A
 reversal resting on a bin of one is not a result, so the support is counted here
 and the rule is declared before the numbers are read.

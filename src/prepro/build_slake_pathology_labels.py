@@ -1,13 +1,13 @@
 """Build the side .json of SLAKE pathology labels, in the same format used
-for Kvasir (src/prepro/prepare_kvasir_arrow.py) — {image_id: label}, so
+for Kvasir (src/prepro/prepare_kvasir_arrow.py) - {image_id: label}, so
 that the restricted swap script (make_c5_matched_pathology_swap.py) can
 consume it without knowing which dataset it came from.
 
 Unlike Kvasir, SLAKE already ships `content_type` in the raw JSON (nothing
-needs to be decomposed) — it only has to be filtered and aggregated.
+needs to be decomposed) - it only has to be filtered and aggregated.
 
 Default bucket: X-Ray + Lung. The number that matters in practice is not
-the dataset total (130 images across train+test+validate) — it is how many
+the dataset total (130 images across train+test+validate) - it is how many
 remain **restricted to the test split**, since C5 can only swap images
 that are actually in the evaluated set. Restricted to test.json and to
 English-only questions: 20 images. Other buckets are available via
@@ -17,11 +17,11 @@ a smaller and more imbalanced N.
 **SLAKE is not an EN/ZH parallel corpus for content_type=='Abnormality'.**
 Inspecting `test.json` directly: 61 test-split images have their pathology
 question ONLY in Chinese, with no English equivalent. Since the label is
-used purely internally (C5 pairing eligibility — it is never shown to the
+used purely internally (C5 pairing eligibility - it is never shown to the
 model, which still sees only the English questions already present in the
 arrow), it is safe to translate that vocabulary and include those images.
 The vocabulary was confirmed to be small and closed (29 unique Chinese
-answers across the whole test.json) — translated by hand below
+answers across the whole test.json) - translated by hand below
 (`_ZH_TO_EN`), in the same spirit as the pre-existing `_TYPO_FIXES` on the
 English side. Measured effect: X-Ray/Lung goes from 20 to 47 eligible
 images (2.35x) when restricted to test; MRI/Brain_Tissue becomes a viable
@@ -29,14 +29,14 @@ second bucket (9 -> 22). The exclusion of trivial/non-pathological answers
 covers both languages, so `q_lang` is not used as a filter.
 
 image_id in the arrow follows the pattern
-"data/finetune_data/slack//imgs/<img_name>" (note the double slash — it is
+"data/finetune_data/slack//imgs/<img_name>" (note the double slash - it is
 not a typo introduced here). Confirmed two ways at run time: (1) by
 reading the `image_id` column of the real arrow; (2) by reading the source
 of `prepro_vqa_slack()` in the `zhjohnchan/M3AE` repository (pinned commit
 `14da377255280eed547e451f368cf71a43f3ca1c`,
 `prepro/prepro_finetuning_data.py`):
 `data_root = "data/finetune_data/slack/"`, `image_root = f"{data_root}/imgs"`
-(this is where the double slash comes from — data_root already ends in
+(this is where the double slash comes from - data_root already ends in
 "/"), and `img_path = os.path.join(image_root, sample["img_name"])`. Since
 that literal is fixed in M3AE's own code, it is stable across runs and
 does not need to be reconfirmed.
@@ -54,7 +54,7 @@ import json
 
 _TRIVIAL_ANSWERS = {"yes", "no", "none"}
 
-# The real image_id prefix in the SLAKE arrow — see the module docstring
+# The real image_id prefix in the SLAKE arrow - see the module docstring
 # for the full confirmation (real arrow + prepro_vqa_slack() source).
 SLAKE_IMAGE_ID_PREFIX = "data/finetune_data/slack//imgs/"
 
@@ -68,11 +68,11 @@ _TYPO_FIXES = {
 
 # From the same survey: these answers show up on content_type=='Abnormality'
 # questions but are organ names or ambiguous answers rather than
-# pathologies — "lung" on its own appeared in 33 of the 130 images in the
+# pathologies - "lung" on its own appeared in 33 of the 130 images in the
 # X-Ray/Lung bucket, and is clearly not a specific finding.
 _NON_PATHOLOGY_ANSWERS = {"lung", "heart", "both"}
 
-# Chinese equivalents of _TRIVIAL_ANSWERS/_NON_PATHOLOGY_ANSWERS above —
+# Chinese equivalents of _TRIVIAL_ANSWERS/_NON_PATHOLOGY_ANSWERS above -
 # same exclusion semantics. Confirmed by fully enumerating the
 # Chinese-only answers across ALL THREE splits (train+test+validate, which
 # is what the script actually processes, see __main__ below).
@@ -82,11 +82,11 @@ _ZH_TRIVIAL_ANSWERS = {
 }
 _ZH_NON_PATHOLOGY_ANSWERS = {"肺", "心脏", "肝脏", "肺脏"}
 
-# A small, closed vocabulary (complete enumeration over the 3 splits) —
+# A small, closed vocabulary (complete enumeration over the 3 splits) -
 # each entry translates to the SAME canonical category name already used
 # on the English side, so that pairing stays consistent across the two
 # languages. Entries containing a comma are composite answers from the
-# original SLAKE data (the same question admits more than one finding) —
+# original SLAKE data (the same question admits more than one finding) -
 # the order written here does not matter, since normalize_answer()
 # canonicalizes by alphabetical sorting before returning (see
 # _canonicalize_compound_order below).
@@ -138,7 +138,7 @@ def normalize_answer(answer: str) -> str | None:
     """Normalize a SLAKE pathology answer: fix known typos, translate the
     small Chinese-only vocabulary (see _ZH_TO_EN above), and return None if
     the answer is not a real pathology (a bare organ name, an ambiguous
-    answer, or a trivial answer in either language) — a signal to drop the
+    answer, or a trivial answer in either language) - a signal to drop the
     row, not a valid category."""
     normalized = answer.strip().lower()
     # Comma spacing is inconsistent in the original SLAKE composite answers
@@ -182,7 +182,7 @@ def canonical_label_per_image(records: list[dict]) -> dict[str, str]:
     modality/location already restricted, trivial/non-pathological answers
     already excluded and normalized). Groups by img_name and picks the
     alphabetically smallest answer when there is more than one
-    (deterministic and documented as such — it is not a clinical judgement
+    (deterministic and documented as such - it is not a clinical judgement
     about which one is 'the' correct answer)."""
     by_img: dict[str, list[str]] = {}
     for r in records:

@@ -1,4 +1,4 @@
-"""Helpers shared across the test suite — builds synthetic .arrow files using
+"""Helpers shared across the test suite - builds synthetic .arrow files using
 the same schema that M3AE's make_arrow_vqa produces."""
 import io
 
@@ -29,7 +29,7 @@ def write_sample_arrow(path: str, n: int = 2) -> None:
 def sample_rows_with_real_images(n: int = 2, size: int = 64) -> dict:
     """Like sample_rows(), but the 'image' column holds real JPEG bytes
     (required by tests that need to OPEN the image, not merely overwrite it
-    — e.g. src/interventions/make_c4_severity.py)."""
+    - e.g. src/interventions/make_c4_severity.py)."""
     rows = sample_rows(n)
     colors = [(200, 30, 30), (30, 200, 30), (30, 30, 200), (200, 200, 30)]
     images = []

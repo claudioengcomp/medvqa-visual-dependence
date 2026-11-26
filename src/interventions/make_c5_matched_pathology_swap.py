@@ -1,11 +1,11 @@
 """C5: like C2 (make_c2_shuffled_pairs.py), but the swap partner is
-restricted — images are only swapped between the SAME modality and a
+restricted - images are only swapped between the SAME modality and a
 DIFFERENT FINDING CATEGORY, instead of drawing freely over the whole
 dataset.
 
 Rationale: C2 as it stands can pair, by bad luck of the random draw, two
 images so different on the surface that a model may "notice the swap"
-without ever having evaluated the specific clinical finding — contaminating
+without ever having evaluated the specific clinical finding - contaminating
 VDD(C2) with a generic anomaly-detection confounder rather than real visual
 dependency. Restricting the swap to the same modality removes that
 surface-level cue, while requiring a different finding category keeps the
@@ -13,28 +13,28 @@ correct answer genuinely changed by the swap.
 
 Dataset-agnostic by design: it takes the arrow plus an already-built .json
 of pathology labels (src/prepro/prepare_kvasir_arrow.py for Kvasir;
-src/prepro/build_slake_pathology_labels.py for SLAKE) — it does not know,
+src/prepro/build_slake_pathology_labels.py for SLAKE) - it does not know,
 and does not need to know, which dataset the labels came from.
 
 Scoring convention identical to C2: the ground truth for each question
-remains the ORIGINAL answer — only the displayed image changes. Rows whose
+remains the ORIGINAL answer - only the displayed image changes. Rows whose
 image has no eligible label keep their own original image (they do not take
 part in the swap) and must be filtered out in the analysis (restrict to the
 eligible qid subset when comparing VDD(C5) against VDD(C0)).
 
-PERSISTENCE — read before running in production: `--output` (the .arrow
+PERSISTENCE - read before running in production: `--output` (the .arrow
 with the swapped images) may live in `data/finetune_arrows/` (gitignored)
 because it can be regenerated at any time from `--manifest` plus the same
 seed. BUT `--manifest` and `--examples-dir` are the ONLY evidence of which
-swaps actually happened — save them under `results/` (not gitignored),
+swaps actually happened - save them under `results/` (not gitignored),
 never under `data/`, so that they outlive the machine that produced them.
 
-Usage (Kvasir) — 3 categories, not 2: measured on the REAL Kvasir-VQA-x1
+Usage (Kvasir) - 3 categories, not 2: measured on the REAL Kvasir-VQA-x1
 test split (not a sample), Polyp=523 and Ulcerative Colitis=450 on their
-own already give Polyp a 53.75% majority — so the originally considered
+own already give Polyp a 53.75% majority - so the originally considered
 2-category pair FAILS (matched_derangement raises ValueError on the
 majority category). Adding Esophagitis (403) as a third category gives
-1,376 eligible images and drops the largest fraction to 38% — feasible, and
+1,376 eligible images and drops the largest fraction to 38% - feasible, and
 verified:
     python -m src.interventions.make_c5_matched_pathology_swap \
         --input data/finetune_arrows/vqa_kvasir_test.arrow \
@@ -73,7 +73,7 @@ def build_eligible_pairs(image_ids: list[str], labels_by_image: dict[str, str],
                           allowed_categories: list[str] | None) -> list[str]:
     """Return the sublist of `image_ids` eligible for swapping. If
     `allowed_categories` is None, include any image that has SOME label in
-    `labels_by_image` (the SLAKE case: many categories — listing them all on
+    `labels_by_image` (the SLAKE case: many categories - listing them all on
     the CLI would be impractical). If it is a list, restrict to those
     categories (the Kvasir case)."""
     result = []
@@ -92,21 +92,21 @@ def build_eligible_pairs(image_ids: list[str], labels_by_image: dict[str, str],
 def matched_derangement(labels: list[str], seed: int, max_attempts: int = 200) -> list[int]:
     """Return a permutation of range(len(labels)) such that, for every i,
     labels[perm[i]] != labels[i]. Raises ValueError if the majority category
-    exceeds 50% of the total — in that case it is impossible to avoid
+    exceeds 50% of the total - in that case it is impossible to avoid
     self-pairing for everyone, no matter the algorithm.
 
     This does NOT use draw-and-reject (random permutation + check whether it
-    works): with few, balanced categories — exactly the Kvasir production
-    case, ~500/500 — the fraction of valid permutations over the total is
+    works): with few, balanced categories - exactly the Kvasir production
+    case, ~500/500 - the fraction of valid permutations over the total is
     astronomically small (about 1 in 10^299 for n=1000 split 500/500), so
     rejection would never terminate in practice. Instead the solution is
     constructed directly: group the indices by category, shuffle each group
     (using the seed), interleave the groups always taking from the largest
-    remaining one ('reorganize string' / 'task scheduler with cooldown 1' —
+    remaining one ('reorganize string' / 'task scheduler with cooldown 1' -
     this guarantees that no category ends up adjacent to itself in the
     linear sequence whenever the largest category does not exceed half the
     total), and then use a circular shift by one position over that sequence
-    as the final permutation — each item receives the next item of the
+    as the final permutation - each item receives the next item of the
     interleaved sequence as its donor. The single case that linear
     interleaving does not cover on its own (the "wrap-around": the first and
     last item of the sequence falling in the same category) is fixed with a
@@ -177,9 +177,9 @@ def save_example_pairs(manifest: list[dict], original_image: list[bytes], origin
                         examples_dir: str, n_examples: int, seed: int) -> None:
     """Save `n_examples` pairs (original image, donor image) from `manifest`
     as real PNG files in `examples_dir`, plus an `index.json` describing each
-    pair (labels, image_id, file name) — meant to become an example figure in
+    pair (labels, image_id, file name) - meant to become an example figure in
     the paper without having to reopen the original dataset later (Kvasir is
-    hosted by URL, SLAKE is a local file — either may stop being accessible;
+    hosted by URL, SLAKE is a local file - either may stop being accessible;
     the PNG saved here will not).
 
     Deterministic sampling (same seed = same examples, always)."""

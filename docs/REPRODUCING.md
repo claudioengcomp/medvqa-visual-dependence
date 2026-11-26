@@ -5,7 +5,7 @@ level 3 needs the datasets and a GPU.
 
 ---
 
-## Level 1 — verify the statistics from the shipped predictions
+## Level 1 - verify the statistics from the shipped predictions
 
 **Cost: seconds. No GPU, no dataset download.**
 
@@ -47,7 +47,7 @@ therefore reports VDD restricted to the subset the intervention actually
 touches (Section 3.3); the coverage is printed in each group header of the
 table (on Kvasir-VQA-x1: 8,934 questions for C5, 10,265 for C6, out of 10,779).
 
-The aggregates in `results/multiseed/` are **unconditional** — computed over
+The aggregates in `results/multiseed/` are **unconditional** - computed over
 all 10,779 questions. They are smaller than Table 1 by exactly the coverage
 factor |S_T|/N. To reproduce the published numbers:
 
@@ -57,7 +57,7 @@ python -m src.stats.conditional_vdd --model SMOLVLM_LORA_KVASIR  --dataset KVASI
 ```
 
 Expected for the first: 8,934 questions in S_T, VDD 46.4 +/- 0.3, McNemar
-significant in 3/3 seeds — the M3AE row of Table 1.
+significant in 3/3 seeds - the M3AE row of Table 1.
 
 ### Counterfactual Consistency Rate
 
@@ -90,7 +90,7 @@ See [NOISE_FLOOR.md](NOISE_FLOOR.md).
 
 ---
 
-## Level 2 — rebuild the clean split and the interventions
+## Level 2 - rebuild the clean split and the interventions
 
 **Cost: minutes to hours. Needs dataset downloads, no GPU.**
 
@@ -156,7 +156,7 @@ python -m src.analysis.build_swapmap --arrow-dir $ARROWS --output data/swapmap.j
 
 ---
 
-## Level 3 — retrain and re-run inference
+## Level 3 - retrain and re-run inference
 
 **Cost: days of GPU time.**
 
@@ -208,7 +208,7 @@ python -m src.baselines.question_only \
 ```
 
 Because it never sees the image, its predictions are identical in every
-condition and its VDD is zero by construction — which is why it serves as the
+condition and its VDD is zero by construction - which is why it serves as the
 floor of the analysis.
 
 ### A note on determinism

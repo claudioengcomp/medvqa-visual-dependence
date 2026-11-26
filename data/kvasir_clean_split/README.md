@@ -15,7 +15,7 @@ the release assigns each image–question **pair** to a partition, whereas the
 dataset description and dataset card state that no test image appears in
 training. A further symptom is that the test partition holds 10% of the
 questions but 62% of the images, although each image carries about 25
-questions — a proportion no split by image could produce.
+questions - a proportion no split by image could produce.
 
 Any result computed on that split therefore overestimates generalization.
 
@@ -34,9 +34,9 @@ Any result computed on that split therefore overestimates generalization.
   and question are removed. This is the same pipeline used for evaluation, so
   training and evaluation share one data format.
 - **Proportions**: 70/10/20 (train/val/test).
-- **Stratification**: by `pathology_label` — the answer to the template
+- **Stratification**: by `pathology_label` - the answer to the template
   question *"Are there any abnormalities in the image? Check all that are
-  present."*, lowercased — so that a rare clinical category does not end up
+  present."*, lowercased - so that a rare clinical category does not end up
   entirely on one side of the split. Images without a label fall into a `None`
   stratum, handled like any other.
 - **Seed**: `42`, fixed and deterministic (`random.Random(42)`).
@@ -109,8 +109,8 @@ data reproduces exactly the same split.
 
 | File | Contents |
 |---|---|
-| `split_map.csv` | `img_id,split` — one row per unique image (6,449) |
-| `qid_map.csv` | `question_id,img_id,split` — one row per atomic question (54,484) |
+| `split_map.csv` | `img_id,split` - one row per unique image (6,449) |
+| `qid_map.csv` | `question_id,img_id,split` - one row per atomic question (54,484) |
 | `README.md` | this file |
 
 Only identifiers are distributed here. No image data from Kvasir-VQA-x1 is

@@ -1,4 +1,4 @@
-"""E1c — where C7 lands, against the two predictions fixed before it ran.
+"""E1c - where C7 lands, against the two predictions fixed before it ran.
 
 C7 keeps every pixel and destroys the arrangement. The pre-registration bet two
 things on that, and this script reports the measured value beside each:
@@ -9,7 +9,7 @@ things on that, and this script reports the measured value beside each:
 
 Prediction (ii) is a test of the generation, not a finding. A histogram counts
 pixels and ignores where they are, so a non-zero value means the arrows were not
-written as specified — a resize, an interpolation, a lossy re-encode — and the
+written as specified - a resize, an interpolation, a lossy re-encode - and the
 defect is fixed before anything else is read. Reporting a non-zero colour
 distance as a result about colour is the error this framing exists to prevent.
 

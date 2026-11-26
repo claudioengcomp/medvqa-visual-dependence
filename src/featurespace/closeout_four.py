@@ -54,7 +54,7 @@ for q, m in meta.items():
     r = ref_of.get(donors[im], {}).get(question_key(m["q"]))
     if r is not None and not any(answers_match(x, r) for x in m["a"]):
         I.append(q)
-print("item 1 — CCR sobre |I| = %d (manifesto corrigido)" % len(I))
+print("item 1 - CCR sobre |I| = %d (manifesto corrigido)" % len(I))
 ccr = {}
 for cfg in ("M3AE", "QWEN2VL_LORA", "QWEN2VL_DORA", "SMOLVLM_LORA", "SMOLVLM_DORA",
             "MEDVLTHINKER_ZEROSHOT"):
@@ -92,7 +92,7 @@ out["item1_ccr_corrected_manifest"] = {
     "table3_form": {k: "%.1f +- %.1f" % (v["mean"], v["sd"]) for k, v in ccr.items()}}
 
 # ---------------------------------------------------------------- item 4
-print("\nitem 4 — determinismo dentro da execucao, sob o quadro cinza do C1")
+print("\nitem 4 - determinismo dentro da execucao, sob o quadro cinza do C1")
 det = {}
 for bench in ("KVASIR", "SLAKE"):
     m = {int(k): v for k, v in SM[bench]["qid"].items()}

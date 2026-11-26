@@ -12,7 +12,7 @@ split, the intervention code that defines the conditions C0-C7, the statistics
 the swap cost and its decomposition (Eq. 2), the coverage analysis that computes
 phi without running any model, the five neutral rulers and the analyses of the
 feature space, and **the per-item predictions of every model, seed and
-condition** — 557 prediction files, 464 paired comparisons against the intact
+condition** - 557 prediction files, 464 paired comparisons against the intact
 condition (493 comparison files on disk, 29 of them the question-only baseline,
 whose predictions do not change and which has b = c = 0 in every condition),
 and 145 multi-seed aggregates. Every count here is asserted by
@@ -57,15 +57,19 @@ split, run without it.
 | §5.1, Table 3 | Destabilisation: accuracy under C0 and VDD under C1, C2, C5, C6; the whole table, rebuilt from the predictions | `src/analysis/build_table1.py`, `results/` |
 | §5.1 | VDD over the whole test set, and **restricted to the questions an intervention touches** (what Table 3 reports for C5 and C6) | `src/stats/compute_vdd.py`, `src/stats/conditional_vdd.py` |
 | §5.1 | McNemar, Cohen's *g*, paired bootstrap CI; multi-seed aggregation (mean ± sd; *k*/3 significance) | `src/stats/compute_vdd.py`, `src/stats/compute_multiseed.py` |
-| §5.1, §5.4 | The question-only floor (M0): SLAKE and VQA-RAD on closed questions; Kvasir-VQA-x1 on every question, 65.74% (7,086/10,779) | `src/baselines/question_only.py`, `src/baselines/question_only_kvasir.py` |
-| §5.2, Table 4 | The Counterfactual Consistency Rate, the fraction phi, and phi on six benchmarks without running any model | `src/analysis/ccr.py`, `src/analysis/coverage.py`, `docs/COVERAGE.md` |
+| §4.2, §5.1 | The question-only baseline: SLAKE and VQA-RAD on closed questions; Kvasir-VQA-x1 on every question, 65.74% (7,086/10,779) | `src/baselines/question_only.py`, `src/baselines/question_only_kvasir.py` |
+| §5.2 | The Counterfactual Consistency Rate, the fraction phi, and phi on six benchmarks without running any model | `src/analysis/ccr.py`, `src/analysis/coverage.py`, `docs/COVERAGE.md` |
 | §5.2 | CCR by answer slice and by procedure (same- and cross-procedure donors) | `src/analysis/ccr_slices.py`, `src/analysis/ccr_sameproc.py`, `src/analysis/subset_vdd.py` |
-| §5.3, Figures 4 and 5 | Distance to the donor: VDD against the kNN distance to the training bank, and flip rate against the distance to the donor | `src/featurespace/fig3_vdd_vs_distance.py`, `src/featurespace/fig5_flip_vs_distance.py`, `docs/v4/` |
-| §5.4, Table 6 | The hard negative: the swap that moves the least in the rulers, and the spread among configurations (permutation test, Welch's ANOVA) | `src/featurespace/analysis_e2.py`, `src/stats/spread_tests.py` |
+| §5.1, §5.3, Figures 3 and 4 | Distance to the bank and to the donor: VDD against the kNN distance to the training bank, and flip rate against the distance to the donor | `src/featurespace/fig3_vdd_vs_distance.py`, `src/featurespace/fig5_flip_vs_distance.py`, `docs/v4/` |
+| §5.4, Table 5 | The hard negative: the swap that moves the least in the rulers, and the spread among configurations (permutation test, Welch's ANOVA) | `src/featurespace/analysis_e2.py`, `src/stats/spread_tests.py` |
 | §5.4 | Monotonicity of VDD with severity under occlusion and noise | `src/analysis/severity.py` |
-| §5.5 | Overlap: complementary-pair accuracy and the departure from independence | `src/analysis/complementary_pairs.py` |
+| §5.2 | Complementary-pair accuracy and the departure from independence | `src/analysis/complementary_pairs.py` |
 | §5.6 | Limitations: the noise floor of the same environment against across environments, and of batch composition | `src/analysis/noise_floor.py`, `docs/NOISE_FLOOR.md` |
-| Figure 3 | The colour histogram as a ruler (the floor a ruler must beat) | `src/featurespace/g0_embed.py`, `docs/v4/g0_results.json` |
+| §3.3 | The colour histogram as a ruler, the control the content rulers are read against | `src/featurespace/g0_embed.py`, `docs/v4/g0_results.json` |
+| §3.3, §4.3 | Image-clustered bootstrap intervals and Holm's correction over the 435 paired comparisons | `src/stats/paired_cluster.py`, `docs/camera_ready/paired_cluster.json` |
+| §5.1 | Accuracy under C1 against the question-only baseline on the same closed questions | `src/stats/baseline_same_subset.py`, `docs/camera_ready/baseline_same_subset.json` |
+| §5.3 | Logistic coefficients of analysis C with image-clustered intervals | `src/featurespace/logistic_cluster.py`, `docs/camera_ready/logistic_cluster.json` |
+| §5.5 | Standardization of the drop by donor distance (exploratory) | `src/featurespace/analysis_d.py`, `docs/v4/analysis_d.json` |
 | every number | The sheet the paper's numbers are read from, one line per quantity with the JSON that carries it | `docs/v4/numbers_v4.md`, `src/featurespace/make_numbers.py` |
 
 The module is called `build_table1.py` because the main results table was
@@ -75,11 +79,15 @@ break the link between them and the code that produced them.
 
 Sections of the paper: §3.1 conditions, §3.2 the cost of a swap, §3.3 rulers
 and the analyses of the feature space, §4.1 split and content audit, §4.2
-models, §4.3 counts, §5.1 destabilisation, §5.2 identity and Eq. 2, §5.3
-distance to the donor, §5.4 the hard negative, §5.5 overlap, §5.6 limitations.
-Tables: 1 rulers, 2 the roles of the conditions, 3 main results, 4 phi, 5 flip
-rate, 6 the hard negative. Figures: 1 the two axes, 2 the ladder of conditions,
-3 the colour ruler, 4 VDD against kNN distance, 5 flip rate against distance.
+models, §4.3 counts, §5.1 destroying the image, §5.2 answers scored as errors
+under a swap, §5.3 donor distance and the change of answer, §5.4 the hard
+negative, §5.5 comparability and common support, §5.6 limitations. Tables:
+1 rulers, 2 benchmarks and their role, 3 main results, 4 flip against distance,
+5 the hard negative. Figures: 1 the two axes, 2 the conditions, 3 VDD against
+kNN distance, 4 flip rate against donor distance. The coverage table of phi at
+full scale and at 100 items is in `docs/COVERAGE.md`, and the analyses added
+for the final version are described in `docs/CAMERA_READY.md`. The tag
+`visapp2027` marks the state of this repository that the paper cites.
 
 ---
 
@@ -150,14 +158,14 @@ two parametric corruptions share one generator and one naming scheme.
 
 | Paper | Code label | What it does |
 |---|---|---|
-| C0 | `C0` | intact — the original image |
+| C0 | `C0` | intact - the original image |
 | C1 | `C1` | image replaced by a constant mid-gray frame |
-| C2 | `C2` | free swap — fixed-seed derangement over the whole test set |
-| **C3** | **`C4_OCC_25`, `C4_OCC_50`, `C4_OCC_75`** | occlusion — centered black square covering 25/50/75% of the image **area** |
-| **C4** | **`C4_NOISE_25`, `C4_NOISE_50`, `C4_NOISE_75`** | noise — zero-mean Gaussian, σ = 25/50/75% of the 8-bit dynamic range |
-| C5 | `C5` | restricted swap — donor of the same imaging domain, **different** finding |
-| C6 | `C6` | restricted swap — donor of the same imaging domain, finding **free** |
-| C7 | `C7` | patch shuffle — the 32×32 patches of the image are permuted with a fixed seed; the remainder strips narrower than a patch stay in place, every pixel is conserved; stored as lossless PNG at the original resolution (`src/featurespace/make_c7.py`, manifest in `results/manifests/C7_manifest.json`). C7 enters only the feature-space analyses (§3.3, §5.3), never Table 3 |
+| C2 | `C2` | free swap - fixed-seed derangement over the whole test set |
+| **C3** | **`C4_OCC_25`, `C4_OCC_50`, `C4_OCC_75`** | occlusion - centered black square covering 25/50/75% of the image **area** |
+| **C4** | **`C4_NOISE_25`, `C4_NOISE_50`, `C4_NOISE_75`** | noise - zero-mean Gaussian, σ = 25/50/75% of the 8-bit dynamic range |
+| C5 | `C5` | restricted swap - donor of the same imaging domain, **different** finding |
+| C6 | `C6` | restricted swap - donor of the same imaging domain, finding **free** |
+| C7 | `C7` | patch shuffle - the 32×32 patches of the image are permuted with a fixed seed; the remainder strips narrower than a patch stay in place, every pixel is conserved; stored as lossless PNG at the original resolution (`src/featurespace/make_c7.py`, manifest in `results/manifests/C7_manifest.json`). C7 enters only the feature-space analyses (§3.3, §5.3), never Table 3 |
 
 The two rows in bold are the only place where the labels diverge. The paper
 separates occlusion (C3) from noise (C4) as distinct rungs; the code generates
@@ -169,7 +177,7 @@ occlusion|noise`) and labels both under the `C4_` prefix, distinguished by
 result files, inside their `"condition"` field, in the keys of
 `data/swapmap.json`, and in the whitelist that validates every result record.
 Renaming them would break the correspondence with the data already generated,
-so this table — not a rename — is the mapping of record.
+so this table - not a rename - is the mapping of record.
 
 Consequently, **every filename and every `"condition"` field in `results/`
 follows the code labels above**, never the paper's C3/C4 numbering. A file
@@ -183,7 +191,7 @@ both.
 
 | Paper | Code label | What it is |
 |---|---|---|
-| VDD | `"ldv"` — a JSON key in `results/*_vs_C0.json`, and the label printed by `src/stats/compute_vdd.py` | The **Visual Dependency Drop**. Same quantity, same values, under the key name the generated files carry. |
+| VDD | `"ldv"` - a JSON key in `results/*_vs_C0.json`, and the label printed by `src/stats/compute_vdd.py` | The **Visual Dependency Drop**. Same quantity, same values, under the key name the generated files carry. |
 
 As with the condition labels, the correspondence is this table rather than a
 rename, so the shipped result files are exactly what the runs produced.
@@ -319,7 +327,7 @@ produced are in `docs/v4/`.
 
 ```
 data/
-  kvasir_clean_split/   split_map.csv, qid_map.csv — the identifier-disjoint split
+  kvasir_clean_split/   split_map.csv, qid_map.csv - the identifier-disjoint split
   swapmap.json          donor of every swapped image + reference answers (for CCR); corrected Kvasir C5/C6 map
   swapmap_v3.json       the earlier map recovered from the arrows (six phantom rows; kept for the record)
   fig_data.json         aggregated data behind the figures of an earlier draft (kept; the paper's figures read docs/v4/)
@@ -356,4 +364,17 @@ files already generated; the code and documentation use VDD throughout.
 
 Code is released under the MIT License (`LICENSE`). The derived data in
 `data/`, `results/` and `docs/v4/` is subject to the terms of the original
-datasets — see `DATA_NOTICE.md`.
+datasets - see `DATA_NOTICE.md`.
+
+---
+
+## Citation
+
+```bibtex
+@inproceedings{leite2027destabilized,
+  author    = {Claudio Leite and Jurandy Almeida},
+  title     = {Destabilized or Redirected: What the Standard Probes of Visual Dependence Measure in Med-VQA},
+  booktitle = {International Conference on Computer Vision Theory and Applications (VISAPP)},
+  year      = {2027}
+}
+```

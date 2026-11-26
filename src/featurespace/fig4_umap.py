@@ -7,7 +7,7 @@ than trusted: UMAP is stochastic and its geometry is not a measurement.
 One row per benchmark, two columns: the primary ruler and the colour
 counterfactual. Points are the C0 images. Segments join an original to its C2
 donor for a sample of pairs, so the reader sees whether a swap stays inside a
-region or crosses between them — which is the claim analysis B tested with W1
+region or crosses between them - which is the claim analysis B tested with W1
 and the dip, and which this only shows.
 
 Per benchmark:

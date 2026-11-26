@@ -6,7 +6,7 @@
 Two instruments, because the benchmarks differ in what they publish. Where a
 domain label exists, separation means Wasserstein-1 between the near and far
 distances with a permutation test at p < 0.01. Where it does not, it means
-Hartigan's dip at p < 0.05 — a weaker instrument, which the report states rather
+Hartigan's dip at p < 0.05 - a weaker instrument, which the report states rather
 than letting the two be read as equivalent.
 
 The verdict is read off the primary ruler, MedSigLIP. The other four are

@@ -18,10 +18,10 @@ def swap_test_arrow(m3ae_dir: str, condition_arrow_path: str,
     """Copy `condition_arrow_path` over
     `<m3ae_dir>/data/finetune_arrows/<test_arrow_filename>` for the duration
     of the `with` block, keeping the original contents in an `.orig_backup`
-    file (created once, reused by later calls) and restoring it on exit —
+    file (created once, reused by later calls) and restoring it on exit -
     including on exception. Returns the path of the swapped file.
     `test_arrow_filename` defaults to the SLAKE name for backward
-    compatibility — pass it explicitly for other datasets (e.g.
+    compatibility - pass it explicitly for other datasets (e.g.
     'vqa_vqa_rad_test.arrow')."""
     arrow_dir = os.path.join(m3ae_dir, "data", "finetune_arrows")
     target = os.path.join(arrow_dir, test_arrow_filename)
@@ -35,7 +35,7 @@ def swap_test_arrow(m3ae_dir: str, condition_arrow_path: str,
     if not os.path.isfile(backup):
         shutil.copy2(target, backup)
 
-    # C0 is the target file itself (condition_arrow_path == target) — copying
+    # C0 is the target file itself (condition_arrow_path == target) - copying
     # a file over itself raises shutil.SameFileError. Only copy when the two
     # are in fact different files.
     if not os.path.samefile(condition_arrow_path, target):

@@ -3,7 +3,7 @@
 ## What was measured
 
 At each severity, how many of the test images are still distinguishable from one
-another — counted by sha256 of the encoded bytes, so two images are "the same"
+another - counted by sha256 of the encoded bytes, so two images are "the same"
 only when every pixel agrees.
 
 | benchmark | C0 | C3-25 | C3-50 | C3-75 | C4-25 | C4-50 | C4-75 |
@@ -16,7 +16,7 @@ Kvasir starts at 1,284 rather than 1,291 because of the seven pairs the content
 audit already found inside the test split. That figure never moves: centred
 occlusion merges nothing on Kvasir that was not already merged.
 
-SLAKE loses 7 images at 50% and 21 at 75%, and they are not scattered pairs —
+SLAKE loses 7 images at 50% and 21 at 75%, and they are not scattered pairs -
 they are **one group of 22 images that become a single image**. Just under a
 quarter of the SLAKE test split stops being distinguishable at the strongest
 occlusion.
@@ -52,7 +52,7 @@ about the intervention:
 ## It is not the duplication the audit found
 
 The obvious guess was that the 22 are the slices of shared volumes that the
-pHash audit flagged — the same phenomenon through two instruments. Checked in
+pHash audit flagged - the same phenomenon through two instruments. Checked in
 `harness/v4/collapse_vs_phash.py`, it is not.
 
 | set | n |
@@ -69,8 +69,8 @@ perceptual neighbours of each other while intact: 2 of the 22 have a pHash
 neighbour inside the test split, against 8 in the split overall.
 
 So these are **two findings, not one**. The audit's 24 are slices of volumes
-that cross the partition — a property of how SLAKE was built. The collapsed 22
-are images that happen to share a border and a resolution — a property of what
+that cross the partition - a property of how SLAKE was built. The collapsed 22
+are images that happen to share a border and a resolution - a property of what
 the intervention destroys. Occlusion does not reveal pre-existing duplication;
 it manufactures duplication that was not there.
 

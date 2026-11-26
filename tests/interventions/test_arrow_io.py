@@ -46,14 +46,14 @@ def test_count_questions_sums_questions_not_rows(tmp_path):
     write_sample_arrow(str(path), n=3)  # 3 rows (images), 2 questions each
     df = read_arrow(str(path))
 
-    assert len(df) == 3  # image count — the WRONG value the bug used to report
+    assert len(df) == 3  # image count - the WRONG value the bug used to report
     assert count_questions(df) == 6  # the real question count
 
 
 def test_write_arrow_creates_missing_parent_directory(tmp_path):
     # Real finding from an actual run in an ephemeral execution environment:
     # data/finetune_arrows/ is gitignored and does not exist in a fresh
-    # clone — pa.OSFile raised a low-level FileNotFoundError only after
+    # clone - pa.OSFile raised a low-level FileNotFoundError only after
     # minutes of work had already been done (e.g. downloading ~4,000 Kvasir
     # images).
     nested_path = tmp_path / "a" / "b" / "c" / "out.arrow"

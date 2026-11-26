@@ -7,7 +7,7 @@ Two conventions coexist in `results/`, and nothing in the file names says so:
                       M3AE_SCRATCH_SLAKE_seed1_C0.json
 
 A script that assumes one convention loses a seed of every cell of the other
-two benchmarks, silently — the file is simply not found. It has cost a round
+two benchmarks, silently - the file is simply not found. It has cost a round
 twice: once in item 4(c) of the audit, and once in the first pass of analysis C,
 where ten of the fifteen G3 cells were reported as failing because a missing
 seed makes the "all three seeds" rule unsatisfiable.

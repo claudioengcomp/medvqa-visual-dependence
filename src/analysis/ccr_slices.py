@@ -136,7 +136,7 @@ def run(dataset: str, condition: str, results_dir: str, swapmap_path: str) -> di
 
 
 def _fmt(pair):
-    return "—" if pair[0] is None else f"{pair[0]:5.1f} ± {pair[1]:.1f}"
+    return "-" if pair[0] is None else f"{pair[0]:5.1f} ± {pair[1]:.1f}"
 
 
 def _parse_args():
@@ -153,7 +153,7 @@ if __name__ == "__main__":
     args = _parse_args()
     result = run(args.dataset, args.condition, args.results_dir, args.swapmap)
     first = next(iter(result.values()))
-    print(f"{args.dataset} {args.condition} — CCR, mean ± sd over seeds "
+    print(f"{args.dataset} {args.condition} - CCR, mean ± sd over seeds "
           f"(n per seed: all={first['all']['n']}, "
           f"single={first['single']['n']}, list={first['list']['n']})")
     print(f"{'configuration':<30}{'seeds':>6}{'all':>14}{'single':>14}{'list':>14}"

@@ -80,7 +80,7 @@ for tag, donors in (("swap_map", sw), ("corrected_manifest", mf)):
                 "phi": len(I) / (len(I) + len(U)), "_I": I}
 a, b = res["swap_map"], res["corrected_manifest"]
 only_sw = sorted(a["_I"] - b["_I"])
-print("item 1 — |I| do C5 no Kvasir")
+print("item 1 - |I| do C5 no Kvasir")
 for tag in ("swap_map", "corrected_manifest"):
     r = res[tag]
     print("  %-20s doadoras %d | S_T %d  I %d  U %d  N %d  V %d  phi %.4f"
@@ -149,7 +149,7 @@ out["item1_informative_set"] = {
                          "corrected_manifest": [min(ftm), max(ftm)]}}
 
 # ----------------------------------------------------------------- item 2
-print("\nitem 2 — arquivos de predicao e os tokens negative/positive")
+print("\nitem 2 - arquivos de predicao e os tokens negative/positive")
 files = sorted(Path(RES).glob("*.json"))
 pred_files, tally, items = [], defaultdict(int), defaultdict(int)
 for f in files:
@@ -180,7 +180,7 @@ out["item2_prediction_files"] = {"files_with_predictions": len(pred_files),
                                  "tokens": list(SYN)}
 
 # ----------------------------------------------------------------- item 3
-print("\nitem 3 — o que e uma celula na identidade")
+print("\nitem 3 - o que e uma celula na identidade")
 ci = json.loads((REPO / "docs/v4/ccr_identity_bytes.json").read_text())
 cells = [k for k in ci["cells"]]
 byb = defaultdict(list)

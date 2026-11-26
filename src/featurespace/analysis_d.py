@@ -1,4 +1,4 @@
-"""Analysis D — does standardising by donor distance change what the ladder says?
+"""Analysis D - does standardising by donor distance change what the ladder says?
 
 A VDD compares benchmarks that were never asked the same question. Part of what
 separates them is how far their swaps go: a benchmark whose donors are far will

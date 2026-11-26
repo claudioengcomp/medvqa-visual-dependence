@@ -1,11 +1,11 @@
-"""E2d — the same search under the restriction the method should have used.
+"""E2d - the same search under the restriction the method should have used.
 
 CORAL requires `label(x_j) != y_i`, where label is the donor's answer to its own
 question. What makes a swap informative is different: the reference of **q_i**
 on the donor must differ from y_i. The first is a property of the donor's own
 annotation, the second of the pair.
 
-Same encoders, same pool, same exact search — only the acceptance test changes,
+Same encoders, same pool, same exact search - only the acceptance test changes,
 to: the donor carries q_i, and its reference for q_i differs from y_i. Reported
 is how many items find a donor at all under it, and what the resulting map looks
 like beside the original.

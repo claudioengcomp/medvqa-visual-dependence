@@ -71,7 +71,7 @@ def test_swap_test_arrow_accepts_custom_filename_for_other_datasets(tmp_path):
 def test_swap_test_arrow_condition_equal_to_target_is_a_noop(tmp_path):
     """The C0 case: the "condition file" IS vqa_slack_test.arrow itself, so
     no real swap happens. shutil.copy2(x, x) would raise SameFileError if it
-    were not handled — this test exists to lock exactly that case down."""
+    were not handled - this test exists to lock exactly that case down."""
     target = _make_arrow_dir(tmp_path, b"ORIGINAL")
 
     with swap_test_arrow(str(tmp_path), str(target)) as swapped_path:

@@ -63,7 +63,7 @@ def test_c4_conditions_are_valid():
 def test_c5_condition_is_valid():
     # C5 = swap restricted to the same modality+location, but with a
     # DIFFERENT finding category. Not to be confused with the "paraphrase"
-    # condition that other protocols also label C5 — the name collision is
+    # condition that other protocols also label C5 - the name collision is
     # deliberate and accepted here.
     validate_results_dict({"model": "QWEN2VL_LORA", "dataset": "KVASIR", "condition": "C5", "accuracy": 0.5})
 

@@ -1,14 +1,14 @@
 """Derive the subset of `question_id` eligible for the VDD(C5) vs. VDD(C0)
-comparison — only the questions whose images took part in the restricted
+comparison - only the questions whose images took part in the restricted
 swap (`src/interventions/make_c5_matched_pathology_swap.py`).
 
 Important detail: the `--manifest` produced by that script stores
-`image_id` under the key `qid_image` (a misleading name — it is an IMAGE
+`image_id` under the key `qid_image` (a misleading name - it is an IMAGE
 id, not a question id), whereas a results record from
 `extract_predictions_m3ae.py` has one `predictions` row per QUESTION
 (`qid`). Without this filter, `compute_summary_vs_baseline`
 (src/stats/compute_vdd.py) would compare C0 and C5 over the WHOLE test set
-— including questions whose image was never swapped (a category not
+- including questions whose image was never swapped (a category not
 eligible for C5), diluting the measured effect with noise from questions
 that are not part of the condition.
 
@@ -34,7 +34,7 @@ from src.interventions.arrow_io import read_arrow
 
 def eligible_qids_from_manifest(arrow_path: str, manifest_path: str) -> set[int]:
     """`arrow_path`: the ORIGINAL arrow (the same `--input` used by
-    make_c5_matched_pathology_swap.py — it has `image_id` + `question_id`
+    make_c5_matched_pathology_swap.py - it has `image_id` + `question_id`
     per row, one row per image). `manifest_path`: the `--manifest` produced
     by that script. Returns the set of `question_id` (int) of ALL questions
     whose image was swapped (i.e. eligible for C5)."""
@@ -53,7 +53,7 @@ def eligible_qids_from_manifest(arrow_path: str, manifest_path: str) -> set[int]
 def filter_record_to_qids(record: dict, qids: set[int]) -> dict:
     """Return a COPY of `record` (schema from src/inference/results_schema.py) with
     `predictions` restricted to `qids`, and `n`/`n_correct`/`accuracy`
-    recomputed over that subset — the original file is left untouched.
+    recomputed over that subset - the original file is left untouched.
     Raises ValueError if `record` has no `predictions` (filtering by qid
     only makes sense with item-level paired data)."""
     if "predictions" not in record:

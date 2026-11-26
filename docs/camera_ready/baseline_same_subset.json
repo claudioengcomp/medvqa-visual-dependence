@@ -1,0 +1,200 @@
+{
+ "KVASIR": {
+  "baseline_n": 10779,
+  "baseline_acc": 65.73893682159755,
+  "configs": {
+   "M3AE": {
+    "n_all": 10779,
+    "c1_closed_per_seed": [
+     59.64375173949346,
+     54.99582521569719,
+     60.92401892568884
+    ],
+    "c1_closed_mean": 58.52119862695983,
+    "c1_all_mean": 58.52119862695983,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -7.217738194637718
+   },
+   "QWEN2VL_LORA": {
+    "n_all": 10779,
+    "c1_closed_per_seed": [
+     48.112069765284346,
+     45.40309861768253,
+     54.05881807217738
+    ],
+    "c1_closed_mean": 49.19132881838142,
+    "c1_all_mean": 49.19132881838142,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -16.547608003216126
+   },
+   "QWEN2VL_DORA": {
+    "n_all": 10779,
+    "c1_closed_per_seed": [
+     52.75999628908062,
+     47.21217181556731,
+     57.055385471750625
+    ],
+    "c1_closed_mean": 52.34251785879952,
+    "c1_all_mean": 52.34251785879952,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -13.39641896279803
+   },
+   "SMOLVLM_LORA": {
+    "n_all": 10779,
+    "c1_closed_per_seed": [
+     49.262454773170056,
+     49.29028666852213,
+     49.28100937007144
+    ],
+    "c1_closed_mean": 49.27791693725454,
+    "c1_all_mean": 49.27791693725454,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -16.46101988434301
+   },
+   "SMOLVLM_DORA": {
+    "n_all": 10779,
+    "c1_closed_per_seed": [
+     49.262454773170056,
+     49.262454773170056,
+     49.262454773170056
+    ],
+    "c1_closed_mean": 49.262454773170056,
+    "c1_all_mean": 49.262454773170056,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -16.476482048427492
+   }
+  }
+ },
+ "SLAKE": {
+  "baseline_n": 416,
+  "baseline_acc": 64.1826923076923,
+  "configs": {
+   "M3AE_SCRATCH": {
+    "n_all": 1061,
+    "c1_closed_per_seed": [
+     55.76923076923077,
+     57.45192307692308,
+     60.09615384615385
+    ],
+    "c1_closed_mean": 57.7724358974359,
+    "c1_all_mean": 47.15677034244423,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -6.410256410256409
+   },
+   "QWEN2VL_LORA": {
+    "n_all": 1061,
+    "c1_closed_per_seed": [
+     56.73076923076923,
+     56.73076923076923,
+     59.13461538461539
+    ],
+    "c1_closed_mean": 57.532051282051285,
+    "c1_all_mean": 34.52717562048382,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -6.650641025641022
+   },
+   "QWEN2VL_DORA": {
+    "n_all": 1061,
+    "c1_closed_per_seed": [
+     51.44230769230769,
+     55.28846153846154,
+     59.13461538461539
+    ],
+    "c1_closed_mean": 55.28846153846154,
+    "c1_all_mean": 33.71033616085454,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -8.894230769230766
+   },
+   "SMOLVLM_LORA": {
+    "n_all": 1061,
+    "c1_closed_per_seed": [
+     48.55769230769231,
+     49.27884615384615,
+     49.03846153846154
+    ],
+    "c1_closed_mean": 48.958333333333336,
+    "c1_all_mean": 28.872133207665726,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -15.224358974358971
+   },
+   "SMOLVLM_DORA": {
+    "n_all": 1061,
+    "c1_closed_per_seed": [
+     50.48076923076923,
+     48.79807692307692,
+     48.55769230769231
+    ],
+    "c1_closed_mean": 49.27884615384615,
+    "c1_all_mean": 29.56330505812127,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -14.903846153846153
+   }
+  }
+ },
+ "VQARAD": {
+  "baseline_n": 272,
+  "baseline_acc": 62.13235294117647,
+  "configs": {
+   "M3AE_SCRATCH": {
+    "n_all": 451,
+    "c1_closed_per_seed": [
+     53.6764705882353,
+     58.8235294117647,
+     53.30882352941177
+    ],
+    "c1_closed_mean": 55.26960784313726,
+    "c1_all_mean": 40.57649667405765,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -6.862745098039213
+   },
+   "QWEN2VL_LORA": {
+    "n_all": 451,
+    "c1_closed_per_seed": [
+     62.5,
+     61.029411764705884,
+     61.76470588235294
+    ],
+    "c1_closed_mean": 61.76470588235294,
+    "c1_all_mean": 39.467849223946786,
+    "below_in_all_seeds": false,
+    "mean_minus_baseline": -0.367647058823529
+   },
+   "QWEN2VL_DORA": {
+    "n_all": 451,
+    "c1_closed_per_seed": [
+     61.029411764705884,
+     62.5,
+     61.39705882352941
+    ],
+    "c1_closed_mean": 61.6421568627451,
+    "c1_all_mean": 39.3939393939394,
+    "below_in_all_seeds": false,
+    "mean_minus_baseline": -0.49019607843137436
+   },
+   "SMOLVLM_LORA": {
+    "n_all": 451,
+    "c1_closed_per_seed": [
+     61.029411764705884,
+     61.029411764705884,
+     61.76470588235294
+    ],
+    "c1_closed_mean": 61.27450980392157,
+    "c1_all_mean": 39.76348854397635,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -0.8578431372549034
+   },
+   "SMOLVLM_DORA": {
+    "n_all": 451,
+    "c1_closed_per_seed": [
+     60.294117647058826,
+     61.76470588235294,
+     61.76470588235294
+    ],
+    "c1_closed_mean": 61.27450980392157,
+    "c1_all_mean": 39.91130820399113,
+    "below_in_all_seeds": true,
+    "mean_minus_baseline": -0.8578431372549034
+   }
+  }
+ }
+}
